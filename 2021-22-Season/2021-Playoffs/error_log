@@ -1,0 +1,89 @@
+[21-Jul-2022 21:37:34 UTC] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such column: TeamProSeasonStat.TeamThemeID in /home/othlca/public_html/File/2021-Playoffs/TeamsStat.php on line 199
+[26-Jul-2022 19:36:10 UTC] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such column: TeamProSeasonStat.TeamThemeID in /home/othlca/public_html/File/2021-Playoffs/TeamsStat.php on line 199
+[17-Aug-2022 17:47:53 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[18-Aug-2022 10:11:29 UTC] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such column: TeamProSeasonStat.TeamThemeID in /home/othlca/public_html/File/2021-Playoffs/TeamsStat.php on line 199
+[18-Aug-2022 20:59:44 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[18-Aug-2022 23:49:09 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[19-Aug-2022 01:49:16 UTC] PHP Deprecated:  Required parameter $teamid follows optional parameter $id in /home/othlca/public_html/File/2021-Playoffs/WebClientAPI.php on line 218
+[19-Aug-2022 09:27:51 UTC] PHP Deprecated:  Required parameter $teamid follows optional parameter $id in /home/othlca/public_html/File/2021-Playoffs/WebClientAPI.php on line 218
+[19-Aug-2022 13:44:39 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[19-Aug-2022 16:57:19 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[19-Aug-2022 17:35:15 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[20-Aug-2022 05:29:53 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[20-Aug-2022 10:37:02 UTC] PHP Deprecated:  Required parameter $teamid follows optional parameter $id in /home/othlca/public_html/File/2021-Playoffs/WebClientAPI.php on line 218
+[20-Aug-2022 14:14:39 UTC] PHP Warning:  SQLite3::query(): Unable to prepare statement: 1, no such column: TeamFarmSeasonStat.TeamThemeID in /home/othlca/public_html/File/2021-Playoffs/TeamsStat.php on line 199
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 12:38:40 UTC] PHP Warning:  Undefined array key "TeamThemeID" in /home/othlca/public_html/File/2021-Playoffs/Finance.php on line 175
+[21-Aug-2022 14:19:09 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[21-Aug-2022 19:28:43 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[22-Aug-2022 12:50:06 UTC] PHP Deprecated:  Required parameter $teamid follows optional parameter $id in /home/othlca/public_html/File/2021-Playoffs/WebClientAPI.php on line 218
+[23-Aug-2022 06:00:52 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[23-Aug-2022 18:36:56 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[23-Aug-2022 19:19:23 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[29-Aug-2022 16:26:23 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[29-Aug-2022 18:05:13 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[29-Aug-2022 20:22:57 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[29-Aug-2022 23:45:09 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
+[30-Aug-2022 04:34:43 UTC] PHP Deprecated:  Required parameter $teamid follows optional parameter $id in /home/othlca/public_html/File/2021-Playoffs/WebClientAPI.php on line 218
+[30-Aug-2022 15:36:53 UTC] PHP Deprecated:  Required parameter $DatabaseFile follows optional parameter $LinesNumber in /home/othlca/public_html/File/2021-Playoffs/Standing.php on line 93
