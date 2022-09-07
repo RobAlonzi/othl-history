@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLWaiver xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLWaiver>
+    <Number>1</Number>
+    <Player>215</Player>
+    <FromTeam>3</FromTeam>
+    <ToTeam>0</ToTeam>
+    <DayPutOnWaiver>0</DayPutOnWaiver>
+    <DayRemoveFromWaiver>2</DayRemoveFromWaiver>
+  </TypeOutputXMLWaiver>
+  <TypeOutputXMLWaiver>
+    <Number>2</Number>
+    <Player>644</Player>
+    <FromTeam>3</FromTeam>
+    <ToTeam>0</ToTeam>
+    <DayPutOnWaiver>0</DayPutOnWaiver>
+    <DayRemoveFromWaiver>2</DayRemoveFromWaiver>
+  </TypeOutputXMLWaiver>
+  <TypeOutputXMLWaiver>
+    <Number>3</Number>
+    <Player>558</Player>
+    <FromTeam>3</FromTeam>
+    <ToTeam>0</ToTeam>
+    <DayPutOnWaiver>0</DayPutOnWaiver>
+    <DayRemoveFromWaiver>2</DayRemoveFromWaiver>
+  </TypeOutputXMLWaiver>
+  <TypeOutputXMLWaiver>
+    <Number>4</Number>
+    <Player>498</Player>
+    <FromTeam>3</FromTeam>
+    <ToTeam>0</ToTeam>
+    <DayPutOnWaiver>0</DayPutOnWaiver>
+    <DayRemoveFromWaiver>2</DayRemoveFromWaiver>
+  </TypeOutputXMLWaiver>
+</ArrayOfTypeOutputXMLWaiver>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLTodayGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro208</GameNumber>
+    <Link>OTHL-PRE-208.html</Link>
+    <VisitorTeam>Capitals</VisitorTeam>
+    <VisitorTeamAbbre>WSH</VisitorTeamAbbre>
+    <VisitorTeamScore>1</VisitorTeamScore>
+    <VisitorTeamGoal>Andrei Loktionov(1)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Braden Holtby (WSH), 17 saves from 19 shots - (0.895), L, 6-8-0, 59:46 minutes </VisitorTeamGoaler>
+    <HomeTeam>Blue Jackets</HomeTeam>
+    <HomeTeamAbbre>CLB</HomeTeamAbbre>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>J.T. Brown(4), Ryan Spooner(2)</HomeTeamGoal>
+    <HomeTeamGoaler>Matt Hackett (CLB), 19 saves from 20 shots - (0.950), W, 1-2-1, 60:00 minutes </HomeTeamGoaler>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro209</GameNumber>
+    <Link>OTHL-PRE-209.html</Link>
+    <VisitorTeam>Sabres</VisitorTeam>
+    <VisitorTeamAbbre>BUF</VisitorTeamAbbre>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>Mike Weber(2), Paul Gaustad(2)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Jacob Markstrom (BUF), 26 saves from 29 shots - (0.897), L, 1-2-0, 58:51 minutes </VisitorTeamGoaler>
+    <HomeTeam>Canadiens</HomeTeam>
+    <HomeTeamAbbre>MTL</HomeTeamAbbre>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Mikko Koivu(6), Colin Wilson(5), Reilly Smith(3)</HomeTeamGoal>
+    <HomeTeamGoaler>Niklas Backstrom (MTL), 27 saves from 29 shots - (0.931), W, 3-3-1, 60:00 minutes </HomeTeamGoaler>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro210</GameNumber>
+    <Link>OTHL-PRE-210.html</Link>
+    <VisitorTeam>Blackhawks</VisitorTeam>
+    <VisitorTeamAbbre>CHI</VisitorTeamAbbre>
+    <VisitorTeamScore>3</VisitorTeamScore>
+    <VisitorTeamGoal>Marc Methot(1), Anze Kopitar(4), Frans Nielsen(4)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Tuukka Rask (CHI), 24 saves from 25 shots - (0.960), W, 7-7-1, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeam>Predators</HomeTeam>
+    <HomeTeamAbbre>NSH</HomeTeamAbbre>
+    <HomeTeamScore>1</HomeTeamScore>
+    <HomeTeamGoal>Jack Skille(1)</HomeTeamGoal>
+    <HomeTeamGoaler>Carey Price (NSH), 6 saves from 7 shots - (0.857), 15:33 minutes Mike McKenna (NSH), 27 saves from 29 shots - (0.931), L, 3-7-2, 44:27 minutes </HomeTeamGoaler>
+  </TypeOutputXMLTodayGame>
+</ArrayOfTypeOutputXMLTodayGame>

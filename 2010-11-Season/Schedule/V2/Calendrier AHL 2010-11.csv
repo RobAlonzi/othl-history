@@ -1,0 +1,1201 @@
+Day,Visitor,Home
+2,Calgary Flames,Detroit Red Wings
+2,Philadelphia Flyers,Ottawa Senators
+2,Columbus Blue Jackets,Boston Bruins
+2,Anaheim Ducks,Colorado Avalanche
+2,Atlanta Thrashers,Phoenix Coyotes
+2,Vancouver Canucks,St.Louis Blues
+3,Florida Panthers,Toronto Maple Leafs
+3,Vancouver Canucks,Chicago Blackhawks
+3,Philadelphia Flyers,New Jersey Devils
+3,San Jose Sharks,New York Islanders
+3,Carolina Hurricanes,New York Rangers
+3,Los Angeles Kings,Buffalo Sabres
+3,Boston Bruins,Columbus Blue Jackets
+3,Tampa Bay Lightning,Ottawa Senators
+3,Washington Capitals,Pittsburgh Penguins
+3,Colorado Avalanche,Anaheim Ducks
+3,Calgary Flames,Nashville Predators
+3,Minnesota Wild,Edmonton Oilers
+4,Los Angeles Kings,New York Islanders
+4,San Jose Sharks,New York Rangers
+4,Carolina Hurricanes,Columbus Blue Jackets
+4,Dallas Stars,Phoenix Coyotes
+4,Atlanta Thrashers,Edmonton Oilers
+4,Nashville Predators,St.Louis Blues
+4,Washington Capitals,Florida Panthers
+4,Detroit Red Wings,Chicago Blackhawks
+5,Carolina Hurricanes,Buffalo Sabres
+5,Calgary Flames,Toronto Maple Leafs
+6,Philadelphia Flyers,Pittsburgh Penguins
+6,Chicago Blackhawks,St.Louis Blues
+9,New York Rangers,New Jersey Devils
+9,Pittsburgh Penguins,Carolina Hurricanes
+9,New York Islanders,Buffalo Sabres
+9,Washington Capitals,Ottawa Senators
+9,Columbus Blue Jackets,Boston Bruins
+9,Anaheim Ducks,Philadelphia Flyers
+9,San Jose Sharks,Tampa Bay Lightning
+9,Montreal Canadiens,Florida Panthers
+9,Atlanta Thrashers,Nashville Predators
+9,St.Louis Blues,Phoenix Coyotes
+9,Minnesota Wild,Edmonton Oilers
+9,Detroit Red Wings,Vancouver Canucks
+9,Chicago Blackhawks,Calgary Flames
+10,Toronto Maple Leafs,Montreal Canadiens
+10,New Jersey Devils,Philadelphia Flyers
+10,New York Rangers,New York Islanders
+10,Florida Panthers,Washington Capitals
+10,Boston Bruins,Los Angeles Kings
+10,Columbus Blue Jackets,Buffalo Sabres
+10,San Jose Sharks,Tampa Bay Lightning
+10,Ottawa Senators,Anaheim Ducks
+10,Nashville Predators,Atlanta Thrashers
+10,Phoenix Coyotes,Dallas Stars
+10,Colorado Avalanche,Edmonton Oilers
+10,Detroit Red Wings,Vancouver Canucks
+10,St.Louis Blues,Minnesota Wild
+10,Chicago Blackhawks,Calgary Flames
+11,Ottawa Senators,Toronto Maple Leafs
+11,Buffalo Sabres,New York Islanders
+11,Pittsburgh Penguins,Carolina Hurricanes
+11,Columbus Blue Jackets,Los Angeles Kings
+11,New York Rangers,Boston Bruins
+11,Edmonton Oilers,Minnesota Wild
+11,Philadelphia Flyers,Florida Panthers
+11,Colorado Avalanche,Phoenix Coyotes
+11,St.Louis Blues,Dallas Stars
+13,Los Angeles Kings,Buffalo Sabres
+13,Florida Panthers,Montreal Canadiens
+13,Colorado Avalanche,Edmonton Oilers
+14,Carolina Hurricanes,New Jersey Devils
+14,Tampa Bay Lightning,New York Rangers
+14,Calgary Flames,Atlanta Thrashers
+14,Colorado Avalanche,Phoenix Coyotes
+15,Montreal Canadiens,Vancouver Canucks
+16,Nashville Predators,Detroit Red Wings
+16,Ottawa Senators,New York Rangers
+16,New York Islanders,Los Angeles Kings
+16,Washington Capitals,Pittsburgh Penguins
+16,Carolina Hurricanes,Philadelphia Flyers
+16,Buffalo Sabres,Columbus Blue Jackets
+16,Tampa Bay Lightning,Anaheim Ducks
+16,Phoenix Coyotes,Edmonton Oilers
+16,Calgary Flames,Chicago Blackhawks
+16,Montreal Canadiens,Vancouver Canucks
+16,Colorado Avalanche,Dallas Stars
+16,St.Louis Blues,Minnesota Wild
+17,Edmonton Oilers,Toronto Maple Leafs
+17,Tampa Bay Lightning,New Jersey Devils
+17,Anaheim Ducks,New York Rangers
+17,Philadelphia Flyers,Washington Capitals
+17,New York Islanders,Buffalo Sabres
+17,Los Angeles Kings,Columbus Blue Jackets
+17,Boston Bruins,San Jose Sharks
+17,Ottawa Senators,Pittsburgh Penguins
+17,Detroit Red Wings,Florida Panthers
+17,Calgary Flames,Nashville Predators
+17,Minnesota Wild,Phoenix Coyotes
+17,St.Louis Blues,Dallas Stars
+17,Atlanta Thrashers,Chicago Blackhawks
+18,Edmonton Oilers,Montreal Canadiens
+18,Carolina Hurricanes,Los Angeles Kings
+18,Tampa Bay Lightning,San Jose Sharks
+18,Nashville Predators,Atlanta Thrashers
+18,St.Louis Blues,Phoenix Coyotes
+18,Philadelphia Flyers,Washington Capitals
+18,Colorado Avalanche,Minnesota Wild
+18,Detroit Red Wings,Toronto Maple Leafs
+19,Florida Panthers,Calgary Flames
+20,St.Louis Blues,Dallas Stars
+20,Florida Panthers,Calgary Flames
+21,Anaheim Ducks,Montreal Canadiens
+21,New Jersey Devils,New York Rangers
+21,Dallas Stars,Chicago Blackhawks
+21,Edmonton Oilers,Atlanta Thrashers
+22,Dallas Stars,Atlanta Thrashers
+23,Edmonton Oilers,Detroit Red Wings
+23,Toronto Maple Leafs,Montreal Canadiens
+23,Columbus Blue Jackets,New York Rangers
+23,New York Islanders,Los Angeles Kings
+23,Carolina Hurricanes,Ottawa Senators
+23,New Jersey Devils,Boston Bruins
+23,Pittsburgh Penguins,Philadelphia Flyers
+23,Vancouver Canucks,Colorado Avalanche
+23,Buffalo Sabres,Tampa Bay Lightning
+23,Washington Capitals,Anaheim Ducks
+23,Florida Panthers,San Jose Sharks
+23,Minnesota Wild,Phoenix Coyotes
+23,Nashville Predators,Calgary Flames
+24,Boston Bruins,San Jose Sharks
+24,Colorado Avalanche,Toronto Maple Leafs
+24,Florida Panthers,Philadelphia Flyers
+24,Los Angeles Kings,New York Islanders
+24,Vancouver Canucks,Detroit Red Wings
+24,Pittsburgh Penguins,Washington Capitals
+24,New York Rangers,Columbus Blue Jackets
+24,Carolina Hurricanes,Ottawa Senators
+24,Buffalo Sabres,Tampa Bay Lightning
+24,New Jersey Devils,Anaheim Ducks
+24,Chicago Blackhawks,Atlanta Thrashers
+24,Minnesota Wild,Dallas Stars
+24,Edmonton Oilers,St.Louis Blues
+24,Nashville Predators,Calgary Flames
+25,San Jose Sharks,Boston Bruins
+25,Vancouver Canucks,Colorado Avalanche
+25,Los Angeles Kings,Washington Capitals
+25,Dallas Stars,Minnesota Wild
+27,Buffalo Sabres,Carolina Hurricanes
+27,Vancouver Canucks,Montreal Canadiens
+28,Columbus Blue Jackets,New York Islanders
+28,Buffalo Sabres,Carolina Hurricanes
+28,Vancouver Canucks,Montreal Canadiens
+28,Los Angeles Kings,New York Rangers
+28,Chicago Blackhawks,Nashville Predators
+28,Toronto Maple Leafs,Phoenix Coyotes
+30,Tampa Bay Lightning,Carolina Hurricanes
+30,Vancouver Canucks,Detroit Red Wings
+30,New York Rangers,Los Angeles Kings
+30,New York Islanders,Boston Bruins
+30,Ottawa Senators,Montreal Canadiens
+30,Atlanta Thrashers,Colorado Avalanche
+30,Philadelphia Flyers,Buffalo Sabres
+30,Anaheim Ducks,Columbus Blue Jackets
+30,New Jersey Devils,San Jose Sharks
+30,Pittsburgh Penguins,Florida Panthers
+30,St.Louis Blues,Nashville Predators
+30,Dallas Stars,Edmonton Oilers
+30,Toronto Maple Leafs,Minnesota Wild
+30,Phoenix Coyotes,Calgary Flames
+31,Florida Panthers,New Jersey Devils
+31,New York Rangers,New York Islanders
+31,Atlanta Thrashers,Detroit Red Wings
+31,Boston Bruins,Buffalo Sabres
+31,Los Angeles Kings,San Jose Sharks
+31,Philadelphia Flyers,Ottawa Senators
+31,Anaheim Ducks,Pittsburgh Penguins
+31,Carolina Hurricanes,Tampa Bay Lightning
+31,Toronto Maple Leafs,Dallas Stars
+31,Minnesota Wild,Edmonton Oilers
+31,Vancouver Canucks,Chicago Blackhawks
+31,Phoenix Coyotes,Calgary Flames
+32,Washington Capitals,Carolina Hurricanes
+32,Boston Bruins,New Jersey Devils
+32,Detroit Red Wings,Colorado Avalanche
+32,Atlanta Thrashers,Nashville Predators
+32,Anaheim Ducks,Ottawa Senators
+32,Chicago Blackhawks,St.Louis Blues
+32,Pittsburgh Penguins,Florida Panthers
+32,Toronto Maple Leafs,Edmonton Oilers
+32,New York Islanders,New York Rangers
+33,Minnesota Wild,Calgary Flames
+34,Washington Capitals,Carolina Hurricanes
+34,Toronto Maple Leafs,New York Rangers
+34,St.Louis Blues,Chicago Blackhawks
+34,Phoenix Coyotes,Edmonton Oilers
+34,Minnesota Wild,Calgary Flames
+35,Montreal Canadiens,Colorado Avalanche
+35,Nashville Predators,Detroit Red Wings
+35,Atlanta Thrashers,Dallas Stars
+35,Tampa Bay Lightning,New Jersey Devils
+35,Buffalo Sabres,Columbus Blue Jackets
+35,Florida Panthers,Ottawa Senators
+36,Toronto Maple Leafs,Philadelphia Flyers
+36,New York Islanders,Carolina Hurricanes
+36,Chicago Blackhawks,Phoenix Coyotes
+37,Anaheim Ducks,New Jersey Devils
+37,New York Islanders,Carolina Hurricanes
+37,Toronto Maple Leafs,Washington Capitals
+37,San Jose Sharks,Los Angeles Kings
+37,Atlanta Thrashers,Edmonton Oilers
+37,Calgary Flames,Boston Bruins
+37,Ottawa Senators,Pittsburgh Penguins
+37,Tampa Bay Lightning,Philadelphia Flyers
+37,Nashville Predators,Colorado Avalanche
+37,Chicago Blackhawks,Phoenix Coyotes
+37,Florida Panthers,Vancouver Canucks
+38,Nashville Predators,Colorado Avalanche
+38,Detroit Red Wings,Montreal Canadiens
+38,Calgary Flames,Philadelphia Flyers
+38,Tampa Bay Lightning,New York Islanders
+38,Columbus Blue Jackets,New York Rangers
+38,Boston Bruins,Los Angeles Kings
+38,New Jersey Devils,Buffalo Sabres
+38,Pittsburgh Penguins,San Jose Sharks
+38,Toronto Maple Leafs,Ottawa Senators
+38,Washington Capitals,Anaheim Ducks
+38,Minnesota Wild,St.Louis Blues
+38,Florida Panthers,Vancouver Canucks
+39,Columbus Blue Jackets,Los Angeles Kings
+39,Tampa Bay Lightning,San Jose Sharks
+39,Detroit Red Wings,Montreal Canadiens
+39,Atlanta Thrashers,Phoenix Coyotes
+39,Minnesota Wild,St.Louis Blues
+39,Calgary Flames,Boston Bruins
+39,Ottawa Senators,Washington Capitals
+41,Pittsburgh Penguins,New Jersey Devils
+41,Toronto Maple Leafs,Montreal Canadiens
+41,New York Islanders,Columbus Blue Jackets
+41,Atlanta Thrashers,Dallas Stars
+42,New York Rangers,Los Angeles Kings
+42,Ottawa Senators,Anaheim Ducks
+42,Phoenix Coyotes,St.Louis Blues
+42,Philadelphia Flyers,Carolina Hurricanes
+42,Detroit Red Wings,Colorado Avalanche
+42,Atlanta Thrashers,Minnesota Wild
+43,Chicago Blackhawks,Vancouver Canucks
+44,Philadelphia Flyers,Carolina Hurricanes
+44,Minnesota Wild,Detroit Red Wings
+44,San Jose Sharks,Los Angeles Kings
+44,Washington Capitals,Ottawa Senators
+44,New York Islanders,Boston Bruins
+44,Tampa Bay Lightning,Pittsburgh Penguins
+44,Toronto Maple Leafs,Colorado Avalanche
+44,New York Rangers,Columbus Blue Jackets
+44,New Jersey Devils,Anaheim Ducks
+44,Montreal Canadiens,Florida Panthers
+44,Nashville Predators,Phoenix Coyotes
+44,Dallas Stars,Edmonton Oilers
+44,Calgary Flames,St.Louis Blues
+44,Chicago Blackhawks,Vancouver Canucks
+45,Montreal Canadiens,Toronto Maple Leafs
+45,Los Angeles Kings,New York Islanders
+45,Colorado Avalanche,Detroit Red Wings
+45,Pittsburgh Penguins,Washington Capitals
+45,San Jose Sharks,Buffalo Sabres
+45,New York Rangers,Ottawa Senators
+45,Philadelphia Flyers,Tampa Bay Lightning
+45,Columbus Blue Jackets,Anaheim Ducks
+45,New Jersey Devils,Florida Panthers
+45,Minnesota Wild,Atlanta Thrashers
+45,Nashville Predators,Dallas Stars
+45,Calgary Flames,St.Louis Blues
+46,Montreal Canadiens,Toronto Maple Leafs
+46,Buffalo Sabres,New York Islanders
+46,Boston Bruins,Los Angeles Kings
+46,Columbus Blue Jackets,San Jose Sharks
+46,Ottawa Senators,Pittsburgh Penguins
+46,Chicago Blackhawks,St.Louis Blues
+46,Colorado Avalanche,Atlanta Thrashers
+46,New York Rangers,Washington Capitals
+46,Dallas Stars,Minnesota Wild
+46,Anaheim Ducks,Florida Panthers
+46,Nashville Predators,Edmonton Oilers
+47,Tampa Bay Lightning,Carolina Hurricanes
+48,Colorado Avalanche,Atlanta Thrashers
+48,Nashville Predators,Edmonton Oilers
+49,Detroit Red Wings,Toronto Maple Leafs
+49,Montreal Canadiens,Philadelphia Flyers
+49,Boston Bruins,New York Islanders
+49,San Jose Sharks,Washington Capitals
+49,Los Angeles Kings,Columbus Blue Jackets
+49,New Jersey Devils,Pittsburgh Penguins
+49,Carolina Hurricanes,Tampa Bay Lightning
+49,Colorado Avalanche,Chicago Blackhawks
+49,Minnesota Wild,Dallas Stars
+50,Pittsburgh Penguins,Ottawa Senators
+51,New York Rangers,New York Islanders
+51,Chicago Blackhawks,Detroit Red Wings
+51,New Jersey Devils,Los Angeles Kings
+51,Columbus Blue Jackets,Buffalo Sabres
+51,San Jose Sharks,Boston Bruins
+51,Tampa Bay Lightning,Philadelphia Flyers
+51,Montreal Canadiens,Ottawa Senators
+51,Edmonton Oilers,Colorado Avalanche
+51,Washington Capitals,Anaheim Ducks
+51,Toronto Maple Leafs,Florida Panthers
+51,Atlanta Thrashers,St.Louis Blues
+51,Nashville Predators,Dallas Stars
+51,Phoenix Coyotes,Minnesota Wild
+51,Vancouver Canucks,Calgary Flames
+52,Edmonton Oilers,Colorado Avalanche
+52,Anaheim Ducks,Toronto Maple Leafs
+52,Ottawa Senators,New Jersey Devils
+52,New York Islanders,New York Rangers
+52,Philadelphia Flyers,Washington Capitals
+52,Buffalo Sabres,Los Angeles Kings
+52,Carolina Hurricanes,San Jose Sharks
+52,Florida Panthers,Pittsburgh Penguins
+52,Tampa Bay Lightning,Columbus Blue Jackets
+52,Detroit Red Wings,Atlanta Thrashers
+52,Phoenix Coyotes,Dallas Stars
+52,St.Louis Blues,Chicago Blackhawks
+52,Nashville Predators,Minnesota Wild
+52,Vancouver Canucks,Calgary Flames
+53,Tampa Bay Lightning,New York Islanders
+53,Pittsburgh Penguins,Columbus Blue Jackets
+53,Montreal Canadiens,Anaheim Ducks
+53,Los Angeles Kings,San Jose Sharks
+53,St.Louis Blues,Detroit Red Wings
+53,Nashville Predators,Phoenix Coyotes
+53,Buffalo Sabres,Boston Bruins
+53,Philadelphia Flyers,New York Rangers
+53,Carolina Hurricanes,Washington Capitals
+55,Vancouver Canucks,Atlanta Thrashers
+55,Edmonton Oilers,Dallas Stars
+56,Pittsburgh Penguins,New Jersey Devils
+56,Calgary Flames,Montreal Canadiens
+56,New York Rangers,San Jose Sharks
+56,Vancouver Canucks,Nashville Predators
+57,Chicago Blackhawks,Minnesota Wild
+58,Washington Capitals,New Jersey Devils
+58,St.Louis Blues,Montreal Canadiens
+58,Tampa Bay Lightning,Los Angeles Kings
+58,Calgary Flames,Toronto Maple Leafs
+58,New York Rangers,Boston Bruins
+58,Ottawa Senators,Pittsburgh Penguins
+58,Atlanta Thrashers,Colorado Avalanche
+58,New York Islanders,Columbus Blue Jackets
+58,Anaheim Ducks,Florida Panthers
+58,Detroit Red Wings,Nashville Predators
+58,Edmonton Oilers,Vancouver Canucks
+58,Phoenix Coyotes,Dallas Stars
+58,Chicago Blackhawks,Minnesota Wild
+59,Calgary Flames,Toronto Maple Leafs
+59,Atlanta Thrashers,Montreal Canadiens
+59,Phoenix Coyotes,Detroit Red Wings
+59,San Jose Sharks,New York Rangers
+59,Ottawa Senators,Washington Capitals
+59,Columbus Blue Jackets,Los Angeles Kings
+59,Tampa Bay Lightning,Buffalo Sabres
+59,Philadelphia Flyers,Pittsburgh Penguins
+59,St.Louis Blues,Colorado Avalanche
+59,New Jersey Devils,Florida Panthers
+59,Boston Bruins,New York Islanders
+59,Minnesota Wild,Dallas Stars
+59,Edmonton Oilers,Vancouver Canucks
+60,Anaheim Ducks,Carolina Hurricanes
+60,Tampa Bay Lightning,Columbus Blue Jackets
+60,Atlanta Thrashers,Toronto Maple Leafs
+60,Buffalo Sabres,San Jose Sharks
+60,Philadelphia Flyers,New Jersey Devils
+60,Phoenix Coyotes,Detroit Red Wings
+60,Los Angeles Kings,Boston Bruins
+60,Nashville Predators,St.Louis Blues
+61,Anaheim Ducks,Carolina Hurricanes
+62,San Jose Sharks,Buffalo Sabres
+62,Minnesota Wild,Edmonton Oilers
+62,Vancouver Canucks,Dallas Stars
+62,Colorado Avalanche,Calgary Flames
+63,Washington Capitals,New Jersey Devils
+63,Columbus Blue Jackets,New York Islanders
+63,Nashville Predators,Detroit Red Wings
+63,Montreal Canadiens,Florida Panthers
+63,Toronto Maple Leafs,Pittsburgh Penguins
+63,Anaheim Ducks,Tampa Bay Lightning
+63,Dallas Stars,Chicago Blackhawks
+63,Phoenix Coyotes,Atlanta Thrashers
+63,Colorado Avalanche,Calgary Flames
+65,Washington Capitals,Carolina Hurricanes
+65,Dallas Stars,Detroit Red Wings
+65,San Jose Sharks,Los Angeles Kings
+65,New Jersey Devils,Ottawa Senators
+65,Buffalo Sabres,Boston Bruins
+65,Pittsburgh Penguins,Tampa Bay Lightning
+65,Philadelphia Flyers,Anaheim Ducks
+65,Montreal Canadiens,Florida Panthers
+65,Vancouver Canucks,Edmonton Oilers
+65,Nashville Predators,Chicago Blackhawks
+65,Phoenix Coyotes,Minnesota Wild
+65,Atlanta Thrashers,Calgary Flames
+66,Buffalo Sabres,Philadelphia Flyers
+66,San Jose Sharks,New Jersey Devils
+66,Los Angeles Kings,New York Rangers
+66,Florida Panthers,Ottawa Senators
+66,Tampa Bay Lightning,Pittsburgh Penguins
+66,Toronto Maple Leafs,Colorado Avalanche
+66,Boston Bruins,Columbus Blue Jackets
+66,New York Islanders,Anaheim Ducks
+66,Vancouver Canucks,Phoenix Coyotes
+66,Detroit Red Wings,St.Louis Blues
+66,Edmonton Oilers,Chicago Blackhawks
+66,Dallas Stars,Nashville Predators
+66,Atlanta Thrashers,Calgary Flames
+67,Toronto Maple Leafs,Montreal Canadiens
+67,Washington Capitals,Carolina Hurricanes
+67,Philadelphia Flyers,New York Rangers
+67,Minnesota Wild,Colorado Avalanche
+67,Buffalo Sabres,Los Angeles Kings
+67,New York Islanders,San Jose Sharks
+67,Pittsburgh Penguins,New Jersey Devils
+67,Dallas Stars,Detroit Red Wings
+67,Columbus Blue Jackets,Boston Bruins
+67,Ottawa Senators,Florida Panthers
+67,Edmonton Oilers,Nashville Predators
+69,Minnesota Wild,Montreal Canadiens
+69,Calgary Flames,Florida Panthers
+69,Vancouver Canucks,Dallas Stars
+70,New York Rangers,Philadelphia Flyers
+70,Minnesota Wild,Detroit Red Wings
+70,Calgary Flames,Pittsburgh Penguins
+70,Atlanta Thrashers,Chicago Blackhawks
+72,Columbus Blue Jackets,New York Islanders
+72,St.Louis Blues,Detroit Red Wings
+72,San Jose Sharks,New York Rangers
+72,Buffalo Sabres,Los Angeles Kings
+72,Anaheim Ducks,Ottawa Senators
+72,Montreal Canadiens,Edmonton Oilers
+72,Carolina Hurricanes,Boston Bruins
+72,Calgary Flames,Pittsburgh Penguins
+72,Washington Capitals,Philadelphia Flyers
+72,New Jersey Devils,Tampa Bay Lightning
+72,Toronto Maple Leafs,Florida Panthers
+72,Colorado Avalanche,Nashville Predators
+72,Dallas Stars,Phoenix Coyotes
+72,Atlanta Thrashers,Chicago Blackhawks
+72,Minnesota Wild,Vancouver Canucks
+73,Florida Panthers,Toronto Maple Leafs
+73,Calgary Flames,Philadelphia Flyers
+73,San Jose Sharks,New York Islanders
+73,Boston Bruins,Washington Capitals
+73,Los Angeles Kings,Buffalo Sabres
+73,Carolina Hurricanes,Ottawa Senators
+73,New Jersey Devils,Tampa Bay Lightning
+73,Pittsburgh Penguins,Anaheim Ducks
+73,Nashville Predators,Atlanta Thrashers
+73,Phoenix Coyotes,Edmonton Oilers
+73,Detroit Red Wings,St.Louis Blues
+73,Colorado Avalanche,Chicago Blackhawks
+73,Minnesota Wild,Vancouver Canucks
+73,Montreal Canadiens,Dallas Stars
+74,Buffalo Sabres,New York Islanders
+74,San Jose Sharks,Los Angeles Kings
+74,New York Rangers,Anaheim Ducks
+74,Colorado Avalanche,St.Louis Blues
+74,Columbus Blue Jackets,Boston Bruins
+74,Carolina Hurricanes,Washington Capitals
+74,Ottawa Senators,Florida Panthers
+74,Montreal Canadiens,Phoenix Coyotes
+75,Edmonton Oilers,Dallas Stars
+76,New York Rangers,Los Angeles Kings
+76,Nashville Predators,Atlanta Thrashers
+76,Montreal Canadiens,Minnesota Wild
+76,Toronto Maple Leafs,St.Louis Blues
+77,Toronto Maple Leafs,Detroit Red Wings
+81,New York Rangers,New York Islanders
+81,Boston Bruins,Columbus Blue Jackets
+81,Montreal Canadiens,Toronto Maple Leafs
+81,Colorado Avalanche,Detroit Red Wings
+81,Tampa Bay Lightning,Washington Capitals
+81,Philadelphia Flyers,Ottawa Senators
+81,Dallas Stars,Minnesota Wild
+81,Anaheim Ducks,Florida Panthers
+81,New Jersey Devils,Pittsburgh Penguins
+81,Buffalo Sabres,San Jose Sharks
+81,Nashville Predators,Chicago Blackhawks
+82,Columbus Blue Jackets,Los Angeles Kings
+82,Detroit Red Wings,Atlanta Thrashers
+82,Minnesota Wild,Phoenix Coyotes
+82,St.Louis Blues,Vancouver Canucks
+83,Boston Bruins,Buffalo Sabres
+83,New York Islanders,New Jersey Devils
+83,Atlanta Thrashers,Montreal Canadiens
+83,Ottawa Senators,Washington Capitals
+83,Philadelphia Flyers,Anaheim Ducks
+83,Carolina Hurricanes,Tampa Bay Lightning
+83,Chicago Blackhawks,Nashville Predators
+83,Dallas Stars,Edmonton Oilers
+83,St.Louis Blues,Vancouver Canucks
+84,Los Angeles Kings,Philadelphia Flyers
+84,Buffalo Sabres,New York Rangers
+84,Florida Panthers,Colorado Avalanche
+84,San Jose Sharks,Columbus Blue Jackets
+84,Atlanta Thrashers,Toronto Maple Leafs
+84,Anaheim Ducks,Pittsburgh Penguins
+84,Minnesota Wild,Nashville Predators
+84,Edmonton Oilers,Phoenix Coyotes
+85,Colorado Avalanche,Montreal Canadiens
+85,Florida Panthers,Toronto Maple Leafs
+85,New York Islanders,San Jose Sharks
+85,Carolina Hurricanes,Tampa Bay Lightning
+85,Minnesota Wild,Chicago Blackhawks
+85,Washington Capitals,Pittsburgh Penguins
+85,Dallas Stars,Calgary Flames
+86,San Jose Sharks,New York Islanders
+86,Columbus Blue Jackets,Philadelphia Flyers
+86,Anaheim Ducks,Washington Capitals
+86,Atlanta Thrashers,Vancouver Canucks
+86,New York Rangers,Buffalo Sabres
+86,Toronto Maple Leafs,Detroit Red Wings
+86,New Jersey Devils,Ottawa Senators
+86,Boston Bruins,Los Angeles Kings
+86,Nashville Predators,St.Louis Blues
+86,Edmonton Oilers,Phoenix Coyotes
+86,Dallas Stars,Calgary Flames
+87,New Jersey Devils,Philadelphia Flyers
+87,Ottawa Senators,Carolina Hurricanes
+87,St.Louis Blues,Detroit Red Wings
+87,Boston Bruins,New York Rangers
+87,Los Angeles Kings,Columbus Blue Jackets
+87,Tampa Bay Lightning,Pittsburgh Penguins
+87,Montreal Canadiens,Colorado Avalanche
+87,Anaheim Ducks,Florida Panthers
+87,Chicago Blackhawks,Edmonton Oilers
+87,Atlanta Thrashers,Vancouver Canucks
+87,Phoenix Coyotes,Minnesota Wild
+88,Boston Bruins,New York Islanders
+88,Ottawa Senators,Carolina Hurricanes
+88,Los Angeles Kings,New York Rangers
+88,Buffalo Sabres,San Jose Sharks
+88,Anaheim Ducks,New Jersey Devils
+88,Chicago Blackhawks,Edmonton Oilers
+88,Tampa Bay Lightning,Washington Capitals
+88,Philadelphia Flyers,Florida Panthers
+88,Phoenix Coyotes,Nashville Predators
+89,Vancouver Canucks,Calgary Flames
+90,Pittsburgh Penguins,Carolina Hurricanes
+90,Florida Panthers,Colorado Avalanche
+90,Vancouver Canucks,Calgary Flames
+91,Philadelphia Flyers,New Jersey Devils
+91,Buffalo Sabres,New York Islanders
+91,Pittsburgh Penguins,Carolina Hurricanes
+91,Montreal Canadiens,Detroit Red Wings
+91,New York Rangers,San Jose Sharks
+91,Toronto Maple Leafs,Atlanta Thrashers
+91,Phoenix Coyotes,St.Louis Blues
+92,Detroit Red Wings,Nashville Predators
+93,Carolina Hurricanes,New Jersey Devils
+93,Columbus Blue Jackets,Buffalo Sabres
+93,Anaheim Ducks,Ottawa Senators
+93,Los Angeles Kings,Boston Bruins
+93,New York Islanders,Pittsburgh Penguins
+93,New York Rangers,Tampa Bay Lightning
+93,Dallas Stars,Phoenix Coyotes
+93,St.Louis Blues,Edmonton Oilers
+93,Toronto Maple Leafs,Chicago Blackhawks
+93,Washington Capitals,Vancouver Canucks
+93,Colorado Avalanche,Minnesota Wild
+93,Philadelphia Flyers,Calgary Flames
+94,Anaheim Ducks,New Jersey Devils
+94,Los Angeles Kings,Buffalo Sabres
+94,Carolina Hurricanes,Columbus Blue Jackets
+94,Florida Panthers,Ottawa Senators
+94,St.Louis Blues,Edmonton Oilers
+94,Boston Bruins,Pittsburgh Penguins
+94,New York Rangers,Tampa Bay Lightning
+94,San Jose Sharks,New York Islanders
+94,Montreal Canadiens,Atlanta Thrashers
+94,Toronto Maple Leafs,Nashville Predators
+94,Minnesota Wild,Phoenix Coyotes
+94,Colorado Avalanche,Dallas Stars
+94,Detroit Red Wings,Chicago Blackhawks
+94,Washington Capitals,Vancouver Canucks
+94,Philadelphia Flyers,Calgary Flames
+95,Columbus Blue Jackets,San Jose Sharks
+95,Toronto Maple Leafs,Atlanta Thrashers
+95,Ottawa Senators,Boston Bruins
+95,Phoenix Coyotes,Minnesota Wild
+95,Montreal Canadiens,Nashville Predators
+95,Colorado Avalanche,Edmonton Oilers
+97,Ottawa Senators,Buffalo Sabres
+97,New Jersey Devils,San Jose Sharks
+97,Carolina Hurricanes,Tampa Bay Lightning
+98,Dallas Stars,Atlanta Thrashers
+98,Colorado Avalanche,Montreal Canadiens
+98,Minnesota Wild,Chicago Blackhawks
+99,Los Angeles Kings,Carolina Hurricanes
+99,Detroit Red Wings,Phoenix Coyotes
+99,Edmonton Oilers,St.Louis Blues
+99,Nashville Predators,Vancouver Canucks
+100,Ottawa Senators,New Jersey Devils
+100,Los Angeles Kings,Carolina Hurricanes
+100,Anaheim Ducks,Montreal Canadiens
+100,New York Rangers,Buffalo Sabres
+100,Pittsburgh Penguins,Boston Bruins
+100,Washington Capitals,Philadelphia Flyers
+100,New York Islanders,Tampa Bay Lightning
+100,San Jose Sharks,Columbus Blue Jackets
+100,Colorado Avalanche,Florida Panthers
+100,Edmonton Oilers,St.Louis Blues
+100,Dallas Stars,Chicago Blackhawks
+100,Minnesota Wild,Atlanta Thrashers
+100,Toronto Maple Leafs,Calgary Flames
+101,Pittsburgh Penguins,Philadelphia Flyers
+101,Columbus Blue Jackets,New Jersey Devils
+101,Boston Bruins,New York Rangers
+101,Colorado Avalanche,Washington Capitals
+101,San Jose Sharks,Buffalo Sabres
+101,Los Angeles Kings,Ottawa Senators
+101,New York Islanders,Tampa Bay Lightning
+101,Florida Panthers,Anaheim Ducks
+101,Chicago Blackhawks,Atlanta Thrashers
+101,Edmonton Oilers,Phoenix Coyotes
+101,Dallas Stars,St.Louis Blues
+101,Nashville Predators,Vancouver Canucks
+101,Detroit Red Wings,Minnesota Wild
+102,Toronto Maple Leafs,Calgary Flames
+102,Pittsburgh Penguins,New York Rangers
+102,Buffalo Sabres,Columbus Blue Jackets
+102,Philadelphia Flyers,Anaheim Ducks
+102,San Jose Sharks,Boston Bruins
+102,Tampa Bay Lightning,Carolina Hurricanes
+102,Phoenix Coyotes,Atlanta Thrashers
+102,Washington Capitals,Ottawa Senators
+102,Detroit Red Wings,Minnesota Wild
+102,Colorado Avalanche,Florida Panthers
+103,Phoenix Coyotes,Chicago Blackhawks
+104,Boston Bruins,New York Islanders
+104,Florida Panthers,Montreal Canadiens
+104,Edmonton Oilers,Colorado Avalanche
+104,Anaheim Ducks,Tampa Bay Lightning
+104,Toronto Maple Leafs,Vancouver Canucks
+104,Detroit Red Wings,Dallas Stars
+104,St.Louis Blues,Calgary Flames
+105,Ottawa Senators,New Jersey Devils
+105,Columbus Blue Jackets,Carolina Hurricanes
+105,Anaheim Ducks,Pittsburgh Penguins
+105,Toronto Maple Leafs,Vancouver Canucks
+105,St.Louis Blues,Calgary Flames
+106,Florida Panthers,Colorado Avalanche
+106,Edmonton Oilers,Nashville Predators
+107,Pittsburgh Penguins,Philadelphia Flyers
+107,Columbus Blue Jackets,Carolina Hurricanes
+107,Atlanta Thrashers,Detroit Red Wings
+107,Montreal Canadiens,New York Rangers
+107,New Jersey Devils,Washington Capitals
+107,San Jose Sharks,Buffalo Sabres
+107,Tampa Bay Lightning,Ottawa Senators
+107,Los Angeles Kings,Boston Bruins
+107,Florida Panthers,Anaheim Ducks
+107,Phoenix Coyotes,Nashville Predators
+107,Edmonton Oilers,Chicago Blackhawks
+107,Calgary Flames,Vancouver Canucks
+107,Dallas Stars,Minnesota Wild
+108,St.Louis Blues,Toronto Maple Leafs
+108,Montreal Canadiens,Philadelphia Flyers
+108,Florida Panthers,Washington Capitals
+108,Ottawa Senators,Los Angeles Kings
+108,Boston Bruins,Buffalo Sabres
+108,New York Islanders,San Jose Sharks
+108,New Jersey Devils,Pittsburgh Penguins
+108,Minnesota Wild,Colorado Avalanche
+108,New York Rangers,Columbus Blue Jackets
+108,Tampa Bay Lightning,Anaheim Ducks
+108,Atlanta Thrashers,Detroit Red Wings
+108,Nashville Predators,Dallas Stars
+108,Phoenix Coyotes,Chicago Blackhawks
+109,Calgary Flames,Vancouver Canucks
+109,St.Louis Blues,Colorado Avalanche
+109,New York Islanders,Columbus Blue Jackets
+109,Buffalo Sabres,San Jose Sharks
+109,Carolina Hurricanes,Pittsburgh Penguins
+109,Edmonton Oilers,Atlanta Thrashers
+109,Los Angeles Kings,Boston Bruins
+109,Philadelphia Flyers,Washington Capitals
+109,Minnesota Wild,Toronto Maple Leafs
+110,Phoenix Coyotes,Dallas Stars
+111,Tampa Bay Lightning,Buffalo Sabres
+111,New Jersey Devils,New York Islanders
+111,Boston Bruins,New York Rangers
+111,Chicago Blackhawks,St.Louis Blues
+112,Vancouver Canucks,Montreal Canadiens
+112,Calgary Flames,Phoenix Coyotes
+112,Ottawa Senators,Philadelphia Flyers
+112,Columbus Blue Jackets,Washington Capitals
+112,Toronto Maple Leafs,Colorado Avalanche
+112,Tampa Bay Lightning,Los Angeles Kings
+112,Minnesota Wild,Anaheim Ducks
+112,Detroit Red Wings,Florida Panthers
+112,Carolina Hurricanes,Pittsburgh Penguins
+112,Atlanta Thrashers,Edmonton Oilers
+113,Colorado Avalanche,Montreal Canadiens
+114,Pittsburgh Penguins,New Jersey Devils
+114,Chicago Blackhawks,Detroit Red Wings
+114,Los Angeles Kings,New York Rangers
+114,Washington Capitals,Ottawa Senators
+114,Dallas Stars,Edmonton Oilers
+114,Buffalo Sabres,Boston Bruins
+114,Carolina Hurricanes,Philadelphia Flyers
+114,Columbus Blue Jackets,Tampa Bay Lightning
+114,Toronto Maple Leafs,Anaheim Ducks
+114,New York Islanders,San Jose Sharks
+114,Vancouver Canucks,Florida Panthers
+114,St.Louis Blues,Nashville Predators
+114,Atlanta Thrashers,Phoenix Coyotes
+114,Calgary Flames,Minnesota Wild
+115,Carolina Hurricanes,Washington Capitals
+115,Vancouver Canucks,Toronto Maple Leafs
+115,Florida Panthers,New Jersey Devils
+115,Buffalo Sabres,New York Rangers
+115,New York Islanders,Los Angeles Kings
+115,Boston Bruins,San Jose Sharks
+115,Pittsburgh Penguins,Ottawa Senators
+115,Columbus Blue Jackets,Tampa Bay Lightning
+115,Montreal Canadiens,Colorado Avalanche
+115,Philadelphia Flyers,Anaheim Ducks
+115,Calgary Flames,Dallas Stars
+115,Atlanta Thrashers,Edmonton Oilers
+115,Detroit Red Wings,St.Louis Blues
+115,Nashville Predators,Chicago Blackhawks
+120,Tampa Bay Lightning,Carolina Hurricanes
+120,St.Louis Blues,Edmonton Oilers
+121,Washington Capitals,New Jersey Devils
+121,Montreal Canadiens,Detroit Red Wings
+121,New York Islanders,New York Rangers
+121,Columbus Blue Jackets,Boston Bruins
+121,Vancouver Canucks,Pittsburgh Penguins
+121,Anaheim Ducks,Philadelphia Flyers
+121,Phoenix Coyotes,Colorado Avalanche
+121,Ottawa Senators,Tampa Bay Lightning
+121,Los Angeles Kings,San Jose Sharks
+121,Chicago Blackhawks,Nashville Predators
+121,St.Louis Blues,Edmonton Oilers
+121,Calgary Flames,Atlanta Thrashers
+121,Dallas Stars,Minnesota Wild
+122,Phoenix Coyotes,Colorado Avalanche
+122,Philadelphia Flyers,Montreal Canadiens
+122,Los Angeles Kings,New Jersey Devils
+122,Columbus Blue Jackets,New York Islanders
+122,Nashville Predators,Detroit Red Wings
+122,Vancouver Canucks,Washington Capitals
+122,New York Rangers,Buffalo Sabres
+122,Boston Bruins,San Jose Sharks
+122,Ottawa Senators,Tampa Bay Lightning
+122,Pittsburgh Penguins,Anaheim Ducks
+122,Toronto Maple Leafs,Florida Panthers
+122,St.Louis Blues,Atlanta Thrashers
+122,Edmonton Oilers,Dallas Stars
+122,Calgary Flames,Chicago Blackhawks
+123,Vancouver Canucks,Washington Capitals
+123,Boston Bruins,Carolina Hurricanes
+123,Buffalo Sabres,New York Rangers
+123,Calgary Flames,Colorado Avalanche
+125,Boston Bruins,Carolina Hurricanes
+125,Calgary Flames,Montreal Canadiens
+125,New York Islanders,Columbus Blue Jackets
+125,Vancouver Canucks,Pittsburgh Penguins
+125,Minnesota Wild,Dallas Stars
+126,New York Rangers,Toronto Maple Leafs
+126,Phoenix Coyotes,Edmonton Oilers
+126,Washington Capitals,Los Angeles Kings
+126,Calgary Flames,Florida Panthers
+126,Minnesota Wild,Chicago Blackhawks
+126,Detroit Red Wings,Atlanta Thrashers
+126,St.Louis Blues,Nashville Predators
+127,Pittsburgh Penguins,New York Islanders
+127,New York Rangers,Montreal Canadiens
+127,Buffalo Sabres,Los Angeles Kings
+127,Minnesota Wild,St.Louis Blues
+127,Washington Capitals,Boston Bruins
+127,Anaheim Ducks,Tampa Bay Lightning
+127,San Jose Sharks,Columbus Blue Jackets
+127,Ottawa Senators,Florida Panthers
+127,Atlanta Thrashers,Nashville Predators
+127,Phoenix Coyotes,Vancouver Canucks
+127,Chicago Blackhawks,Dallas Stars
+127,Toronto Maple Leafs,Calgary Flames
+129,St.Louis Blues,Minnesota Wild
+129,Florida Panthers,Montreal Canadiens
+129,New Jersey Devils,Carolina Hurricanes
+129,Ottawa Senators,Washington Capitals
+129,New York Islanders,Los Angeles Kings
+129,Boston Bruins,Columbus Blue Jackets
+129,Philadelphia Flyers,Pittsburgh Penguins
+129,Anaheim Ducks,Tampa Bay Lightning
+129,Detroit Red Wings,Colorado Avalanche
+129,Chicago Blackhawks,Dallas Stars
+129,Phoenix Coyotes,Vancouver Canucks
+129,Toronto Maple Leafs,Calgary Flames
+130,Buffalo Sabres,New York Islanders
+130,New Jersey Devils,Carolina Hurricanes
+130,Columbus Blue Jackets,Los Angeles Kings
+130,Detroit Red Wings,Florida Panthers
+130,Washington Capitals,Pittsburgh Penguins
+130,New York Rangers,Boston Bruins
+130,Ottawa Senators,Philadelphia Flyers
+130,Chicago Blackhawks,Nashville Predators
+131,Dallas Stars,Colorado Avalanche
+132,New Jersey Devils,Carolina Hurricanes
+132,Washington Capitals,Tampa Bay Lightning
+132,Toronto Maple Leafs,Vancouver Canucks
+133,Dallas Stars,Colorado Avalanche
+133,Boston Bruins,Buffalo Sabres
+133,Anaheim Ducks,Philadelphia Flyers
+133,Montreal Canadiens,Detroit Red Wings
+133,San Jose Sharks,Florida Panthers
+133,St.Louis Blues,Chicago Blackhawks
+133,Toronto Maple Leafs,Vancouver Canucks
+134,Atlanta Thrashers,Minnesota Wild
+134,Edmonton Oilers,Calgary Flames
+135,San Jose Sharks,New Jersey Devils
+135,Dallas Stars,Detroit Red Wings
+135,Montreal Canadiens,Toronto Maple Leafs
+135,Carolina Hurricanes,Ottawa Senators
+135,Buffalo Sabres,Boston Bruins
+135,New York Rangers,Philadelphia Flyers
+135,Pittsburgh Penguins,Tampa Bay Lightning
+135,Los Angeles Kings,Columbus Blue Jackets
+135,Phoenix Coyotes,Anaheim Ducks
+135,Washington Capitals,Florida Panthers
+135,Minnesota Wild,Nashville Predators
+135,Atlanta Thrashers,Chicago Blackhawks
+135,Colorado Avalanche,Vancouver Canucks
+136,Detroit Red Wings,Toronto Maple Leafs
+136,Phoenix Coyotes,Montreal Canadiens
+136,Carolina Hurricanes,Philadelphia Flyers
+136,Boston Bruins,New York Rangers
+136,New York Islanders,Washington Capitals
+136,Buffalo Sabres,Los Angeles Kings
+136,San Jose Sharks,Columbus Blue Jackets
+136,New Jersey Devils,Ottawa Senators
+136,Pittsburgh Penguins,Tampa Bay Lightning
+136,Florida Panthers,Anaheim Ducks
+136,Dallas Stars,Atlanta Thrashers
+136,Nashville Predators,St.Louis Blues
+136,Minnesota Wild,Chicago Blackhawks
+136,Colorado Avalanche,Vancouver Canucks
+136,Edmonton Oilers,Calgary Flames
+137,Los Angeles Kings,New York Islanders
+137,Philadelphia Flyers,New Jersey Devils
+137,St.Louis Blues,Detroit Red Wings
+137,San Jose Sharks,Boston Bruins
+137,Carolina Hurricanes,Washington Capitals
+137,Dallas Stars,Nashville Predators
+138,New York Rangers,Buffalo Sabres
+138,Phoenix Coyotes,Toronto Maple Leafs
+138,Florida Panthers,Montreal Canadiens
+138,St.Louis Blues,Chicago Blackhawks
+139,Los Angeles Kings,Columbus Blue Jackets
+139,Carolina Hurricanes,Anaheim Ducks
+139,Nashville Predators,Minnesota Wild
+140,Boston Bruins,New York Islanders
+140,Washington Capitals,Toronto Maple Leafs
+140,Columbus Blue Jackets,San Jose Sharks
+140,Pittsburgh Penguins,Ottawa Senators
+140,Vancouver Canucks,Florida Panthers
+140,Chicago Blackhawks,Atlanta Thrashers
+140,Nashville Predators,Edmonton Oilers
+140,Dallas Stars,St.Louis Blues
+141,New York Rangers,Carolina Hurricanes
+141,Washington Capitals,Colorado Avalanche
+142,Colorado Avalanche,Detroit Red Wings
+142,New York Islanders,Los Angeles Kings
+142,Philadelphia Flyers,Montreal Canadiens
+142,Carolina Hurricanes,Tampa Bay Lightning
+142,New Jersey Devils,Columbus Blue Jackets
+142,Ottawa Senators,Anaheim Ducks
+142,Buffalo Sabres,San Jose Sharks
+142,Vancouver Canucks,Florida Panthers
+142,Atlanta Thrashers,Nashville Predators
+142,Phoenix Coyotes,Edmonton Oilers
+142,Chicago Blackhawks,St.Louis Blues
+142,Dallas Stars,Minnesota Wild
+142,Boston Bruins,Calgary Flames
+143,Vancouver Canucks,Toronto Maple Leafs
+143,San Jose Sharks,Philadelphia Flyers
+143,Los Angeles Kings,New York Islanders
+143,New York Rangers,Carolina Hurricanes
+143,New Jersey Devils,Washington Capitals
+143,Florida Panthers,Ottawa Senators
+143,Tampa Bay Lightning,Pittsburgh Penguins
+143,Detroit Red Wings,Colorado Avalanche
+143,Buffalo Sabres,Columbus Blue Jackets
+143,Montreal Canadiens,Anaheim Ducks
+143,St.Louis Blues,Atlanta Thrashers
+143,Dallas Stars,Phoenix Coyotes
+143,Minnesota Wild,Edmonton Oilers
+143,Nashville Predators,Chicago Blackhawks
+143,Boston Bruins,Calgary Flames
+144,Vancouver Canucks,Toronto Maple Leafs
+144,Ottawa Senators,Philadelphia Flyers
+144,Washington Capitals,New York Islanders
+144,Los Angeles Kings,San Jose Sharks
+144,Anaheim Ducks,Florida Panthers
+144,Columbus Blue Jackets,Pittsburgh Penguins
+144,Tampa Bay Lightning,New Jersey Devils
+144,Detroit Red Wings,Montreal Canadiens
+144,Edmonton Oilers,Dallas Stars
+144,Chicago Blackhawks,Minnesota Wild
+146,Nashville Predators,Toronto Maple Leafs
+146,San Jose Sharks,Buffalo Sabres
+146,New Jersey Devils,Ottawa Senators
+146,Atlanta Thrashers,St.Louis Blues
+146,Calgary Flames,Dallas Stars
+147,Nashville Predators,Montreal Canadiens
+147,Columbus Blue Jackets,New York Rangers
+147,Washington Capitals,Tampa Bay Lightning
+147,Calgary Flames,Phoenix Coyotes
+147,Chicago Blackhawks,Minnesota Wild
+149,Tampa Bay Lightning,New Jersey Devils
+149,Florida Panthers,Detroit Red Wings
+149,Pittsburgh Penguins,Toronto Maple Leafs
+149,Carolina Hurricanes,Boston Bruins
+149,Chicago Blackhawks,Colorado Avalanche
+149,Los Angeles Kings,San Jose Sharks
+149,Calgary Flames,Edmonton Oilers
+149,Vancouver Canucks,St.Louis Blues
+149,Nashville Predators,Atlanta Thrashers
+149,Phoenix Coyotes,Dallas Stars
+149,Anaheim Ducks,Minnesota Wild
+150,Toronto Maple Leafs,Montreal Canadiens
+150,Philadelphia Flyers,New Jersey Devils
+150,Florida Panthers,Detroit Red Wings
+150,Tampa Bay Lightning,Washington Capitals
+150,New York Islanders,Buffalo Sabres
+150,New York Rangers,Columbus Blue Jackets
+150,Carolina Hurricanes,San Jose Sharks
+150,Chicago Blackhawks,Colorado Avalanche
+150,Anaheim Ducks,Phoenix Coyotes
+150,Calgary Flames,Edmonton Oilers
+150,Atlanta Thrashers,St.Louis Blues
+150,Vancouver Canucks,Nashville Predators
+150,Minnesota Wild,Dallas Stars
+151,Montreal Canadiens,Toronto Maple Leafs
+151,New Jersey Devils,Philadelphia Flyers
+151,Carolina Hurricanes,Los Angeles Kings
+151,New York Rangers,San Jose Sharks
+151,Vancouver Canucks,Atlanta Thrashers
+151,Columbus Blue Jackets,Buffalo Sabres
+151,New York Islanders,Boston Bruins
+151,Pittsburgh Penguins,Washington Capitals
+151,Tampa Bay Lightning,Ottawa Senators
+151,Calgary Flames,Minnesota Wild
+152,Anaheim Ducks,Dallas Stars
+153,Washington Capitals,Buffalo Sabres
+153,Ottawa Senators,Carolina Hurricanes
+153,Chicago Blackhawks,Toronto Maple Leafs
+153,New York Rangers,Pittsburgh Penguins
+153,Vancouver Canucks,Edmonton Oilers
+153,Detroit Red Wings,St.Louis Blues
+154,New York Islanders,New Jersey Devils
+154,Chicago Blackhawks,Montreal Canadiens
+154,Boston Bruins,Los Angeles Kings
+154,Washington Capitals,San Jose Sharks
+154,Ottawa Senators,Tampa Bay Lightning
+154,St.Louis Blues,Atlanta Thrashers
+155,Edmonton Oilers,Phoenix Coyotes
+156,Colorado Avalanche,Montreal Canadiens
+156,Washington Capitals,New York Rangers
+156,San Jose Sharks,Los Angeles Kings
+156,Detroit Red Wings,Edmonton Oilers
+156,New York Islanders,Boston Bruins
+156,New Jersey Devils,Philadelphia Flyers
+156,Ottawa Senators,Tampa Bay Lightning
+156,Buffalo Sabres,Columbus Blue Jackets
+156,Dallas Stars,Anaheim Ducks
+156,Toronto Maple Leafs,Florida Panthers
+156,Chicago Blackhawks,Nashville Predators
+156,St.Louis Blues,Atlanta Thrashers
+156,Vancouver Canucks,Minnesota Wild
+156,Pittsburgh Penguins,Calgary Flames
+157,Colorado Avalanche,Toronto Maple Leafs
+157,Dallas Stars,Montreal Canadiens
+157,Washington Capitals,Philadelphia Flyers
+157,Columbus Blue Jackets,New Jersey Devils
+157,Ottawa Senators,Carolina Hurricanes
+157,San Jose Sharks,New York Rangers
+157,New York Islanders,Los Angeles Kings
+157,Boston Bruins,Buffalo Sabres
+157,Florida Panthers,Anaheim Ducks
+157,Vancouver Canucks,Phoenix Coyotes
+157,Detroit Red Wings,Edmonton Oilers
+157,Pittsburgh Penguins,Calgary Flames
+158,Philadelphia Flyers,Columbus Blue Jackets
+158,Dallas Stars,Toronto Maple Leafs
+158,New York Rangers,San Jose Sharks
+158,Anaheim Ducks,New Jersey Devils
+158,Florida Panthers,Montreal Canadiens
+158,Los Angeles Kings,Buffalo Sabres
+158,New York Islanders,Boston Bruins
+158,Tampa Bay Lightning,Washington Capitals
+158,Vancouver Canucks,Minnesota Wild
+158,Atlanta Thrashers,Chicago Blackhawks
+158,Detroit Red Wings,Phoenix Coyotes
+158,St.Louis Blues,Nashville Predators
+160,Nashville Predators,Minnesota Wild
+160,Edmonton Oilers,St.Louis Blues
+160,Pittsburgh Penguins,Vancouver Canucks
+161,Ottawa Senators,Philadelphia Flyers
+161,Carolina Hurricanes,New York Islanders
+161,Edmonton Oilers,Detroit Red Wings
+161,New Jersey Devils,Anaheim Ducks
+161,Montreal Canadiens,Florida Panthers
+161,Nashville Predators,Phoenix Coyotes
+161,Pittsburgh Penguins,Vancouver Canucks
+163,Carolina Hurricanes,New York Islanders
+163,Colorado Avalanche,Detroit Red Wings
+163,New York Rangers,Los Angeles Kings
+163,Buffalo Sabres,Ottawa Senators
+163,San Jose Sharks,Boston Bruins
+163,New Jersey Devils,Tampa Bay Lightning
+163,Washington Capitals,Columbus Blue Jackets
+163,Toronto Maple Leafs,Anaheim Ducks
+163,Nashville Predators,Phoenix Coyotes
+163,Edmonton Oilers,Chicago Blackhawks
+163,Dallas Stars,Vancouver Canucks
+163,Montreal Canadiens,Calgary Flames
+164,Philadelphia Flyers,Toronto Maple Leafs
+164,Los Angeles Kings,New York Islanders
+164,Florida Panthers,Detroit Red Wings
+164,Boston Bruins,New York Rangers
+164,Buffalo Sabres,Washington Capitals
+164,Columbus Blue Jackets,Ottawa Senators
+164,San Jose Sharks,Pittsburgh Penguins
+164,New Jersey Devils,Tampa Bay Lightning
+164,Carolina Hurricanes,Anaheim Ducks
+164,Edmonton Oilers,Atlanta Thrashers
+164,Colorado Avalanche,Nashville Predators
+164,St.Louis Blues,Chicago Blackhawks
+164,Phoenix Coyotes,Minnesota Wild
+164,Montreal Canadiens,Calgary Flames
+165,Ottawa Senators,New York Islanders
+165,Columbus Blue Jackets,New York Rangers
+165,San Jose Sharks,Los Angeles Kings
+165,Dallas Stars,Vancouver Canucks
+165,Carolina Hurricanes,Pittsburgh Penguins
+165,Edmonton Oilers,Atlanta Thrashers
+165,Chicago Blackhawks,Detroit Red Wings
+165,Minnesota Wild,Phoenix Coyotes
+165,Buffalo Sabres,Boston Bruins
+165,Anaheim Ducks,Washington Capitals
+165,Colorado Avalanche,St.Louis Blues
+167,San Jose Sharks,Buffalo Sabres
+167,Philadelphia Flyers,Carolina Hurricanes
+167,Florida Panthers,Colorado Avalanche
+167,Edmonton Oilers,Nashville Predators
+167,Minnesota Wild,Dallas Stars
+168,Toronto Maple Leafs,Detroit Red Wings
+168,Columbus Blue Jackets,New York Rangers
+168,Anaheim Ducks,Ottawa Senators
+168,New Jersey Devils,Pittsburgh Penguins
+168,Philadelphia Flyers,Tampa Bay Lightning
+168,Phoenix Coyotes,Chicago Blackhawks
+170,Carolina Hurricanes,New York Rangers
+170,New York Islanders,Buffalo Sabres
+170,Pittsburgh Penguins,Ottawa Senators
+170,Washington Capitals,Philadelphia Flyers
+170,Los Angeles Kings,Tampa Bay Lightning
+170,New Jersey Devils,Anaheim Ducks
+170,Boston Bruins,San Jose Sharks
+170,Colorado Avalanche,Florida Panthers
+170,Atlanta Thrashers,Nashville Predators
+170,Phoenix Coyotes,St.Louis Blues
+170,Montreal Canadiens,Chicago Blackhawks
+170,Calgary Flames,Vancouver Canucks
+170,Detroit Red Wings,Dallas Stars
+170,Edmonton Oilers,Minnesota Wild
+171,Colorado Avalanche,Toronto Maple Leafs
+171,Pittsburgh Penguins,Philadelphia Flyers
+171,New York Islanders,New York Rangers
+171,New Jersey Devils,Washington Capitals
+171,Carolina Hurricanes,Buffalo Sabres
+171,Columbus Blue Jackets,San Jose Sharks
+171,Boston Bruins,Ottawa Senators
+171,Los Angeles Kings,Tampa Bay Lightning
+171,Florida Panthers,Anaheim Ducks
+171,Montreal Canadiens,Atlanta Thrashers
+171,Detroit Red Wings,Dallas Stars
+171,Phoenix Coyotes,St.Louis Blues
+171,Nashville Predators,Chicago Blackhawks
+171,Edmonton Oilers,Minnesota Wild
+172,Calgary Flames,Vancouver Canucks
+172,Anaheim Ducks,New York Islanders
+172,Ottawa Senators,Columbus Blue Jackets
+172,Philadelphia Flyers,San Jose Sharks
+172,Chicago Blackhawks,Atlanta Thrashers
+172,New York Rangers,Boston Bruins
+172,Tampa Bay Lightning,Carolina Hurricanes
+172,Pittsburgh Penguins,Washington Capitals
+172,Edmonton Oilers,Minnesota Wild
+172,Montreal Canadiens,St.Louis Blues
+172,Phoenix Coyotes,Nashville Predators
+174,Boston Bruins,Buffalo Sabres
+174,Philadelphia Flyers,New Jersey Devils
+174,Calgary Flames,Montreal Canadiens
+174,Florida Panthers,Vancouver Canucks
+175,Anaheim Ducks,Toronto Maple Leafs
+175,New York Islanders,Buffalo Sabres
+175,Calgary Flames,Montreal Canadiens
+175,Chicago Blackhawks,Colorado Avalanche
+175,Pittsburgh Penguins,Tampa Bay Lightning
+175,Phoenix Coyotes,Nashville Predators
+175,Florida Panthers,Vancouver Canucks
+176,Atlanta Thrashers,Minnesota Wild
+177,New York Rangers,Boston Bruins
+177,Carolina Hurricanes,Pittsburgh Penguins
+177,New Jersey Devils,Philadelphia Flyers
+177,Montreal Canadiens,Colorado Avalanche
+177,Washington Capitals,Tampa Bay Lightning
+177,New York Islanders,Columbus Blue Jackets
+177,Ottawa Senators,Anaheim Ducks
+177,Los Angeles Kings,San Jose Sharks
+177,Vancouver Canucks,Florida Panthers
+177,Minnesota Wild,Nashville Predators
+177,St.Louis Blues,Phoenix Coyotes
+177,Chicago Blackhawks,Edmonton Oilers
+177,Atlanta Thrashers,Dallas Stars
+177,Detroit Red Wings,Calgary Flames
+178,Vancouver Canucks,Montreal Canadiens
+178,Colorado Avalanche,Toronto Maple Leafs
+178,Anaheim Ducks,Philadelphia Flyers
+178,Carolina Hurricanes,New Jersey Devils
+178,Buffalo Sabres,Los Angeles Kings
+178,New York Rangers,Columbus Blue Jackets
+178,Boston Bruins,San Jose Sharks
+178,New York Islanders,Ottawa Senators
+178,Florida Panthers,Pittsburgh Penguins
+178,Washington Capitals,Tampa Bay Lightning
+178,Minnesota Wild,Atlanta Thrashers
+178,St.Louis Blues,Phoenix Coyotes
+178,Dallas Stars,Edmonton Oilers
+178,Detroit Red Wings,Calgary Flames
+179,Vancouver Canucks,Toronto Maple Leafs
+179,Buffalo Sabres,New York Rangers
+179,Pittsburgh Penguins,Anaheim Ducks
+179,Ottawa Senators,New Jersey Devils
+179,San Jose Sharks,Boston Bruins
+179,St.Louis Blues,Nashville Predators
+179,Chicago Blackhawks,Dallas Stars
+180,Florida Panthers,Philadelphia Flyers
+180,Tampa Bay Lightning,Carolina Hurricanes
+180,Montreal Canadiens,Calgary Flames
+181,Columbus Blue Jackets,New York Islanders
+181,Buffalo Sabres,San Jose Sharks
+181,Chicago Blackhawks,Phoenix Coyotes
+181,Montreal Canadiens,Calgary Flames
+182,Los Angeles Kings,Buffalo Sabres
+182,New Jersey Devils,Philadelphia Flyers
+182,Toronto Maple Leafs,Colorado Avalanche
+182,Tampa Bay Lightning,Ottawa Senators
+182,Detroit Red Wings,Nashville Predators
+182,Dallas Stars,St.Louis Blues
+184,New York Rangers,New York Islanders
+184,San Jose Sharks,Carolina Hurricanes
+184,Calgary Flames,Detroit Red Wings
+184,Philadelphia Flyers,Los Angeles Kings
+184,Buffalo Sabres,Boston Bruins
+184,Washington Capitals,Pittsburgh Penguins
+184,New Jersey Devils,Columbus Blue Jackets
+184,Tampa Bay Lightning,Anaheim Ducks
+184,Ottawa Senators,Florida Panthers
+184,Dallas Stars,Nashville Predators
+184,Edmonton Oilers,Phoenix Coyotes
+184,Atlanta Thrashers,St.Louis Blues
+184,Colorado Avalanche,Chicago Blackhawks
+184,Montreal Canadiens,Vancouver Canucks
+185,Florida Panthers,Toronto Maple Leafs
+185,Buffalo Sabres,New Jersey Devils
+185,San Jose Sharks,Carolina Hurricanes
+185,New York Islanders,New York Rangers
+185,Pittsburgh Penguins,Washington Capitals
+185,Boston Bruins,Columbus Blue Jackets
+185,Philadelphia Flyers,Ottawa Senators
+185,Calgary Flames,Colorado Avalanche
+185,Tampa Bay Lightning,Anaheim Ducks
+185,Phoenix Coyotes,Atlanta Thrashers
+185,Edmonton Oilers,Dallas Stars
+185,Nashville Predators,St.Louis Blues
+185,Detroit Red Wings,Chicago Blackhawks
+185,Montreal Canadiens,Vancouver Canucks
+186,New Jersey Devils,New York Islanders
+186,Philadelphia Flyers,Pittsburgh Penguins
+186,Chicago Blackhawks,Atlanta Thrashers
+186,Columbus Blue Jackets,Buffalo Sabres
+186,Los Angeles Kings,Boston Bruins
+186,Tampa Bay Lightning,New York Rangers
+186,Anaheim Ducks,Washington Capitals
+186,Calgary Flames,Toronto Maple Leafs
+186,Edmonton Oilers,Minnesota Wild
+186,Colorado Avalanche,Florida Panthers
+186,Dallas Stars,Phoenix Coyotes
+186,Detroit Red Wings,Nashville Predators

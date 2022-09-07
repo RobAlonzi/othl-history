@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>OTHL - RSS Feed</title>
+<link>https://othl.ca/File/2020-Playoffs</link>
+<description>OTHL - RSS Feed</description>
+<pubDate>July 15, 2021 at 18:53 EST</pubDate>
+<item>
+<title>Professional Game #102 - Canucks vs Bruins</title>
+<link>https://othl.ca/File/2020-Playoffs/OTHL-PLF-102.html</link>
+<guid>https://othl.ca/File/2020-Playoffs/OTHL-PLF-102.html</guid>
+<description>
+Canucks (3
+) vs Bruins (4)
+</description>
+</item>
+<item>
+<title>Farm Game #102 - Comets vs Condors</title>
+<link>https://othl.ca/File/2020-Playoffs/OTHL-PLF-Farm-102.html</link>
+<guid>https://othl.ca/File/2020-Playoffs/OTHL-PLF-Farm-102.html</guid>
+<description>
+Comets (5
+) vs Condors (2)
+</description>
+</item>
+</channel>
+</rss>

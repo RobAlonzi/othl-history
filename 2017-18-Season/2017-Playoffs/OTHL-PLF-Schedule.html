@@ -1,0 +1,875 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>OTHL - Schedule</title>
+<script type="text/javascript" src="OTHL-PLF.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.1.2.2" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="OTHL RSS Feed" href="http://www.othl.ca/File/2017-Playoffs/RSSFeed.xml" />
+<link href="OTHL-PLF.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL-PLF Home</a></li>
+<li id="STHSMenu-Main" class="activemenu"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu active" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-PLF-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-PLF-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-PLF-Schedule.html">Schedule </a></td>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-PLF-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-PLF-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-PLF-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PLF-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PLF-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PLF-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PLF-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PLF-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PLF-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-PLF-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-PLF-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-PLF-TeamHistory.html">History</a></td>
+<td><a href="OTHL-PLF-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-PLF-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-PLF-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-PLF-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PLF-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PLF-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PLF-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PLF-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PLF-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PLF-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-PLF-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-PLF-Waivers.html">Waivers</a></td>
+<td><a href="OTHL-PLF-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-PLF-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-PLF-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="OTHL-PLF-Awards.html">Awards</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-PLF-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Ducks">ANH</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Coyotes">ARI</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Bruins">BOS</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Sabres">BUF</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Hurricanes">CAR</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Flames">CGY</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Blackhawks">CHI</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#BlueJackets">CLB</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Avalanche">COL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Stars">DAL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#RedWings">DET</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Oilers">EDM</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Panthers">FLA</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Kings">LAK</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Wild">MIN</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Canadiens">MTL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Devils">NJD</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Predators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Islanders">NYI</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Rangers">NYR</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Senators">OTT</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Flyers">PHL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Penguins">PIT</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Sharks">SJS</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Blues">STL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Lightning">TBL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#MapleLeafs">TOR</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Canucks">VAN</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#GoldenKnights">VGK</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Jets">WPG</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Capitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Schedule</td><td class="STHSHeaderDate"><a href="#Last_Simulate_Day">Last Played Games</a> - Last Update - June 17, 2018 at 15:20</td></tr>
+</table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<table class="STHSSchedule_MainTable"><tr><td class="STHSSchedule_TitleGameNumber"><b>Game #</b></td><td class="STHSSchedule_TitleProSchedule"><b>Pro Schedule</b></td>
+<td class="STHSSchedule_TitleGameNumber"><b>Game #</b></td><td class="STHSSchedule_TitleFarmSchedule"><b>Farm Schedule</b></td>
+</tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 1</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">1</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-1.html">Bruins (4) vs Sabres (0)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">2</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-2.html">Canadiens (2) vs Senators (3)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">3</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-3.html">Maple Leafs (5) vs Capitals (6)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">4</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-4.html">Rangers (4) vs Islanders (2)</a>  (R3)
+</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">1</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-1.html">Bruins (1) vs Americans (3)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">2</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-2.html">Checkers (4) vs Crunch (1)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">3</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-3.html">Pirates (5) vs Phantoms (7)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">4</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-4.html">Marlies (3) vs Moose (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 2</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">5</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-5.html">Kings (2) vs Stars (3)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">6</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-6.html">Wild (2) vs Predators (1)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">7</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-7.html">Avalanche (5) vs Flames (2)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">8</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-8.html">Ducks (5) vs Coyotes (3)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">5</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-5.html">Wolves (3) vs Condors (4)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">6</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-6.html">Heat (0) vs Gulls (4)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">7</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-7.html">Stars (2) vs Monsters (3)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">8</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-8.html">Comets (8) vs Barracuda (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 3</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">9</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-9.html">Bruins (1) vs Sabres (4)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">10</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-10.html">Canadiens (2) vs Senators (1)</a>  - OT (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">11</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-11.html">Maple Leafs (1) vs Capitals (2)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">12</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-12.html">Rangers (0) vs Islanders (3)</a>  (R3)
+</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">9</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-9.html">Bruins (1) vs Americans (4)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">10</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-10.html">Checkers (12) vs Crunch (3)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">11</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-11.html">Pirates (4) vs Phantoms (5)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">12</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-12.html">Marlies (4) vs Moose (5)</a> - OT</td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 4</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">13</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-13.html">Kings (2) vs Stars (4)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">14</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-14.html">Wild (0) vs Predators (1)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">15</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-15.html">Avalanche (3) vs Flames (1)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">16</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-16.html">Ducks (3) vs Coyotes (4)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">13</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-13.html">Wolves (1) vs Condors (8)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">14</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-14.html">Heat (1) vs Gulls (2)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">15</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-15.html">Stars (3) vs Monsters (5)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">16</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-16.html">Comets (7) vs Barracuda (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 5</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">17</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-17.html">Sabres (3) vs Bruins (1)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">18</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-18.html">Senators (1) vs Canadiens (7)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">19</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-19.html">Capitals (1) vs Maple Leafs (3)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">20</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-20.html">Islanders (3) vs Rangers (4)</a>  (R3)
+</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">17</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-17.html">Americans (7) vs Bruins (2)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">18</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-18.html">Crunch (4) vs Checkers (5)</a> - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">19</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-19.html">Phantoms (8) vs Pirates (4)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">20</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-20.html">Moose (3) vs Marlies (0)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 6</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">21</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-21.html">Stars (1) vs Kings (3)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">22</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-22.html">Predators (2) vs Wild (1)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">23</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-23.html">Flames (1) vs Avalanche (2)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">24</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-24.html">Coyotes (2) vs Ducks (1)</a>  - OT</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">21</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-21.html">Condors (4) vs Wolves (1)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">22</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-22.html">Gulls (3) vs Heat (2)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">23</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-23.html">Monsters (2) vs Stars (5)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">24</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-24.html">Barracuda (6) vs Comets (2)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 7</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">25</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-25.html">Sabres (4) vs Bruins (3)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">26</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-26.html">Senators (5) vs Canadiens (2)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">27</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-27.html">Capitals (1) vs Maple Leafs (2)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">28</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-28.html">Islanders (2) vs Rangers (5)</a>  (R3)
+</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">25</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-25.html">Americans (4) vs Bruins (0)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">26</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-26.html">Crunch (4) vs Checkers (9)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">27</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-27.html">Phantoms (4) vs Pirates (3)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">28</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-28.html">Moose (4) vs Marlies (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 8</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">29</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-29.html">Stars (4) vs Kings (2)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">30</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-30.html">Predators (2) vs Wild (3)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">31</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-31.html">Flames (6) vs Avalanche (3)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">32</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-32.html">Coyotes (3) vs Ducks (1)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">29</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-29.html">Condors (4) vs Wolves (3)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">30</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-30.html">Gulls (6) vs Heat (0)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">31</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-31.html">Monsters (3) vs Stars (4)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">32</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-32.html">Barracuda (0) vs Comets (2)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 9</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">33</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-33.html">Bruins (4) vs Sabres (3)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">34</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-34.html">Canadiens (5) vs Senators (4)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">35</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-35.html">Maple Leafs (2) vs Capitals (1)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">36</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-36.html">Rangers (4) vs Islanders (1)</a>  (R3)
+</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">36</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-36.html">Marlies (2) vs Moose (3)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 10</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">37</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-37.html">Kings (4) vs Stars (3)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">38</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-38.html">Wild (4) vs Predators (1)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">39</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-39.html">Avalanche (4) vs Flames (1)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">40</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-40.html">Ducks (3) vs Coyotes (2)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">39</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-39.html">Stars (2) vs Monsters (1)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">40</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-40.html">Comets (3) vs Barracuda (0)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 11</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">41</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-41.html">Sabres (4) vs Bruins (3)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">42</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-42.html">Senators (3) vs Canadiens (2)</a>  - OT (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">43</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-43.html">Capitals (2) vs Maple Leafs (5)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 12</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">45</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-45.html">Stars (3) vs Kings (4)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">46</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-46.html">Predators (5) vs Wild (4)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">48</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-48.html">Coyotes (4) vs Ducks (3)</a>  - OT</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">47</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-47.html">Monsters (5) vs Stars (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 13</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">50</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-50.html">Canadiens (4) vs Senators (2)</a>  (R3)
+</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 14</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">53</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-53.html">Kings (2) vs Stars (1)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">54</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-54.html">Wild (2) vs Predators (0)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">55</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-55.html">Stars (0) vs Monsters (3)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 15</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">57</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-57.html">Canadiens (4) vs Sabres (3)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">58</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-58.html">Maple Leafs (3) vs Rangers (2)</a>  - OT</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">57</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-57.html">Checkers (2) vs Americans (6)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">58</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-58.html">Moose (1) vs Phantoms (4)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 16</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">59</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-59.html">Kings (3) vs Wild (2)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">60</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-60.html">Avalanche (4) vs Coyotes (2)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">59</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-59.html">Comets (6) vs Condors (1)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">60</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-60.html">Monsters (3) vs Gulls (2)</a> - OT</td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 17</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">61</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-61.html">Canadiens (2) vs Sabres (1)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">62</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-62.html">Maple Leafs (3) vs Rangers (2)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">61</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-61.html">Checkers (1) vs Americans (5)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">62</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-62.html">Moose (1) vs Phantoms (4)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 18</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">63</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-63.html">Kings (2) vs Wild (3)</a>  - OT (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">64</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-64.html">Avalanche (1) vs Coyotes (4)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">63</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-63.html">Comets (6) vs Condors (1)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">64</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-64.html">Monsters (3) vs Gulls (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 19</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">65</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-65.html">Sabres (4) vs Canadiens (3)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">66</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-66.html">Rangers (4) vs Maple Leafs (3)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">65</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-65.html">Americans (3) vs Checkers (0)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">66</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-66.html">Phantoms (2) vs Moose (3)</a> - OT</td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 20</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">67</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-67.html">Wild (3) vs Kings (5)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">68</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-68.html">Coyotes (2) vs Avalanche (1)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">67</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-67.html">Condors (1) vs Comets (3)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">68</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-68.html">Gulls (5) vs Monsters (3)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 21</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">69</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-69.html">Sabres (5) vs Canadiens (1)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">70</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-70.html">Rangers (3) vs Maple Leafs (1)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">69</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-69.html">Americans (5) vs Checkers (2)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">70</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-70.html">Phantoms (2) vs Moose (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 22</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">71</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-71.html">Wild (3) vs Kings (2)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">72</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-72.html">Coyotes (3) vs Avalanche (1)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">71</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-71.html">Condors (2) vs Comets (6)</a></td></tr>
+<tr><td class="STHSSchedule_GameNumber">72</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-72.html">Gulls (2) vs Monsters (0)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 23</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">73</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-73.html">Canadiens (2) vs Sabres (4)</a> </td></tr>
+<tr><td class="STHSSchedule_GameNumber">74</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-74.html">Maple Leafs (2) vs Rangers (0)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">74</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-74.html">Moose (0) vs Phantoms (6)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 24</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">75</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-75.html">Kings (4) vs Wild (1)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">76</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-76.html">Avalanche (5) vs Coyotes (3)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">76</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-76.html">Monsters (2) vs Gulls (0)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 25</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">77</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-77.html">Sabres (5) vs Canadiens (4)</a>  - OT</td></tr>
+<tr><td class="STHSSchedule_GameNumber">78</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-78.html">Rangers (2) vs Maple Leafs (4)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 26</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">79</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-79.html">Wild (4) vs Kings (0)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">80</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-80.html">Coyotes (1) vs Avalanche (3)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">80</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-80.html">Gulls (2) vs Monsters (1)</a> - OT</td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 27</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 28</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">83</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-83.html">Kings (4) vs Wild (2)</a>  (R3)
+</td></tr>
+<tr><td class="STHSSchedule_GameNumber">84</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-84.html">Avalanche (3) vs Coyotes (5)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">84</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-84.html">Monsters (5) vs Gulls (2)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 29</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">85</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-85.html">Maple Leafs (1) vs Sabres (3)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">85</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-85.html">Phantoms (2) vs Americans (4)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 30</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">86</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-86.html">Kings (1) vs Coyotes (4)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">86</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-86.html">Comets (3) vs Monsters (2)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 31</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">87</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-87.html">Maple Leafs (3) vs Sabres (2)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">87</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-87.html">Phantoms (5) vs Americans (3)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 32</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">88</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-88.html">Kings (2) vs Coyotes (3)</a>  - OT</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">88</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-88.html">Comets (0) vs Monsters (2)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 33</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">89</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-89.html">Sabres (2) vs Maple Leafs (4)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">89</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-89.html">Americans (5) vs Phantoms (4)</a> - OT</td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 34</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">90</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-90.html">Coyotes (5) vs Kings (2)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">90</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-90.html">Monsters (2) vs Comets (3)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 35</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">91</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-91.html">Sabres (3) vs Maple Leafs (6)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">91</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-91.html">Americans (1) vs Phantoms (2)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 36</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">92</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-92.html">Coyotes (2) vs Kings (4)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">92</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-92.html">Monsters (2) vs Comets (0)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 37</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">93</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-93.html">Maple Leafs (2) vs Sabres (1)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">93</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-93.html">Phantoms (2) vs Americans (8)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 38</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">94</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-94.html">Kings (2) vs Coyotes (3)</a>  - OT</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">94</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-94.html">Comets (3) vs Monsters (2)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 39</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">95</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-95.html">Americans (4) vs Phantoms (5)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 40</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">96</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-96.html">Monsters (1) vs Comets (3)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 41</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">97</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-97.html">Phantoms (3) vs Americans (2)</a> - OT</td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 42</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 43</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">99</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-99.html">Coyotes (3) vs Maple Leafs (4)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">99</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-99.html">Phantoms (4) vs Comets (3)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 44</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">100</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-100.html">Coyotes (2) vs Maple Leafs (0)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">100</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-100.html">Phantoms (6) vs Comets (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 45</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">101</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-101.html">Maple Leafs (4) vs Coyotes (5)</a>  - OT</td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">101</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-101.html">Comets (3) vs Phantoms (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 46</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">102</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-102.html">Maple Leafs (4) vs Coyotes (3)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">102</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-102.html">Comets (5) vs Phantoms (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 47</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">103</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-103.html">Coyotes (2) vs Maple Leafs (5)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">103</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-103.html">Phantoms (1) vs Comets (2)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><b>Day 48</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">104</td><td class="STHSSchedule_ProLink">
+<a href="OTHL-PLF-104.html">Maple Leafs (5) vs Coyotes (3)</a> </td></tr>
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+<tr><td class="STHSSchedule_GameNumber">104</td><td class="STHSSchedule_FarmLink">
+<a href="OTHL-PLF-Farm-104.html">Comets (8) vs Phantoms (1)</a></td></tr>
+</table>
+</td></tr>
+<tr><td colspan="4" class="STHSSchedule_GameDay"><a id="Last_Simulate_Day"></a><b>Day 49</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td><td colspan="2" class="STHSAlignTopBorder">
+<table class="STHSTableFullW">
+</table>
+</td></tr>
+</table>
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+<div class="footer">Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

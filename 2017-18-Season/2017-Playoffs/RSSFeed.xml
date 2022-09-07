@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>OTHL - RSS Feed</title>
+<link>http://www.othl.ca/File/2017-Playoffs</link>
+<description>OTHL - RSS Feed</description>
+<pubDate>June 17, 2018 at 15:20 EST</pubDate>
+<item>
+<title>Professional Game #104 - Maple Leafs vs Coyotes</title>
+<link>http://www.othl.ca/File/2017-Playoffs/OTHL-PLF-104.html</link>
+<guid>http://www.othl.ca/File/2017-Playoffs/OTHL-PLF-104.html</guid>
+<description>
+Maple Leafs (5
+) vs Coyotes (3)
+</description>
+</item>
+<item>
+<title>Farm Game #104 - Comets vs Phantoms</title>
+<link>http://www.othl.ca/File/2017-Playoffs/OTHL-PLF-Farm-104.html</link>
+<guid>http://www.othl.ca/File/2017-Playoffs/OTHL-PLF-Farm-104.html</guid>
+<description>
+Comets (8
+) vs Phantoms (1)
+</description>
+</item>
+</channel>
+</rss>

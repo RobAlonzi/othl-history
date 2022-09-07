@@ -1,0 +1,557 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<script src="STHSMain.js"></script>
+<title>OTHL - Teams And GM Info</title>
+<script src="OTHL.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.1.6.6" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<style>
+@media screen and (max-width: 1160px) {
+.STHSWarning {display:block;}
+.STHSTeamsAndGMInfo_MainTable tbody td:nth-last-child(1){display:none;}
+.STHSTeamsAndGMInfo_MainTable thead th:nth-last-child(1){display:none;}
+.STHSTeamsAndGMInfo_MainTable tbody td:nth-last-child(2){display:none;}
+.STHSTeamsAndGMInfo_MainTable thead th:nth-last-child(2){display:none;}
+.STHSTeamsAndGMInfo_MainTable tbody td:nth-last-child(3){display:none;}
+.STHSTeamsAndGMInfo_MainTable thead th:nth-last-child(3){display:none;}
+.STHSTeamsAndGMInfo_MainTable tbody td:nth-last-child(4){display:none;}
+.STHSTeamsAndGMInfo_MainTable thead th:nth-last-child(4){display:none;}
+.STHSTeamsAndGMInfo_MainTable tbody td:nth-last-child(5){display:none;}
+.STHSTeamsAndGMInfo_MainTable thead th:nth-last-child(5){display:none;}
+.STHSTeamsAndGMInfo_MainTable tbody td:nth-last-child(6){display:none;}
+.STHSTeamsAndGMInfo_MainTable thead th:nth-last-child(6){display:none;}
+}</style>
+<link href="OTHL.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League" class="activemenu"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-Schedule.html">Schedule </a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-TeamHistory.html">History</a></td>
+<td><a href="OTHL-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-FarmLeaders.html">Leader</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="OTHL-RerateDifference.html">RerateDifference</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html#AnaheimDucks">ANH</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ArizonaCoyotes">ARI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BostonBruins">BOS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BuffaloSabres">BUF</a></td>
+<td><a href="OTHL-ProTeamRoster.html#CarolinaHurricanes">CAR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#CalgaryFlames">CGY</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ChicagoBlackhawks">CHI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ColumbusBlueJackets">CLB</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ColoradoAvalanche">COL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#DallasStars">DAL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#DetroitRedWings">DET</a></td>
+<td><a href="OTHL-ProTeamRoster.html#EdmontonOilers">EDM</a></td>
+<td><a href="OTHL-ProTeamRoster.html#FloridaPanthers">FLA</a></td>
+<td><a href="OTHL-ProTeamRoster.html#LosAngelesKings">LAK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MinnesotaWild">MIN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MontrealCanadiens">MTL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#NewJerseyDevils">NJD</a></td>
+<td><a href="OTHL-ProTeamRoster.html#NashvillePredators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-ProTeamRoster.html#NewYorkIslanders">NYI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#NewYorkRangers">NYR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#OttawaSenators">OTT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#PhiladelphiaFlyers">PHL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#PittsburghPenguins">PIT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#SanJoseSharks">SJS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#St.LouisBlues">STL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#TampaBayLightning">TBL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#TorontoMapleLeafs">TOR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#VancouverCanucks">VAN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#VegasGoldenKnights">VGK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#WinnipegJets">WPG</a></td>
+<td><a href="OTHL-ProTeamRoster.html#WashingtonCapitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Teams And GM Info</td><td class="STHSHeaderDate">Last Update - October 4, 2019 at 22:24</td></tr>
+<tr><td colspan="2" style="font-style: italic;">Simulating a Pre-Season</td></tr></table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<table class="STHSTeamsAndGMInfo_MainTable"><thead><tr>
+<th>Team Name</th>
+<th>General Manager</th>
+<th>Instant Messenger</th>
+<th>Email</th>
+<th>City</th>
+<th>Arena</th>
+<th>Farm Team Name</th>
+<th>Last File Load Date</th>
+<th># of Load Lines</th>
+<th># of Fail Auto Roster</th>
+<th># of Fail Pro Auto Line</th>
+<th># of Fail Farm Auto Line</th>
+<th># of Fail Simulation</th></tr></thead><tbody>
+<tr><td>Anaheim Ducks</td>
+<td>Chris C</td>
+<td>203188266</td>
+<td><a href="mailto:"></a></td>
+<td>Anaheim</td>
+<td>Honda Center</td>
+<td>Gulls</td>
+<td>May 1, 2019 at 20:14</td>
+<td>0</td>
+<td>18</td>
+<td>16</td>
+<td>1</td>
+<td>0</td></tr>
+<tr><td>Arizona Coyotes</td>
+<td>Jimmy </td>
+<td></td>
+<td><a href="mailto:"></a></td>
+<td>Arizona</td>
+<td>Jobing.com Arena</td>
+<td>Roadrunners</td>
+<td>May 1, 2019 at 20:14</td>
+<td>0</td>
+<td>22</td>
+<td>12</td>
+<td>0</td>
+<td>4</td></tr>
+<tr><td>Boston Bruins</td>
+<td>Chris </td>
+<td>707286171</td>
+<td><a href="mailto:"></a></td>
+<td>Boston</td>
+<td>TD Banknorth Garden</td>
+<td>Bruins</td>
+<td>September 21, 2019 at 20:39</td>
+<td>2</td>
+<td>12</td>
+<td>12</td>
+<td>0</td>
+<td>0</td></tr>
+<tr><td>Buffalo Sabres</td>
+<td>Jason </td>
+<td>82579933</td>
+<td><a href="mailto:"></a></td>
+<td>Buffalo</td>
+<td>HSBC Arena</td>
+<td> Americans</td>
+<td>April 25, 2019 at 20:31</td>
+<td>0</td>
+<td>103</td>
+<td>53</td>
+<td>15</td>
+<td>8</td></tr>
+<tr><td>Calgary Flames</td>
+<td>Alex </td>
+<td></td>
+<td><a href="mailto:"></a></td>
+<td>Calgary</td>
+<td>Pengrowth Saddledome</td>
+<td>Heat</td>
+<td>April 15, 2019 at 16:42</td>
+<td>0</td>
+<td>49</td>
+<td>28</td>
+<td>3</td>
+<td>7</td></tr>
+<tr><td>Carolina Hurricanes</td>
+<td>Neil </td>
+<td>389579308</td>
+<td><a href="mailto:nmburkholder@yahoo.com">nmburkholder@yahoo.com</a></td>
+<td>Carolina</td>
+<td>RBC Center</td>
+<td>Checkers</td>
+<td>April 14, 2019 at 21:16</td>
+<td>0</td>
+<td>83</td>
+<td>49</td>
+<td>1</td>
+<td>15</td></tr>
+<tr><td>Chicago Blackhawks</td>
+<td>Mark </td>
+<td></td>
+<td><a href="mailto:"></a></td>
+<td>Chicago</td>
+<td>United Center</td>
+<td>IceHogs</td>
+<td>April 25, 2019 at 20:31</td>
+<td>0</td>
+<td>66</td>
+<td>32</td>
+<td>4</td>
+<td>9</td></tr>
+<tr><td>Colorado Avalanche</td>
+<td>Rushi </td>
+<td>0</td>
+<td><a href="mailto:0">0</a></td>
+<td>Colorado</td>
+<td>Pepsi Center</td>
+<td>Eagles</td>
+<td>April 19, 2019 at 20:50</td>
+<td>0</td>
+<td>56</td>
+<td>26</td>
+<td>13</td>
+<td>4</td></tr>
+<tr><td>Columbus Blue Jackets</td>
+<td>Tyler Bell</td>
+<td>553140854</td>
+<td><a href="mailto:"></a></td>
+<td>Columbus</td>
+<td>Nationwide Arena</td>
+<td>Monsters</td>
+<td>August 2, 2019 at 22:15</td>
+<td>4</td>
+<td>44</td>
+<td>19</td>
+<td>4</td>
+<td>3</td></tr>
+<tr><td>Dallas Stars</td>
+<td>Charles </td>
+<td>19341432</td>
+<td><a href="mailto:"></a></td>
+<td>Dallas</td>
+<td>American Airlines Center</td>
+<td>Stars</td>
+<td>June 3, 2019 at 16:08</td>
+<td>0</td>
+<td>112</td>
+<td>63</td>
+<td>22</td>
+<td>8</td></tr>
+<tr><td>Detroit Red Wings</td>
+<td>Tyler Sn</td>
+<td>602565133</td>
+<td><a href="mailto:tyler.procyk@rogers.com">tyler.procyk@rogers.com</a></td>
+<td>Detroit</td>
+<td>Joe Louis Arena</td>
+<td>Griffins</td>
+<td>October 4, 2019 at 22:12</td>
+<td>2</td>
+<td>133</td>
+<td>62</td>
+<td>0</td>
+<td>12</td></tr>
+<tr><td>Edmonton Oilers</td>
+<td>Scott </td>
+<td>400400799</td>
+<td><a href="mailto:"></a></td>
+<td>Edmonton</td>
+<td>Rexall Place</td>
+<td>Condors</td>
+<td>May 3, 2019 at 16:32</td>
+<td>0</td>
+<td>34</td>
+<td>13</td>
+<td>0</td>
+<td>0</td></tr>
+<tr><td>Florida Panthers</td>
+<td>Scott </td>
+<td>715703855</td>
+<td><a href="mailto:"></a></td>
+<td>Florida</td>
+<td>Bank Atlantic Center</td>
+<td>Thunderbirds</td>
+<td>April 20, 2019 at 19:47</td>
+<td>0</td>
+<td>45</td>
+<td>19</td>
+<td>6</td>
+<td>4</td></tr>
+<tr><td>Los Angeles Kings</td>
+<td>Jordan </td>
+<td>207706500</td>
+<td><a href="mailto:"></a></td>
+<td>Los Angeles</td>
+<td>Staples Center</td>
+<td>Reign</td>
+<td>August 4, 2019 at 21:58</td>
+<td>2</td>
+<td>81</td>
+<td>42</td>
+<td>21</td>
+<td>9</td></tr>
+<tr><td>Minnesota Wild</td>
+<td>David </td>
+<td>354724199</td>
+<td><a href="mailto:eric.draven99@gmail.com">eric.draven99@gmail.com</a></td>
+<td>Minnesota</td>
+<td>Xcel Energy Center</td>
+<td>Wild</td>
+<td>May 16, 2019 at 18:58</td>
+<td>0</td>
+<td>49</td>
+<td>33</td>
+<td>15</td>
+<td>5</td></tr>
+<tr><td>Montreal Canadiens</td>
+<td>P.J. </td>
+<td>664448514</td>
+<td><a href="mailto:pjjennings918@gmail.com">pjjennings918@gmail.com</a></td>
+<td>Montreal</td>
+<td>Bell Centre</td>
+<td>Rocket</td>
+<td>July 22, 2019 at 17:02</td>
+<td>1</td>
+<td>39</td>
+<td>20</td>
+<td>0</td>
+<td>0</td></tr>
+<tr><td>Nashville Predators</td>
+<td>Tyler W</td>
+<td>0</td>
+<td><a href="mailto:"></a></td>
+<td>Nashville</td>
+<td>Sommet Center</td>
+<td>Admirals</td>
+<td>April 25, 2019 at 20:31</td>
+<td>0</td>
+<td>133</td>
+<td>68</td>
+<td>36</td>
+<td>9</td></tr>
+<tr><td>New Jersey Devils</td>
+<td>Mathias </td>
+<td>5174025</td>
+<td><a href="mailto:"></a></td>
+<td>New Jersey</td>
+<td>Prudential Center</td>
+<td>Devils</td>
+<td>April 19, 2019 at 20:50</td>
+<td>0</td>
+<td>69</td>
+<td>47</td>
+<td>14</td>
+<td>1</td></tr>
+<tr><td>New York Islanders</td>
+<td>Peter </td>
+<td>672616372</td>
+<td><a href="mailto:"></a></td>
+<td>New York</td>
+<td>Barclays Center</td>
+<td>Sound Tigers</td>
+<td>March 12, 2019 at 17:22</td>
+<td>0</td>
+<td>138</td>
+<td>56</td>
+<td>8</td>
+<td>7</td></tr>
+<tr><td>New York Rangers</td>
+<td>Marc-Olivier </td>
+<td>672616372</td>
+<td><a href="mailto:"></a></td>
+<td>New York</td>
+<td>Madison Square Gardens</td>
+<td>Wolf Pack</td>
+<td>April 28, 2019 at 18:55</td>
+<td>0</td>
+<td>67</td>
+<td>35</td>
+<td>8</td>
+<td>5</td></tr>
+<tr><td>Ottawa Senators</td>
+<td>Haedyn </td>
+<td></td>
+<td><a href="mailto:"></a></td>
+<td>Ottawa</td>
+<td>Scotiabank Place</td>
+<td>Senators</td>
+<td>April 15, 2019 at 16:42</td>
+<td>0</td>
+<td>102</td>
+<td>57</td>
+<td>0</td>
+<td>15</td></tr>
+<tr><td>Philadelphia Flyers</td>
+<td>Matt</td>
+<td>677317150</td>
+<td><a href="mailto:"></a></td>
+<td>Philadelphia</td>
+<td>Wachovia Center</td>
+<td>Phantoms</td>
+<td>March 28, 2019 at 16:33</td>
+<td>0</td>
+<td>94</td>
+<td>44</td>
+<td>14</td>
+<td>11</td></tr>
+<tr><td>Pittsburgh Penguins</td>
+<td>Nick</td>
+<td></td>
+<td><a href="mailto:nick.procyk@hotmail.com">nick.procyk@hotmail.com</a></td>
+<td>Pittsburgh</td>
+<td>Consol Energy Center</td>
+<td>Penguins</td>
+<td>October 4, 2019 at 22:12</td>
+<td>2</td>
+<td>111</td>
+<td>51</td>
+<td>17</td>
+<td>6</td></tr>
+<tr><td>San Jose Sharks</td>
+<td>Trevor </td>
+<td>SharksGM</td>
+<td><a href="mailto:"></a></td>
+<td>San Jose</td>
+<td>HP Pavillion</td>
+<td>Barracuda</td>
+<td>July 28, 2019 at 20:06</td>
+<td>1</td>
+<td>52</td>
+<td>23</td>
+<td>0</td>
+<td>0</td></tr>
+<tr><td>St. Louis Blues</td>
+<td>Fred </td>
+<td>611507518</td>
+<td><a href="mailto:younan.fred@gmail.com">younan.fred@gmail.com</a></td>
+<td>St. Louis</td>
+<td>Scottrade Center</td>
+<td>Rampage </td>
+<td>August 15, 2019 at 17:03</td>
+<td>1</td>
+<td>134</td>
+<td>76</td>
+<td>8</td>
+<td>4</td></tr>
+<tr><td>Tampa Bay Lightning</td>
+<td>Ron</td>
+<td>152903484</td>
+<td><a href="mailto:"></a></td>
+<td>Tampa Bay</td>
+<td>St.Pete Times Forum</td>
+<td>Crunch</td>
+<td>April 16, 2019 at 17:19</td>
+<td>0</td>
+<td>84</td>
+<td>42</td>
+<td>0</td>
+<td>1</td></tr>
+<tr><td>Toronto Maple Leafs</td>
+<td>Garrett </td>
+<td>416250276</td>
+<td><a href="mailto:garrett.hansford@me.com">garrett.hansford@me.com</a></td>
+<td>Toronto</td>
+<td>Air Canada Centre</td>
+<td>Marlies</td>
+<td>October 4, 2019 at 22:12</td>
+<td>4</td>
+<td>16</td>
+<td>7</td>
+<td>0</td>
+<td>1</td></tr>
+<tr><td>Vancouver Canucks</td>
+<td>Rob </td>
+<td></td>
+<td><a href="mailto:"></a></td>
+<td>Vancouver</td>
+<td>GM Place</td>
+<td>Comets</td>
+<td>April 17, 2019 at 16:44</td>
+<td>0</td>
+<td>45</td>
+<td>35</td>
+<td>2</td>
+<td>3</td></tr>
+<tr><td>Vegas Golden Knights</td>
+<td>James </td>
+<td>617446788</td>
+<td><a href="mailto:"></a></td>
+<td>Vegas</td>
+<td>T-Mobile Arena</td>
+<td>Wolves</td>
+<td>June 10, 2019 at 16:12</td>
+<td>0</td>
+<td>30</td>
+<td>11</td>
+<td>0</td>
+<td>1</td></tr>
+<tr><td>Washington Capitals</td>
+<td>Bo </td>
+<td>365268878</td>
+<td><a href="mailto:"></a></td>
+<td>Washington</td>
+<td>Verizon Center</td>
+<td>Bears</td>
+<td>June 5, 2019 at 16:38</td>
+<td>0</td>
+<td>53</td>
+<td>40</td>
+<td>2</td>
+<td>0</td></tr>
+<tr><td>Winnipeg Jets</td>
+<td>Mika </td>
+<td></td>
+<td><a href="mailto:mixula@suomi24.fi">mixula@suomi24.fi</a></td>
+<td>Winnipeg</td>
+<td>MTS Center</td>
+<td>Moose</td>
+<td>September 13, 2019 at 20:24</td>
+<td>3</td>
+<td>32</td>
+<td>16</td>
+<td>0</td>
+<td>7</td></tr>
+</tbody></table><br />
+<a href="mailto:nmburkholder@yahoo.com;0;tyler.procyk@rogers.com;eric.draven99@gmail.com;pjjennings918@gmail.com;nick.procyk@hotmail.com;younan.fred@gmail.com;garrett.hansford@me.com;mixula@suomi24.fi">Email all General Manager</a>
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

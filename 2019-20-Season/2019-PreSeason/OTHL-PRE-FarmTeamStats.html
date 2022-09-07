@@ -1,0 +1,726 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<script src="STHSMain.js"></script>
+<title>OTHL - Farm Team Stats</title>
+<script src="OTHL-PRE.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.1.6.6" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<style>
+@media screen and (min-width: 1380px) {
+.STHSTeamStat_Table2 thead th:nth-child(2){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(2){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(2){display:none;}}
+@media screen and (max-width: 1380px) {
+.STHSTeamStat_Table2 thead th:nth-child(1){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(1){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(1){display:none;}}
+@media screen and (max-width: 1200px) {
+.STHSWarning {display:block;}
+.STHSTeamStat_Table2 thead th:nth-last-child(3){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(3){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(3){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(4){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(4){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(4){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(5){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(5){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(5){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(6){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(6){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(6){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(7){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(7){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(7){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(8){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(8){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(8){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(4){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(4){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(4){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(5){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(5){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(5){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(6){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(6){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(6){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(7){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(7){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(7){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(8){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(8){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(8){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(9){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(9){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(9){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(10){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(10){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(10){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(11){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(11){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(11){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(12){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(12){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(12){display:none;}
+.STHSTeamStat_Table1 thead td:nth-last-child(2){display:none;}
+}
+@media screen and (max-width: 960px) {
+.STHSTeamStat_Table2 thead th:nth-child(3){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(3){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(3){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(4){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(4){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(4){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(5){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(5){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(5){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(6){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(6){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(6){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(8){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(8){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(8){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(9){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(9){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(9){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(10){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(10){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(10){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(11){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(11){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(11){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(13){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(13){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(13){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(14){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(14){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(14){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(15){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(15){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(15){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(16){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(16){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(16){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(17){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(17){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(17){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(18){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(18){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(18){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(19){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(19){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(19){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(20){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(20){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(20){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(21){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(21){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(21){display:none;}
+.STHSTeamStat_Table1 thead td:nth-last-child(3){display:none;}
+}
+}</style>
+<link href="OTHL-PRE.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL-PRE Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam" class="activemenu"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-PRE-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-PRE-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-PRE-Schedule.html">Schedule </a></td>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-PRE-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-PRE-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PRE-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PRE-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PRE-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PRE-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PRE-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PRE-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-PRE-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-PRE-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-PRE-TeamHistory.html">History</a></td>
+<td><a href="OTHL-PRE-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-PRE-FarmLeaders.html">Leader</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PRE-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PRE-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PRE-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PRE-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PRE-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PRE-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-PRE-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-PRE-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-PRE-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-PRE-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="OTHL-PRE-RerateDifference.html">RerateDifference</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-PRE-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html#AnaheimDucks">ANH</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#ArizonaCoyotes">ARI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#BostonBruins">BOS</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#BuffaloSabres">BUF</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#CarolinaHurricanes">CAR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#CalgaryFlames">CGY</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#ChicagoBlackhawks">CHI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#ColumbusBlueJackets">CLB</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#ColoradoAvalanche">COL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#DallasStars">DAL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#DetroitRedWings">DET</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#EdmontonOilers">EDM</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#FloridaPanthers">FLA</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#LosAngelesKings">LAK</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#MinnesotaWild">MIN</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#MontrealCanadiens">MTL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#NewJerseyDevils">NJD</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#NashvillePredators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html#NewYorkIslanders">NYI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#NewYorkRangers">NYR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#OttawaSenators">OTT</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#PhiladelphiaFlyers">PHL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#PittsburghPenguins">PIT</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#SanJoseSharks">SJS</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#St.LouisBlues">STL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#TampaBayLightning">TBL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#TorontoMapleLeafs">TOR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#VancouverCanucks">VAN</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#VegasGoldenKnights">VGK</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#WinnipegJets">WPG</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#WashingtonCapitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Farm Team Stats</td><td class="STHSHeaderDate">Last Update - October 15, 2019 at 15:45</td></tr>
+</table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<script>$(function(){$("table").basictablesorter()});</script>
+<table class="basictablesorter STHSTeamStat_Table1"><thead><tr>
+<td></td><td colspan="9">Overall</td><td colspan="9">Home</td><td colspan="9">Visitor</td><td colspan="3"></td></tr><tr>
+<th class="STHSW200">Team</th><th class="STHSW25">GP</th><th class="STHSW25">W</th><th class="STHSW25">L</th><th class="STHSW25">OTW</th><th class="STHSW25">OTL</th><th class="STHSW25">SOW</th><th class="STHSW25">SOL</th><th class="STHSW25">GF</th><th class="STHSW25">GA</th><th class="STHSW25">GP</th><th class="STHSW25">W</th><th class="STHSW25">L</th><th class="STHSW25">OTW</th><th class="STHSW25">OTL</th><th class="STHSW25">SOW</th><th class="STHSW25">SOL</th><th class="STHSW25">GF</th><th class="STHSW25">GA</th><th class="STHSW25">GP</th><th class="STHSW25">W</th><th class="STHSW25">L</th><th class="STHSW25">OTW</th><th class="STHSW25">OTL</th><th class="STHSW25">SOW</th><th class="STHSW25">SOL</th><th class="STHSW25">GF</th><th class="STHSW25">GA</th><th class="STHSW25">G</th><th class="STHSW25">A</th><th class="STHSW25">P</th></tr></thead>
+<tr><td>Gulls</td><td>14</td><td>11</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>88</td><td>34</td><td>7</td><td>6</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>43</td><td>15</td><td>7</td><td>5</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>45</td><td>19</td><td>88</td><td>147</td><td>235</td></tr>
+<tr><td>Roadrunners</td><td>14</td><td>1</td><td>11</td><td>0</td><td>0</td><td>0</td><td>2</td><td>30</td><td>93</td><td>7</td><td>0</td><td>5</td><td>0</td><td>0</td><td>0</td><td>2</td><td>17</td><td>51</td><td>7</td><td>1</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13</td><td>42</td><td>30</td><td>59</td><td>89</td></tr>
+<tr><td>Bruins</td><td>14</td><td>12</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>86</td><td>29</td><td>7</td><td>6</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>41</td><td>17</td><td>7</td><td>6</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>45</td><td>12</td><td>86</td><td>154</td><td>240</td></tr>
+<tr><td> Americans</td><td>14</td><td>12</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>69</td><td>21</td><td>7</td><td>5</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>32</td><td>12</td><td>7</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>37</td><td>9</td><td>69</td><td>123</td><td>192</td></tr>
+<tr><td>Heat</td><td>14</td><td>13</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>99</td><td>17</td><td>7</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>49</td><td>11</td><td>7</td><td>6</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>50</td><td>6</td><td>99</td><td>169</td><td>268</td></tr>
+<tr><td>Checkers</td><td>14</td><td>13</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>94</td><td>20</td><td>7</td><td>6</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>43</td><td>10</td><td>7</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>51</td><td>10</td><td>94</td><td>165</td><td>259</td></tr>
+<tr><td>IceHogs</td><td>14</td><td>12</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>80</td><td>32</td><td>7</td><td>5</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>47</td><td>19</td><td>7</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>33</td><td>13</td><td>80</td><td>141</td><td>221</td></tr>
+<tr><td>Eagles</td><td>14</td><td>3</td><td>9</td><td>0</td><td>0</td><td>2</td><td>0</td><td>41</td><td>88</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>43</td><td>7</td><td>0</td><td>5</td><td>0</td><td>0</td><td>2</td><td>0</td><td>20</td><td>45</td><td>41</td><td>77</td><td>118</td></tr>
+<tr><td>Monsters</td><td>14</td><td>8</td><td>5</td><td>0</td><td>1</td><td>0</td><td>0</td><td>60</td><td>57</td><td>7</td><td>4</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>28</td><td>26</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>32</td><td>31</td><td>60</td><td>94</td><td>154</td></tr>
+<tr><td>Stars</td><td>14</td><td>5</td><td>6</td><td>0</td><td>1</td><td>1</td><td>1</td><td>36</td><td>48</td><td>7</td><td>3</td><td>2</td><td>0</td><td>1</td><td>0</td><td>1</td><td>20</td><td>18</td><td>7</td><td>2</td><td>4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16</td><td>30</td><td>36</td><td>65</td><td>101</td></tr>
+<tr><td>Griffins</td><td>14</td><td>6</td><td>8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>57</td><td>75</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>26</td><td>40</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>31</td><td>35</td><td>57</td><td>99</td><td>156</td></tr>
+<tr><td>Condors</td><td>14</td><td>10</td><td>3</td><td>0</td><td>0</td><td>0</td><td>1</td><td>102</td><td>34</td><td>7</td><td>5</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>48</td><td>15</td><td>7</td><td>5</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>54</td><td>19</td><td>102</td><td>184</td><td>286</td></tr>
+<tr><td>Thunderbirds</td><td>14</td><td>11</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>90</td><td>49</td><td>7</td><td>6</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>48</td><td>22</td><td>7</td><td>5</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>42</td><td>27</td><td>90</td><td>150</td><td>240</td></tr>
+<tr><td>Reign</td><td>14</td><td>3</td><td>11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>36</td><td>94</td><td>7</td><td>2</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>47</td><td>7</td><td>1</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>47</td><td>36</td><td>71</td><td>107</td></tr>
+<tr><td>Wild</td><td>14</td><td>2</td><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>35</td><td>82</td><td>7</td><td>2</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>40</td><td>7</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>42</td><td>35</td><td>69</td><td>104</td></tr>
+<tr><td>Rocket</td><td>14</td><td>13</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>88</td><td>16</td><td>7</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>43</td><td>10</td><td>7</td><td>6</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>45</td><td>6</td><td>88</td><td>161</td><td>249</td></tr>
+<tr><td>Admirals</td><td>14</td><td>3</td><td>11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>38</td><td>76</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>33</td><td>7</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>43</td><td>38</td><td>73</td><td>111</td></tr>
+<tr><td>Devils</td><td>14</td><td>1</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>32</td><td>94</td><td>7</td><td>1</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td><td>45</td><td>7</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>49</td><td>32</td><td>63</td><td>95</td></tr>
+<tr><td>Sound Tigers</td><td>14</td><td>6</td><td>8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>61</td><td>84</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>44</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>34</td><td>40</td><td>61</td><td>111</td><td>172</td></tr>
+<tr><td>Wolf Pack</td><td>14</td><td>1</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>41</td><td>93</td><td>7</td><td>1</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>25</td><td>48</td><td>7</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>45</td><td>41</td><td>80</td><td>121</td></tr>
+<tr><td>Senators</td><td>14</td><td>1</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>31</td><td>96</td><td>7</td><td>1</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>47</td><td>7</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td><td>49</td><td>31</td><td>59</td><td>90</td></tr>
+<tr><td>Phantoms</td><td>14</td><td>5</td><td>8</td><td>1</td><td>0</td><td>0</td><td>0</td><td>59</td><td>84</td><td>7</td><td>2</td><td>4</td><td>1</td><td>0</td><td>0</td><td>0</td><td>28</td><td>44</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>31</td><td>40</td><td>59</td><td>107</td><td>166</td></tr>
+<tr><td>Penguins</td><td>14</td><td>5</td><td>8</td><td>0</td><td>1</td><td>0</td><td>0</td><td>47</td><td>72</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>25</td><td>35</td><td>7</td><td>2</td><td>4</td><td>0</td><td>1</td><td>0</td><td>0</td><td>22</td><td>37</td><td>47</td><td>93</td><td>140</td></tr>
+<tr><td>Barracuda</td><td>14</td><td>5</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>45</td><td>81</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>29</td><td>35</td><td>7</td><td>1</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>46</td><td>45</td><td>86</td><td>131</td></tr>
+<tr><td>Rampage </td><td>14</td><td>3</td><td>10</td><td>0</td><td>0</td><td>0</td><td>1</td><td>44</td><td>81</td><td>7</td><td>2</td><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>28</td><td>40</td><td>7</td><td>1</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>41</td><td>44</td><td>84</td><td>128</td></tr>
+<tr><td>Crunch</td><td>14</td><td>9</td><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>62</td><td>40</td><td>7</td><td>5</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>32</td><td>22</td><td>7</td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>30</td><td>18</td><td>62</td><td>109</td><td>171</td></tr>
+<tr><td>Marlies</td><td>14</td><td>6</td><td>8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>69</td><td>67</td><td>7</td><td>2</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>31</td><td>40</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>38</td><td>27</td><td>69</td><td>119</td><td>188</td></tr>
+<tr><td>Comets</td><td>14</td><td>9</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>77</td><td>31</td><td>7</td><td>4</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td><td>37</td><td>12</td><td>7</td><td>5</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>40</td><td>19</td><td>77</td><td>139</td><td>216</td></tr>
+<tr><td>Wolves</td><td>14</td><td>9</td><td>4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>52</td><td>27</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>13</td><td>7</td><td>5</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>30</td><td>14</td><td>52</td><td>89</td><td>141</td></tr>
+<tr><td>Bears</td><td>14</td><td>2</td><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>42</td><td>89</td><td>7</td><td>2</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>26</td><td>37</td><td>7</td><td>0</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>52</td><td>42</td><td>80</td><td>122</td></tr>
+<tr><td>Moose</td><td>14</td><td>7</td><td>6</td><td>1</td><td>0</td><td>0</td><td>0</td><td>49</td><td>36</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>20</td><td>7</td><td>4</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>33</td><td>16</td><td>49</td><td>91</td><td>140</td></tr>
+</table>
+<table class="basictablesorter STHSTeamStat_Table2"><thead><tr>
+<th class="STHSW200">Team</th><th class="STHSW25">Team</th><th class="STHSW25">GP1</th><th class="STHSW25">GP2</th><th class="STHSW25">GP3</th><th class="STHSW25">GP4</th><th class="STHSW25">SHF</th><th class="STHSW25">SP1</th><th class="STHSW25">SP2</th><th class="STHSW25">SP3</th><th class="STHSW25">SP4</th><th class="STHSW25">SHA</th><th class="STHSW25">SHB</th><th class="STHSW25">Pim</th><th class="STHSW25">Hit</th><th class="STHSW25">PPA</th><th class="STHSW25">PPG</th><th class="STHSW35">PP%</th><th class="STHSW25">PKA</th><th class="STHSW25">PK GA</th><th class="STHSW35">PK%</th><th class="STHSW25">PK GF</th><th class="STHSW35">FO% DZ</th><th class="STHSW35">FO% OZ</th><th class="STHSW35">FO% NT</th><th class="STHSW25">PZ DF</th><th class="STHSW25">PZ OF</th><th class="STHSW25">PZ NT</th><th class="STHSW25">PC DF</th><th class="STHSW25">PC OF</th><th class="STHSW25">PC NT</th><th class="STHSW25">SO</th><th class="STHSW25">EG</th></tr></thead>
+<tr><td>Gulls</td><td>SDG</td><td>42</td><td>25</td><td>21</td><td>0</td><td>670</td><td>207</td><td>229</td><td>234</td><td>0</td><td>387</td><td>110</td><td>75</td><td>278</td><td>33</td><td>4</td><td>12.12%</td><td>25</td><td>3</td><td>88.00%</td><td>0</td><td>37.80%</td><td>48.78%</td><td>44.35%</td><td>304</td><td>385</td><td>151</td><td>80</td><td>303</td><td>76</td><td>2</td><td>0</td></tr>
+<tr><td>Roadrunners</td><td>TUC</td><td>13</td><td>13</td><td>4</td><td>1</td><td>427</td><td>151</td><td>141</td><td>126</td><td>16</td><td>668</td><td>176</td><td>61</td><td>232</td><td>31</td><td>1</td><td>3.23%</td><td>27</td><td>9</td><td>66.67%</td><td>0</td><td>37.72%</td><td>40.82%</td><td>38.25%</td><td>437</td><td>255</td><td>158</td><td>94</td><td>178</td><td>67</td><td>0</td><td>0</td></tr>
+<tr><td>Bruins</td><td>PRO</td><td>39</td><td>29</td><td>18</td><td>0</td><td>583</td><td>189</td><td>204</td><td>190</td><td>0</td><td>310</td><td>95</td><td>95</td><td>305</td><td>26</td><td>10</td><td>38.46%</td><td>41</td><td>4</td><td>90.24%</td><td>0</td><td>42.95%</td><td>51.40%</td><td>52.82%</td><td>247</td><td>446</td><td>146</td><td>70</td><td>357</td><td>82</td><td>3</td><td>0</td></tr>
+<tr><td> Americans</td><td>ROC</td><td>25</td><td>23</td><td>21</td><td>0</td><td>462</td><td>159</td><td>160</td><td>143</td><td>0</td><td>196</td><td>58</td><td>133</td><td>282</td><td>44</td><td>10</td><td>22.73%</td><td>49</td><td>7</td><td>85.71%</td><td>1</td><td>60.33%</td><td>72.66%</td><td>68.08%</td><td>176</td><td>514</td><td>150</td><td>63</td><td>410</td><td>95</td><td>4</td><td>0</td></tr>
+<tr><td>Heat</td><td>STK</td><td>51</td><td>26</td><td>21</td><td>2</td><td>639</td><td>216</td><td>215</td><td>207</td><td>3</td><td>235</td><td>67</td><td>81</td><td>240</td><td>32</td><td>8</td><td>25.00%</td><td>38</td><td>2</td><td>94.74%</td><td>0</td><td>60.95%</td><td>76.10%</td><td>75.65%</td><td>208</td><td>500</td><td>137</td><td>61</td><td>411</td><td>82</td><td>6</td><td>0</td></tr>
+<tr><td>Checkers</td><td>CHR</td><td>39</td><td>31</td><td>24</td><td>0</td><td>572</td><td>187</td><td>171</td><td>214</td><td>0</td><td>246</td><td>80</td><td>89</td><td>293</td><td>37</td><td>11</td><td>29.73%</td><td>41</td><td>4</td><td>90.24%</td><td>3</td><td>57.92%</td><td>63.51%</td><td>59.29%</td><td>182</td><td>518</td><td>140</td><td>60</td><td>424</td><td>86</td><td>4</td><td>0</td></tr>
+<tr><td>IceHogs</td><td>RCK</td><td>36</td><td>30</td><td>14</td><td>0</td><td>653</td><td>203</td><td>227</td><td>223</td><td>0</td><td>237</td><td>77</td><td>86</td><td>270</td><td>40</td><td>6</td><td>15.00%</td><td>37</td><td>6</td><td>83.78%</td><td>2</td><td>57.49%</td><td>67.94%</td><td>70.25%</td><td>215</td><td>478</td><td>146</td><td>68</td><td>384</td><td>86</td><td>0</td><td>1</td></tr>
+<tr><td>Eagles</td><td>COL</td><td>17</td><td>12</td><td>10</td><td>3</td><td>467</td><td>155</td><td>148</td><td>152</td><td>19</td><td>772</td><td>211</td><td>59</td><td>248</td><td>22</td><td>4</td><td>18.18%</td><td>23</td><td>6</td><td>73.91%</td><td>0</td><td>33.33%</td><td>44.77%</td><td>33.07%</td><td>478</td><td>224</td><td>149</td><td>95</td><td>157</td><td>61</td><td>0</td><td>0</td></tr>
+<tr><td>Monsters</td><td>CLE</td><td>34</td><td>13</td><td>13</td><td>0</td><td>413</td><td>153</td><td>128</td><td>132</td><td>0</td><td>309</td><td>97</td><td>104</td><td>291</td><td>46</td><td>15</td><td>32.61%</td><td>37</td><td>9</td><td>75.68%</td><td>0</td><td>43.16%</td><td>48.22%</td><td>49.34%</td><td>270</td><td>423</td><td>147</td><td>75</td><td>332</td><td>79</td><td>0</td><td>0</td></tr>
+<tr><td>Stars</td><td>TEX</td><td>16</td><td>10</td><td>9</td><td>2</td><td>522</td><td>159</td><td>163</td><td>193</td><td>14</td><td>532</td><td>183</td><td>46</td><td>270</td><td>27</td><td>3</td><td>11.11%</td><td>16</td><td>4</td><td>75.00%</td><td>1</td><td>37.42%</td><td>45.01%</td><td>44.19%</td><td>434</td><td>265</td><td>154</td><td>94</td><td>190</td><td>68</td><td>0</td><td>0</td></tr>
+<tr><td>Griffins</td><td>GRP</td><td>18</td><td>23</td><td>16</td><td>0</td><td>439</td><td>123</td><td>137</td><td>179</td><td>0</td><td>452</td><td>117</td><td>44</td><td>265</td><td>36</td><td>5</td><td>13.89%</td><td>17</td><td>7</td><td>58.82%</td><td>0</td><td>35.08%</td><td>45.18%</td><td>35.07%</td><td>369</td><td>320</td><td>151</td><td>84</td><td>242</td><td>73</td><td>0</td><td>0</td></tr>
+<tr><td>Condors</td><td>BKR</td><td>51</td><td>35</td><td>16</td><td>0</td><td>572</td><td>202</td><td>208</td><td>159</td><td>5</td><td>168</td><td>44</td><td>108</td><td>284</td><td>41</td><td>11</td><td>26.83%</td><td>48</td><td>4</td><td>91.67%</td><td>3</td><td>87.43%</td><td>81.82%</td><td>83.60%</td><td>145</td><td>559</td><td>141</td><td>53</td><td>459</td><td>96</td><td>2</td><td>0</td></tr>
+<tr><td>Thunderbirds</td><td>SPR</td><td>45</td><td>19</td><td>26</td><td>0</td><td>557</td><td>185</td><td>167</td><td>205</td><td>0</td><td>311</td><td>67</td><td>120</td><td>281</td><td>39</td><td>9</td><td>23.08%</td><td>44</td><td>7</td><td>84.09%</td><td>1</td><td>65.12%</td><td>73.58%</td><td>74.29%</td><td>218</td><td>482</td><td>140</td><td>62</td><td>389</td><td>83</td><td>0</td><td>0</td></tr>
+<tr><td>Reign</td><td>ONT</td><td>19</td><td>7</td><td>10</td><td>0</td><td>415</td><td>134</td><td>131</td><td>150</td><td>0</td><td>753</td><td>211</td><td>55</td><td>251</td><td>17</td><td>1</td><td>5.88%</td><td>24</td><td>6</td><td>75.00%</td><td>0</td><td>41.76%</td><td>49.18%</td><td>40.84%</td><td>458</td><td>226</td><td>155</td><td>92</td><td>158</td><td>65</td><td>0</td><td>0</td></tr>
+<tr><td>Wild</td><td>IOA</td><td>13</td><td>16</td><td>6</td><td>0</td><td>421</td><td>169</td><td>130</td><td>122</td><td>0</td><td>732</td><td>210</td><td>51</td><td>292</td><td>31</td><td>5</td><td>16.13%</td><td>23</td><td>4</td><td>82.61%</td><td>0</td><td>42.11%</td><td>40.85%</td><td>38.91%</td><td>455</td><td>225</td><td>160</td><td>98</td><td>151</td><td>68</td><td>0</td><td>0</td></tr>
+<tr><td>Rocket</td><td>LAV</td><td>40</td><td>29</td><td>19</td><td>0</td><td>521</td><td>157</td><td>189</td><td>175</td><td>0</td><td>182</td><td>49</td><td>156</td><td>271</td><td>43</td><td>15</td><td>34.88%</td><td>69</td><td>4</td><td>94.20%</td><td>2</td><td>71.11%</td><td>78.07%</td><td>79.65%</td><td>208</td><td>484</td><td>150</td><td>71</td><td>380</td><td>90</td><td>4</td><td>0</td></tr>
+<tr><td>Admirals</td><td>MIL</td><td>16</td><td>11</td><td>11</td><td>0</td><td>384</td><td>126</td><td>123</td><td>135</td><td>0</td><td>760</td><td>183</td><td>63</td><td>219</td><td>26</td><td>2</td><td>7.69%</td><td>25</td><td>7</td><td>72.00%</td><td>0</td><td>33.63%</td><td>48.06%</td><td>35.00%</td><td>460</td><td>230</td><td>150</td><td>94</td><td>160</td><td>62</td><td>0</td><td>0</td></tr>
+<tr><td>Devils</td><td>BNG</td><td>14</td><td>9</td><td>9</td><td>0</td><td>321</td><td>113</td><td>97</td><td>111</td><td>0</td><td>696</td><td>189</td><td>50</td><td>225</td><td>36</td><td>1</td><td>2.78%</td><td>23</td><td>4</td><td>82.61%</td><td>0</td><td>36.56%</td><td>39.11%</td><td>35.71%</td><td>506</td><td>185</td><td>148</td><td>102</td><td>124</td><td>55</td><td>0</td><td>0</td></tr>
+<tr><td>Sound Tigers</td><td>BPT</td><td>23</td><td>26</td><td>12</td><td>0</td><td>523</td><td>160</td><td>203</td><td>160</td><td>0</td><td>564</td><td>146</td><td>56</td><td>241</td><td>31</td><td>1</td><td>3.23%</td><td>24</td><td>5</td><td>79.17%</td><td>0</td><td>41.44%</td><td>44.35%</td><td>47.87%</td><td>367</td><td>319</td><td>153</td><td>87</td><td>240</td><td>73</td><td>0</td><td>1</td></tr>
+<tr><td>Wolf Pack</td><td>HFD</td><td>13</td><td>13</td><td>15</td><td>0</td><td>418</td><td>127</td><td>141</td><td>150</td><td>0</td><td>736</td><td>199</td><td>47</td><td>269</td><td>36</td><td>4</td><td>11.11%</td><td>14</td><td>6</td><td>57.14%</td><td>0</td><td>37.44%</td><td>47.23%</td><td>39.77%</td><td>462</td><td>227</td><td>151</td><td>93</td><td>157</td><td>65</td><td>0</td><td>0</td></tr>
+<tr><td>Senators</td><td>BEL</td><td>10</td><td>13</td><td>8</td><td>0</td><td>352</td><td>112</td><td>133</td><td>107</td><td>0</td><td>570</td><td>159</td><td>55</td><td>257</td><td>29</td><td>1</td><td>3.45%</td><td>23</td><td>13</td><td>43.48%</td><td>0</td><td>30.45%</td><td>40.23%</td><td>31.78%</td><td>459</td><td>230</td><td>151</td><td>93</td><td>162</td><td>60</td><td>0</td><td>0</td></tr>
+<tr><td>Phantoms</td><td>LVP</td><td>25</td><td>20</td><td>13</td><td>1</td><td>561</td><td>203</td><td>190</td><td>166</td><td>2</td><td>626</td><td>184</td><td>58</td><td>246</td><td>19</td><td>2</td><td>10.53%</td><td>27</td><td>4</td><td>85.19%</td><td>0</td><td>45.64%</td><td>57.19%</td><td>52.11%</td><td>398</td><td>290</td><td>153</td><td>88</td><td>213</td><td>72</td><td>0</td><td>0</td></tr>
+<tr><td>Penguins</td><td>WBS</td><td>16</td><td>23</td><td>8</td><td>0</td><td>481</td><td>163</td><td>183</td><td>135</td><td>0</td><td>691</td><td>196</td><td>47</td><td>265</td><td>25</td><td>1</td><td>4.00%</td><td>22</td><td>4</td><td>81.82%</td><td>0</td><td>42.01%</td><td>46.39%</td><td>40.43%</td><td>448</td><td>237</td><td>157</td><td>96</td><td>163</td><td>68</td><td>0</td><td>0</td></tr>
+<tr><td>Barracuda</td><td>SJB</td><td>16</td><td>16</td><td>13</td><td>0</td><td>416</td><td>138</td><td>136</td><td>142</td><td>0</td><td>623</td><td>166</td><td>69</td><td>290</td><td>27</td><td>7</td><td>25.93%</td><td>18</td><td>6</td><td>66.67%</td><td>0</td><td>34.84%</td><td>42.86%</td><td>37.45%</td><td>400</td><td>282</td><td>158</td><td>88</td><td>203</td><td>75</td><td>0</td><td>0</td></tr>
+<tr><td>Rampage </td><td>SAR</td><td>14</td><td>11</td><td>19</td><td>0</td><td>429</td><td>122</td><td>133</td><td>171</td><td>5</td><td>599</td><td>170</td><td>56</td><td>300</td><td>23</td><td>3</td><td>13.04%</td><td>26</td><td>7</td><td>73.08%</td><td>0</td><td>38.81%</td><td>43.03%</td><td>37.10%</td><td>451</td><td>239</td><td>156</td><td>96</td><td>167</td><td>66</td><td>0</td><td>1</td></tr>
+<tr><td>Crunch</td><td>SYR</td><td>20</td><td>19</td><td>23</td><td>0</td><td>378</td><td>118</td><td>120</td><td>138</td><td>5</td><td>406</td><td>110</td><td>110</td><td>248</td><td>38</td><td>11</td><td>28.95%</td><td>50</td><td>10</td><td>80.00%</td><td>0</td><td>46.70%</td><td>55.93%</td><td>55.16%</td><td>376</td><td>315</td><td>155</td><td>88</td><td>231</td><td>76</td><td>2</td><td>0</td></tr>
+<tr><td>Marlies</td><td>TOR</td><td>33</td><td>23</td><td>13</td><td>0</td><td>429</td><td>152</td><td>140</td><td>137</td><td>0</td><td>406</td><td>121</td><td>141</td><td>264</td><td>48</td><td>11</td><td>22.92%</td><td>51</td><td>16</td><td>68.63%</td><td>0</td><td>47.08%</td><td>51.32%</td><td>49.44%</td><td>340</td><td>343</td><td>158</td><td>87</td><td>257</td><td>80</td><td>0</td><td>0</td></tr>
+<tr><td>Comets</td><td>UTI</td><td>35</td><td>19</td><td>20</td><td>3</td><td>444</td><td>147</td><td>145</td><td>144</td><td>10</td><td>276</td><td>72</td><td>132</td><td>295</td><td>51</td><td>11</td><td>21.57%</td><td>57</td><td>7</td><td>87.72%</td><td>0</td><td>59.17%</td><td>67.59%</td><td>68.28%</td><td>233</td><td>460</td><td>154</td><td>73</td><td>358</td><td>91</td><td>2</td><td>0</td></tr>
+<tr><td>Wolves</td><td>CHI</td><td>15</td><td>17</td><td>19</td><td>1</td><td>434</td><td>131</td><td>159</td><td>144</td><td>4</td><td>315</td><td>91</td><td>91</td><td>237</td><td>34</td><td>7</td><td>20.59%</td><td>38</td><td>4</td><td>89.47%</td><td>0</td><td>52.85%</td><td>64.39%</td><td>59.05%</td><td>270</td><td>422</td><td>153</td><td>79</td><td>330</td><td>83</td><td>4</td><td>0</td></tr>
+<tr><td>Bears</td><td>HER</td><td>22</td><td>15</td><td>5</td><td>0</td><td>489</td><td>161</td><td>157</td><td>171</td><td>0</td><td>700</td><td>172</td><td>46</td><td>265</td><td>18</td><td>3</td><td>16.67%</td><td>18</td><td>7</td><td>61.11%</td><td>0</td><td>42.64%</td><td>48.33%</td><td>35.18%</td><td>439</td><td>240</td><td>161</td><td>95</td><td>165</td><td>69</td><td>0</td><td>1</td></tr>
+<tr><td>Moose</td><td>MAN</td><td>19</td><td>14</td><td>15</td><td>1</td><td>438</td><td>142</td><td>161</td><td>131</td><td>4</td><td>372</td><td>104</td><td>91</td><td>276</td><td>32</td><td>9</td><td>28.13%</td><td>43</td><td>6</td><td>86.05%</td><td>0</td><td>44.72%</td><td>57.07%</td><td>51.13%</td><td>299</td><td>390</td><td>152</td><td>81</td><td>296</td><td>80</td><td>1</td><td>0</td></tr>
+</table>
+<table><tr><td class="STHSAlignTop"><h1 class="STHSFarmStats_GoalsFor">
+Goals For</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 4.24</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Condors</td><td>7.29</td></tr>
+<tr><td>2</td><td>Heat</td><td>7.07</td></tr>
+<tr><td>3</td><td>Checkers</td><td>6.71</td></tr>
+<tr><td>4</td><td>Thunderbirds</td><td>6.43</td></tr>
+<tr><td>5</td><td>Rocket</td><td>6.29</td></tr>
+<tr><td>6</td><td>Gulls</td><td>6.29</td></tr>
+<tr><td>7</td><td>Bruins</td><td>6.14</td></tr>
+<tr><td>8</td><td>IceHogs</td><td>5.71</td></tr>
+<tr><td>9</td><td>Comets</td><td>5.50</td></tr>
+<tr><td>10</td><td>Marlies</td><td>4.93</td></tr>
+<tr><td>11</td><td> Americans</td><td>4.93</td></tr>
+<tr><td>12</td><td>Crunch</td><td>4.43</td></tr>
+<tr><td>13</td><td>Sound Tigers</td><td>4.36</td></tr>
+<tr><td>14</td><td>Monsters</td><td>4.29</td></tr>
+<tr><td>15</td><td>Phantoms</td><td>4.21</td></tr>
+<tr><td>16</td><td>Griffins</td><td>4.07</td></tr>
+<tr><td>17</td><td>Wolves</td><td>3.71</td></tr>
+<tr><td>18</td><td>Moose</td><td>3.50</td></tr>
+<tr><td>19</td><td>Penguins</td><td>3.36</td></tr>
+<tr><td>20</td><td>Barracuda</td><td>3.21</td></tr>
+<tr><td>21</td><td>Rampage </td><td>3.14</td></tr>
+<tr><td>22</td><td>Bears</td><td>3.00</td></tr>
+<tr><td>23</td><td>Wolf Pack</td><td>2.93</td></tr>
+<tr><td>24</td><td>Eagles</td><td>2.93</td></tr>
+<tr><td>25</td><td>Admirals</td><td>2.71</td></tr>
+<tr><td>26</td><td>Reign</td><td>2.57</td></tr>
+<tr><td>27</td><td>Stars</td><td>2.57</td></tr>
+<tr><td>28</td><td>Wild</td><td>2.50</td></tr>
+<tr><td>29</td><td>Devils</td><td>2.29</td></tr>
+<tr><td>30</td><td>Senators</td><td>2.21</td></tr>
+<tr><td>31</td><td>Roadrunners</td><td>2.14</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSFarmStats_GoalsAgainst">
+Goals Against</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 4.24</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Rocket</td><td>1.14</td></tr>
+<tr><td>2</td><td>Heat</td><td>1.21</td></tr>
+<tr><td>3</td><td>Checkers</td><td>1.43</td></tr>
+<tr><td>4</td><td> Americans</td><td>1.50</td></tr>
+<tr><td>5</td><td>Wolves</td><td>1.93</td></tr>
+<tr><td>6</td><td>Bruins</td><td>2.07</td></tr>
+<tr><td>7</td><td>Comets</td><td>2.21</td></tr>
+<tr><td>8</td><td>IceHogs</td><td>2.29</td></tr>
+<tr><td>9</td><td>Gulls</td><td>2.43</td></tr>
+<tr><td>10</td><td>Condors</td><td>2.43</td></tr>
+<tr><td>11</td><td>Moose</td><td>2.57</td></tr>
+<tr><td>12</td><td>Crunch</td><td>2.86</td></tr>
+<tr><td>13</td><td>Stars</td><td>3.43</td></tr>
+<tr><td>14</td><td>Thunderbirds</td><td>3.50</td></tr>
+<tr><td>15</td><td>Monsters</td><td>4.07</td></tr>
+<tr><td>16</td><td>Marlies</td><td>4.79</td></tr>
+<tr><td>17</td><td>Penguins</td><td>5.14</td></tr>
+<tr><td>18</td><td>Griffins</td><td>5.36</td></tr>
+<tr><td>19</td><td>Admirals</td><td>5.43</td></tr>
+<tr><td>20</td><td>Barracuda</td><td>5.79</td></tr>
+<tr><td>21</td><td>Rampage </td><td>5.79</td></tr>
+<tr><td>22</td><td>Wild</td><td>5.86</td></tr>
+<tr><td>23</td><td>Sound Tigers</td><td>6.00</td></tr>
+<tr><td>24</td><td>Phantoms</td><td>6.00</td></tr>
+<tr><td>25</td><td>Eagles</td><td>6.29</td></tr>
+<tr><td>26</td><td>Bears</td><td>6.36</td></tr>
+<tr><td>27</td><td>Roadrunners</td><td>6.64</td></tr>
+<tr><td>28</td><td>Wolf Pack</td><td>6.64</td></tr>
+<tr><td>29</td><td>Reign</td><td>6.71</td></tr>
+<tr><td>30</td><td>Devils</td><td>6.71</td></tr>
+<tr><td>31</td><td>Senators</td><td>6.86</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSFarmStats_GoalsForAgainst">
+Goals For / Against</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tbody><tr><td>1</td><td>Heat</td><td>582.35%</td></tr>
+<tr><td>2</td><td>Rocket</td><td>550.00%</td></tr>
+<tr><td>3</td><td>Checkers</td><td>470.00%</td></tr>
+<tr><td>4</td><td> Americans</td><td>328.57%</td></tr>
+<tr><td>5</td><td>Condors</td><td>300.00%</td></tr>
+<tr><td>6</td><td>Bruins</td><td>296.55%</td></tr>
+<tr><td>7</td><td>Gulls</td><td>258.82%</td></tr>
+<tr><td>8</td><td>IceHogs</td><td>250.00%</td></tr>
+<tr><td>9</td><td>Comets</td><td>248.39%</td></tr>
+<tr><td>10</td><td>Wolves</td><td>192.59%</td></tr>
+<tr><td>11</td><td>Thunderbirds</td><td>183.67%</td></tr>
+<tr><td>12</td><td>Crunch</td><td>155.00%</td></tr>
+<tr><td>13</td><td>Moose</td><td>136.11%</td></tr>
+<tr><td>14</td><td>Monsters</td><td>105.26%</td></tr>
+<tr><td>15</td><td>Marlies</td><td>102.99%</td></tr>
+<tr><td>16</td><td>Griffins</td><td>76.00%</td></tr>
+<tr><td>17</td><td>Stars</td><td>75.00%</td></tr>
+<tr><td>18</td><td>Sound Tigers</td><td>72.62%</td></tr>
+<tr><td>19</td><td>Phantoms</td><td>70.24%</td></tr>
+<tr><td>20</td><td>Penguins</td><td>65.28%</td></tr>
+<tr><td>21</td><td>Barracuda</td><td>55.56%</td></tr>
+<tr><td>22</td><td>Rampage </td><td>54.32%</td></tr>
+<tr><td>23</td><td>Admirals</td><td>50.00%</td></tr>
+<tr><td>24</td><td>Bears</td><td>47.19%</td></tr>
+<tr><td>25</td><td>Eagles</td><td>46.59%</td></tr>
+<tr><td>26</td><td>Wolf Pack</td><td>44.09%</td></tr>
+<tr><td>27</td><td>Wild</td><td>42.68%</td></tr>
+<tr><td>28</td><td>Reign</td><td>38.30%</td></tr>
+<tr><td>29</td><td>Devils</td><td>34.04%</td></tr>
+<tr><td>30</td><td>Senators</td><td>32.29%</td></tr>
+<tr><td>31</td><td>Roadrunners</td><td>32.26%</td></tr>
+</tbody></table>
+</td></tr></table>
+<table><tr><td class="STHSAlignTop"><h1 class="STHSFarmStats_PowerPlay">
+PowerPlay %</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 18.86%</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Bruins</td><td>38.46%</td></tr>
+<tr><td>2</td><td>Rocket</td><td>34.88%</td></tr>
+<tr><td>3</td><td>Monsters</td><td>32.61%</td></tr>
+<tr><td>4</td><td>Checkers</td><td>29.73%</td></tr>
+<tr><td>5</td><td>Crunch</td><td>28.95%</td></tr>
+<tr><td>6</td><td>Moose</td><td>28.13%</td></tr>
+<tr><td>7</td><td>Condors</td><td>26.83%</td></tr>
+<tr><td>8</td><td>Barracuda</td><td>25.93%</td></tr>
+<tr><td>9</td><td>Heat</td><td>25.00%</td></tr>
+<tr><td>10</td><td>Thunderbirds</td><td>23.08%</td></tr>
+<tr><td>11</td><td>Marlies</td><td>22.92%</td></tr>
+<tr><td>12</td><td> Americans</td><td>22.73%</td></tr>
+<tr><td>13</td><td>Comets</td><td>21.57%</td></tr>
+<tr><td>14</td><td>Wolves</td><td>20.59%</td></tr>
+<tr><td>15</td><td>Eagles</td><td>18.18%</td></tr>
+<tr><td>16</td><td>Bears</td><td>16.67%</td></tr>
+<tr><td>17</td><td>Wild</td><td>16.13%</td></tr>
+<tr><td>18</td><td>IceHogs</td><td>15.00%</td></tr>
+<tr><td>19</td><td>Griffins</td><td>13.89%</td></tr>
+<tr><td>20</td><td>Rampage </td><td>13.04%</td></tr>
+<tr><td>21</td><td>Gulls</td><td>12.12%</td></tr>
+<tr><td>22</td><td>Wolf Pack</td><td>11.11%</td></tr>
+<tr><td>23</td><td>Stars</td><td>11.11%</td></tr>
+<tr><td>24</td><td>Phantoms</td><td>10.53%</td></tr>
+<tr><td>25</td><td>Admirals</td><td>7.69%</td></tr>
+<tr><td>26</td><td>Reign</td><td>5.88%</td></tr>
+<tr><td>27</td><td>Penguins</td><td>4.00%</td></tr>
+<tr><td>28</td><td>Senators</td><td>3.45%</td></tr>
+<tr><td>29</td><td>Sound Tigers</td><td>3.23%</td></tr>
+<tr><td>30</td><td>Roadrunners</td><td>3.23%</td></tr>
+<tr><td>31</td><td>Devils</td><td>2.78%</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSFarmStats_PenaltyKill">
+Penalty Kill %</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 81.14%</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Heat</td><td>94.74%</td></tr>
+<tr><td>2</td><td>Rocket</td><td>94.20%</td></tr>
+<tr><td>3</td><td>Condors</td><td>91.67%</td></tr>
+<tr><td>4</td><td>Checkers</td><td>90.24%</td></tr>
+<tr><td>5</td><td>Bruins</td><td>90.24%</td></tr>
+<tr><td>6</td><td>Wolves</td><td>89.47%</td></tr>
+<tr><td>7</td><td>Gulls</td><td>88.00%</td></tr>
+<tr><td>8</td><td>Comets</td><td>87.72%</td></tr>
+<tr><td>9</td><td>Moose</td><td>86.05%</td></tr>
+<tr><td>10</td><td> Americans</td><td>85.71%</td></tr>
+<tr><td>11</td><td>Phantoms</td><td>85.19%</td></tr>
+<tr><td>12</td><td>Thunderbirds</td><td>84.09%</td></tr>
+<tr><td>13</td><td>IceHogs</td><td>83.78%</td></tr>
+<tr><td>14</td><td>Devils</td><td>82.61%</td></tr>
+<tr><td>15</td><td>Wild</td><td>82.61%</td></tr>
+<tr><td>16</td><td>Penguins</td><td>81.82%</td></tr>
+<tr><td>17</td><td>Crunch</td><td>80.00%</td></tr>
+<tr><td>18</td><td>Sound Tigers</td><td>79.17%</td></tr>
+<tr><td>19</td><td>Monsters</td><td>75.68%</td></tr>
+<tr><td>20</td><td>Reign</td><td>75.00%</td></tr>
+<tr><td>21</td><td>Stars</td><td>75.00%</td></tr>
+<tr><td>22</td><td>Eagles</td><td>73.91%</td></tr>
+<tr><td>23</td><td>Rampage </td><td>73.08%</td></tr>
+<tr><td>24</td><td>Admirals</td><td>72.00%</td></tr>
+<tr><td>25</td><td>Marlies</td><td>68.63%</td></tr>
+<tr><td>26</td><td>Barracuda</td><td>66.67%</td></tr>
+<tr><td>27</td><td>Roadrunners</td><td>66.67%</td></tr>
+<tr><td>28</td><td>Bears</td><td>61.11%</td></tr>
+<tr><td>29</td><td>Griffins</td><td>58.82%</td></tr>
+<tr><td>30</td><td>Wolf Pack</td><td>57.14%</td></tr>
+<tr><td>31</td><td>Senators</td><td>43.48%</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSFarmStats_PPPK">
+PP + PK</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tbody><tr><td>1</td><td>Rocket</td><td>129.09%</td></tr>
+<tr><td>2</td><td>Bruins</td><td>128.71%</td></tr>
+<tr><td>3</td><td>Checkers</td><td>119.97%</td></tr>
+<tr><td>4</td><td>Heat</td><td>119.74%</td></tr>
+<tr><td>5</td><td>Condors</td><td>118.50%</td></tr>
+<tr><td>6</td><td>Moose</td><td>114.17%</td></tr>
+<tr><td>7</td><td>Wolves</td><td>110.06%</td></tr>
+<tr><td>8</td><td>Comets</td><td>109.29%</td></tr>
+<tr><td>9</td><td>Crunch</td><td>108.95%</td></tr>
+<tr><td>10</td><td> Americans</td><td>108.44%</td></tr>
+<tr><td>11</td><td>Monsters</td><td>108.28%</td></tr>
+<tr><td>12</td><td>Thunderbirds</td><td>107.17%</td></tr>
+<tr><td>13</td><td>Gulls</td><td>100.12%</td></tr>
+<tr><td>14</td><td>IceHogs</td><td>98.78%</td></tr>
+<tr><td>15</td><td>Wild</td><td>98.74%</td></tr>
+<tr><td>16</td><td>Phantoms</td><td>95.71%</td></tr>
+<tr><td>17</td><td>Barracuda</td><td>92.59%</td></tr>
+<tr><td>18</td><td>Eagles</td><td>92.09%</td></tr>
+<tr><td>19</td><td>Marlies</td><td>91.54%</td></tr>
+<tr><td>20</td><td>Rampage </td><td>86.12%</td></tr>
+<tr><td>21</td><td>Stars</td><td>86.11%</td></tr>
+<tr><td>22</td><td>Penguins</td><td>85.82%</td></tr>
+<tr><td>23</td><td>Devils</td><td>85.39%</td></tr>
+<tr><td>24</td><td>Sound Tigers</td><td>82.39%</td></tr>
+<tr><td>25</td><td>Reign</td><td>80.88%</td></tr>
+<tr><td>26</td><td>Admirals</td><td>79.69%</td></tr>
+<tr><td>27</td><td>Bears</td><td>77.78%</td></tr>
+<tr><td>28</td><td>Griffins</td><td>72.71%</td></tr>
+<tr><td>29</td><td>Roadrunners</td><td>69.89%</td></tr>
+<tr><td>30</td><td>Wolf Pack</td><td>68.25%</td></tr>
+<tr><td>31</td><td>Senators</td><td>46.93%</td></tr>
+</tbody></table>
+</td></tr></table>
+<table><tr><td class="STHSAlignTop"><h1 class="STHSFarmStats_ShotsFor">
+Shots For</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 34.17</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Gulls</td><td>47.86</td></tr>
+<tr><td>2</td><td>IceHogs</td><td>46.64</td></tr>
+<tr><td>3</td><td>Heat</td><td>45.64</td></tr>
+<tr><td>4</td><td>Bruins</td><td>41.64</td></tr>
+<tr><td>5</td><td>Condors</td><td>40.86</td></tr>
+<tr><td>6</td><td>Checkers</td><td>40.86</td></tr>
+<tr><td>7</td><td>Phantoms</td><td>40.07</td></tr>
+<tr><td>8</td><td>Thunderbirds</td><td>39.79</td></tr>
+<tr><td>9</td><td>Sound Tigers</td><td>37.36</td></tr>
+<tr><td>10</td><td>Stars</td><td>37.29</td></tr>
+<tr><td>11</td><td>Rocket</td><td>37.21</td></tr>
+<tr><td>12</td><td>Bears</td><td>34.93</td></tr>
+<tr><td>13</td><td>Penguins</td><td>34.36</td></tr>
+<tr><td>14</td><td>Eagles</td><td>33.36</td></tr>
+<tr><td>15</td><td> Americans</td><td>33.00</td></tr>
+<tr><td>16</td><td>Comets</td><td>31.71</td></tr>
+<tr><td>17</td><td>Griffins</td><td>31.36</td></tr>
+<tr><td>18</td><td>Moose</td><td>31.29</td></tr>
+<tr><td>19</td><td>Wolves</td><td>31.00</td></tr>
+<tr><td>20</td><td>Marlies</td><td>30.64</td></tr>
+<tr><td>21</td><td>Rampage </td><td>30.64</td></tr>
+<tr><td>22</td><td>Roadrunners</td><td>30.50</td></tr>
+<tr><td>23</td><td>Wild</td><td>30.07</td></tr>
+<tr><td>24</td><td>Wolf Pack</td><td>29.86</td></tr>
+<tr><td>25</td><td>Barracuda</td><td>29.71</td></tr>
+<tr><td>26</td><td>Reign</td><td>29.64</td></tr>
+<tr><td>27</td><td>Monsters</td><td>29.50</td></tr>
+<tr><td>28</td><td>Admirals</td><td>27.43</td></tr>
+<tr><td>29</td><td>Crunch</td><td>27.00</td></tr>
+<tr><td>30</td><td>Senators</td><td>25.14</td></tr>
+<tr><td>31</td><td>Devils</td><td>22.93</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSFarmStats_ShotsAgainst">
+Shots Against</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 34.17</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Condors</td><td>12.00</td></tr>
+<tr><td>2</td><td>Rocket</td><td>13.00</td></tr>
+<tr><td>3</td><td> Americans</td><td>14.00</td></tr>
+<tr><td>4</td><td>Heat</td><td>16.79</td></tr>
+<tr><td>5</td><td>IceHogs</td><td>16.93</td></tr>
+<tr><td>6</td><td>Checkers</td><td>17.57</td></tr>
+<tr><td>7</td><td>Comets</td><td>19.71</td></tr>
+<tr><td>8</td><td>Monsters</td><td>22.07</td></tr>
+<tr><td>9</td><td>Bruins</td><td>22.14</td></tr>
+<tr><td>10</td><td>Thunderbirds</td><td>22.21</td></tr>
+<tr><td>11</td><td>Wolves</td><td>22.50</td></tr>
+<tr><td>12</td><td>Moose</td><td>26.57</td></tr>
+<tr><td>13</td><td>Gulls</td><td>27.64</td></tr>
+<tr><td>14</td><td>Crunch</td><td>29.00</td></tr>
+<tr><td>15</td><td>Marlies</td><td>29.00</td></tr>
+<tr><td>16</td><td>Griffins</td><td>32.29</td></tr>
+<tr><td>17</td><td>Stars</td><td>38.00</td></tr>
+<tr><td>18</td><td>Sound Tigers</td><td>40.29</td></tr>
+<tr><td>19</td><td>Senators</td><td>40.71</td></tr>
+<tr><td>20</td><td>Rampage </td><td>42.79</td></tr>
+<tr><td>21</td><td>Barracuda</td><td>44.50</td></tr>
+<tr><td>22</td><td>Phantoms</td><td>44.71</td></tr>
+<tr><td>23</td><td>Roadrunners</td><td>47.71</td></tr>
+<tr><td>24</td><td>Penguins</td><td>49.36</td></tr>
+<tr><td>25</td><td>Devils</td><td>49.71</td></tr>
+<tr><td>26</td><td>Bears</td><td>50.00</td></tr>
+<tr><td>27</td><td>Wild</td><td>52.29</td></tr>
+<tr><td>28</td><td>Wolf Pack</td><td>52.57</td></tr>
+<tr><td>29</td><td>Reign</td><td>53.79</td></tr>
+<tr><td>30</td><td>Admirals</td><td>54.29</td></tr>
+<tr><td>31</td><td>Eagles</td><td>55.14</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSFarmStats_ShotsForAgainst">
+Shots For / Against</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tbody><tr><td>1</td><td>Condors</td><td>340.48%</td></tr>
+<tr><td>2</td><td>Rocket</td><td>286.26%</td></tr>
+<tr><td>3</td><td>IceHogs</td><td>275.53%</td></tr>
+<tr><td>4</td><td>Heat</td><td>271.91%</td></tr>
+<tr><td>5</td><td> Americans</td><td>235.71%</td></tr>
+<tr><td>6</td><td>Checkers</td><td>232.52%</td></tr>
+<tr><td>7</td><td>Bruins</td><td>188.06%</td></tr>
+<tr><td>8</td><td>Thunderbirds</td><td>179.10%</td></tr>
+<tr><td>9</td><td>Gulls</td><td>173.13%</td></tr>
+<tr><td>10</td><td>Comets</td><td>160.87%</td></tr>
+<tr><td>11</td><td>Wolves</td><td>137.78%</td></tr>
+<tr><td>12</td><td>Monsters</td><td>133.66%</td></tr>
+<tr><td>13</td><td>Moose</td><td>117.74%</td></tr>
+<tr><td>14</td><td>Marlies</td><td>105.67%</td></tr>
+<tr><td>15</td><td>Stars</td><td>98.12%</td></tr>
+<tr><td>16</td><td>Griffins</td><td>97.12%</td></tr>
+<tr><td>17</td><td>Crunch</td><td>93.10%</td></tr>
+<tr><td>18</td><td>Sound Tigers</td><td>92.73%</td></tr>
+<tr><td>19</td><td>Phantoms</td><td>89.62%</td></tr>
+<tr><td>20</td><td>Rampage </td><td>71.62%</td></tr>
+<tr><td>21</td><td>Bears</td><td>69.86%</td></tr>
+<tr><td>22</td><td>Penguins</td><td>69.61%</td></tr>
+<tr><td>23</td><td>Barracuda</td><td>66.77%</td></tr>
+<tr><td>24</td><td>Roadrunners</td><td>63.92%</td></tr>
+<tr><td>25</td><td>Senators</td><td>61.75%</td></tr>
+<tr><td>26</td><td>Eagles</td><td>60.49%</td></tr>
+<tr><td>27</td><td>Wild</td><td>57.51%</td></tr>
+<tr><td>28</td><td>Wolf Pack</td><td>56.79%</td></tr>
+<tr><td>29</td><td>Reign</td><td>55.11%</td></tr>
+<tr><td>30</td><td>Admirals</td><td>50.53%</td></tr>
+<tr><td>31</td><td>Devils</td><td>46.12%</td></tr>
+</tbody></table>
+</td></tr></table>
+<table><tr><td class="STHSAlignTop"><h1 class="STHSFarmStats_PIMGP">
+Pim / GP</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 5.70</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Griffins</td><td>3.14</td></tr>
+<tr><td>2</td><td>Stars</td><td>3.29</td></tr>
+<tr><td>3</td><td>Bears</td><td>3.29</td></tr>
+<tr><td>4</td><td>Wolf Pack</td><td>3.36</td></tr>
+<tr><td>5</td><td>Penguins</td><td>3.36</td></tr>
+<tr><td>6</td><td>Devils</td><td>3.57</td></tr>
+<tr><td>7</td><td>Wild</td><td>3.64</td></tr>
+<tr><td>8</td><td>Reign</td><td>3.93</td></tr>
+<tr><td>9</td><td>Senators</td><td>3.93</td></tr>
+<tr><td>10</td><td>Sound Tigers</td><td>4.00</td></tr>
+<tr><td>11</td><td>Rampage </td><td>4.00</td></tr>
+<tr><td>12</td><td>Phantoms</td><td>4.14</td></tr>
+<tr><td>13</td><td>Eagles</td><td>4.21</td></tr>
+<tr><td>14</td><td>Roadrunners</td><td>4.36</td></tr>
+<tr><td>15</td><td>Admirals</td><td>4.50</td></tr>
+<tr><td>16</td><td>Barracuda</td><td>4.93</td></tr>
+<tr><td>17</td><td>Gulls</td><td>5.36</td></tr>
+<tr><td>18</td><td>Heat</td><td>5.79</td></tr>
+<tr><td>19</td><td>IceHogs</td><td>6.14</td></tr>
+<tr><td>20</td><td>Checkers</td><td>6.36</td></tr>
+<tr><td>21</td><td>Wolves</td><td>6.50</td></tr>
+<tr><td>22</td><td>Moose</td><td>6.50</td></tr>
+<tr><td>23</td><td>Bruins</td><td>6.79</td></tr>
+<tr><td>24</td><td>Monsters</td><td>7.43</td></tr>
+<tr><td>25</td><td>Condors</td><td>7.71</td></tr>
+<tr><td>26</td><td>Crunch</td><td>7.86</td></tr>
+<tr><td>27</td><td>Thunderbirds</td><td>8.57</td></tr>
+<tr><td>28</td><td>Comets</td><td>9.43</td></tr>
+<tr><td>29</td><td> Americans</td><td>9.50</td></tr>
+<tr><td>30</td><td>Marlies</td><td>10.07</td></tr>
+<tr><td>31</td><td>Rocket</td><td>11.14</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSFarmStats_HitsGP">
+Hits / GP</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 19.01</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Bruins</td><td>21.79</td></tr>
+<tr><td>2</td><td>Rampage </td><td>21.43</td></tr>
+<tr><td>3</td><td>Comets</td><td>21.07</td></tr>
+<tr><td>4</td><td>Checkers</td><td>20.93</td></tr>
+<tr><td>5</td><td>Wild</td><td>20.86</td></tr>
+<tr><td>6</td><td>Monsters</td><td>20.79</td></tr>
+<tr><td>7</td><td>Barracuda</td><td>20.71</td></tr>
+<tr><td>8</td><td>Condors</td><td>20.29</td></tr>
+<tr><td>9</td><td> Americans</td><td>20.14</td></tr>
+<tr><td>10</td><td>Thunderbirds</td><td>20.07</td></tr>
+<tr><td>11</td><td>Gulls</td><td>19.86</td></tr>
+<tr><td>12</td><td>Moose</td><td>19.71</td></tr>
+<tr><td>13</td><td>Rocket</td><td>19.36</td></tr>
+<tr><td>14</td><td>Stars</td><td>19.29</td></tr>
+<tr><td>15</td><td>IceHogs</td><td>19.29</td></tr>
+<tr><td>16</td><td>Wolf Pack</td><td>19.21</td></tr>
+<tr><td>17</td><td>Bears</td><td>18.93</td></tr>
+<tr><td>18</td><td>Penguins</td><td>18.93</td></tr>
+<tr><td>19</td><td>Griffins</td><td>18.93</td></tr>
+<tr><td>20</td><td>Marlies</td><td>18.86</td></tr>
+<tr><td>21</td><td>Senators</td><td>18.36</td></tr>
+<tr><td>22</td><td>Reign</td><td>17.93</td></tr>
+<tr><td>23</td><td>Crunch</td><td>17.71</td></tr>
+<tr><td>24</td><td>Eagles</td><td>17.71</td></tr>
+<tr><td>25</td><td>Phantoms</td><td>17.57</td></tr>
+<tr><td>26</td><td>Sound Tigers</td><td>17.21</td></tr>
+<tr><td>27</td><td>Heat</td><td>17.14</td></tr>
+<tr><td>28</td><td>Wolves</td><td>16.93</td></tr>
+<tr><td>29</td><td>Roadrunners</td><td>16.57</td></tr>
+<tr><td>30</td><td>Devils</td><td>16.07</td></tr>
+<tr><td>31</td><td>Admirals</td><td>15.64</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSFarmStats_Faceoff">
+Faceoff %</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tbody><tr><td>1</td><td>Condors</td><td>83.47%</td></tr>
+<tr><td>2</td><td>Rocket</td><td>76.40%</td></tr>
+<tr><td>3</td><td>Thunderbirds</td><td>71.63%</td></tr>
+<tr><td>4</td><td>Heat</td><td>71.44%</td></tr>
+<tr><td>5</td><td> Americans</td><td>68.06%</td></tr>
+<tr><td>6</td><td>IceHogs</td><td>65.83%</td></tr>
+<tr><td>7</td><td>Comets</td><td>64.99%</td></tr>
+<tr><td>8</td><td>Checkers</td><td>60.70%</td></tr>
+<tr><td>9</td><td>Wolves</td><td>58.52%</td></tr>
+<tr><td>10</td><td>Crunch</td><td>51.63%</td></tr>
+<tr><td>11</td><td>Phantoms</td><td>51.27%</td></tr>
+<tr><td>12</td><td>Moose</td><td>50.94%</td></tr>
+<tr><td>13</td><td>Marlies</td><td>49.30%</td></tr>
+<tr><td>14</td><td>Bruins</td><td>48.91%</td></tr>
+<tr><td>15</td><td>Monsters</td><td>47.09%</td></tr>
+<tr><td>16</td><td>Sound Tigers</td><td>44.37%</td></tr>
+<tr><td>17</td><td>Reign</td><td>43.79%</td></tr>
+<tr><td>18</td><td>Gulls</td><td>43.73%</td></tr>
+<tr><td>19</td><td>Penguins</td><td>43.08%</td></tr>
+<tr><td>20</td><td>Bears</td><td>42.45%</td></tr>
+<tr><td>21</td><td>Stars</td><td>41.45%</td></tr>
+<tr><td>22</td><td>Wolf Pack</td><td>41.18%</td></tr>
+<tr><td>23</td><td>Wild</td><td>40.85%</td></tr>
+<tr><td>24</td><td>Rampage </td><td>39.80%</td></tr>
+<tr><td>25</td><td>Roadrunners</td><td>38.88%</td></tr>
+<tr><td>26</td><td>Griffins</td><td>38.78%</td></tr>
+<tr><td>27</td><td>Admirals</td><td>38.47%</td></tr>
+<tr><td>28</td><td>Barracuda</td><td>38.16%</td></tr>
+<tr><td>29</td><td>Devils</td><td>37.04%</td></tr>
+<tr><td>30</td><td>Eagles</td><td>36.69%</td></tr>
+<tr><td>31</td><td>Senators</td><td>33.76%</td></tr>
+</tbody></table>
+</td></tr></table>
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

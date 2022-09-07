@@ -1,0 +1,49 @@
+Sim Settings
+----------------------------------
+
+Transactions
+---------------
+Draft Rounds: 8
+Lottery: checked
+
+Unrestricted Age: 30
+
+Waivers:
+Minimum GP: 8
+Age Exemption: 24
+2-way Con. After: 75 GP
+
+Trade Deadline: 96% GP
+
+
+
+Simulator
+---------------
+Checked Items
+----------------
+Injuries
+Active Farm League
+Suspensions
+Experience/Leadership
+Coach Effects Play
+Money
+
+Modern points system
+
+
+Sliders
+----------------
+Shots: 9 from left
+Goals: 4 from left
+Penalties: 6 from left
+Finances: FULL
+Injuries: 8 from left
+
+
+Playoffs
+-------------
+PLayoff tree determined by conference
+Seed division leaders
+Top 16 teams
+
+

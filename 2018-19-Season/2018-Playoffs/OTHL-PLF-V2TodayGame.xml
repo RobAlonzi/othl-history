@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLTodayGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm103</GameNumber>
+    <Link>OTHL-PLF-Farm-103.html</Link>
+    <VisitorTeamNumber>6</VisitorTeamNumber>
+    <VisitorTeam>Checkers</VisitorTeam>
+    <VisitorTeamAbbre>CHR</VisitorTeamAbbre>
+    <VisitorTeamShots>8</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>27</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>0</VisitorTeamScore>
+    <VisitorTeamGoal />
+    <VisitorTeamGoaler>Ian Scott (CHR), 13 saves from 17 shots - (0.765), L, 13-8-0, 44:17 minutes Unknown Goalie (CHR), 3 saves from 5 shots - (0.600), 15:43 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>1</HomeTeamNumber>
+    <HomeTeam>Gulls</HomeTeam>
+    <HomeTeamAbbre>SDG</HomeTeamAbbre>
+    <HomeTeamShots>22</HomeTeamShots>
+    <HomeTeamShotsAttemp>48</HomeTeamShotsAttemp>
+    <HomeTeamScore>6</HomeTeamScore>
+    <HomeTeamGoal>Morgan Klimchuk(12), Sam Bennett(6), Warren Foegele(9,10), Nic Petan(6), Oliver Kylington(4)</HomeTeamGoal>
+    <HomeTeamGoaler>Tristan Jarry (SDG), 8 saves from 8 shots - (1.000), W, 14-4-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+</ArrayOfTypeOutputXMLTodayGame>

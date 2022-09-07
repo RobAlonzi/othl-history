@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<STHS-League>
+<Information>STHS League Version 1</Information>
+<Date>2010-04-28 21:50:50</Date>
+<LeagueName>OTHL                                    </LeagueName>
+<ConferenceName1>Eastern Conference                      </ConferenceName1>
+<ConferenceName2>Western Conference                      </ConferenceName2>
+<Division1>Atlantic Division                       </Division1>
+<Division2>Northeast Division                      </Division2>
+<Division3>Southeast Division                      </Division3>
+<Division4>Central Division                        </Division4>
+<Division5>Northwest Division                      </Division5>
+<Division6>Pacific Division                        </Division6>
+<LeagueAbbre>OTHLT</LeagueAbbre>
+<LeagueYear>2</LeagueYear>
+<TradeDeadLine>75</TradeDeadLine>
+<RFAAge>18</RFAAge>
+<UFAAge>31</UFAAge>
+<PointSystemW>2</PointSystemW>
+<PointSystemL>0</PointSystemL>
+<PointSystemT>1</PointSystemT>
+<PointSystemOTW>2</PointSystemOTW >
+<PointSystemOTL>1</PointSystemOTL>
+<PointSystemSO>True</PointSystemSO>
+<OutputFileFormat>html</OutputFileFormat>
+<InchCM>True</InchCM>
+<LBSKG>True</LBSKG>
+<MergeProFarmRoster>True</MergeProFarmRoster>
+<MergeRosterPlayerInfo>True</MergeRosterPlayerInfo>
+<OutputAllPlayersInUnassigned>False</OutputAllPlayersInUnassigned>
+<OutputTop5>True</OutputTop5>
+<OutputSkipPotential>False</OutputSkipPotential>
+<OutputName>OTHLT0              </OutputName>
+<ProStatsChange>False</ProStatsChange>
+<FarmStatsChange>False</FarmStatsChange>
+<GameOptionFight>58</GameOptionFight>
+<GameOptionCoach>40</GameOptionCoach>
+<GameOptionMorale>25</GameOptionMorale>
+<GameOptionInjury>25</GameOptionInjury>
+<GameOptionFinance>80</GameOptionFinance>
+<GameOptionPenalty>50</GameOptionPenalty>
+<GameOptionShots>50</GameOptionShots>
+<GameOptionGoals>50</GameOptionGoals>
+<GameOptionHits>60</GameOptionHits>
+<LeagueyearOutput>2009</LeagueyearOutput>
+<RetirementAge>99</RetirementAge>
+<StandardStandingOutput>True</StandardStandingOutput>
+<InjuryRecoverySpeed>1</InjuryRecoverySpeed>
+<PlayerMaxSalary>11360000</PlayerMaxSalary>
+<PlayerMinimumSalary>500000</PlayerMinimumSalary>
+<PlayerFarmSalaryPct>10</PlayerFarmSalaryPct>
+</STHS-League>

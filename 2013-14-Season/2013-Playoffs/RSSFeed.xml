@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>OTHL - RSS Feed</title>
+<link>http://www.othl.org/File/2013-RegularSeason</link>
+<description>OTHL - RSS Feed</description>
+<pubDate>den 24 juni 2014 at 19:36 EST</pubDate>
+<item>
+<title>Professional Game #103 - Lightning vs Ducks</title>
+<link>http://www.othl.org/File/2013-RegularSeason/OTHL-PLF-103.html</link>
+<guid>http://www.othl.org/File/2013-RegularSeason/OTHL-PLF-103.html</guid>
+<description>
+Lightning (3
+) vs Ducks (1)
+</description>
+</item>
+<item>
+<title>Farm Game #103 - City Barons vs Senators</title>
+<link>http://www.othl.org/File/2013-RegularSeason/OTHL-PLF-Farm-103.html</link>
+<guid>http://www.othl.org/File/2013-RegularSeason/OTHL-PLF-Farm-103.html</guid>
+<description>
+City Barons (3
+) vs Senators (0)
+</description>
+</item>
+</channel>
+</rss>

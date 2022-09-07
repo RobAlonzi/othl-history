@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>OTHL - RSS Feed</title>
+<link>http://www.othl.ca/File/2014-Playoffs</link>
+<description>OTHL - RSS Feed</description>
+<pubDate>June 15, 2017 at 12:26 EST</pubDate>
+<item>
+<title>Professional Game #104 - Ducks vs Capitals</title>
+<link>http://www.othl.ca/File/2014-Playoffs/OTHL-PLF-104.html</link>
+<guid>http://www.othl.ca/File/2014-Playoffs/OTHL-PLF-104.html</guid>
+<description>
+Ducks (2
+) vs Capitals (1)
+</description>
+</item>
+<item>
+<title>Farm Game #104 - Condors vs Senators</title>
+<link>http://www.othl.ca/File/2014-Playoffs/OTHL-PLF-Farm-104.html</link>
+<guid>http://www.othl.ca/File/2014-Playoffs/OTHL-PLF-Farm-104.html</guid>
+<description>
+Condors (5
+) vs Senators (3)
+</description>
+</item>
+</channel>
+</rss>

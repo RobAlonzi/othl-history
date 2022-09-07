@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLTodayGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro535</GameNumber>
+    <Link>OTHL-535.html</Link>
+    <VisitorTeamNumber>8</VisitorTeamNumber>
+    <VisitorTeam>Avalanche</VisitorTeam>
+    <VisitorTeamAbbre>COL</VisitorTeamAbbre>
+    <VisitorTeamShots>29</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>54</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>Matt Martin(2), John Moore(2)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Chris Driedger (COL), 31 saves from 31 shots - (1.000), W, 4-9-2, 60:00 minutes </VisitorTeamGoaler>
+    <VisitorTeamThemeID>0</VisitorTeamThemeID>
+    <HomeTeamNumber>7</HomeTeamNumber>
+    <HomeTeam>Blackhawks</HomeTeam>
+    <HomeTeamAbbre>CHI</HomeTeamAbbre>
+    <HomeTeamShots>31</HomeTeamShots>
+    <HomeTeamShotsAttemp>76</HomeTeamShotsAttemp>
+    <HomeTeamScore>0</HomeTeamScore>
+    <HomeTeamGoal />
+    <HomeTeamGoaler>Aaron Dell (CHI), 27 saves from 29 shots - (0.931), L, 4-4-1, 60:00 minutes </HomeTeamGoaler>
+    <HomeTeamThemeID>0</HomeTeamThemeID>
+    <Note />
+    <Star>
+      <string xsi:nil="true" />
+      <string>Chris Driedger (COL)</string>
+      <string>John Moore (COL)</string>
+      <string>Matt Martin (COL)</string>
+    </Star>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm535</GameNumber>
+    <Link>OTHL-Farm-535.html</Link>
+    <VisitorTeamNumber>8</VisitorTeamNumber>
+    <VisitorTeam>Eagles</VisitorTeam>
+    <VisitorTeamAbbre>COL</VisitorTeamAbbre>
+    <VisitorTeamShots>11</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>27</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>1</VisitorTeamScore>
+    <VisitorTeamGoal>Unknown Player(1)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Unknown Goalie (COL), 12 saves from 16 shots - (0.750), L, 0-1-0, 25:17 minutes Unknown Goalie (COL), 19 saves from 21 shots - (0.905), 34:43 minutes </VisitorTeamGoaler>
+    <VisitorTeamThemeID>0</VisitorTeamThemeID>
+    <HomeTeamNumber>7</HomeTeamNumber>
+    <HomeTeam>IceHogs</HomeTeam>
+    <HomeTeamAbbre>RCK</HomeTeamAbbre>
+    <HomeTeamShots>37</HomeTeamShots>
+    <HomeTeamShotsAttemp>87</HomeTeamShotsAttemp>
+    <HomeTeamScore>6</HomeTeamScore>
+    <HomeTeamGoal>Max Veronneau(12), Jesper Boqvist(16), Logan Brown(8), Kiefer Sherwood(17,18), Valentin Zykov(7)</HomeTeamGoal>
+    <HomeTeamGoaler>Igor Shesterkin (RCK), 10 saves from 11 shots - (0.909), W, 25-7-3, 60:00 minutes </HomeTeamGoaler>
+    <HomeTeamThemeID>0</HomeTeamThemeID>
+    <Note />
+    <Star>
+      <string xsi:nil="true" />
+      <string>Kiefer Sherwood (RCK)</string>
+      <string>Valentin Zykov (RCK)</string>
+      <string>Joseph Blandisi (RCK)</string>
+    </Star>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro536</GameNumber>
+    <Link>OTHL-536.html</Link>
+    <VisitorTeamNumber>1</VisitorTeamNumber>
+    <VisitorTeam>Ducks</VisitorTeam>
+    <VisitorTeamAbbre>ANH</VisitorTeamAbbre>
+    <VisitorTeamShots>31</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>71</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>3</VisitorTeamScore>
+    <VisitorTeamGoal>Zach Hyman(8), Jake Guentzel(11), Zemgus Girgensons(2)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Ryan Miller (ANH), 44 saves from 44 shots - (1.000), W, 1-0-0, 60:00 minutes </VisitorTeamGoaler>
+    <VisitorTeamThemeID>0</VisitorTeamThemeID>
+    <HomeTeamNumber>18</HomeTeamNumber>
+    <HomeTeam>Devils</HomeTeam>
+    <HomeTeamAbbre>NJD</HomeTeamAbbre>
+    <HomeTeamShots>44</HomeTeamShots>
+    <HomeTeamShotsAttemp>81</HomeTeamShotsAttemp>
+    <HomeTeamScore>0</HomeTeamScore>
+    <HomeTeamGoal />
+    <HomeTeamGoaler>Kasimir Kaskisuo (NJD), 28 saves from 31 shots - (0.903), L, 3-4-1, 60:00 minutes </HomeTeamGoaler>
+    <HomeTeamThemeID>0</HomeTeamThemeID>
+    <Note />
+    <Star>
+      <string xsi:nil="true" />
+      <string>Ryan Miller (ANH)</string>
+      <string>Jake Guentzel (ANH)</string>
+      <string>Zemgus Girgensons (ANH)</string>
+    </Star>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm536</GameNumber>
+    <Link>OTHL-Farm-536.html</Link>
+    <VisitorTeamNumber>1</VisitorTeamNumber>
+    <VisitorTeam>Gulls</VisitorTeam>
+    <VisitorTeamAbbre>SDG</VisitorTeamAbbre>
+    <VisitorTeamShots>30</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>55</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>6</VisitorTeamScore>
+    <VisitorTeamGoal>Ryan MacInnis(24), Kevin Stenlund(16), Trent Frederic(21), Trevor Moore(18,19,20)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Ian Scott (SDG), 13 saves from 17 shots - (0.765), 30:23 minutes Unknown Goalie (SDG), 8 saves from 9 shots - (0.889), W, 1-0-0, 29:55 minutes </VisitorTeamGoaler>
+    <VisitorTeamThemeID>0</VisitorTeamThemeID>
+    <HomeTeamNumber>18</HomeTeamNumber>
+    <HomeTeam>Devils</HomeTeam>
+    <HomeTeamAbbre>BNG</HomeTeamAbbre>
+    <HomeTeamShots>26</HomeTeamShots>
+    <HomeTeamShotsAttemp>63</HomeTeamShotsAttemp>
+    <HomeTeamScore>5</HomeTeamScore>
+    <HomeTeamGoal>Brent Gates(4), Kyle Criscuolo(10), Niko Mikkola(6), Joakim Nygard(12), Scott Sabourin(10)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (BNG), 24 saves from 30 shots - (0.800), OTL, 0-0-1, 60:27 minutes </HomeTeamGoaler>
+    <HomeTeamThemeID>0</HomeTeamThemeID>
+    <Note>End in Overtime</Note>
+    <Star>
+      <string xsi:nil="true" />
+      <string>Trevor Moore (SDG)</string>
+      <string>Kevin Stenlund (SDG)</string>
+      <string>Leon Gawanke (BNG)</string>
+    </Star>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro537</GameNumber>
+    <Link>OTHL-537.html</Link>
+    <VisitorTeamNumber>12</VisitorTeamNumber>
+    <VisitorTeam>Oilers</VisitorTeam>
+    <VisitorTeamAbbre>EDM</VisitorTeamAbbre>
+    <VisitorTeamShots>47</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>102</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Dustin Brown(10), Lars Eller(15), Tyler Bertuzzi(13), Alex Biega(2)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Elvis Merzlikins (EDM), 21 saves from 25 shots - (0.840), OTL, 13-3-2, 65:00 minutes </VisitorTeamGoaler>
+    <VisitorTeamThemeID>0</VisitorTeamThemeID>
+    <HomeTeamNumber>25</HomeTeamNumber>
+    <HomeTeam>Blues</HomeTeam>
+    <HomeTeamAbbre>STL</HomeTeamAbbre>
+    <HomeTeamShots>25</HomeTeamShots>
+    <HomeTeamShotsAttemp>58</HomeTeamShotsAttemp>
+    <HomeTeamScore>5</HomeTeamScore>
+    <HomeTeamGoal>Victor Mete(2), Mikael Backlund(8), Mark Pysyk(3), Pierre-Edouard Bellemare(5)</HomeTeamGoal>
+    <HomeTeamGoaler>Antti Raanta (STL), 43 saves from 47 shots - (0.915), W, 11-9-2, 65:00 minutes </HomeTeamGoaler>
+    <HomeTeamThemeID>0</HomeTeamThemeID>
+    <Note>End in Shootout</Note>
+    <Star>
+      <string xsi:nil="true" />
+      <string>Pierre-Edouard Bellemare (STL)</string>
+      <string>Ryan Graves (EDM)</string>
+      <string>Lars Eller (EDM)</string>
+    </Star>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm537</GameNumber>
+    <Link>OTHL-Farm-537.html</Link>
+    <VisitorTeamNumber>12</VisitorTeamNumber>
+    <VisitorTeam>Condors</VisitorTeam>
+    <VisitorTeamAbbre>BKR</VisitorTeamAbbre>
+    <VisitorTeamShots>50</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>89</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>6</VisitorTeamScore>
+    <VisitorTeamGoal>Givani Smith(16), John Hayden(18), Dennis Gilbert(11), Rhett Gardner(8), Corey Perry(6), Adam Gaudette(12)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Zane McIntyre (BKR), 11 saves from 11 shots - (1.000), W, 29-5-3, 60:00 minutes </VisitorTeamGoaler>
+    <VisitorTeamThemeID>0</VisitorTeamThemeID>
+    <HomeTeamNumber>25</HomeTeamNumber>
+    <HomeTeam>Rampage </HomeTeam>
+    <HomeTeamAbbre>SAR</HomeTeamAbbre>
+    <HomeTeamShots>11</HomeTeamShots>
+    <HomeTeamShotsAttemp>23</HomeTeamShotsAttemp>
+    <HomeTeamScore>0</HomeTeamScore>
+    <HomeTeamGoal />
+    <HomeTeamGoaler>Unknown Goalie (SAR), 44 saves from 50 shots - (0.880), L, 0-1-0, 60:00 minutes </HomeTeamGoaler>
+    <HomeTeamThemeID>0</HomeTeamThemeID>
+    <Note />
+    <Star>
+      <string xsi:nil="true" />
+      <string>Rhett Gardner (BKR)</string>
+      <string>Dennis Gilbert (BKR)</string>
+      <string>Givani Smith (BKR)</string>
+    </Star>
+  </TypeOutputXMLTodayGame>
+</ArrayOfTypeOutputXMLTodayGame>

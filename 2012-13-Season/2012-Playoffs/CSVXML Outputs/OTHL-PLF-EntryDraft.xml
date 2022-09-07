@@ -1,0 +1,3013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLEntryDraft xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLEntryDraft>
+    <Name>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+    </Name>
+    <Pick>
+      <string />
+      <string>Nail Yakupov</string>
+      <string>Ryan Murray</string>
+      <string>Alex Galchenyuk</string>
+      <string>Griffin Reinhart</string>
+      <string>Morgan Rielly</string>
+      <string>Mathew Dumba</string>
+      <string>Filip Forsberg</string>
+      <string>Jacob Trouba</string>
+      <string>Radek Faksa</string>
+      <string>Zemgus Girgensons</string>
+      <string>Mikhail Grigorenko</string>
+      <string>Hampus Lindholm</string>
+      <string>Olli Maatta</string>
+      <string>Derrick Pouliot</string>
+      <string>Thomas Wilson</string>
+      <string>Teuvo Teravainen</string>
+      <string>Malcolm Subban</string>
+      <string>Cody Ceci</string>
+      <string>Henrik Samuelsson</string>
+      <string>Brendan Gaunce</string>
+      <string>Mark Jankowski</string>
+      <string>Slater Koekkoek</string>
+      <string>Oscar Dansk</string>
+      <string>Matthew Finn</string>
+      <string>Sebastien Collberg</string>
+      <string>Andrei Vasilevski</string>
+      <string>Tanner Pearson</string>
+      <string>Scott Laughton</string>
+      <string>Pontus Aberg</string>
+      <string>Tomas Hertl</string>
+      <string>Nicolas Kerdiles</string>
+      <string>Mitchell Moroz</string>
+      <string>Stefan Matteau</string>
+      <string>Dalton Thrower</string>
+      <string>Phillip di Giuseppe</string>
+      <string>Ludwig Bystrom</string>
+      <string>Colton Sissons</string>
+      <string>Lukas Sutter</string>
+      <string>Brady Skjei</string>
+      <string>Michael Matheson</string>
+      <string>Jordan Schmaltz</string>
+      <string>Ville Pokka</string>
+      <string>Patrick Sieloff</string>
+      <string>Scott Kosmachuk</string>
+      <string>Martin Frk</string>
+      <string>Jake McCabe</string>
+      <string>Mike Winther</string>
+      <string>Esa Lindell</string>
+      <string>Damon Severson</string>
+      <string>Brock McGinn</string>
+      <string>Anthony Stolarz</string>
+      <string>Brian Hart</string>
+      <string>Cristoval Nieves</string>
+      <string>Colin Smith</string>
+      <string>Tim Bozon</string>
+      <string>Adam Pelech</string>
+      <string>Jarrod Maidens</string>
+      <string>Dylan Blujus</string>
+      <string>Dillon Fournier</string>
+      <string>Brendan Leipsic</string>
+      <string>Joonas Korpisalo</string>
+      <string>Samuel Kurker</string>
+      <string>Jordan Martinook</string>
+      <string>Jujhar Khaira</string>
+      <string>Troy Bourke</string>
+      <string>Daniil Zharkov</string>
+      <string>Devin Shore</string>
+      <string>Chris Tierney</string>
+      <string>Brandon Whitney</string>
+      <string>Brady Vail</string>
+      <string>Theodor Blueger</string>
+      <string>Raphael Bussieres</string>
+      <string>Matia Marcantuoni</string>
+      <string>Justin Kea</string>
+      <string>Mitchell Heard</string>
+      <string>Chris Calnan</string>
+      <string>Alexandre Mallet</string>
+      <string>Nikolay Prokhorkin</string>
+      <string>Mackenzie MacEachern</string>
+      <string>Chandler Stephenson</string>
+      <string>Matthew Murray</string>
+      <string>Brett Kulak</string>
+      <string>Tomas Hyka</string>
+      <string>Nick Ebert</string>
+      <string>Andreas Athanasiou</string>
+      <string>Mikko Vainonen</string>
+      <string>Jimmy Vesey</string>
+      <string>Ben Johnson</string>
+      <string>Steven Hodges</string>
+      <string>Kevin Roy</string>
+      <string>Anton Zlobin</string>
+      <string>Adam Gilmour</string>
+      <string>Alexander Delnov</string>
+      <string>Jon Gillies</string>
+      <string>Christophe Lalancette</string>
+      <string>James Melindy</string>
+      <string>Gianluca Curcuruto</string>
+      <string>Calle Andersson</string>
+      <string>Tanner Richard</string>
+      <string>John Draeger</string>
+      <string>Oskar Sundqvist</string>
+      <string>Daniel Altshuller</string>
+      <string>Taylor Leier</string>
+      <string>Colten Parayko</string>
+      <string>Erik Gustafsson</string>
+      <string>Erik Karlsson</string>
+      <string>Josh Anderson</string>
+      <string>Zachary Stepan</string>
+      <string>Nikita Gusev</string>
+      <string>Ben Thomson</string>
+      <string>Branden Troock</string>
+      <string>Rhett Holland</string>
+      <string>Shayne Gostisbehere</string>
+      <string>Rasmus Bodin</string>
+      <string>Seth Griffith</string>
+      <string>Cedric Paquette</string>
+      <string>Timothy Boyle</string>
+      <string>Charles Hudon</string>
+      <string>Linus Ullmark</string>
+      <string>Joey LaLeggia</string>
+      <string>Trevor Carrick</string>
+      <string>Jake Paterson</string>
+      <string>Ryan Culkin</string>
+      <string>Coda Gordon</string>
+      <string>Connor Brown</string>
+      <string>Ryan Rupert</string>
+      <string>Logan Nelson</string>
+      <string>Austin Wuthrich</string>
+      <string>Francis Beauvillier</string>
+      <string>Chris Driedger</string>
+      <string>Joakim Ryan</string>
+      <string>Dominic Toninato</string>
+      <string>Artur Gavrus</string>
+      <string>Daniel Gunnarsson</string>
+      <string>Robert Baillargeon</string>
+      <string>Thomas di Pauli</string>
+      <string>Fredrik Larsson</string>
+      <string>Tyrel Seaman</string>
+      <string>Francois Brassard</string>
+      <string>Nicholas Walters</string>
+      <string>Michael Clarke</string>
+      <string>Thomas Spelling</string>
+      <string>Christoph Bertschy</string>
+      <string>Niklas Tikkinen</string>
+      <string>Brendan Woods</string>
+      <string>Connor Carrick</string>
+      <string>Daniel Zaar</string>
+      <string>Graham Black</string>
+      <string>Loic Leduc</string>
+      <string>Daniel O'Regan</string>
+      <string>Ryan Olsen</string>
+      <string>Riley Barber</string>
+      <string>Sean Maguire</string>
+      <string>Matthew Grzelcyk</string>
+      <string>Brian Cooper</string>
+      <string>Alexander Kerfoot</string>
+      <string>Cody Payne</string>
+      <string>Marek Mazanec</string>
+      <string>Doyle Somerby</string>
+      <string>Vincent Hinostroza</string>
+      <string>Jaccob Slavin</string>
+      <string>Erik Nystrom</string>
+      <string>Justin Hache</string>
+      <string>Travis Brown</string>
+      <string>Andrew O'Brien</string>
+      <string>Reece Willcox</string>
+      <string>Francois Tremblay</string>
+      <string>Matt Tomkins</string>
+      <string>Garret Ross</string>
+      <string>Max Gortz</string>
+      <string>Samuel Fejes</string>
+      <string>Michael McKee</string>
+      <string>Connor Hellebuyck</string>
+      <string>Clark Seymour</string>
+      <string>Joseph Blandisi</string>
+      <string>Wesley Myron</string>
+      <string>Ben Hutton</string>
+      <string>Matthew DeBlouw</string>
+      <string>Matthew Beattie</string>
+      <string>John McCarron</string>
+      <string>Colin Smith</string>
+      <string>Henri Kiviaho</string>
+      <string>Petteri Lindbohm</string>
+      <string>Mikael Wikstrand</string>
+      <string>Jesse Graham</string>
+      <string>Brady Austin</string>
+      <string>Viktor Loov</string>
+      <string>Simon Fernholm</string>
+      <string>Jaynen Rissling</string>
+      <string>Colin Miller</string>
+      <string>Jake Dotchin</string>
+      <string>James de Haas</string>
+      <string>Jonatan Nielsen</string>
+      <string>Dmitry Sinitsyn</string>
+      <string>Kenton Helgesen</string>
+      <string>Jake Bischoff</string>
+      <string>Paul Ladue</string>
+      <string>Collin Olson</string>
+      <string>Marek Langhamer</string>
+      <string>Christian Djoos</string>
+      <string>Brendan Collier</string>
+      <string>Colton Hargrove</string>
+      <string>Clifford Watson</string>
+      <string>Judd Peterson</string>
+      <string>Jamie Phillips</string>
+      <string>Matthew Benning</string>
+      <string>Valeri Vasiliev</string>
+      <string>Louis Nanne</string>
+      <string>Sergei Kostenko</string>
+      <string>Jaycob Megna</string>
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+      <string />
+    </Pick>
+    <OriginalTeam>
+      <short>0</short>
+      <short>15</short>
+      <short>16</short>
+      <short>17</short>
+      <short>20</short>
+      <short>26</short>
+      <short>30</short>
+      <short>14</short>
+      <short>24</short>
+      <short>21</short>
+      <short>29</short>
+      <short>22</short>
+      <short>8</short>
+      <short>19</short>
+      <short>23</short>
+      <short>13</short>
+      <short>11</short>
+      <short>5</short>
+      <short>27</short>
+      <short>1</short>
+      <short>25</short>
+      <short>4</short>
+      <short>18</short>
+      <short>2</short>
+      <short>7</short>
+      <short>12</short>
+      <short>28</short>
+      <short>3</short>
+      <short>10</short>
+      <short>6</short>
+      <short>9</short>
+      <short>15</short>
+      <short>16</short>
+      <short>17</short>
+      <short>20</short>
+      <short>26</short>
+      <short>30</short>
+      <short>14</short>
+      <short>24</short>
+      <short>21</short>
+      <short>29</short>
+      <short>22</short>
+      <short>8</short>
+      <short>19</short>
+      <short>23</short>
+      <short>13</short>
+      <short>11</short>
+      <short>5</short>
+      <short>27</short>
+      <short>1</short>
+      <short>25</short>
+      <short>4</short>
+      <short>18</short>
+      <short>2</short>
+      <short>7</short>
+      <short>12</short>
+      <short>28</short>
+      <short>3</short>
+      <short>10</short>
+      <short>6</short>
+      <short>9</short>
+      <short>15</short>
+      <short>16</short>
+      <short>17</short>
+      <short>20</short>
+      <short>26</short>
+      <short>30</short>
+      <short>14</short>
+      <short>24</short>
+      <short>21</short>
+      <short>29</short>
+      <short>22</short>
+      <short>8</short>
+      <short>19</short>
+      <short>23</short>
+      <short>13</short>
+      <short>11</short>
+      <short>5</short>
+      <short>27</short>
+      <short>1</short>
+      <short>25</short>
+      <short>4</short>
+      <short>18</short>
+      <short>2</short>
+      <short>7</short>
+      <short>12</short>
+      <short>28</short>
+      <short>3</short>
+      <short>10</short>
+      <short>6</short>
+      <short>9</short>
+      <short>15</short>
+      <short>16</short>
+      <short>17</short>
+      <short>20</short>
+      <short>26</short>
+      <short>30</short>
+      <short>14</short>
+      <short>24</short>
+      <short>21</short>
+      <short>29</short>
+      <short>22</short>
+      <short>8</short>
+      <short>19</short>
+      <short>23</short>
+      <short>13</short>
+      <short>11</short>
+      <short>5</short>
+      <short>27</short>
+      <short>1</short>
+      <short>25</short>
+      <short>4</short>
+      <short>18</short>
+      <short>2</short>
+      <short>7</short>
+      <short>12</short>
+      <short>28</short>
+      <short>3</short>
+      <short>10</short>
+      <short>6</short>
+      <short>9</short>
+      <short>15</short>
+      <short>16</short>
+      <short>17</short>
+      <short>20</short>
+      <short>26</short>
+      <short>30</short>
+      <short>14</short>
+      <short>24</short>
+      <short>21</short>
+      <short>29</short>
+      <short>22</short>
+      <short>8</short>
+      <short>19</short>
+      <short>23</short>
+      <short>13</short>
+      <short>11</short>
+      <short>5</short>
+      <short>27</short>
+      <short>1</short>
+      <short>25</short>
+      <short>4</short>
+      <short>18</short>
+      <short>2</short>
+      <short>7</short>
+      <short>12</short>
+      <short>28</short>
+      <short>3</short>
+      <short>10</short>
+      <short>6</short>
+      <short>9</short>
+      <short>15</short>
+      <short>16</short>
+      <short>17</short>
+      <short>20</short>
+      <short>26</short>
+      <short>30</short>
+      <short>14</short>
+      <short>24</short>
+      <short>21</short>
+      <short>29</short>
+      <short>22</short>
+      <short>8</short>
+      <short>19</short>
+      <short>23</short>
+      <short>13</short>
+      <short>11</short>
+      <short>5</short>
+      <short>27</short>
+      <short>1</short>
+      <short>25</short>
+      <short>4</short>
+      <short>18</short>
+      <short>2</short>
+      <short>7</short>
+      <short>12</short>
+      <short>28</short>
+      <short>3</short>
+      <short>10</short>
+      <short>6</short>
+      <short>9</short>
+      <short>15</short>
+      <short>16</short>
+      <short>17</short>
+      <short>20</short>
+      <short>26</short>
+      <short>30</short>
+      <short>14</short>
+      <short>24</short>
+      <short>21</short>
+      <short>29</short>
+      <short>22</short>
+      <short>8</short>
+      <short>19</short>
+      <short>23</short>
+      <short>13</short>
+      <short>11</short>
+      <short>5</short>
+      <short>27</short>
+      <short>1</short>
+      <short>25</short>
+      <short>4</short>
+      <short>18</short>
+      <short>2</short>
+      <short>7</short>
+      <short>12</short>
+      <short>28</short>
+      <short>3</short>
+      <short>10</short>
+      <short>6</short>
+      <short>9</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+    </OriginalTeam>
+    <Team>
+      <short>0</short>
+      <short>15</short>
+      <short>9</short>
+      <short>21</short>
+      <short>1</short>
+      <short>1</short>
+      <short>28</short>
+      <short>1</short>
+      <short>1</short>
+      <short>1</short>
+      <short>1</short>
+      <short>4</short>
+      <short>8</short>
+      <short>23</short>
+      <short>23</short>
+      <short>13</short>
+      <short>7</short>
+      <short>21</short>
+      <short>5</short>
+      <short>9</short>
+      <short>24</short>
+      <short>1</short>
+      <short>5</short>
+      <short>9</short>
+      <short>21</short>
+      <short>12</short>
+      <short>14</short>
+      <short>22</short>
+      <short>7</short>
+      <short>7</short>
+      <short>5</short>
+      <short>15</short>
+      <short>16</short>
+      <short>17</short>
+      <short>26</short>
+      <short>9</short>
+      <short>28</short>
+      <short>23</short>
+      <short>19</short>
+      <short>1</short>
+      <short>12</short>
+      <short>9</short>
+      <short>19</short>
+      <short>1</short>
+      <short>23</short>
+      <short>20</short>
+      <short>11</short>
+      <short>9</short>
+      <short>27</short>
+      <short>9</short>
+      <short>20</short>
+      <short>20</short>
+      <short>11</short>
+      <short>24</short>
+      <short>28</short>
+      <short>7</short>
+      <short>14</short>
+      <short>5</short>
+      <short>16</short>
+      <short>26</short>
+      <short>26</short>
+      <short>9</short>
+      <short>16</short>
+      <short>17</short>
+      <short>9</short>
+      <short>9</short>
+      <short>3</short>
+      <short>7</short>
+      <short>23</short>
+      <short>29</short>
+      <short>28</short>
+      <short>11</short>
+      <short>8</short>
+      <short>9</short>
+      <short>19</short>
+      <short>26</short>
+      <short>11</short>
+      <short>19</short>
+      <short>22</short>
+      <short>7</short>
+      <short>30</short>
+      <short>7</short>
+      <short>26</short>
+      <short>16</short>
+      <short>27</short>
+      <short>17</short>
+      <short>28</short>
+      <short>19</short>
+      <short>18</short>
+      <short>28</short>
+      <short>9</short>
+      <short>9</short>
+      <short>14</short>
+      <short>13</short>
+      <short>12</short>
+      <short>26</short>
+      <short>27</short>
+      <short>9</short>
+      <short>7</short>
+      <short>3</short>
+      <short>11</short>
+      <short>23</short>
+      <short>8</short>
+      <short>12</short>
+      <short>30</short>
+      <short>19</short>
+      <short>11</short>
+      <short>19</short>
+      <short>22</short>
+      <short>30</short>
+      <short>20</short>
+      <short>22</short>
+      <short>19</short>
+      <short>19</short>
+      <short>19</short>
+      <short>15</short>
+      <short>28</short>
+      <short>18</short>
+      <short>10</short>
+      <short>24</short>
+      <short>26</short>
+      <short>7</short>
+      <short>11</short>
+      <short>8</short>
+      <short>21</short>
+      <short>21</short>
+      <short>27</short>
+      <short>21</short>
+      <short>21</short>
+      <short>21</short>
+      <short>8</short>
+      <short>26</short>
+      <short>8</short>
+      <short>9</short>
+      <short>23</short>
+      <short>9</short>
+      <short>15</short>
+      <short>5</short>
+      <short>27</short>
+      <short>2</short>
+      <short>21</short>
+      <short>11</short>
+      <short>23</short>
+      <short>6</short>
+      <short>24</short>
+      <short>8</short>
+      <short>9</short>
+      <short>23</short>
+      <short>5</short>
+      <short>21</short>
+      <short>29</short>
+      <short>15</short>
+      <short>15</short>
+      <short>20</short>
+      <short>16</short>
+      <short>9</short>
+      <short>9</short>
+      <short>12</short>
+      <short>27</short>
+      <short>21</short>
+      <short>9</short>
+      <short>5</short>
+      <short>21</short>
+      <short>9</short>
+      <short>23</short>
+      <short>8</short>
+      <short>11</short>
+      <short>21</short>
+      <short>27</short>
+      <short>20</short>
+      <short>19</short>
+      <short>21</short>
+      <short>18</short>
+      <short>29</short>
+      <short>21</short>
+      <short>6</short>
+      <short>6</short>
+      <short>5</short>
+      <short>12</short>
+      <short>9</short>
+      <short>29</short>
+      <short>19</short>
+      <short>17</short>
+      <short>12</short>
+      <short>29</short>
+      <short>13</short>
+      <short>21</short>
+      <short>14</short>
+      <short>21</short>
+      <short>21</short>
+      <short>28</short>
+      <short>5</short>
+      <short>8</short>
+      <short>19</short>
+      <short>23</short>
+      <short>19</short>
+      <short>11</short>
+      <short>6</short>
+      <short>29</short>
+      <short>6</short>
+      <short>6</short>
+      <short>19</short>
+      <short>12</short>
+      <short>29</short>
+      <short>2</short>
+      <short>10</short>
+      <short>29</short>
+      <short>5</short>
+      <short>10</short>
+      <short>5</short>
+      <short>6</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+      <short>0</short>
+    </Team>
+  </TypeOutputXMLEntryDraft>
+</ArrayOfTypeOutputXMLEntryDraft>

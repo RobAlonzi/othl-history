@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLTodayGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm245</GameNumber>
+    <Link>OTHL-PRE-Farm-245.html</Link>
+    <VisitorTeamNumber>3</VisitorTeamNumber>
+    <VisitorTeam>Bruins</VisitorTeam>
+    <VisitorTeamAbbre>PRO</VisitorTeamAbbre>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>Pontus Aberg(14,15)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Adin Hill (PRO), 34 saves from 40 shots - (0.850), L, 11-4-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>29</HomeTeamNumber>
+    <HomeTeam>Comets</HomeTeam>
+    <HomeTeamAbbre>UTI</HomeTeamAbbre>
+    <HomeTeamScore>6</HomeTeamScore>
+    <HomeTeamGoal>Kerby Rychel(2), William Carrier(1), Justin Dowling(3), Jean-Sebastien Dea(1), Matt Lorito(1), Ben Harpur(1)</HomeTeamGoal>
+    <HomeTeamGoaler>Maxime Lagace (UTI), 13 saves from 15 shots - (0.867), W, 2-0-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm246</GameNumber>
+    <Link>OTHL-PRE-Farm-246.html</Link>
+    <VisitorTeamNumber>26</VisitorTeamNumber>
+    <VisitorTeam>Barracuda</VisitorTeam>
+    <VisitorTeamAbbre>SJB</VisitorTeamAbbre>
+    <VisitorTeamScore>1</VisitorTeamScore>
+    <VisitorTeamGoal>Unknown Player(1)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Unknown Goalie (SJB), 51 saves from 60 shots - (0.850), L, 0-1-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>15</HomeTeamNumber>
+    <HomeTeam>Wild</HomeTeam>
+    <HomeTeamAbbre>IOA</HomeTeamAbbre>
+    <HomeTeamScore>9</HomeTeamScore>
+    <HomeTeamGoal>Rocco Grimaldi(18,19,20,21), Seth Griffith(19,20,21,22,23)</HomeTeamGoal>
+    <HomeTeamGoaler>Anthony Stolarz (IOA), 22 saves from 23 shots - (0.957), W, 13-3-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm247</GameNumber>
+    <Link>OTHL-PRE-Farm-247.html</Link>
+    <VisitorTeamNumber>23</VisitorTeamNumber>
+    <VisitorTeam>Roadrunners</VisitorTeam>
+    <VisitorTeamAbbre>TUC</VisitorTeamAbbre>
+    <VisitorTeamScore>7</VisitorTeamScore>
+    <VisitorTeamGoal>Andrew Agozzino(12,13), Dylan Strome(12), Unknown Player(1,2,3), Thomas Chabot(10)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Unknown Goalie (TUC), 29 saves from 34 shots - (0.853), W, 1-0-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>31</HomeTeamNumber>
+    <HomeTeam>Wolves</HomeTeam>
+    <HomeTeamAbbre>CHI</HomeTeamAbbre>
+    <HomeTeamScore>5</HomeTeamScore>
+    <HomeTeamGoal>Dominic Turgeon(16), Unknown Player(1,2), Dryden Hunt(8), Gustav Olofsson(5)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (CHI), 4 saves from 8 shots - (0.500), 7:58 minutes Unknown Goalie (CHI), 16 saves from 18 shots - (0.889), L, 0-1-0, 51:46 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm248</GameNumber>
+    <Link>OTHL-PRE-Farm-248.html</Link>
+    <VisitorTeamNumber>13</VisitorTeamNumber>
+    <VisitorTeam>Thunderbirds</VisitorTeam>
+    <VisitorTeamAbbre>SPR</VisitorTeamAbbre>
+    <VisitorTeamScore>3</VisitorTeamScore>
+    <VisitorTeamGoal>Sonny Milano(9), CJ Smith(10), Unknown Player(1)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Collin Delia (SPR), 23 saves from 25 shots - (0.920), W, 6-1-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>28</HomeTeamNumber>
+    <HomeTeam>Marlies</HomeTeam>
+    <HomeTeamAbbre>TOR</HomeTeamAbbre>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Stephen Gionta(15), Ryan Stanton(3)</HomeTeamGoal>
+    <HomeTeamGoaler>Chad Johnson (TOR), 27 saves from 30 shots - (0.900), L, 0-1-0, 59:43 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+</ArrayOfTypeOutputXMLTodayGame>

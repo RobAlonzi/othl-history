@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<script src="STHSMain.js"></script>
+<title>OTHL - Today Transactions</title>
+<script src="OTHL.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.2.0.0 - OTHL-STHS.db - OTHL-STHSCareerStat.db"/>
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<link href="OTHL.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL Home</a></li>
+<li id="STHSMenu-Main" class="activemenu"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu active" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-Schedule.html">Schedule </a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-ProAllPlayersStats.html">All Players Stats</a></td>
+<td><a href="OTHL-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-TeamHistory.html">History</a></td>
+<td><a href="OTHL-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-FarmAllPlayersStats.html">All Players Stats</a></td>
+<td><a href="OTHL-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="OTHL-TradeHistory.html">Trade History</a></td>
+<td><a href="OTHL-RerateDifference.html">RerateDifference</a></td>
+<td><a href="OTHL-EntryDraft.html">Entry Draft</a></td>
+<td><a href="OTHL-ExpansionDraft.html">Expansion Draft</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html#Ducks">ANH</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Coyotes">ARI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Bruins">BOS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Sabres">BUF</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Hurricanes">CAR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Flames">CGY</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Blackhawks">CHI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BlueJackets">CLB</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Avalanche">COL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Stars">DAL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#RedWings">DET</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Oilers">EDM</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Panthers">FLA</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Kings">LAK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Wild">MIN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Canadiens">MTL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Devils">NJD</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Predators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-ProTeamRoster.html#Islanders">NYI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Rangers">NYR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Senators">OTT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Flyers">PHL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Penguins">PIT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Sharks">SJS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Blues">STL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Lightning">TBL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MapleLeafs">TOR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Canucks">VAN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#GoldenKnights">VGK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Jets">WPG</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Capitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Today Transactions</td><td class="STHSHeaderDate">Last Update - October 26, 2020 at 17:29</td></tr>
+<tr><td colspan="2" style="font-style: italic;">Simulating a Pre-Season</td></tr></table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+[2020-10-26 5:29:00 PM] - Pro Game Option - Injuries Active Option Deactivated<br />
+[2020-10-26 5:28:59 PM] - Game Option - Waiver Active Option Deactivated<br />
+<span style="color:#0080C0">[2020-10-26 5:27:49 PM] - Corey Tropp was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:47 PM] - Ville Husso was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:44 PM] - Chris Terry was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:41 PM] - Matheson Iacopelli was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:39 PM] - Calle Rosen was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:36 PM] - Spencer Martin was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:34 PM] - Markus Hannikainen was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:31 PM] - Andrew Poturalski was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:29 PM] - Gustav Olofsson was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:27 PM] - Scott Wilson was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:24 PM] - Trevor Carrick was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:22 PM] - Ben Harpur was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:20 PM] - Jordan Gross was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:18 PM] - Cole Schneider was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:15 PM] - Jonathan Ericsson was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:14 PM] - Fredrik Claesson was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:12 PM] - Dean Kukan was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:10 PM] - Carter Verhaeghe was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:27:08 PM] - Scott Wedgewood was removed from waivers.</span><br />
+[2020-10-26 5:26:51 PM] - Manual Rest Day has been completed.<br />
+<span style="color:#0080C0">[2020-10-26 5:26:36 PM] - Ryan Kujawinski was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:33 PM] - J.C. Lipon was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:31 PM] - Remi Elie was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:29 PM] - Christian Wolanin was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:27 PM] - Sean Malone was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:23 PM] - Laurent Dauphin was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:21 PM] - Ryan Fitzgerald was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:19 PM] - Jon Gillies was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:17 PM] - Jaycob Megna was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:15 PM] -  was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:26:12 PM] - Kevin Gravel was removed from waivers.</span><br />
+[2020-10-26 5:26:00 PM] - Trevor Daley was erased.<br />
+[2020-10-26 5:26:00 PM] - Trevor Daley was released by Sabres<br />
+<span style="color:#0080C0">[2020-10-26 5:25:46 PM] - Dalton Smith was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:25:44 PM] - Nathan Walker was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:25:42 PM] - Cameron Darcy was removed from waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:25:28 PM] - Matthew Peca was removed from waivers.</span><br />
+[2020-10-26 5:25:08 PM] - Frank Corrado was erased.<br />
+[2020-10-26 5:25:08 PM] - Frank Corrado was released by Senators<br />
+[2020-10-26 5:24:52 PM] - Chris Wideman was erased.<br />
+[2020-10-26 5:24:52 PM] - Chris Wideman was released by Penguins<br />
+[2020-10-26 5:24:36 PM] - Chris Stewart was erased.<br />
+[2020-10-26 5:24:26 PM] - Justin Williams was erased.<br />
+[2020-10-26 5:24:26 PM] - Justin Williams retired from Maple Leafs<br />
+[2020-10-26 5:24:07 PM] - Matt Niskanen was erased.<br />
+[2020-10-26 5:24:07 PM] - Matt Niskanen retired from Sabres<br />
+[2020-10-26 5:22:59 PM] - Mike Green was erased.<br />
+[2020-10-26 5:22:59 PM] - Mike Green was released by Jets<br />
+[2020-10-26 5:19:15 PM] - Christopher Gibson signed with Penguins for $775,000 for 4 year(s) / Option : No Trade.<br />
+[2020-10-26 5:19:15 PM] - Christopher Gibson average salary was modified from $525,000 to $775,000.<br />
+<span style="color:#FF8000">[2020-10-26 5:19:15 PM] - Christopher Gibson was added to Penguins.</span><br />
+<span style="color:Olive">[2020-10-26 5:18:14 PM] - Successfully loaded Capitals lines done with STHS Client - 3.2.0.5</span><br />
+[2020-10-26 5:18:10 PM] - Blake Lizotte of Capitals was sent down to farm.<br />
+<span style="color:Olive">[2020-10-26 5:18:10 PM] - Successfully loaded Penguins lines done with STHS Client - 3.2.2.2</span><br />
+[2020-10-26 5:18:10 PM] - Alexandre Fortin of Penguins was sent down to farm.<br />
+[2020-10-26 5:18:10 PM] - Gabriel Gagne of Penguins was sent down to farm.<br />
+<span style="color:Black">[2020-10-26 5:18:10 PM] - Mackenzie MacEachern of Penguins was sent to pro.</span><br />
+<span style="color:Black">[2020-10-26 5:18:10 PM] - Steven Fogarty of Penguins was sent to pro.</span><br />
+[2020-10-26 5:18:10 PM] - Dante Fabbro of Penguins was sent down to farm.<br />
+[2020-10-26 5:18:10 PM] - Tyson Jost of Penguins was sent down to farm.<br />
+[2020-10-26 5:18:10 PM] - Michael Rasmussen of Penguins was sent down to farm.<br />
+<span style="color:Olive">[2020-10-26 5:18:10 PM] - Successfully loaded Senators lines done with STHS Client - 3.2.5.5</span><br />
+<span style="color:Olive">[2020-10-26 5:18:10 PM] - Senators Email Address was changed to parkbench@gmail.com.</span><br />
+<span style="color:Olive">[2020-10-26 5:18:09 PM] - Senators Messenger Address was changed to parkbench@gmail.com.</span><br />
+[2020-10-26 5:18:08 PM] - Gilles Senn of Senators was sent to farm.<br />
+[2020-10-26 5:18:08 PM] - Trevor Carrick of Senators was sent down to farm.<br />
+[2020-10-26 5:18:08 PM] - Fredrik Claesson of Senators was sent down to farm.<br />
+[2020-10-26 5:18:05 PM] - Jordan Gross of Senators was sent down to farm.<br />
+[2020-10-26 5:18:05 PM] - Klim Kostin of Senators was sent down to farm.<br />
+[2020-10-26 5:18:05 PM] - Dmytro Timashov of Senators was sent down to farm.<br />
+[2020-10-26 5:18:05 PM] - Jonathan Ericsson of Senators was sent down to farm.<br />
+[2020-10-26 5:18:05 PM] - Dean Kukan of Senators was sent down to farm.<br />
+<span style="color:#0080C0">[2020-10-26 5:18:05 PM] - Senators placed Corey Tropp on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:18:05 PM] - Senators placed Trevor Carrick on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:18:05 PM] - Senators placed Jonathan Ericsson on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:18:04 PM] - Senators placed Fredrik Claesson on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:18:04 PM] - Senators placed Jordan Gross on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:18:04 PM] - Senators placed Dean Kukan on waivers.</span><br />
+<span style="color:Olive">[2020-10-26 5:18:03 PM] - Successfully loaded Kings lines done with STHS Client - 3.2.0.5</span><br />
+[2020-10-26 5:18:03 PM] - J.C. Lipon of Kings was sent down to farm.<br />
+[2020-10-26 5:18:03 PM] - Timothy Liljegren of Kings was sent down to farm.<br />
+[2020-10-26 5:18:03 PM] - Calle Rosen of Kings was sent down to farm.<br />
+[2020-10-26 5:18:03 PM] - Christian Wolanin of Kings was sent down to farm.<br />
+[2020-10-26 5:18:03 PM] - Carter Verhaeghe of Kings was sent down to farm.<br />
+[2020-10-26 5:18:03 PM] - Ryan Kujawinski of Kings was sent down to farm.<br />
+<span style="color:#0080C0">[2020-10-26 5:18:03 PM] - Kings placed Carter Verhaeghe on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:18:03 PM] - Kings placed Ryan Kujawinski on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:18:02 PM] - Kings placed J.C. Lipon on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:18:02 PM] - Kings placed Calle Rosen on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:18:02 PM] - Kings placed Christian Wolanin on waivers.</span><br />
+<span style="color:Olive">[2020-10-26 5:18:02 PM] - Successfully loaded Sabres lines done with STHS Client - 3.2.0.5</span><br />
+[2020-10-26 5:18:02 PM] - Ilya Samsonov of Sabres was sent to farm.<br />
+[2020-10-26 5:18:02 PM] - Jon Gillies of Sabres was sent to farm.<br />
+[2020-10-26 5:18:02 PM] - Dalton Smith of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Cole Schneider of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Chris Terry of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Joona Luoto of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Mikey Eyssimont of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Keegan Kolesar of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Alexander Yelesin of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Ryan Fitzgerald of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Michael Spacek of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Sean Malone of Sabres was sent down to farm.<br />
+[2020-10-26 5:18:02 PM] - Andrew Poturalski of Sabres was sent down to farm.<br />
+<span style="color:Black">[2020-10-26 5:17:59 PM] - Dakota Mermis of Sabres was sent to pro.</span><br />
+[2020-10-26 5:17:59 PM] - Remi Elie of Sabres was sent down to farm.<br />
+<span style="color:#0080C0">[2020-10-26 5:17:59 PM] - Sabres placed Remi Elie on waivers.</span><br />
+[2020-10-26 5:17:59 PM] - Laurent Dauphin of Sabres was sent down to farm.<br />
+<span style="color:#0080C0">[2020-10-26 5:17:59 PM] - Sabres placed Laurent Dauphin on waivers.</span><br />
+<span style="color:Black">[2020-10-26 5:17:59 PM] - Justin Bailey of Sabres was sent to pro.</span><br />
+[2020-10-26 5:17:59 PM] - Trevor Daley of Sabres was sent down to farm.<br />
+<span style="color:#0080C0">[2020-10-26 5:17:59 PM] - Sabres placed Sean Malone on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:59 PM] - Sabres placed Ryan Fitzgerald on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:58 PM] - Sabres placed Jon Gillies on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:58 PM] - Sabres placed Trevor Daley on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:58 PM] - Sabres placed Dalton Smith on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:57 PM] - Sabres placed Cole Schneider on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:57 PM] - Sabres placed Chris Terry on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:56 PM] - Sabres placed Andrew Poturalski on waivers.</span><br />
+<span style="color:Olive">[2020-10-26 5:17:56 PM] - Successfully loaded Bruins lines done with STHS Client - 3.2.0.5</span><br />
+[2020-10-26 5:17:56 PM] - Mikhail Berdin of Bruins was sent to farm.<br />
+[2020-10-26 5:17:56 PM] - Jaycob Megna of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Nathan Walker of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Alexey Toropchenko of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Giorgio Estephan of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Devante Stephens of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Jan Drozg of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Manuel Wiederer of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Ryan Collins of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Jens Looke of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Gabriel Fontaine of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Michael Anderson of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Ondrej Kase of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Gustav Olofsson of Bruins was sent down to farm.<br />
+[2020-10-26 5:17:56 PM] - Ben Harpur of Bruins was sent down to farm.<br />
+<span style="color:#0080C0">[2020-10-26 5:17:56 PM] - Bruins placed Nathan Walker on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:56 PM] - Bruins placed Jaycob Megna on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:55 PM] - Bruins placed Gustav Olofsson on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:55 PM] - Bruins placed Ben Harpur on waivers.</span><br />
+<span style="color:Olive">[2020-10-26 5:17:55 PM] - Successfully loaded Jets lines done with STHS Client - 3.2.5.5</span><br />
+[2020-10-26 5:17:49 PM] - Scott Wilson of Jets was sent down to farm.<br />
+[2020-10-26 5:17:49 PM] - Matheson Iacopelli of Jets was sent down to farm.<br />
+[2020-10-26 5:17:49 PM] - Markus Hannikainen of Jets was sent down to farm.<br />
+<span style="color:#0080C0">[2020-10-26 5:17:48 PM] - Jets placed Matheson Iacopelli on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:48 PM] - Jets placed Markus Hannikainen on waivers.</span><br />
+<span style="color:#0080C0">[2020-10-26 5:17:47 PM] - Jets placed Scott Wilson on waivers.</span><br />
+<span style="color:Olive">[2020-10-26 5:17:47 PM] - Successfully loaded Ducks lines done with STHS Client - 3.2.0.5</span><br />
+[2020-10-26 5:17:47 PM] - Scott Wedgewood of Ducks was sent to farm.<br />
+[2020-10-26 5:17:47 PM] - Andrew Nielsen of Ducks was sent down to farm.<br />
+[2020-10-26 5:17:47 PM] - Rasmus Sandin of Ducks was sent down to farm.<br />
+[2020-10-26 5:17:47 PM] - Jeremy Roy of Ducks was sent down to farm.<br />
+[2020-10-26 5:17:47 PM] - Lucas Johansen of Ducks was sent down to farm.<br />
+<span style="color:Black">[2020-10-26 5:17:47 PM] - Nathan Gerbe of Ducks was sent to pro.</span><br />
+[2020-10-26 5:17:47 PM] - Ryan MacInnis of Ducks was sent down to farm.<br />
+[2020-10-26 5:17:47 PM] - Kevin Stenlund of Ducks was sent down to farm.<br />
+[2020-10-26 5:17:47 PM] - Noah Dobson of Ducks was sent down to farm.<br />
+[2020-10-26 5:17:47 PM] - Jordan Kyrou of Ducks was sent down to farm.<br />
+<span style="color:#0080C0">[2020-10-26 5:17:46 PM] - Ducks placed Scott Wedgewood on waivers.</span><br />
+[2020-10-26 5:17:45 PM] - Error Processing WaiverSendTo Table.<br />
+<span style="color:#FF8000">[2020-10-26 5:17:02 PM] - TRADE : From Lightning to Hurricanes : Brandon Sutter (68).</span><br />
+<span style="color:#FF8000">[2020-10-26 5:17:02 PM] - TRADE : From Hurricanes to Lightning : Alex Chiasson (67), Brett Sutter (60), Riley Sutter (P).</span><br />
+<span style="color:#FF8000">[2020-10-26 5:13:50 PM] - TRADE : From Sabres to Ducks : Trevor Moore (61).</span><br />
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

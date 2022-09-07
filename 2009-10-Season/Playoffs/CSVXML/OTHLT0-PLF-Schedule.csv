@@ -1,0 +1,87 @@
+Game Number,Day,Play,Visitor Team,Visitor Score,Home Team,Home Score,Overtime,ShootOut,Farm Play,Farm Visitor Team,Farm Visitor Score,Farm Home Team,Farm Home Score,Farm Overtime,Farm ShootOut
+1,1,True,Lightning,3,Sabres,5,False,False,True,Lowell,1,Portland,7,False,False
+2,1,True,Thrashers,6,Penguins,4,False,False,True,Bridgeport,1,Norfolk,8,False,False
+3,1,True,Senators,3,Hurricanes,1,False,False,True,Rochester,4,Hartford,5,False,False
+4,1,True,Panthers,1,Flyers,3,False,False,True,WB/Scrant.,5,Binghamton,4,True,False
+5,2,True,Wild,1,Sharks,7,False,False,True,Texas,4,Iowa,5,False,False
+6,2,True,Oilers,4,Canucks,2,False,False,True,Manitoba,6,Syracuse,4,False,False
+7,2,True,Ducks,2,Blue Jackets,4,False,False,True,Lake Erie,2,Springfield,8,False,False
+8,2,True,Stars,2,Kings,3,False,False,True,Peoria,6,Worcester,7,False,False
+9,3,True,Lightning,1,Sabres,2,False,False,True,Lowell,1,Portland,7,False,False
+10,3,True,Thrashers,4,Penguins,5,False,False,True,Bridgeport,0,Norfolk,8,False,False
+11,3,True,Senators,3,Hurricanes,4,False,False,True,Rochester,2,Hartford,10,False,False
+12,3,True,Panthers,6,Flyers,3,False,False,True,WB/Scrant.,7,Binghamton,5,False,False
+13,4,True,Wild,4,Sharks,7,False,False,True,Texas,3,Iowa,7,False,False
+14,4,True,Oilers,2,Canucks,1,False,False,True,Manitoba,4,Syracuse,5,False,False
+15,4,True,Ducks,4,Blue Jackets,5,False,False,True,Lake Erie,1,Springfield,5,False,False
+16,4,True,Stars,1,Kings,2,True,False,True,Peoria,2,Worcester,6,False,False
+17,5,True,Sabres,1,Lightning,2,False,False,True,Portland,8,Lowell,2,False,False
+18,5,True,Penguins,3,Thrashers,2,False,False,True,Norfolk,8,Bridgeport,3,False,False
+19,5,True,Hurricanes,1,Senators,5,False,False,True,Hartford,5,Rochester,8,False,False
+20,5,True,Flyers,4,Panthers,2,False,False,True,Binghamton,5,WB/Scrant.,6,False,False
+21,6,True,Sharks,5,Wild,3,False,False,True,Iowa,3,Texas,2,False,False
+22,6,True,Canucks,2,Oilers,3,False,False,True,Syracuse,1,Manitoba,3,False,False
+23,6,True,Blue Jackets,3,Ducks,4,True,False,True,Springfield,5,Lake Erie,3,False,False
+24,6,True,Kings,3,Stars,1,False,False,True,Worcester,5,Peoria,3,False,False
+25,7,True,Sabres,4,Lightning,2,False,False,True,Portland,8,Lowell,4,False,False
+26,7,True,Penguins,3,Thrashers,4,False,False,True,Norfolk,7,Bridgeport,2,False,False
+27,7,True,Hurricanes,4,Senators,3,True,False,True,Hartford,5,Rochester,8,False,False
+28,7,True,Flyers,4,Panthers,1,False,False,True,Binghamton,6,WB/Scrant.,5,False,False
+29,8,True,Sharks,5,Wild,1,False,False,True,Iowa,8,Texas,2,False,False
+30,8,True,Canucks,0,Oilers,4,False,False,True,Syracuse,3,Manitoba,4,False,False
+31,8,True,Blue Jackets,2,Ducks,5,False,False,True,Springfield,2,Lake Erie,7,False,False
+32,8,True,Kings,3,Stars,5,False,False,True,Worcester,2,Peoria,5,False,False
+33,9,True,Lightning,2,Sabres,1,False,False
+34,9,True,Thrashers,1,Penguins,3,False,False
+35,9,True,Senators,4,Hurricanes,3,False,False,True,Rochester,6,Hartford,8,False,False
+36,9,True,Panthers,3,Flyers,4,False,False,True,WB/Scrant.,3,Binghamton,4,False,False
+39,10,True,Ducks,2,Blue Jackets,4,False,False,True,Lake Erie,4,Springfield,2,False,False
+40,10,True,Stars,0,Kings,5,False,False,True,Peoria,4,Worcester,5,False,False
+41,11,True,Sabres,4,Lightning,6,False,False
+42,11,True,Penguins,1,Thrashers,4,False,False
+43,11,True,Hurricanes,2,Senators,3,False,False,True,Hartford,8,Rochester,6,False,False
+47,12,True,Blue Jackets,4,Ducks,5,False,False,True,Springfield,5,Lake Erie,3,False,False
+49,13,True,Lightning,2,Sabres,3,False,False
+50,13,True,Thrashers,4,Penguins,2,False,False
+55,14,True,Ducks,2,Blue Jackets,3,True,False
+57,15,True,Thrashers,2,Sabres,1,False,False,True,WB/Scrant.,2,Portland,3,True,False
+58,15,True,Senators,4,Flyers,1,False,False,True,Hartford,4,Norfolk,3,False,False
+59,16,True,Oilers,4,Sharks,2,False,False,True,Manitoba,2,Iowa,3,False,False
+60,16,True,Kings,3,Blue Jackets,5,False,False,True,Worcester,8,Springfield,5,False,False
+61,17,True,Thrashers,4,Sabres,3,False,False,True,WB/Scrant.,4,Portland,5,True,False
+62,17,True,Senators,1,Flyers,4,False,False,True,Hartford,3,Norfolk,7,False,False
+63,18,True,Oilers,3,Sharks,6,False,False,True,Manitoba,3,Iowa,9,False,False
+64,18,True,Kings,1,Blue Jackets,0,False,False,True,Worcester,6,Springfield,1,False,False
+65,19,True,Sabres,6,Thrashers,7,False,False,True,Portland,5,WB/Scrant.,2,False,False
+66,19,True,Flyers,5,Senators,4,True,False,True,Norfolk,8,Hartford,6,False,False
+67,20,True,Sharks,3,Oilers,2,True,False,True,Iowa,3,Manitoba,4,False,False
+68,20,True,Blue Jackets,1,Kings,2,False,False,True,Springfield,1,Worcester,5,False,False
+69,21,True,Sabres,4,Thrashers,2,False,False,True,Portland,4,WB/Scrant.,1,False,False
+70,21,True,Flyers,3,Senators,0,False,False,True,Norfolk,10,Hartford,7,False,False
+71,22,True,Sharks,7,Oilers,6,True,False,True,Iowa,3,Manitoba,4,False,False
+72,22,True,Blue Jackets,3,Kings,2,False,False,True,Springfield,2,Worcester,4,False,False
+73,23,True,Thrashers,0,Sabres,3,False,False
+74,23,True,Senators,3,Flyers,6,False,False,True,Hartford,4,Norfolk,7,False,False
+75,24,True,Oilers,6,Sharks,0,False,False,True,Manitoba,0,Iowa,3,False,False
+76,24,True,Kings,2,Blue Jackets,1,False,False
+77,25,True,Sabres,6,Thrashers,1,False,False
+79,26,True,Sharks,2,Oilers,4,False,False,True,Iowa,5,Manitoba,4,False,False
+80,26,True,Blue Jackets,2,Kings,1,False,False
+81,27,True,Thrashers,5,Sabres,4,False,False
+83,28,True,Oilers,0,Sharks,3,False,False
+84,28,True,Kings,3,Blue Jackets,2,False,False
+85,29,True,Thrashers,4,Flyers,3,False,False,True,Norfolk,9,Portland,1,False,False
+86,30,True,Kings,1,Sharks,6,False,False,True,Worcester,5,Iowa,8,False,False
+87,31,True,Thrashers,2,Flyers,3,False,False,True,Norfolk,1,Portland,3,False,False
+88,32,True,Kings,1,Sharks,4,False,False,True,Worcester,1,Iowa,4,False,False
+89,33,True,Flyers,3,Thrashers,2,False,False,True,Portland,1,Norfolk,6,False,False
+90,34,True,Sharks,2,Kings,6,False,False,True,Iowa,6,Worcester,0,False,False
+91,35,True,Flyers,5,Thrashers,1,False,False,True,Portland,3,Norfolk,5,False,False
+92,36,True,Sharks,4,Kings,1,False,False,True,Iowa,3,Worcester,4,True,False
+93,37,True,Thrashers,3,Flyers,2,True,False,True,Norfolk,3,Portland,6,False,False
+94,38,True,Kings,2,Sharks,3,False,False,True,Worcester,3,Iowa,5,False,False
+95,39,True,Flyers,2,Thrashers,1,False,False,True,Portland,3,Norfolk,6,False,False
+99,43,True,Flyers,4,Sharks,2,False,False,True,Norfolk,4,Iowa,6,False,False
+100,44,True,Flyers,5,Sharks,4,False,False,True,Norfolk,6,Iowa,5,False,False
+101,45,True,Sharks,2,Flyers,4,False,False,True,Iowa,3,Norfolk,5,False,False
+102,46,True,Sharks,4,Flyers,6,False,False,True,Iowa,7,Norfolk,5,False,False

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLTodayGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro105</GameNumber>
+    <Link>OTHL-PLF-105.html</Link>
+    <VisitorTeam>Stars</VisitorTeam>
+    <VisitorTeamAbbre>DAL</VisitorTeamAbbre>
+    <VisitorTeamScore>1</VisitorTeamScore>
+    <VisitorTeamGoal>Joe Pavelski(16)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Jaroslav Halak (DAL), 17 saves from 19 shots - (0,895), L, 14-6-1, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeam>Lightning</HomeTeam>
+    <HomeTeamAbbre>TBL</HomeTeamAbbre>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Brent Burns(1), Kyle Okposo(7)</HomeTeamGoal>
+    <HomeTeamGoaler>Brian Elliott (TBL), 21 saves from 22 shots - (0,955), W, 10-3-1, 60:00 minutes </HomeTeamGoaler>
+  </TypeOutputXMLTodayGame>
+</ArrayOfTypeOutputXMLTodayGame>

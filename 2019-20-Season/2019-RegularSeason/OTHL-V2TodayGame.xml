@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLTodayGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1257</GameNumber>
+    <Link>OTHL-1257.html</Link>
+    <VisitorTeamNumber>2</VisitorTeamNumber>
+    <VisitorTeam>Jets</VisitorTeam>
+    <VisitorTeamAbbre>WPG</VisitorTeamAbbre>
+    <VisitorTeamShots>25</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>52</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>Jean-Gabriel Pageau(7), Scott Wilson(4)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Matt Murray (WPG), 33 saves from 36 shots - (0.917), L, 22-22-5, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>23</HomeTeamNumber>
+    <HomeTeam>Coyotes</HomeTeam>
+    <HomeTeamAbbre>ARI</HomeTeamAbbre>
+    <HomeTeamShots>36</HomeTeamShots>
+    <HomeTeamShotsAttemp>83</HomeTeamShotsAttemp>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Leon Draisaitl(47), Mika Zibanejad(32), Cody Ceci(7)</HomeTeamGoal>
+    <HomeTeamGoaler>Tuukka Rask (ARI), 23 saves from 25 shots - (0.920), W, 38-19-6, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1257</GameNumber>
+    <Link>OTHL-Farm-1257.html</Link>
+    <VisitorTeamNumber>2</VisitorTeamNumber>
+    <VisitorTeam>Moose</VisitorTeam>
+    <VisitorTeamAbbre>MAN</VisitorTeamAbbre>
+    <VisitorTeamShots>14</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>22</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Brian Strait(17), John Quenneville(37), Eeli Tolvanen(44,45)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Vitek Vanecek (MAN), 22 saves from 25 shots - (0.880), W, 40-31-2, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>23</HomeTeamNumber>
+    <HomeTeam>Roadrunners</HomeTeam>
+    <HomeTeamAbbre>TUC</HomeTeamAbbre>
+    <HomeTeamShots>25</HomeTeamShots>
+    <HomeTeamShotsAttemp>54</HomeTeamShotsAttemp>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Griffin Reinhart(15), Matt Hunwick(5), Antti Suomela(9)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (TUC), 10 saves from 14 shots - (0.714), L, 0-1-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1258</GameNumber>
+    <Link>OTHL-1258.html</Link>
+    <VisitorTeamNumber>6</VisitorTeamNumber>
+    <VisitorTeam>Hurricanes</VisitorTeam>
+    <VisitorTeamAbbre>CAR</VisitorTeamAbbre>
+    <VisitorTeamShots>23</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>38</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>Josh Mahura(1), Pontus Aberg(15)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Pavel Francouz (CAR), 42 saves from 47 shots - (0.894), L, 16-31-5, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>3</HomeTeamNumber>
+    <HomeTeam>Bruins</HomeTeam>
+    <HomeTeamAbbre>BOS</HomeTeamAbbre>
+    <HomeTeamShots>47</HomeTeamShots>
+    <HomeTeamShotsAttemp>81</HomeTeamShotsAttemp>
+    <HomeTeamScore>5</HomeTeamScore>
+    <HomeTeamGoal>Eric Staal(20,21), Bryan Little(10), Sean Couturier(49), Tomas Tatar(26)</HomeTeamGoal>
+    <HomeTeamGoaler>Matthew Villalta (BOS), 21 saves from 23 shots - (0.913), W, 1-0-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1258</GameNumber>
+    <Link>OTHL-Farm-1258.html</Link>
+    <VisitorTeamNumber>6</VisitorTeamNumber>
+    <VisitorTeam>Checkers</VisitorTeam>
+    <VisitorTeamAbbre>CHR</VisitorTeamAbbre>
+    <VisitorTeamShots>36</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>72</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>5</VisitorTeamScore>
+    <VisitorTeamGoal>Aleksi Saarela(15), Nick Paul(27,28), Andy Andreoff(60), Michael Mersch(50)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Kevin Boyle (CHR), 13 saves from 15 shots - (0.867), W, 62-10-3, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>3</HomeTeamNumber>
+    <HomeTeam>Bruins</HomeTeam>
+    <HomeTeamAbbre>PRO</HomeTeamAbbre>
+    <HomeTeamShots>15</HomeTeamShots>
+    <HomeTeamShotsAttemp>30</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Jaycob Megna(3), Chris Bigras(18)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (PRO), 31 saves from 36 shots - (0.861), L, 0-1-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1259</GameNumber>
+    <Link>OTHL-1259.html</Link>
+    <VisitorTeamNumber>22</VisitorTeamNumber>
+    <VisitorTeam>Flyers</VisitorTeam>
+    <VisitorTeamAbbre>PHL</VisitorTeamAbbre>
+    <VisitorTeamShots>40</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>87</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Brett Connolly(13), Brock Nelson(26), Josh Leivo(11,12)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Jaroslav Halak (PHL), 30 saves from 31 shots - (0.968), W, 28-28-6, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>4</HomeTeamNumber>
+    <HomeTeam>Sabres</HomeTeam>
+    <HomeTeamAbbre>BUF</HomeTeamAbbre>
+    <HomeTeamShots>31</HomeTeamShots>
+    <HomeTeamShotsAttemp>60</HomeTeamShotsAttemp>
+    <HomeTeamScore>1</HomeTeamScore>
+    <HomeTeamGoal>Pavel Buchnevich(18)</HomeTeamGoal>
+    <HomeTeamGoaler>Linus Ullmark (BUF), 36 saves from 40 shots - (0.900), L, 9-8-4, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1259</GameNumber>
+    <Link>OTHL-Farm-1259.html</Link>
+    <VisitorTeamNumber>22</VisitorTeamNumber>
+    <VisitorTeam>Phantoms</VisitorTeam>
+    <VisitorTeamAbbre>LVP</VisitorTeamAbbre>
+    <VisitorTeamShots>17</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>35</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>Brian Gibbons(65), Alex Broadhurst(85)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Ryan Miller (LVP), 23 saves from 24 shots - (0.958), W, 58-14-1, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>4</HomeTeamNumber>
+    <HomeTeam> Americans</HomeTeam>
+    <HomeTeamAbbre>ROC</HomeTeamAbbre>
+    <HomeTeamShots>24</HomeTeamShots>
+    <HomeTeamShotsAttemp>72</HomeTeamShotsAttemp>
+    <HomeTeamScore>1</HomeTeamScore>
+    <HomeTeamGoal>Turner Elson(44)</HomeTeamGoal>
+    <HomeTeamGoaler>Ken Appleby (ROC), 15 saves from 17 shots - (0.882), L, 61-9-7, 59:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1260</GameNumber>
+    <Link>OTHL-1260.html</Link>
+    <VisitorTeamNumber>12</VisitorTeamNumber>
+    <VisitorTeam>Oilers</VisitorTeam>
+    <VisitorTeamAbbre>EDM</VisitorTeamAbbre>
+    <VisitorTeamShots>32</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>72</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>Jonathan Toews(28), Mattias Ekholm(8)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Anders Nilsson (EDM), 29 saves from 32 shots - (0.906), L, 10-11-3, 59:16 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>5</HomeTeamNumber>
+    <HomeTeam>Flames</HomeTeam>
+    <HomeTeamAbbre>CGY</HomeTeamAbbre>
+    <HomeTeamShots>32</HomeTeamShots>
+    <HomeTeamShotsAttemp>62</HomeTeamShotsAttemp>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Dylan Larkin(39,40), Taylor Hall(28)</HomeTeamGoal>
+    <HomeTeamGoaler>Pekka Rinne (CGY), 30 saves from 32 shots - (0.938), W, 32-16-6, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1260</GameNumber>
+    <Link>OTHL-Farm-1260.html</Link>
+    <VisitorTeamNumber>12</VisitorTeamNumber>
+    <VisitorTeam>Condors</VisitorTeam>
+    <VisitorTeamAbbre>BKR</VisitorTeamAbbre>
+    <VisitorTeamShots>26</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>39</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>5</VisitorTeamScore>
+    <VisitorTeamGoal>Nick Schmaltz(47), Ryan Kuffner(23), Dominic Toninato(54), Eric Robinson(35,36)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Scott Wedgewood (BKR), 7 saves from 11 shots - (0.636), 18:12 minutes Zane McIntyre (BKR), 11 saves from 14 shots - (0.786), L, 4-1-0, 41:48 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>5</HomeTeamNumber>
+    <HomeTeam>Heat</HomeTeam>
+    <HomeTeamAbbre>STK</HomeTeamAbbre>
+    <HomeTeamShots>25</HomeTeamShots>
+    <HomeTeamShotsAttemp>62</HomeTeamShotsAttemp>
+    <HomeTeamScore>7</HomeTeamScore>
+    <HomeTeamGoal>Tyrell Goulbourne(27), Blake Hillman(7), Brad Malone(62,63,64), Taro Hirose(41), Samuel Morin(11)</HomeTeamGoal>
+    <HomeTeamGoaler>Oscar Dansk (STK), 21 saves from 26 shots - (0.808), W, 72-7-2, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1261</GameNumber>
+    <Link>OTHL-1261.html</Link>
+    <VisitorTeamNumber>25</VisitorTeamNumber>
+    <VisitorTeam>Blues</VisitorTeam>
+    <VisitorTeamAbbre>STL</VisitorTeamAbbre>
+    <VisitorTeamShots>31</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>58</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Jason Pominville(14), Nick Seeler(3,4), Brendan Smith(5)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Jonathan Quick (STL), 24 saves from 26 shots - (0.923), W, 15-31-8, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>8</HomeTeamNumber>
+    <HomeTeam>Avalanche</HomeTeam>
+    <HomeTeamAbbre>COL</HomeTeamAbbre>
+    <HomeTeamShots>26</HomeTeamShots>
+    <HomeTeamShotsAttemp>54</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Blake Pietila(9), Travis Boyd(8)</HomeTeamGoal>
+    <HomeTeamGoaler>Jake Allen (COL), 27 saves from 31 shots - (0.871), L, 23-25-8, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1261</GameNumber>
+    <Link>OTHL-Farm-1261.html</Link>
+    <VisitorTeamNumber>25</VisitorTeamNumber>
+    <VisitorTeam>Rampage </VisitorTeam>
+    <VisitorTeamAbbre>SAR</VisitorTeamAbbre>
+    <VisitorTeamShots>48</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>93</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>6</VisitorTeamScore>
+    <VisitorTeamGoal>Unknown Player(1,2,3), Luke Gazdic(89,90,91)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Unknown Goalie (SAR), 58 saves from 61 shots - (0.951), W, 1-0-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>8</HomeTeamNumber>
+    <HomeTeam>Eagles</HomeTeam>
+    <HomeTeamAbbre>COL</HomeTeamAbbre>
+    <HomeTeamShots>61</HomeTeamShots>
+    <HomeTeamShotsAttemp>129</HomeTeamShotsAttemp>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Unknown Player(1,2,3)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (COL), 17 saves from 22 shots - (0.773), L, 0-1-0, 34:01 minutes Unknown Goalie (COL), 25 saves from 26 shots - (0.962), 25:59 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1262</GameNumber>
+    <Link>OTHL-1262.html</Link>
+    <VisitorTeamNumber>27</VisitorTeamNumber>
+    <VisitorTeam>Lightning</VisitorTeam>
+    <VisitorTeamAbbre>TBL</VisitorTeamAbbre>
+    <VisitorTeamShots>32</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>67</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>Joe Thornton(17), Mike Hoffman(31)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Brian Elliott (TBL), 38 saves from 41 shots - (0.927), L, 10-8-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>11</HomeTeamNumber>
+    <HomeTeam>Red Wings</HomeTeam>
+    <HomeTeamAbbre>DET</HomeTeamAbbre>
+    <HomeTeamShots>41</HomeTeamShots>
+    <HomeTeamShotsAttemp>70</HomeTeamShotsAttemp>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Marc Staal(11), Mathieu Joseph(9), Kyle Turris(10)</HomeTeamGoal>
+    <HomeTeamGoaler>Sergei Bobrovsky (DET), 30 saves from 32 shots - (0.938), W, 31-23-10, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1262</GameNumber>
+    <Link>OTHL-Farm-1262.html</Link>
+    <VisitorTeamNumber>27</VisitorTeamNumber>
+    <VisitorTeam>Crunch</VisitorTeam>
+    <VisitorTeamAbbre>SYR</VisitorTeamAbbre>
+    <VisitorTeamShots>20</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>40</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>0</VisitorTeamScore>
+    <VisitorTeamGoal />
+    <VisitorTeamGoaler>Matt Tomkins (SYR), 14 saves from 16 shots - (0.875), L, 5-2-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>11</HomeTeamNumber>
+    <HomeTeam>Griffins</HomeTeam>
+    <HomeTeamAbbre>GRP</HomeTeamAbbre>
+    <HomeTeamShots>16</HomeTeamShots>
+    <HomeTeamShotsAttemp>24</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Austin Wagner(51,52)</HomeTeamGoal>
+    <HomeTeamGoaler>Aaron Dell (GRP), 20 saves from 20 shots - (1.000), W, 42-25-7, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1263</GameNumber>
+    <Link>OTHL-1263.html</Link>
+    <VisitorTeamNumber>30</VisitorTeamNumber>
+    <VisitorTeam>Capitals</VisitorTeam>
+    <VisitorTeamAbbre>WSH</VisitorTeamAbbre>
+    <VisitorTeamShots>32</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>58</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Kyle Palmieri(20,21), Gustav Nyquist(16), Jacob Trouba(14)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Petr Mrazek (WSH), 30 saves from 37 shots - (0.811), L, 23-16-6, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>13</HomeTeamNumber>
+    <HomeTeam>Panthers</HomeTeam>
+    <HomeTeamAbbre>FLA</HomeTeamAbbre>
+    <HomeTeamShots>37</HomeTeamShots>
+    <HomeTeamShotsAttemp>70</HomeTeamShotsAttemp>
+    <HomeTeamScore>7</HomeTeamScore>
+    <HomeTeamGoal>Lawson Crouse(9), Curtis Lazar(8), Jake Debrusk(14), Tyler Seguin(32,33,34), Carl Soderberg(30)</HomeTeamGoal>
+    <HomeTeamGoaler>David Rittich (FLA), 4 saves from 7 shots - (0.571), 13:49 minutes Jake Oettinger (FLA), 24 saves from 25 shots - (0.960), W, 2-2-0, 46:11 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1263</GameNumber>
+    <Link>OTHL-Farm-1263.html</Link>
+    <VisitorTeamNumber>30</VisitorTeamNumber>
+    <VisitorTeam>Bears</VisitorTeam>
+    <VisitorTeamAbbre>HER</VisitorTeamAbbre>
+    <VisitorTeamShots>28</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>52</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>7</VisitorTeamScore>
+    <VisitorTeamGoal>Matthew Peca(35,36,37), Unknown Player(1,2,3), Laurent Dauphin(32)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Spencer Martin (HER), 22 saves from 27 shots - (0.815), W, 44-15-1, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>13</HomeTeamNumber>
+    <HomeTeam>Thunderbirds</HomeTeam>
+    <HomeTeamAbbre>SPR</HomeTeamAbbre>
+    <HomeTeamShots>27</HomeTeamShots>
+    <HomeTeamShotsAttemp>54</HomeTeamShotsAttemp>
+    <HomeTeamScore>5</HomeTeamScore>
+    <HomeTeamGoal>Luke Johnson(40), Daniel O'Regan(27), Michael Dal Colle(28,29), Cooper Marody(16)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (SPR), 9 saves from 13 shots - (0.692), 34:16 minutes Unknown Goalie (SPR), 12 saves from 15 shots - (0.800), L, 0-1-0, 25:44 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1264</GameNumber>
+    <Link>OTHL-1264.html</Link>
+    <VisitorTeamNumber>10</VisitorTeamNumber>
+    <VisitorTeam>Stars</VisitorTeam>
+    <VisitorTeamAbbre>DAL</VisitorTeamAbbre>
+    <VisitorTeamShots>19</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>35</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>6</VisitorTeamScore>
+    <VisitorTeamGoal>Max Pacioretty(22,23,24), Brandon Davidson(2), Derek Forbort(12), Matt Puempel(3)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Cam Talbot (DAL), 45 saves from 45 shots - (1.000), W, 25-24-4, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>14</HomeTeamNumber>
+    <HomeTeam>Kings</HomeTeam>
+    <HomeTeamAbbre>LAK</HomeTeamAbbre>
+    <HomeTeamShots>45</HomeTeamShots>
+    <HomeTeamShotsAttemp>79</HomeTeamShotsAttemp>
+    <HomeTeamScore>0</HomeTeamScore>
+    <HomeTeamGoal />
+    <HomeTeamGoaler>Malcolm Subban (LAK), 13 saves from 19 shots - (0.684), L, 8-8-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1264</GameNumber>
+    <Link>OTHL-Farm-1264.html</Link>
+    <VisitorTeamNumber>10</VisitorTeamNumber>
+    <VisitorTeam>Stars</VisitorTeam>
+    <VisitorTeamAbbre>TEX</VisitorTeamAbbre>
+    <VisitorTeamShots>76</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>140</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>9</VisitorTeamScore>
+    <VisitorTeamGoal>Unknown Player(1,2,3,4,5), Phil Varone(78,79,80,81)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Jean-Francois Berube (TEX), 45 saves from 50 shots - (0.900), W, 36-45-1, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>14</HomeTeamNumber>
+    <HomeTeam>Reign</HomeTeam>
+    <HomeTeamAbbre>ONT</HomeTeamAbbre>
+    <HomeTeamShots>50</HomeTeamShots>
+    <HomeTeamShotsAttemp>104</HomeTeamShotsAttemp>
+    <HomeTeamScore>5</HomeTeamScore>
+    <HomeTeamGoal>Unknown Player(1,2,3,4,5)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (ONT), 4 saves from 8 shots - (0.500), 3:41 minutes Unknown Goalie (ONT), 63 saves from 68 shots - (0.926), L, 0-1-0, 56:19 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1265</GameNumber>
+    <Link>OTHL-1265.html</Link>
+    <VisitorTeamNumber>15</VisitorTeamNumber>
+    <VisitorTeam>Wild</VisitorTeam>
+    <VisitorTeamAbbre>MIN</VisitorTeamAbbre>
+    <VisitorTeamShots>24</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>46</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>John Carlson(13), Tage Thompson(1), Sam Carrick(16), Rocco Grimaldi(7)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Troy Grosenick (MIN), 33 saves from 40 shots - (0.825), L, 14-16-7, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>17</HomeTeamNumber>
+    <HomeTeam>Predators</HomeTeam>
+    <HomeTeamAbbre>NSH</HomeTeamAbbre>
+    <HomeTeamShots>40</HomeTeamShots>
+    <HomeTeamShotsAttemp>84</HomeTeamShotsAttemp>
+    <HomeTeamScore>7</HomeTeamScore>
+    <HomeTeamGoal>Kyle Brodziak(10,11), Adrian Kempe(12), Reilly Smith(23), Logan Shaw(4), Andreas Athanasiou(25), Ryan Dzingel(17)</HomeTeamGoal>
+    <HomeTeamGoaler>Pheonix Copley (NSH), 20 saves from 24 shots - (0.833), W, 11-5-5, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1265</GameNumber>
+    <Link>OTHL-Farm-1265.html</Link>
+    <VisitorTeamNumber>15</VisitorTeamNumber>
+    <VisitorTeam>Wild</VisitorTeam>
+    <VisitorTeamAbbre>IOA</VisitorTeamAbbre>
+    <VisitorTeamShots>37</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>70</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>5</VisitorTeamScore>
+    <VisitorTeamGoal>Unknown Player(1,2,3,4,5)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Unknown Goalie (IOA), 39 saves from 43 shots - (0.907), W, 1-0-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>17</HomeTeamNumber>
+    <HomeTeam>Admirals</HomeTeam>
+    <HomeTeamAbbre>MIL</HomeTeamAbbre>
+    <HomeTeamShots>43</HomeTeamShots>
+    <HomeTeamShotsAttemp>84</HomeTeamShotsAttemp>
+    <HomeTeamScore>4</HomeTeamScore>
+    <HomeTeamGoal>Unknown Player(1,2,3,4)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (MIL), 32 saves from 37 shots - (0.865), L, 0-1-0, 59:43 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1266</GameNumber>
+    <Link>OTHL-1266.html</Link>
+    <VisitorTeamNumber>18</VisitorTeamNumber>
+    <VisitorTeam>Devils</VisitorTeam>
+    <VisitorTeamAbbre>NJD</VisitorTeamAbbre>
+    <VisitorTeamShots>24</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>59</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>3</VisitorTeamScore>
+    <VisitorTeamGoal>Ryan Getzlaf(18), Chris Tanev(12), Darnell Nurse(10)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Robin Lehner (NJD), 6 saves from 6 shots - (1.000), 29:56 minutes Garret Sparks (NJD), 29 saves from 31 shots - (0.935), W, 7-10-2, 30:04 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>19</HomeTeamNumber>
+    <HomeTeam>Islanders</HomeTeam>
+    <HomeTeamAbbre>NYI</HomeTeamAbbre>
+    <HomeTeamShots>37</HomeTeamShots>
+    <HomeTeamShotsAttemp>75</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Alexander Radulov(22), Colton Parayko(11)</HomeTeamGoal>
+    <HomeTeamGoaler>Jordan Binnington (NYI), 21 saves from 24 shots - (0.875), L, 23-19-6, 59:46 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1266</GameNumber>
+    <Link>OTHL-Farm-1266.html</Link>
+    <VisitorTeamNumber>18</VisitorTeamNumber>
+    <VisitorTeam>Devils</VisitorTeam>
+    <VisitorTeamAbbre>BNG</VisitorTeamAbbre>
+    <VisitorTeamShots>63</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>117</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Unknown Player(1,2,3)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Unknown Goalie (BNG), 47 saves from 50 shots - (0.940), W, 1-0-0, 65:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>19</HomeTeamNumber>
+    <HomeTeam>Sound Tigers</HomeTeam>
+    <HomeTeamAbbre>BPT</HomeTeamAbbre>
+    <HomeTeamShots>50</HomeTeamShots>
+    <HomeTeamShotsAttemp>97</HomeTeamShotsAttemp>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Unknown Player(1,2,3)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (BPT), 60 saves from 63 shots - (0.952), OTL, 0-0-1, 65:00 minutes </HomeTeamGoaler>
+    <Note>End in Shootout</Note>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1267</GameNumber>
+    <Link>OTHL-1267.html</Link>
+    <VisitorTeamNumber>7</VisitorTeamNumber>
+    <VisitorTeam>Blackhawks</VisitorTeam>
+    <VisitorTeamAbbre>CHI</VisitorTeamAbbre>
+    <VisitorTeamShots>31</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>60</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Matt Calvert(3,4), Zach Werenski(15), Vladislav Namestnikov(12)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Corey Crawford (CHI), 16 saves from 18 shots - (0.889), W, 12-6-2, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>20</HomeTeamNumber>
+    <HomeTeam>Rangers</HomeTeam>
+    <HomeTeamAbbre>NYR</HomeTeamAbbre>
+    <HomeTeamShots>18</HomeTeamShots>
+    <HomeTeamShotsAttemp>43</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Roman Josi(12,13)</HomeTeamGoal>
+    <HomeTeamGoaler>Carter Hutton (NYR), 27 saves from 31 shots - (0.871), L, 6-7-3, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1267</GameNumber>
+    <Link>OTHL-Farm-1267.html</Link>
+    <VisitorTeamNumber>7</VisitorTeamNumber>
+    <VisitorTeam>IceHogs</VisitorTeam>
+    <VisitorTeamAbbre>RCK</VisitorTeamAbbre>
+    <VisitorTeamShots>59</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>116</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>8</VisitorTeamScore>
+    <VisitorTeamGoal>Valentin Zykov(60), Max Veronneau(76,77,78), Joseph Blandisi(50), Kiefer Sherwood(73,74,75)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Al Montoya (RCK), 4 saves from 4 shots - (1.000), W, 71-9-2, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>20</HomeTeamNumber>
+    <HomeTeam>Wolf Pack</HomeTeam>
+    <HomeTeamAbbre>HFD</HomeTeamAbbre>
+    <HomeTeamShots>4</HomeTeamShots>
+    <HomeTeamShotsAttemp>11</HomeTeamShotsAttemp>
+    <HomeTeamScore>0</HomeTeamScore>
+    <HomeTeamGoal />
+    <HomeTeamGoaler>Unknown Goalie (HFD), 44 saves from 48 shots - (0.917), L, 0-1-0, 47:19 minutes Unknown Goalie (HFD), 7 saves from 11 shots - (0.636), 12:41 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1268</GameNumber>
+    <Link>OTHL-1268.html</Link>
+    <VisitorTeamNumber>24</VisitorTeamNumber>
+    <VisitorTeam>Penguins</VisitorTeam>
+    <VisitorTeamAbbre>PIT</VisitorTeamAbbre>
+    <VisitorTeamShots>37</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>69</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>1</VisitorTeamScore>
+    <VisitorTeamGoal>Tyson Jost(14)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Semyon Varlamov (PIT), 30 saves from 32 shots - (0.938), L, 21-40-0, 59:08 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>21</HomeTeamNumber>
+    <HomeTeam>Senators</HomeTeam>
+    <HomeTeamAbbre>OTT</HomeTeamAbbre>
+    <HomeTeamShots>32</HomeTeamShots>
+    <HomeTeamShotsAttemp>64</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Drew Stafford(10), John Hayden(2)</HomeTeamGoal>
+    <HomeTeamGoaler>Andrei Vasilevskiy (OTT), 36 saves from 37 shots - (0.973), W, 27-21-3, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1268</GameNumber>
+    <Link>OTHL-Farm-1268.html</Link>
+    <VisitorTeamNumber>24</VisitorTeamNumber>
+    <VisitorTeam>Penguins</VisitorTeam>
+    <VisitorTeamAbbre>WBS</VisitorTeamAbbre>
+    <VisitorTeamShots>35</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>74</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>6</VisitorTeamScore>
+    <VisitorTeamGoal>Jamie Devane(30,31,32,33), Dave Dziurzynski(62,63)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Tom McCollum (WBS), 18 saves from 22 shots - (0.818), W, 36-26-1, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>21</HomeTeamNumber>
+    <HomeTeam>Senators</HomeTeam>
+    <HomeTeamAbbre>BEL</HomeTeamAbbre>
+    <HomeTeamShots>22</HomeTeamShots>
+    <HomeTeamShotsAttemp>48</HomeTeamShotsAttemp>
+    <HomeTeamScore>4</HomeTeamScore>
+    <HomeTeamGoal>Unknown Player(1,2,3), Michael Bunting(7)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (BEL), 12 saves from 16 shots - (0.750), 24:36 minutes Unknown Goalie (BEL), 17 saves from 19 shots - (0.895), L, 0-1-0, 35:24 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1269</GameNumber>
+    <Link>OTHL-1269.html</Link>
+    <VisitorTeamNumber>1</VisitorTeamNumber>
+    <VisitorTeam>Ducks</VisitorTeam>
+    <VisitorTeamAbbre>ANH</VisitorTeamAbbre>
+    <VisitorTeamShots>33</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>64</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>5</VisitorTeamScore>
+    <VisitorTeamGoal>Zach Aston-Reese(7), Tyler Bertuzzi(12), Johnny Gaudreau(23,24)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Antti Raanta (ANH), 41 saves from 45 shots - (0.911), W, 20-14-9, 65:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>26</HomeTeamNumber>
+    <HomeTeam>Sharks</HomeTeam>
+    <HomeTeamAbbre>SJS</HomeTeamAbbre>
+    <HomeTeamShots>45</HomeTeamShots>
+    <HomeTeamShotsAttemp>75</HomeTeamShotsAttemp>
+    <HomeTeamScore>4</HomeTeamScore>
+    <HomeTeamGoal>Derek Ryan(9), Ondrej Kase(17), Filip Forsberg(30), Aleksander Barkov(47)</HomeTeamGoal>
+    <HomeTeamGoaler>Laurent Brossoit (SJS), 29 saves from 33 shots - (0.879), OTL, 7-8-1, 65:00 minutes </HomeTeamGoaler>
+    <Note>End in Shootout</Note>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1269</GameNumber>
+    <Link>OTHL-Farm-1269.html</Link>
+    <VisitorTeamNumber>1</VisitorTeamNumber>
+    <VisitorTeam>Gulls</VisitorTeam>
+    <VisitorTeamAbbre>SDG</VisitorTeamAbbre>
+    <VisitorTeamShots>41</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>89</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>7</VisitorTeamScore>
+    <VisitorTeamGoal>Trent Frederic(30), Warren Foegele(102), Emile Poirier(60,61), Trevor Moore(50), Nicolas Kerdiles(30), Zach Senyshyn(29)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Ian Scott (SDG), 9 saves from 11 shots - (0.818), W, 10-2-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>26</HomeTeamNumber>
+    <HomeTeam>Barracudas</HomeTeam>
+    <HomeTeamAbbre>SJB</HomeTeamAbbre>
+    <HomeTeamShots>11</HomeTeamShots>
+    <HomeTeamShotsAttemp>19</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Unknown Player(1,2)</HomeTeamGoal>
+    <HomeTeamGoaler>Unknown Goalie (SJB), 8 saves from 12 shots - (0.667), L, 0-1-0, 9:11 minutes Unknown Goalie (SJB), 26 saves from 29 shots - (0.897), 50:49 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1270</GameNumber>
+    <Link>OTHL-1270.html</Link>
+    <VisitorTeamNumber>16</VisitorTeamNumber>
+    <VisitorTeam>Canadiens</VisitorTeam>
+    <VisitorTeamAbbre>MTL</VisitorTeamAbbre>
+    <VisitorTeamShots>32</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>59</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Artemi Panarin(17), Alex DeBrincat(30), Marc-Edouard Vlasic(13), Anthony Mantha(14)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Ben Bishop (MTL), 27 saves from 29 shots - (0.931), W, 40-20-4, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>28</HomeTeamNumber>
+    <HomeTeam>Maple Leafs</HomeTeam>
+    <HomeTeamAbbre>TOR</HomeTeamAbbre>
+    <HomeTeamShots>29</HomeTeamShots>
+    <HomeTeamShotsAttemp>58</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Frank Vatrano(17), Troy Terry(2)</HomeTeamGoal>
+    <HomeTeamGoaler>James Reimer (TOR), 28 saves from 31 shots - (0.903), L, 5-10-3, 59:12 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1270</GameNumber>
+    <Link>OTHL-Farm-1270.html</Link>
+    <VisitorTeamNumber>16</VisitorTeamNumber>
+    <VisitorTeam>Rocket</VisitorTeam>
+    <VisitorTeamAbbre>LAV</VisitorTeamAbbre>
+    <VisitorTeamShots>43</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>84</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>5</VisitorTeamScore>
+    <VisitorTeamGoal>Vladislav Kamenev(36), Sheldon Rempal(53), Henrik Borgstrom(32), Adam Tambellini(44), Alex Schoenborn(7)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Alex Nedeljkovic (LAV), 8 saves from 8 shots - (1.000), W, 70-9-3, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>28</HomeTeamNumber>
+    <HomeTeam>Marlies</HomeTeam>
+    <HomeTeamAbbre>TOR</HomeTeamAbbre>
+    <HomeTeamShots>8</HomeTeamShots>
+    <HomeTeamShotsAttemp>22</HomeTeamShotsAttemp>
+    <HomeTeamScore>0</HomeTeamScore>
+    <HomeTeamGoal />
+    <HomeTeamGoaler>Dylan Wells (TOR), 38 saves from 43 shots - (0.884), L, 3-7-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro1271</GameNumber>
+    <Link>OTHL-1271.html</Link>
+    <VisitorTeamNumber>31</VisitorTeamNumber>
+    <VisitorTeam>Golden Knights</VisitorTeam>
+    <VisitorTeamAbbre>VGK</VisitorTeamAbbre>
+    <VisitorTeamShots>28</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>66</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>3</VisitorTeamScore>
+    <VisitorTeamGoal>Travis Sanheim(3), Scott Laughton(9), Colton Sissons(18)</VisitorTeamGoal>
+    <VisitorTeamGoaler>MacKenzie Blackwood (VGK), 30 saves from 33 shots - (0.909), OTL, 12-16-3, 65:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>29</HomeTeamNumber>
+    <HomeTeam>Canucks</HomeTeam>
+    <HomeTeamAbbre>VAN</HomeTeamAbbre>
+    <HomeTeamShots>33</HomeTeamShots>
+    <HomeTeamShotsAttemp>60</HomeTeamShotsAttemp>
+    <HomeTeamScore>4</HomeTeamScore>
+    <HomeTeamGoal>Mikko Rantanen(39), Alex Steen(20), Nico Hischier(24)</HomeTeamGoal>
+    <HomeTeamGoaler>Alexandar Georgiev (VAN), 25 saves from 28 shots - (0.893), W, 8-4-1, 65:00 minutes </HomeTeamGoaler>
+    <Note>End in Shootout</Note>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm1271</GameNumber>
+    <Link>OTHL-Farm-1271.html</Link>
+    <VisitorTeamNumber>31</VisitorTeamNumber>
+    <VisitorTeam>Wolves</VisitorTeam>
+    <VisitorTeamAbbre>CHI</VisitorTeamAbbre>
+    <VisitorTeamShots>17</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>34</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>1</VisitorTeamScore>
+    <VisitorTeamGoal>Lias Andersson(11)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Jon Gillies (CHI), 8 saves from 12 shots - (0.667), L, 24-15-5, 15:48 minutes Unknown Goalie (CHI), 15 saves from 18 shots - (0.833), 44:12 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>29</HomeTeamNumber>
+    <HomeTeam>Comets</HomeTeam>
+    <HomeTeamAbbre>UTI</HomeTeamAbbre>
+    <HomeTeamShots>30</HomeTeamShots>
+    <HomeTeamShotsAttemp>78</HomeTeamShotsAttemp>
+    <HomeTeamScore>7</HomeTeamScore>
+    <HomeTeamGoal>Joel L'Esperance(47,48), Chris Terry(35,36,37), Joshua Ho-Sang(54), Nic Petan(2)</HomeTeamGoal>
+    <HomeTeamGoaler>Cory Schneider (UTI), 16 saves from 17 shots - (0.941), W, 13-3-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+</ArrayOfTypeOutputXMLTodayGame>

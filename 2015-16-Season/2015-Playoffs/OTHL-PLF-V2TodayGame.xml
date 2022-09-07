@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLTodayGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro103</GameNumber>
+    <Link>OTHL-PLF-103.html</Link>
+    <VisitorTeam>Predators</VisitorTeam>
+    <VisitorTeamAbbre>NSH</VisitorTeamAbbre>
+    <VisitorTeamScore>1</VisitorTeamScore>
+    <VisitorTeamGoal>Radim Vrbata(10)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Carey Price (NSH), 29 saves from 31 shots - (0.935), L, 13-10-1, 59:12 minutes </VisitorTeamGoaler>
+    <HomeTeam>Lightning</HomeTeam>
+    <HomeTeamAbbre>TBL</HomeTeamAbbre>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>John Tavares(15), Jeff Carter(5)</HomeTeamGoal>
+    <HomeTeamGoaler>Brian Elliott (TBL), 29 saves from 30 shots - (0.967), W, 16-8-0, 60:00 minutes </HomeTeamGoaler>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm103</GameNumber>
+    <Link>OTHL-PLF-Farm-103.html</Link>
+    <VisitorTeam>Bruins</VisitorTeam>
+    <VisitorTeamAbbre>PRO</VisitorTeamAbbre>
+    <VisitorTeamScore>1</VisitorTeamScore>
+    <VisitorTeamGoal>Darren Archibald(16)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Reto Berra (PRO), 36 saves from 39 shots - (0.923), L, 11-3-1, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeam>Gulls</HomeTeam>
+    <HomeTeamAbbre>SDG</HomeTeamAbbre>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Markus Granlund(15), Emerson Etem(7), Colton Sissons(6)</HomeTeamGoal>
+    <HomeTeamGoaler>Brian Foster (SDG), 21 saves from 22 shots - (0.955), W, 16-2-1, 60:00 minutes </HomeTeamGoaler>
+  </TypeOutputXMLTodayGame>
+</ArrayOfTypeOutputXMLTodayGame>

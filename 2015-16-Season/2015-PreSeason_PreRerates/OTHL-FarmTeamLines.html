@@ -1,0 +1,2800 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>OTHL - Farm Team Lines</title>
+<script type="text/javascript" src="OTHL.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="Decription" content="Tyler Bell - STHS - Version : 2.3.1.1" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+@media screen and (max-width: 992px) {
+.STHSW10 {display:none;}
+.STHSRoster_GoaliesTable tbody td:nth-child(2){display:none;}
+.STHSRoster_GoaliesTable thead th:nth-child(2){display:none;}
+}
+@media screen and (max-width: 1200px) {
+.STHSWarning {display:block;}
+table.basictablesorter tbody td:nth-last-child(1){display:none;}
+table.basictablesorter thead th:nth-last-child(1){display:none;}
+table.basictablesorter tbody td:nth-last-child(2){display:none;}
+table.basictablesorter thead th:nth-last-child(2){display:none;}
+table.basictablesorter tbody td:nth-last-child(3){display:none;}
+table.basictablesorter thead th:nth-last-child(3){display:none;}
+table.basictablesorter tbody td:nth-last-child(4){display:none;}
+table.basictablesorter thead th:nth-last-child(4){display:none;}
+table.basictablesorter tbody td:nth-last-child(5){display:none;}
+table.basictablesorter thead th:nth-last-child(5){display:none;}
+table.basictablesorter tbody td:nth-last-child(6){display:none;}
+table.basictablesorter thead th:nth-last-child(6){display:none;}
+}</style>
+<link href="OTHL.css" rel="stylesheet" type="text/css" />
+</head><body>
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam" class="activemenu"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Record</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL.stc">STHS Client League File</a></td>
+<td><a href="OTHL-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-Schedule.html">Schedule </a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-TeamHistory.html">History</a></td>
+<td><a href="OTHL-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="OTHL-EntryDraft.html">Entry Draft</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html#Ducks">ANH</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Bruins">BOS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Sabres">BUF</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Hurricanes">CAR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Flames">CGY</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Blackhawks">CHI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BlueJackets">CLB</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Avalanche">COL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Stars">DAL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#RedWings">DET</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Oilers">EDM</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Panthers">FLA</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Kings">LAK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Wild">MIN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Canadiens">MTL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Devils">NJD</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Predators">NSH</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Islanders">NYI</a></td>
+</tr><tr>
+<td><a href="OTHL-ProTeamRoster.html#Rangers">NYR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Senators">OTT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Flyers">PHL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Coyotes">PHX</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Penguins">PIT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Sharks">SJS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Blues">STL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Lightning">TBL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MapleLeafs">TOR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Canucks">VAN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Jets">WPG</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Capitals">WSH</a></td>
+<td colspan="6" class="STHSW1"></td></tr></table></div>
+</div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Farm Team Lines</td><td class="STHSHeaderDate">Last Update - September 10, 2015 at 19:20</td></tr>
+</table><div class="STHSWarning">Your screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<div class="STHSTopLink"><a id="STHSRosterTop"></a> <a href="#Monsters">Monsters</a> | <a href="#IceHogs">IceHogs</a> | <a href="#Falcons">Falcons</a> | <a href="#Rivermen">Rivermen</a> | <a href="#Bruins">Bruins</a> | <a href="#Bulldogs">Bulldogs</a> | <a href="#Wolves">Wolves</a> | <a href="#Bears">Bears</a> | <a href="#Pirates">Pirates</a> | <a href="#Devils">Devils</a> | <a href="#Crunch">Crunch</a> | <a href="#Heat">Heat</a> | <a href="#Phantoms">Phantoms</a> | <a href="#Checkers">Checkers</a> | <a href="#SoundTigers">Sound Tigers</a> | <a href="#IceCaps">IceCaps</a> | <a href="#Monarchs">Monarchs</a> | <a href="#Admirals">Admirals</a> | <a href="#Marlies">Marlies</a> | <a href="#CityBarons">City Barons</a> | <a href="#Rampage">Rampage</a> | <a href="#Penguins">Penguins</a> | <a href="#Admirals">Admirals</a> | <a href="#Whale">Whale</a> | <a href="#Griffins">Griffins</a> | <a href="#Americans">Americans</a> | <a href="#Senators">Senators</a> | <a href="#Sharks">Sharks</a> | <a href="#Stars">Stars</a> | <a href="#Aeros">Aeros</a> | <a href="javascript:STHS_JS_CloseAll('');">Close All Team View</a> | <a href="javascript:STHS_JS_OpenAll('');">Open All Team View</a>
+</div>
+<h1 class="TeamLineFarm_LEM"><a id="Monsters">Monsters</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Avalanche">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Monsters">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Monsters">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Monsters">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Monsters">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Monsters">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Monsters');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Monsters" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Alexander Wennberg (Healthy), Patrick Kane (Healthy), Mark Fayne (Healthy), Jacob De La Rose (Healthy), Brandon Manning (Healthy)
+Brayden Schenn (Healthy), Brian Flynn (Healthy), Korbinian Holzer (Healthy), Tobias Rieder (Healthy), Ben Bishop (Healthy)
+Antti Raanta (Healthy)</pre></div>
+<h1 class="TeamLineFarm_RCK"><a id="IceHogs">IceHogs</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Blackhawks">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#IceHogs">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#IceHogs">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#IceHogs">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#IceHogs">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#IceHogs">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_IceHogs');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_IceHogs" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Lauri Korpikoski (Healthy), Brandon Dubinsky (Healthy), Jarret Stoll (Healthy), Derick Brassard (Healthy), Kevin Hayes (Healthy)
+Sean Couturier (Healthy), Gabriel Landeskog (Healthy)</pre></div>
+<h1 class="TeamLineFarm_SPR"><a id="Falcons">Falcons</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#BlueJackets">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Falcons">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Falcons">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Falcons">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Falcons">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Falcons">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Falcons');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Falcons" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Derek Grant              Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Frank Corrado            Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Frank Corrado            Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Derek Grant              Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Frank Corrado            Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Derek Grant              40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Frank Corrado            Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Frank Corrado            Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Derek Grant              40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Frank Corrado            Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Joe Cannata              
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Frank Corrado - PP : Unknown Player - PK : Unknown Player, Frank Corrado
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Derek Grant, Unknown Player
+
+<b>Scratches</b>
+Ryan Kesler (Healthy), Ryan Garbutt (Healthy)</pre></div>
+<h1 class="TeamLineFarm_PEO"><a id="Rivermen">Rivermen</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Blues">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Rivermen">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Rivermen">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Rivermen">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Rivermen">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Rivermen">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Rivermen');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Rivermen" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Ryan Parent              Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Jay Rosehill             Kevin Westgarth          30     1   2  2  
+ 3 Unknown Player           Kevin Westgarth          Unknown Player           20     1   2  2  
+ 4 Jay Rosehill             Frederic St. Denis       Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Marc-Andre Bourdon       Frederic St. Denis                                30     1   2  2  
+ 3 Ryan Parent              Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Marc-Andre Bourdon                                10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Ryan Parent              Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Jay Rosehill             Kevin Westgarth          40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Marc-Andre Bourdon       Frederic St. Denis                                40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Kevin Westgarth          60     1   2  2  
+ 2 Unknown Player           Jay Rosehill             40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Marc-Andre Bourdon       Frederic St. Denis       40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Kevin Westgarth                                   40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Marc-Andre Bourdon       Frederic St. Denis       40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Kevin Westgarth          60     1   2  2  
+ 2 Unknown Player           Jay Rosehill             40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Marc-Andre Bourdon       Frederic St. Denis       40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Ryan Parent              Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Ryan Parent              Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Kevin Poulin             
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Jay Rosehill, Unknown Player - PP : Unknown Player, Jay Rosehill - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Ryan Parent, Unknown Player, Unknown Player - PP : Ryan Parent - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Kevin Westgarth, Unknown Player, Jay Rosehill, Unknown Player
+
+<b>Scratches</b>
+Tomas Plekanec (Healthy), Dale Weise (Healthy), Taylor Chorney (Healthy), Slava Voynov (Healthy), Gabriel Bourque (Healthy)
+Dalton Prout (Healthy), David Savard (Healthy), Stephane Veilleux (Healthy), Brendan Gallagher (Healthy), Jonathan Bernier (Healthy)</pre></div>
+<h1 class="TeamLineFarm_PRO"><a id="Bruins">Bruins</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Bruins">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Bruins">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Bruins">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Bruins">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Bruins">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Bruins">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Bruins');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Bruins" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Cody McCormick           Jason Akeson             40     1   2  2  
+ 2 Michael Latta            Darren Archibald         Unknown Player           30     1   2  2  
+ 3 Dennis Everberg          Unknown Player           Cam Janssen              20     1   2  2  
+ 4 Unknown Player           Michael Latta            Pierre-Luc Letourneau-Leb10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Cameron Schilling        Yann Sauve                                        30     1   2  2  
+ 3 Matt Dumba               Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Cameron Schilling                                 10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Cody McCormick           Jason Akeson             60     1   2  2  
+ 2 Michael Latta            Darren Archibald         Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Cameron Schilling        Yann Sauve                                        40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Michael Latta            60     1   2  2  
+ 2 Jason Akeson             Cody McCormick           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Cameron Schilling        Yann Sauve               40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Michael Latta                                     40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Cameron Schilling        Yann Sauve               40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Michael Latta            60     1   2  2  
+ 2 Jason Akeson             Cody McCormick           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Cameron Schilling        Yann Sauve               40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Cody McCormick           Jason Akeson             Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Cody McCormick           Jason Akeson             Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Cam Janssen, Pierre-Luc Letourneau-Leblond, Dennis Everberg - PP : Cam Janssen, Pierre-Luc Letourneau-Leblond - PK : Dennis Everberg
+<b>Extra Defensemen</b>
+Normal : Matt Dumba, Yann Sauve, Unknown Player - PP : Matt Dumba - PK : Yann Sauve, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Michael Latta, Jason Akeson, Cody McCormick, Darren Archibald
+
+<b>Scratches</b>
+Davis Drewiske (Healthy), Patrick Maroon (Healthy), Matt Donovan (Healthy), Mark Arcobello (Healthy), Pierre-Edouard Bellemare (Healthy)
+Keith Kinkaid (Healthy), Reto Berra (Healthy)</pre></div>
+<h1 class="TeamLineFarm_HAM"><a id="Bulldogs">Bulldogs</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Canadiens">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Bulldogs">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Bulldogs">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Bulldogs">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Bulldogs">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Bulldogs">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Bulldogs');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Bulldogs" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Tyler Kennedy (Healthy), Mats Zuccarello (Healthy), Ryane Clowe (Healthy), Kyle Chipchura (Healthy), Jesse Joensuu (Healthy)
+Drayson Bowman (Healthy), Jake Gardiner (Healthy), Carter Ashton (Healthy), Michael Stone (Healthy), Lucas Lessio (Healthy)
+Brett Ritchie (Healthy), Thomas Greiss (Healthy)</pre></div>
+<h1 class="TeamLineFarm_CHI"><a id="Wolves">Wolves</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Canucks">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Wolves">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Wolves">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Wolves">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Wolves">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Wolves">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Wolves');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Wolves" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Gabriel Dumont           Shane Prince             Unknown Player           40     1   2  2  
+ 2 Unknown Player           Justin Shugg             Iiro Pakarinen           30     1   2  2  
+ 3 Gabriel Dumont           Shane Prince             Justin Shugg             20     1   2  2  
+ 4 Unknown Player           Unknown Player           Iiro Pakarinen           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Gabriel Dumont           Shane Prince             Unknown Player           60     1   2  2  
+ 2 Unknown Player           Justin Shugg             Iiro Pakarinen           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Gabriel Dumont           Shane Prince             60     1   2  2  
+ 2 Justin Shugg             Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Gabriel Dumont                                    60     1   2  2  
+ 2 Shane Prince                                      40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Gabriel Dumont           Shane Prince             60     1   2  2  
+ 2 Justin Shugg             Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Gabriel Dumont           Shane Prince             Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Gabriel Dumont           Shane Prince             Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Iiro Pakarinen, Justin Shugg - PP : Unknown Player, Iiro Pakarinen - PK : Justin Shugg
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Gabriel Dumont, Shane Prince, Justin Shugg, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Mike Weber (Healthy), Jonathon Blum (Healthy), Matt Stajan (Healthy), Aaron Ness (Healthy), Dane Byers (Healthy)
+Matt Hunwick (Healthy), Stephane Robidas (Healthy), Nathan Horton (Healthy), Mike Santorelli (Healthy), Ryan Wilson (Healthy)
+Marcus Foligno (Healthy), Riley Nash (Healthy), Nicklas Jensen (Healthy), Mike Halmo (Healthy), Yann Danis (Healthy)
+Allen York (Healthy), Andrew Hammond (Healthy)</pre></div>
+<h1 class="TeamLineFarm_HER"><a id="Bears">Bears</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Capitals">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Bears">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Bears">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Bears">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Bears">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Bears">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Bears');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Bears" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Aaron Ekblad (Healthy), Chris Porter (Healthy), John Carlson (Healthy), Ryan Callahan (Healthy), Scott Hartnell (Healthy)
+Dennis Seidenberg (Healthy), Jakub Kindl (Healthy), Eric Tangradi (Healthy), Evgeny Kuznetsov (Healthy), Michal Neuvirth (Healthy)</pre></div>
+<h1 class="TeamLineFarm_POR"><a id="Pirates">Pirates</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Coyotes">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Pirates">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Pirates">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Pirates">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Pirates">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Pirates">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Pirates');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Pirates" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Justin Hodgman           Unknown Player           Anthony Stewart          40     1   2  2  
+ 2 Jordan Schroeder         Barclay Goodrow          Jared Boll               30     1   2  2  
+ 3 Unknown Player           Mike Angelidis           Micheal Haley            20     1   2  2  
+ 4 Unknown Player           Tim Schaller             Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Douglas Murray                                    40     1   2  2  
+ 2 Christian Folin          Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Douglas Murray                                    20     1   2  2  
+ 4 Christian Folin          Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Justin Hodgman           Unknown Player           Anthony Stewart          60     1   2  2  
+ 2 Jordan Schroeder         Barclay Goodrow          Jared Boll               40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Douglas Murray                                    60     1   2  2  
+ 2 Christian Folin          Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Anthony Stewart          60     1   2  2  
+ 2 Barclay Goodrow          Justin Hodgman           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Douglas Murray           60     1   2  2  
+ 2 Christian Folin          Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Anthony Stewart                                   40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Douglas Murray           60     1   2  2  
+ 2 Christian Folin          Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Anthony Stewart          60     1   2  2  
+ 2 Barclay Goodrow          Justin Hodgman           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Douglas Murray           60     1   2  2  
+ 2 Christian Folin          Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Justin Hodgman           Unknown Player           Anthony Stewart          Unknown Player           Douglas Murray           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Justin Hodgman           Unknown Player           Anthony Stewart          Unknown Player           Douglas Murray           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Mike Angelidis, Unknown Player, Unknown Player - PP : Mike Angelidis, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Douglas Murray, Christian Folin - PP : Unknown Player - PK : Douglas Murray, Christian Folin
+<b>Penalty Shots</b>
+Unknown Player, Anthony Stewart, Barclay Goodrow, Justin Hodgman, Mike Angelidis
+
+<b>Scratches</b>
+Zdeno Chara (Healthy), Jonathan Ericsson (Healthy), Matt Greene (Healthy), Richard Clune (Healthy), Michael Blunden (Healthy)
+Mika Zibanejad (Healthy), Quinton Howden (Healthy), Andrew Agozzino (Healthy), Ondrej Pavelec (Healthy), Magnus Hellberg (Healthy)</pre></div>
+<h1 class="TeamLineFarm_ALB"><a id="Devils">Devils</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Devils">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Devils">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Devils">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Devils">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Devils">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Devils">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Devils');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Devils" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Nicolas Blanchard        Mike Sislo               40     1   2  2  
+ 2 Carter Camper            Unknown Player           Ben Holmstrom            30     1   2  2  
+ 3 Unknown Player           Mike Sislo               Patrick Brown            20     1   2  2  
+ 4 Unknown Player           Carter Camper            Ben Holmstrom            10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Matt Taormina                                     30     1   2  2  
+ 3 Chris Breen              Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Nicolas Blanchard        Mike Sislo               60     1   2  2  
+ 2 Carter Camper            Unknown Player           Ben Holmstrom            40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Matt Taormina                                     40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mike Sislo               Unknown Player           60     1   2  2  
+ 2 Carter Camper            Ben Holmstrom            40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Matt Taormina            40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Mike Sislo                                        60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Matt Taormina            40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mike Sislo               Unknown Player           60     1   2  2  
+ 2 Carter Camper            Ben Holmstrom            40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Matt Taormina            40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Nicolas Blanchard        Mike Sislo               Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Nicolas Blanchard        Mike Sislo               Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Robin Lehner             
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Patrick Brown, Nicolas Blanchard, Unknown Player - PP : Patrick Brown, Nicolas Blanchard - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Chris Breen, Unknown Player, Unknown Player - PP : Chris Breen - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Mike Sislo, Unknown Player, Carter Camper, Ben Holmstrom, Unknown Player
+
+<b>Scratches</b>
+Adam Larsson (Healthy), Nikolai Kulemin (Healthy), Keith Aulie (Healthy), Henrik Sedin (Healthy), Phil Kessel (Healthy)
+Stefan Elliott (Healthy), Adam McQuaid (Healthy), Ryan White (Healthy), Oliver Ekman-Larsson (Healthy), Matt Tennyson (Healthy)
+Jayson Megna (Healthy), Kellan Lain (Healthy)</pre></div>
+<h1 class="TeamLineFarm_SYR"><a id="Crunch">Crunch</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Ducks">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Crunch">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Crunch">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Crunch">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Crunch">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Crunch">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Crunch');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Crunch" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Charlie Coyle            Unknown Player           Colton Sissons           40     1   2  2  
+ 2 Sean Monahan             Zemgus Girgensons        Brett Connolly           30     1   2  2  
+ 3 Unknown Player           Emerson Etem             Carl Klingberg           20     1   2  2  
+ 4 Bryce Van Brabant        Sven Baertschi           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Jacob Trouba             Martin Marincin                                   40     1   2  2  
+ 2 Morgan Rielly            Tim Erixon                                        30     1   2  2  
+ 3 Matthew Corrente         Jacob Trouba                                      20     1   2  2  
+ 4 Martin Marincin          Morgan Rielly                                     10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Charlie Coyle            Unknown Player           Colton Sissons           60     1   2  2  
+ 2 Sean Monahan             Zemgus Girgensons        Brett Connolly           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Jacob Trouba             Martin Marincin                                   60     1   2  2  
+ 2 Morgan Rielly            Tim Erixon                                        40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Charlie Coyle            Sean Monahan             60     1   2  2  
+ 2 Unknown Player           Zemgus Girgensons        40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Jacob Trouba             Martin Marincin          60     1   2  2  
+ 2 Morgan Rielly            Tim Erixon               40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Charlie Coyle                                     60     1   2  2  
+ 2 Sean Monahan                                      40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Jacob Trouba             Martin Marincin          60     1   2  2  
+ 2 Morgan Rielly            Tim Erixon               40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Charlie Coyle            Sean Monahan             60     1   2  2  
+ 2 Unknown Player           Zemgus Girgensons        40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Jacob Trouba             Martin Marincin          60     1   2  2  
+ 2 Morgan Rielly            Tim Erixon               40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Charlie Coyle            Unknown Player           Colton Sissons           Jacob Trouba             Martin Marincin          
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Charlie Coyle            Unknown Player           Colton Sissons           Jacob Trouba             Martin Marincin          
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Emerson Etem, Sven Baertschi, Carl Klingberg - PP : Emerson Etem, Sven Baertschi - PK : Carl Klingberg
+<b>Extra Defensemen</b>
+Normal : Matthew Corrente, Tim Erixon, Jacob Trouba - PP : Matthew Corrente - PK : Tim Erixon, Jacob Trouba
+<b>Penalty Shots</b>
+Charlie Coyle, Sean Monahan, Unknown Player, Zemgus Girgensons, Emerson Etem
+
+<b>Scratches</b>
+Andre Burakovsky (Healthy), Bo Horvat (Healthy), Jiri Hudler (Healthy), Bryan Little (Healthy), Sergei Gonchar (Healthy)
+Akim Aliu (Healthy), Tyson Barrie (Healthy), Mirco Mueller (Healthy), Joe Colborne (Healthy), Justin Faulk (Healthy)
+Roman Josi (Healthy), Maxwell Reinhart (Healthy), Filip Forsberg (Healthy), Markus Granlund (Healthy), Michael Ferland (Healthy)
+Stuart Percy (Healthy), Devin Shore (Healthy), Brian Foster (Healthy)</pre></div>
+<h1 class="TeamLineFarm_ABH"><a id="Heat">Heat</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Flames">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Heat">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Heat">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Heat">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Heat">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Heat">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Heat');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Heat" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 John Albert              Eric Boulton             Brian McGrattan          40     1   2  2  
+ 2 Josh Jooris              Unknown Player           Unknown Player           30     1   2  2  
+ 3 John Albert              Brian McGrattan          Eric Boulton             20     1   2  2  
+ 4 Josh Jooris              Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Tyler Wotherspoon        Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Tyler Wotherspoon        Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 John Albert              Eric Boulton             Brian McGrattan          60     1   2  2  
+ 2 Josh Jooris              Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Tyler Wotherspoon        Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 John Albert              Brian McGrattan          60     1   2  2  
+ 2 Eric Boulton             Josh Jooris              40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Tyler Wotherspoon        Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 John Albert                                       60     1   2  2  
+ 2 Brian McGrattan                                   40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Tyler Wotherspoon        Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 John Albert              Brian McGrattan          60     1   2  2  
+ 2 Eric Boulton             Josh Jooris              40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Tyler Wotherspoon        Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   John Albert              Eric Boulton             Brian McGrattan          Tyler Wotherspoon        Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   John Albert              Eric Boulton             Brian McGrattan          Tyler Wotherspoon        Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Eric Boulton, Josh Jooris, John Albert - PP : Eric Boulton, Josh Jooris - PK : John Albert
+<b>Extra Defensemen</b>
+Normal : Tyler Wotherspoon, Unknown Player, Unknown Player - PP : Tyler Wotherspoon - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+John Albert, Brian McGrattan, Eric Boulton, Josh Jooris, Unknown Player
+
+<b>Scratches</b>
+Jack Hillen (Healthy), Cal Clutterbuck (Healthy), Andrew Shaw (Healthy), Mark Giordano (Healthy), Erik Karlsson (Healthy)
+Roman Polak (Healthy), Anze Kopitar (Healthy), Lance Bouma (Healthy), Adam Henrique (Healthy), Casey Cizikas (Healthy)
+Patrick Wiercioch (Healthy), Johnny Gaudreau (Healthy), Adam Lowry (Healthy), Pekka Rinne (Healthy)</pre></div>
+<h1 class="TeamLineFarm_ADP"><a id="Phantoms">Phantoms</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Flyers">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Phantoms">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Phantoms">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Phantoms">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Phantoms">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Phantoms">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Phantoms');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Phantoms" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Patrick Holland          30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Patrick Holland          40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+David Moss (Healthy), Nicklas Grossman (Healthy), Brooks Orpik (Healthy), Loui Eriksson (Healthy), Tyson Strachan (Healthy)
+Damien Brunner (Healthy), Kyle Palmieri (Healthy), Derek Dorsett (Healthy), Mathieu Perreault (Healthy), Brandon Kozun (Healthy)
+Joe Whitney (Healthy), Andy Andreoff (Healthy), Nikita Nesterov (Healthy)</pre></div>
+<h1 class="TeamLineFarm_CHR"><a id="Checkers">Checkers</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Hurricanes">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Checkers">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Checkers">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Checkers">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Checkers">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Checkers">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Checkers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Checkers" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Rod Pelley               Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Nathan McIver            Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Greg Pateryn                                      10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Rod Pelley               Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Rod Pelley - PP : Unknown Player, Unknown Player - PK : Rod Pelley
+<b>Extra Defensemen</b>
+Normal : Nathan McIver, Unknown Player, Unknown Player - PP : Nathan McIver - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Brian Boyle (Healthy), Zac Dalpe (Healthy), Danny Syvret (Healthy), Pavel Datsyuk (Healthy), Joel Rechlicz (Healthy)
+Matt Halischuk (Healthy), Travis Morin (Healthy), Will Acton (Healthy)</pre></div>
+<h1 class="TeamLineFarm_BPT"><a id="SoundTigers">Sound Tigers</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Islanders">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#SoundTigers">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#SoundTigers">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#SoundTigers">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#SoundTigers">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#SoundTigers">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_SoundTigers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_SoundTigers" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Brandon Prust (Healthy), Bobby Butler (Healthy), Matt Ellis (Healthy), Cam Atkinson (Healthy), Patrice Cormier (Healthy)
+Joffrey Lupul (Healthy), Colton Gillies (Healthy), Karl Alzner (Healthy), Nick Leddy (Healthy), Jonathan Audy-Marchessault (Healthy)
+Drew LeBlanc (Healthy), Anders Lindback (Healthy), Troy Grosenick (Healthy)</pre></div>
+<h1 class="TeamLineFarm_STJ"><a id="IceCaps">IceCaps</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Jets">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#IceCaps">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#IceCaps">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#IceCaps">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#IceCaps">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#IceCaps">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_IceCaps');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_IceCaps" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           David Warsofsky                                   40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           David Warsofsky                                   20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           David Warsofsky                                   60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           David Warsofsky          60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           David Warsofsky          60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           David Warsofsky          60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           David Warsofsky          
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           David Warsofsky          
+
+<b>Goaltenders</b>
+Starting : Vitek Vanecek            
+Backup : Johan Gustafsson         
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, David Warsofsky, Unknown Player - PP : Unknown Player - PK : David Warsofsky, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Jordan Staal (Healthy), Tuomo Ruutu (Healthy), Travis Moen (Healthy), James Wisniewski (Healthy), John Scott (Healthy)
+Colton Sceviour (Healthy), Cody Franson (Healthy), Justin Schultz (Healthy), Ryan Ellis (Healthy), Cameron Talbot (Healthy)</pre></div>
+<h1 class="TeamLineFarm_MAN"><a id="Monarchs">Monarchs</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Kings">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Monarchs">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Monarchs">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Monarchs">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Monarchs">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Monarchs">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Monarchs');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Monarchs" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Dany Heatley (Healthy), Braydon Coburn (Healthy), Tim Jackman (Healthy), Jonathan Drouin (Healthy), Yannick Weber (Healthy)
+Erik Gudbranson (Healthy), Jordan Nolan (Healthy), Zack Kassian (Healthy), Nate Schmidt (Healthy), Thomas McCollum (Healthy)
+Devan Dubnyk (Healthy)</pre></div>
+<h1 class="TeamLineFarm_NOR"><a id="Admirals">Admirals</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Lightning">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Admirals">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Admirals">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Admirals">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Admirals">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Admirals">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Admirals');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Admirals" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Andrew Ebbett            Chris Conner             Unknown Player           46     0   1  4  
+ 2 Unknown Player           Magnus Paajarvi          Craig Cunningham         31     0   1  4  
+ 3 Unknown Player           Jerome Samson            Casey Wellman            15     1   2  2  
+ 4 Jim OBrien               Ryan Craig               Unknown Player           8      1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Steve Eminger                                     42     1   2  2  
+ 2 Aaron Rome               Unknown Player                                    32     1   2  2  
+ 3 Kevin Connauton          Unknown Player                                    16     1   3  1  
+ 4 Unknown Player           Aaron Rome                                        10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Craig Cunningham         Magnus Paajarvi          60     0   1  4  
+ 2 Unknown Player           Unknown Player           Chris Conner             40     0   1  4  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Steve Eminger                                     60     1   1  3  
+ 2 Aaron Rome               Kevin Connauton                                   40     1   1  3  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Magnus Paajarvi          60     1   4  0  
+ 2 Unknown Player           Jim OBrien               40     1   4  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Steve Eminger            60     1   4  0  
+ 2 Aaron Rome               Unknown Player           40     1   4  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     0   5  0  
+ 2 Unknown Player                                    40     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Steve Eminger            60     1   4  0  
+ 2 Aaron Rome               Unknown Player           40     1   4  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Andrew Ebbett            Magnus Paajarvi          60     1   2  2  
+ 2 Unknown Player           Jim OBrien               40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Steve Eminger            60     1   2  2  
+ 2 Aaron Rome               Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Andrew Ebbett            Craig Cunningham         Chris Conner             Unknown Player           Steve Eminger            
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Magnus Paajarvi          Aaron Rome               Steve Eminger            
+
+<b>Goaltenders</b>
+Starting : Marek Mazanec            
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Magnus Paajarvi, Andrew Ebbett, Craig Cunningham - PP : Unknown Player, Andrew Ebbett - PK : Andrew Ebbett
+<b>Extra Defensemen</b>
+Normal : Aaron Rome, Unknown Player, Unknown Player - PP : Aaron Rome - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Andrew Ebbett, Magnus Paajarvi, Unknown Player, Jim OBrien, Unknown Player
+
+<b>Scratches</b>
+Joel Ward (Healthy), John Tavares (Healthy), Chris Tanev (Healthy), Kyle Okposo (Healthy), Matt Moulson (Healthy)
+Brandon McMillan (Suspend), T.J. Brodie (Healthy), Tomas Vincour (Healthy), Jeff Carter (Healthy), Steve Ott (Healthy)
+Brandon Saad (Healthy), Brandon DeFazio (Healthy), Anthony Bitetto (Healthy), Miikka Salomaki (Healthy), Seth Helgeson (Healthy)
+Justin Peters (Healthy)</pre></div>
+<h1 class="TeamLineFarm_TOR"><a id="Marlies">Marlies</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#MapleLeafs">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Marlies">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Marlies">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Marlies">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Marlies">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Marlies">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Marlies');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Marlies" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Jake Muzzin (Healthy), David Schlemko (Healthy), Todd Bertuzzi (Healthy), Deryk Engelland (Healthy), Josh Bailey (Healthy)
+John Moore (Healthy), Brad Hunt (Healthy), Martin Jones (Healthy)</pre></div>
+<h1 class="TeamLineFarm_OCB"><a id="CityBarons">City Barons</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Oilers">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#CityBarons">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#CityBarons">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#CityBarons">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#CityBarons">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#CityBarons">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_CityBarons');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_CityBarons" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mikael Granlund          Unknown Player           Unknown Player           40     1   2  2  
+ 2 Jake Dowell              Tim Sestito              Mitchell Callahan        30     1   2  2  
+ 3 Scott Wilson             Mikael Granlund          Unknown Player           20     1   2  2  
+ 4 Unknown Player           Mitchell Callahan        Tim Sestito              10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Brian Lashoff            Mattias Ekholm                                    40     1   2  2  
+ 2 Unknown Player           Peter Harrold                                     30     1   2  2  
+ 3 Brian Lashoff            Mattias Ekholm                                    20     1   2  2  
+ 4 Unknown Player           Peter Harrold                                     10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mikael Granlund          Unknown Player           Unknown Player           60     1   2  2  
+ 2 Jake Dowell              Tim Sestito              Mitchell Callahan        40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Brian Lashoff            Mattias Ekholm                                    60     1   2  2  
+ 2 Unknown Player           Peter Harrold                                     40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mikael Granlund          Unknown Player           60     1   2  2  
+ 2 Unknown Player           Mitchell Callahan        40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Brian Lashoff            Mattias Ekholm           60     1   2  2  
+ 2 Unknown Player           Peter Harrold            40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Mikael Granlund                                   60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Brian Lashoff            Mattias Ekholm           60     1   2  2  
+ 2 Unknown Player           Peter Harrold            40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mikael Granlund          Unknown Player           60     1   2  2  
+ 2 Unknown Player           Mitchell Callahan        40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Brian Lashoff            Mattias Ekholm           60     1   2  2  
+ 2 Unknown Player           Peter Harrold            40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Mikael Granlund          Unknown Player           Unknown Player           Brian Lashoff            Mattias Ekholm           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Mikael Granlund          Unknown Player           Unknown Player           Brian Lashoff            Mattias Ekholm           
+
+<b>Goaltenders</b>
+Starting : Peter Mannino            
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Scott Wilson, Jake Dowell, Tim Sestito - PP : Scott Wilson, Jake Dowell - PK : Tim Sestito
+<b>Extra Defensemen</b>
+Normal : Brian Lashoff, Mattias Ekholm, Unknown Player - PP : Brian Lashoff - PK : Mattias Ekholm, Unknown Player
+<b>Penalty Shots</b>
+Mikael Granlund, Unknown Player, Unknown Player, Mitchell Callahan, Tim Sestito
+
+<b>Scratches</b>
+Darren Helm (Healthy), Andrei Markov (Healthy), Nick Foligno (Healthy), Benoit Pouliot (Healthy), Justin Abdelkader (Healthy)
+Craig Smith (Healthy), Ben Smith (Healthy), Jean-Gabriel Pageau (Healthy)</pre></div>
+<h1 class="TeamLineFarm_SAR"><a id="Rampage">Rampage</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Panthers">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Rampage">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Rampage">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Rampage">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Rampage">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Rampage">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Rampage');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Rampage" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Jonathan Toews (Healthy), Brian Strait (Healthy), Brad Boyes (Healthy), Jared Cowen (Healthy), Jimmy Hayes (Healthy)
+Alexander Petrovic (Healthy), Roberto Luongo (Healthy)</pre></div>
+<h1 class="TeamLineFarm_WBS"><a id="Penguins">Penguins</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Penguins">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Penguins">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Penguins">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Penguins">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Penguins">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Penguins">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Penguins');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Penguins" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Sean Collins             Tom Sestito              Daniel Carcillo          40     1   2  2  
+ 2 Unknown Player           Justin Florek            Unknown Player           30     1   2  2  
+ 3 Bobby Robins             Jamie Devane             Tom Sestito              20     1   2  2  
+ 4 Brayden Irwin            Justin Florek            Sean Collins             10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Nick Petrecki            Trevor van Riemsdyk                               40     1   2  2  
+ 2 Bobby Robins             Brayden Irwin                                     30     1   2  2  
+ 3 Nick Petrecki            Trevor van Riemsdyk                               20     1   2  2  
+ 4 Daniel Carcillo          Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Sean Collins             Tom Sestito              Daniel Carcillo          60     1   2  2  
+ 2 Unknown Player           Justin Florek            Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Nick Petrecki            Trevor van Riemsdyk                               60     1   2  2  
+ 2 Bobby Robins             Brayden Irwin                                     40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Tom Sestito              Justin Florek            60     1   2  2  
+ 2 Sean Collins             Daniel Carcillo          40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Nick Petrecki            Trevor van Riemsdyk      60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Tom Sestito                                       60     1   2  2  
+ 2 Justin Florek                                     40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Nick Petrecki            Trevor van Riemsdyk      60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Tom Sestito              Justin Florek            60     1   2  2  
+ 2 Sean Collins             Daniel Carcillo          40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Nick Petrecki            Trevor van Riemsdyk      60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Sean Collins             Tom Sestito              Daniel Carcillo          Nick Petrecki            Trevor van Riemsdyk      
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Sean Collins             Tom Sestito              Daniel Carcillo          Nick Petrecki            Trevor van Riemsdyk      
+
+<b>Goaltenders</b>
+Starting : Ilya Bryzgalov           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Jamie Devane, Unknown Player, Unknown Player - PP : Jamie Devane, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Nick Petrecki, Trevor van Riemsdyk, Unknown Player - PP : Nick Petrecki - PK : Trevor van Riemsdyk, Unknown Player
+<b>Penalty Shots</b>
+Tom Sestito, Justin Florek, Sean Collins, Daniel Carcillo, Unknown Player
+
+<b>Scratches</b>
+Erik Johnson (Healthy), Nicklas Backstrom (Healthy), Dennis Wideman (Healthy), David Dziurzynski (Healthy), Tyler Johnson (Healthy)
+Simeon Varlamov (Healthy), Scott Darling (Healthy)</pre></div>
+<h1 class="TeamLineFarm_MIL"><a id="Admirals">Admirals</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Predators">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Admirals">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Admirals">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Admirals">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Admirals">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Admirals">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Admirals');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Admirals" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Corban Knight            Matt Frattin             Unknown Player           40     1   2  2  
+ 2 Kevin Henderson          Unknown Player           Anthony Peluso           30     1   2  2  
+ 3 Corban Knight            Kevin Henderson          Jared Staal              20     1   2  2  
+ 4 Matt Frattin             Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Jared Staal              Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Anthony Peluso           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Corban Knight            Matt Frattin             Unknown Player           60     1   2  2  
+ 2 Kevin Henderson          Unknown Player           Anthony Peluso           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Jared Staal              Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Corban Knight            Matt Frattin             60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Corban Knight                                     60     1   2  2  
+ 2 Matt Frattin                                      40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Corban Knight            Matt Frattin             60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Corban Knight            Matt Frattin             Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Corban Knight            Matt Frattin             Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Kevin Henderson, Anthony Peluso, Jared Staal - PP : Kevin Henderson, Anthony Peluso - PK : Jared Staal
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Corban Knight, Matt Frattin, Unknown Player, Unknown Player, Kevin Henderson
+
+<b>Scratches</b>
+Alex Pietrangelo (Healthy), Martin Hanzal (Healthy), Kris Russell (Healthy), Rob Scuderi (Healthy), Matt Niskanen (Healthy)
+Jack Skille (Healthy), Jori Lehtera (Healthy), Matt Hendricks (Healthy), Michael Frolik (Healthy), Carey Price (Healthy)
+Peter Delmas (Healthy)</pre></div>
+<h1 class="TeamLineFarm_CON"><a id="Whale">Whale</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Rangers">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Whale">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Whale">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Whale">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Whale">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Whale">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Whale');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Whale" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Jason Chimera (Healthy), Marc Staal (Healthy), Dmitry Kulikov (Healthy), Jordan Leopold (Healthy), Zach Boychuk (Healthy)
+Marek Zidlicky (Healthy), Tyler Seguin (Healthy), B.J. Crombeen (Healthy), Mark Letestu (Healthy), Leo Komarov (Healthy)
+Chad Ruhwedel (Healthy), Calle Jarnkrok (Healthy), Karri Ramo (Healthy)</pre></div>
+<h1 class="TeamLineFarm_GRP"><a id="Griffins">Griffins</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#RedWings">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Griffins">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Griffins">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Griffins">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Griffins">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Griffins">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Griffins');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Griffins" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Evan Oberg               Brandon Yip              Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Brandon Yip              Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Evan Oberg               Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Evan Oberg               Brandon Yip              Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Brandon Yip              Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Brandon Yip                                       60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Brandon Yip              Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Evan Oberg               Brandon Yip              Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Evan Oberg               Brandon Yip              Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Brandon Yip, Unknown Player, Unknown Player - PP : Brandon Yip, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Evan Oberg, Unknown Player, Unknown Player - PP : Evan Oberg - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Brandon Yip, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Devin Setoguchi (Healthy), Scott Hannan (Healthy), Jamie McGinn (Healthy), Robert Bortuzzo (Healthy), Ben Street (Healthy)
+Eric Selleck (Healthy), Brody Sutter (Healthy), David Broll (Healthy), Sergei Bobrovsky (Healthy), Richard Bachman (Healthy)</pre></div>
+<h1 class="TeamLineFarm_ROC"><a id="Americans">Americans</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Sabres">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Americans">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Americans">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Americans">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Americans">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Americans">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Americans');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Americans" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Peter Holland            Anders Lee               Unknown Player           40     1   2  2  
+ 2 Luke Adam                Unknown Player           Jerry DAmigo             30     1   2  2  
+ 3 Jacob Josefson           Cedric Paquette          Patrick Kaleta           20     1   2  2  
+ 4 Landon Ferraro           Dmitrij Jaskin           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Eric Gelinas             Mark Pysyk                                        40     1   2  2  
+ 2 Taylor Fedun             Brayden McNabb                                    30     1   2  2  
+ 3 Unknown Player           Eric Gelinas                                      20     1   2  2  
+ 4 Mark Pysyk               Taylor Fedun                                      10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Peter Holland            Anders Lee               Unknown Player           60     1   2  2  
+ 2 Luke Adam                Unknown Player           Jerry DAmigo             40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Eric Gelinas             Mark Pysyk                                        60     1   2  2  
+ 2 Taylor Fedun             Brayden McNabb                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Peter Holland            Anders Lee               60     1   2  2  
+ 2 Luke Adam                Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Eric Gelinas             Mark Pysyk               60     1   2  2  
+ 2 Taylor Fedun             Brayden McNabb           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Peter Holland                                     60     1   2  2  
+ 2 Anders Lee                                        40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Eric Gelinas             Mark Pysyk               60     1   2  2  
+ 2 Taylor Fedun             Brayden McNabb           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Peter Holland            Anders Lee               60     1   2  2  
+ 2 Luke Adam                Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Eric Gelinas             Mark Pysyk               60     1   2  2  
+ 2 Taylor Fedun             Brayden McNabb           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Peter Holland            Anders Lee               Unknown Player           Eric Gelinas             Mark Pysyk               
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Peter Holland            Anders Lee               Unknown Player           Eric Gelinas             Mark Pysyk               
+
+<b>Goaltenders</b>
+Starting : Jacob Markstrom          
+Backup : Niklas Svedberg          
+
+<b>Extra Forwards</b>
+Normal : Jacob Josefson, Cedric Paquette, Patrick Kaleta - PP : Jacob Josefson, Cedric Paquette - PK : Patrick Kaleta
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Brayden McNabb, Eric Gelinas - PP : Unknown Player - PK : Brayden McNabb, Eric Gelinas
+<b>Penalty Shots</b>
+Peter Holland, Anders Lee, Luke Adam, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Thomas Vanek (Healthy), Tyler Myers (Healthy), Mike Weaver (Healthy), Simon Gagne (Healthy), Jeremy Morin (Healthy)
+Victor Bartley (Healthy), Corey Tropp (Healthy), Cody Goloubef (Healthy), Andrej Nestrasil (Healthy), Mark Barberio (Healthy)
+Rickard Rakell (Healthy), Mikhail Grigorenko (Healthy), Jon Merrill (Healthy), Nikita Zadorov (Healthy), Rasmus Ristolainen (Healthy)</pre></div>
+<h1 class="TeamLineFarm_BNG"><a id="Senators">Senators</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Senators">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Senators">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Senators">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Senators">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Senators">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Senators">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Senators');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Senators" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Tyler Toffoli            40     1   2  2  
+ 2 Nicholas Shore           Richard Panik            Matt Fraser              30     1   2  2  
+ 3 Phillip Danault          Matt Fraser              Tyler Toffoli            20     1   2  2  
+ 4 Unknown Player           Richard Panik            Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Justin Falk              Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Connor Carrick                                    30     1   2  2  
+ 3 Unknown Player           Justin Falk                                       20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Tyler Toffoli            60     1   2  2  
+ 2 Nicholas Shore           Richard Panik            Matt Fraser              40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Justin Falk              Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Connor Carrick                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Tyler Toffoli            Unknown Player           60     1   2  2  
+ 2 Richard Panik            Matt Fraser              40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Justin Falk              Unknown Player           60     1   2  2  
+ 2 Unknown Player           Connor Carrick           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Tyler Toffoli                                     60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Justin Falk              Unknown Player           60     1   2  2  
+ 2 Unknown Player           Connor Carrick           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Tyler Toffoli            Unknown Player           60     1   2  2  
+ 2 Richard Panik            Matt Fraser              40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Justin Falk              Unknown Player           60     1   2  2  
+ 2 Unknown Player           Connor Carrick           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Tyler Toffoli            Justin Falk              Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Tyler Toffoli            Justin Falk              Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Mackenzie Skapski        
+Backup : Anton Forsberg           
+
+<b>Extra Forwards</b>
+Normal : Phillip Danault, Nicholas Shore, Unknown Player - PP : Phillip Danault, Nicholas Shore - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Connor Carrick, Justin Falk - PP : Unknown Player - PK : Connor Carrick, Justin Falk
+<b>Penalty Shots</b>
+Tyler Toffoli, Unknown Player, Richard Panik, Matt Fraser, Unknown Player
+
+<b>Scratches</b>
+Sam Gagner (Healthy), Andrew Copp (Healthy), Dan Hamhuis (Healthy), James Sheppard (Healthy), Steven Kampfer (Healthy)
+Andrew Cogliano (Healthy), Alex Tanguay (Healthy), Alex Goligoski (Healthy), Cody Eakin (Healthy), Carl Hagelin (Healthy)
+Andrej Sustr (Healthy), Stanislav Galiev (Healthy), Victor Rask (Healthy), Sven Andrighetto (Healthy), Viktor Arvidsson (Healthy)
+Andrei Vasilevskiy (Healthy), Steve Mason (Healthy)</pre></div>
+<h1 class="TeamLineFarm_WOR"><a id="Sharks">Sharks</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Sharks">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Sharks">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Sharks">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Sharks">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Sharks">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Sharks">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Sharks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Sharks" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Aleksander Barkov        Unknown Player           Tomas Jurco              45     0   0  5  
+ 2 Erik Haula               Kris Newbury             Melker Karlsson          40     0   0  5  
+ 3 Bracken Kearns           Triston Grant            Freddie Hamilton         10     0   0  5  
+ 4 Aleksander Barkov        Unknown Player           Tomas Jurco              5      0   0  5  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Kent Huskins                                      40     1   1  3  
+ 2 Michal Jordan            Mike Moore                                        30     1   1  3  
+ 3 Kent Huskins             Unknown Player                                    15     1   1  3  
+ 4 Michal Jordan            Mike Moore                                        15     1   1  3  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Aleksander Barkov        Unknown Player           Tomas Jurco              70     0   0  5  
+ 2 Erik Haula               Kris Newbury             Melker Karlsson          30     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Kent Huskins                                      60     0   0  5  
+ 2 Mike Moore               Michal Jordan                                     40     0   0  5  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Erik Haula               Melker Karlsson          60     0   4  1  
+ 2 Aleksander Barkov        Bracken Kearns           40     0   4  1  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Kent Huskins             Unknown Player           60     1   4  0  
+ 2 Michal Jordan            Mike Moore               40     1   4  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Erik Haula                                        70     0   5  0  
+ 2 Melker Karlsson                                   30     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Kent Huskins             Unknown Player           60     1   2  2  
+ 2 Michal Jordan            Mike Moore               40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Aleksander Barkov        Unknown Player           60     0   0  5  
+ 2 Erik Haula               Tomas Jurco              40     0   0  5  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Kent Huskins             Unknown Player           60     1   1  3  
+ 2 Michal Jordan            Mike Moore               40     1   1  3  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Aleksander Barkov        Unknown Player           Tomas Jurco              Unknown Player           Erik Haula               
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Erik Haula               Kris Newbury             Melker Karlsson          Kent Huskins             Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Dan Ellis                
+Backup : Cal Heeter               
+
+<b>Extra Forwards</b>
+Normal : Bracken Kearns, Triston Grant, Freddie Hamilton - PP : Bracken Kearns, Triston Grant - PK : Freddie Hamilton
+<b>Extra Defensemen</b>
+Normal : Mike Moore, Unknown Player, Michal Jordan - PP : Mike Moore - PK : Unknown Player, Michal Jordan
+<b>Penalty Shots</b>
+Aleksander Barkov, Tomas Jurco, Unknown Player, Melker Karlsson, Kris Newbury
+
+<b>Scratches</b>
+Tyler Ennis (Healthy), Nick Bonino (Healthy), Zach Bogosian (Healthy), Justin Braun (Healthy), Dmitry Orlov (Healthy)</pre></div>
+<h1 class="TeamLineFarm_TEX"><a id="Stars">Stars</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Stars">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Stars">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Stars">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Stars">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Stars">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Stars">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Stars');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Stars" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mike Richards            Michael Bournival        Jordan Szwarz            40     1   2  2  
+ 2 Unknown Player           Christian Hanson         Stefan Della Rovere      30     1   2  2  
+ 3 Mike Richards            Michael Bournival        Unknown Player           20     1   2  2  
+ 4 Jordan Szwarz            Christian Hanson         Stefan Della Rovere      10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Francis Bouillon                                  40     1   2  2  
+ 2 Mark Borowiecki          Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Francis Bouillon                                  20     1   2  2  
+ 4 Mark Borowiecki          Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mike Richards            Michael Bournival        Jordan Szwarz            60     1   2  2  
+ 2 Unknown Player           Christian Hanson         Stefan Della Rovere      40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Francis Bouillon                                  60     1   2  2  
+ 2 Mark Borowiecki          Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mike Richards            Michael Bournival        60     1   2  2  
+ 2 Unknown Player           Jordan Szwarz            40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Francis Bouillon         60     1   2  2  
+ 2 Mark Borowiecki          Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Mike Richards                                     60     1   2  2  
+ 2 Michael Bournival                                 40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Francis Bouillon         60     1   2  2  
+ 2 Mark Borowiecki          Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mike Richards            Michael Bournival        60     1   2  2  
+ 2 Unknown Player           Jordan Szwarz            40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Francis Bouillon         60     1   2  2  
+ 2 Mark Borowiecki          Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Mike Richards            Michael Bournival        Jordan Szwarz            Unknown Player           Francis Bouillon         
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Mike Richards            Michael Bournival        Jordan Szwarz            Unknown Player           Francis Bouillon         
+
+<b>Goaltenders</b>
+Starting : Matt Hackett             
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Christian Hanson, Stefan Della Rovere, Unknown Player - PP : Christian Hanson, Stefan Della Rovere - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Francis Bouillon, Mark Borowiecki - PP : Unknown Player - PK : Francis Bouillon, Mark Borowiecki
+<b>Penalty Shots</b>
+Mike Richards, Michael Bournival, Unknown Player, Jordan Szwarz, Christian Hanson
+
+<b>Scratches</b>
+Mark Fistric (Healthy), David Krejci (Healthy), Zenon Konopka (Healthy), Dwight King (Healthy), Max Pacioretty (Healthy)
+Marc-Andre Cliche (Healthy), Trevor Lewis (Healthy), Ryan Stanton (Healthy), Tye McGinn (Healthy)</pre></div>
+<h1 class="TeamLineFarm_HOU"><a id="Aeros">Aeros</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Wild">Pro Team Roster</a> ]
+[ <a href="OTHL-FarmTeamScoring.html#Aeros">Farm Team Scoring</a> ]
+[ <a href="OTHL-FarmTeamLines.html#Aeros">Farm Team Lines</a> ]
+[ <a href="OTHL-FarmTeamSchedule.html#Aeros">Farm Team Schedule</a> ]
+[ <a href="OTHL-FarmTeamStats.html#Aeros">Farm Team Stats</a> ]
+[ <a href="OTHL-FarmTeamStatsVS.html#Aeros">Farm Team StatsVS</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Aeros');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Aeros" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           30     1   2  2  
+ 3 Unknown Player           Unknown Player           Unknown Player           20     1   2  2  
+ 4 Unknown Player           Unknown Player           Unknown Player           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    40     1   2  2  
+ 2 Unknown Player           Unknown Player                                    30     1   2  2  
+ 3 Unknown Player           Unknown Player                                    20     1   2  2  
+ 4 Unknown Player           Unknown Player                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           Unknown Player           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player                                    60     1   2  2  
+ 2 Unknown Player           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Unknown Player                                    60     1   2  2  
+ 2 Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Unknown Player           60     1   2  2  
+ 2 Unknown Player           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Unknown Player           Unknown Player           Unknown Player           Unknown Player           Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Dustin Tokarski          
+Backup : Unknown Goalie           
+
+<b>Extra Forwards</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player, Unknown Player - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Unknown Player, Unknown Player - PP : Unknown Player - PK : Unknown Player, Unknown Player
+<b>Penalty Shots</b>
+Unknown Player, Unknown Player, Unknown Player, Unknown Player, Unknown Player
+
+<b>Scratches</b>
+Steven Stamkos (Healthy), David Backes (Healthy), Ryan Nugent-Hopkins (Healthy), Tim Gleason (Healthy), Michael Grabner (Healthy)
+Stephen Gionta (Healthy), Nino Niederreiter (Healthy), Marcus Kruger (Healthy), Mat Clark (Healthy), Alexander Killorn (Healthy)
+Oscar Klefbom (Healthy), Antti Niemi (Healthy)</pre></div>
+<br /><br /><br /><a href="#" class="scrollup">Scroll</a><div class="footer">Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

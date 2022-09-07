@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>OTHL - Today Games</title>
+<script type="text/javascript" src="OTHL.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="Decription" content="Tyler Bell - STHS - Version : 2.3.1.1" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+@media screen and (max-width: 992px) {
+.STHSW10 {display:none;}
+.STHSRoster_GoaliesTable tbody td:nth-child(2){display:none;}
+.STHSRoster_GoaliesTable thead th:nth-child(2){display:none;}
+}
+@media screen and (max-width: 1200px) {
+.STHSWarning {display:block;}
+table.basictablesorter tbody td:nth-last-child(1){display:none;}
+table.basictablesorter thead th:nth-last-child(1){display:none;}
+table.basictablesorter tbody td:nth-last-child(2){display:none;}
+table.basictablesorter thead th:nth-last-child(2){display:none;}
+table.basictablesorter tbody td:nth-last-child(3){display:none;}
+table.basictablesorter thead th:nth-last-child(3){display:none;}
+table.basictablesorter tbody td:nth-last-child(4){display:none;}
+table.basictablesorter thead th:nth-last-child(4){display:none;}
+table.basictablesorter tbody td:nth-last-child(5){display:none;}
+table.basictablesorter thead th:nth-last-child(5){display:none;}
+table.basictablesorter tbody td:nth-last-child(6){display:none;}
+table.basictablesorter thead th:nth-last-child(6){display:none;}
+}</style>
+<link href="OTHL.css" rel="stylesheet" type="text/css" />
+</head><body>
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL Home</a></li>
+<li id="STHSMenu-Main" class="activemenu"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Record</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu active" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL.stc">STHS Client League File</a></td>
+<td><a href="OTHL-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-Schedule.html">Schedule </a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-TeamHistory.html">History</a></td>
+<td><a href="OTHL-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-Waivers.html">Waivers</a></td>
+<td><a href="OTHL-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html#Ducks">ANH</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Coyotes">ARI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Bruins">BOS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Sabres">BUF</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Hurricanes">CAR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Flames">CGY</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Blackhawks">CHI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BlueJackets">CLB</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Avalanche">COL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Stars">DAL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#RedWings">DET</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Oilers">EDM</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Panthers">FLA</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Kings">LAK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Wild">MIN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Canadiens">MTL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Devils">NJD</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Predators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-ProTeamRoster.html#Islanders">NYI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Rangers">NYR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Senators">OTT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Flyers">PHL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Penguins">PIT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Sharks">SJS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Blues">STL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Lightning">TBL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MapleLeafs">TOR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Canucks">VAN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Jets">WPG</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Capitals">WSH</a></td>
+<td colspan="6" class="STHSW1"></td></tr></table></div>
+</div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Today's Games</td><td class="STHSHeaderDate">Last Update - April 19, 2016 at 14:10</td></tr>
+</table><div class="STHSWarning">Your screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<h3 class="STHSTodayGame_Today3Star">Today 3 Star : <br /><br />Farm : 1 - Borna Rendulic (Falcons) / 2 - Cedric Paquette (Americans) / 3 - Dmitrij Jaskin (Americans)</h3>
+<table class="STHSTodayGame_MainTable">
+<tr><td class="STHSTodayGame_GameOverall">
+<table class="STHSTodayGame_GameTitle"><tr><td class="STHSTodayGame_GameNumber"><h3>Farm Game 1114</h3></td><td class="STHSTodayGame_Boxscore"><h3><a href="OTHL-Farm-1114.html">Boxscore</a></h3></td></tr></table><table class="STHSTodayGame_GameData">
+<tr><td class="STHSTodayGame_TeamName"><h3>Americans</h3></td><td class="STHSTodayGame_TeamScore"><h3><span style="color:red">11</span></h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Andrew Miller(15), Riley Sheahan(14,15,16), Rickard Rakell(19), Cedric Paquette(12,13,14), Dmitrij Jaskin(25,26), Jacob Josefson(11)<br /><br />
+Jacob Markstrom (ROC), 15 saves from 17 shots - (0.882), W, 30-6-3, 60:00 minutes<br /><br /></td></tr>
+<tr><td class="STHSTodayGame_TeamName"><h3>Marlies</h3></td><td class="STHSTodayGame_TeamScore"><h3>2</h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Unknown Player(1,2)<br /><br />
+Unknown Goalie (TOR), 33 saves from 40 shots - (0.825), L, 0-1-0, 39:14 minutes<br />Unknown Goalie (TOR), 13 saves from 17 shots - (0.765), 20:46 minutes<br /><br /></td></tr></table>
+
+<hr class="STHSTodayGame_HR"><br /></td>
+<td class="STHSTodayGame_GameOverall">
+<table class="STHSTodayGame_GameTitle"><tr><td class="STHSTodayGame_GameNumber"><h3>Farm Game 1115</h3></td><td class="STHSTodayGame_Boxscore"><h3><a href="OTHL-Farm-1115.html">Boxscore</a></h3></td></tr></table><table class="STHSTodayGame_GameData">
+<tr><td class="STHSTodayGame_TeamName"><h3>Senators</h3></td><td class="STHSTodayGame_TeamScore"><h3><span style="color:red">6</span></h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">John McFarland(20), Cameron Schilling(9), Sean Collins(49), Viktor Arvidsson(57), Sven Andrighetto(56), Unknown Player(1)<br /><br />
+Anton Forsberg (BNG), 14 saves from 15 shots - (0.933), W, 22-3-0, 60:00 minutes<br /><br /></td></tr>
+<tr><td class="STHSTodayGame_TeamName"><h3>Comets</h3></td><td class="STHSTodayGame_TeamScore"><h3>1</h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Unknown Player(1)<br /><br />
+Unknown Goalie (UTI), 90 saves from 96 shots - (0.938), L, 0-1-0, 60:00 minutes<br /><br /></td></tr></table>
+
+<hr class="STHSTodayGame_HR"><br /></td></tr>
+<tr><td class="STHSTodayGame_GameOverall">
+<table class="STHSTodayGame_GameTitle"><tr><td class="STHSTodayGame_GameNumber"><h3>Farm Game 1116</h3></td><td class="STHSTodayGame_Boxscore"><h3><a href="OTHL-Farm-1116.html">Boxscore</a></h3></td></tr></table><table class="STHSTodayGame_GameData">
+<tr><td class="STHSTodayGame_TeamName"><h3>Bruins</h3></td><td class="STHSTodayGame_TeamScore"><h3>6</h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">
+Unknown Player(1,2,3,4,5,6)<br /><br />
+Unknown Goalie (PRO), 76 saves from 83 shots - (0.916), L, 0-1-0, 59:16 minutes<br /><br /></td></tr>
+<tr><td class="STHSTodayGame_TeamName"><h3>Sound Tigers</h3></td><td class="STHSTodayGame_TeamScore"><h3><span style="color:red">7</span></h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Unknown Player(1,2,3,4,5,6,7)<br /><br />
+Unknown Goalie (BPT), 51 saves from 57 shots - (0.895), W, 1-0-0, 60:00 minutes<br /><br /></td></tr></table>
+
+<hr class="STHSTodayGame_HR"><br /></td>
+<td class="STHSTodayGame_GameOverall">
+<table class="STHSTodayGame_GameTitle"><tr><td class="STHSTodayGame_GameNumber"><h3>Farm Game 1117</h3></td><td class="STHSTodayGame_Boxscore"><h3><a href="OTHL-Farm-1117.html">Boxscore</a></h3></td></tr></table><table class="STHSTodayGame_GameData">
+<tr><td class="STHSTodayGame_TeamName"><h3>Penguins</h3></td><td class="STHSTodayGame_TeamScore"><h3><span style="color:red">8</span></h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Jamie Devane(50), Mark Mancari(34), David Dziurzynski(69,70,71), Tom Sestito(36), Justin Florek(57,58)<br /><br />
+Peter Budaj (WBS), 29 saves from 32 shots - (0.906), W, 20-5-0, 60:00 minutes<br /><br /></td></tr>
+<tr><td class="STHSTodayGame_TeamName"><h3>Bears</h3></td><td class="STHSTodayGame_TeamScore"><h3>3</h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Unknown Player(1,2,3)<br /><br />
+Unknown Goalie (HER), 91 saves from 99 shots - (0.919), L, 0-1-0, 60:00 minutes<br /><br /></td></tr></table>
+
+<hr class="STHSTodayGame_HR"><br /></td></tr>
+<tr><td class="STHSTodayGame_GameOverall">
+<table class="STHSTodayGame_GameTitle"><tr><td class="STHSTodayGame_GameNumber"><h3>Farm Game 1118</h3></td><td class="STHSTodayGame_Boxscore"><h3><a href="OTHL-Farm-1118.html">Boxscore</a></h3></td></tr></table><table class="STHSTodayGame_GameData">
+<tr><td class="STHSTodayGame_TeamName"><h3>Pirates</h3></td><td class="STHSTodayGame_TeamScore"><h3>1</h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">
+Unknown Player(1)<br /><br />
+Unknown Goalie (POR), 22 saves from 28 shots - (0.786), L, 0-1-0, 19:00 minutes<br />Unknown Goalie (POR), 54 saves from 59 shots - (0.915), 41:00 minutes<br /><br /></td></tr>
+<tr><td class="STHSTodayGame_TeamName"><h3>Falcons</h3></td><td class="STHSTodayGame_TeamScore"><h3><span style="color:red">11</span></h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Borna Rendulic(36,37,38), Unknown Player(1), Michael Zalewski(67,68), Brendan Shinnimin(77), Tyler Gaudet(56), Michael Blunden(90,91), Richard Clune(52)<br /><br />
+Mike Murphy (SPG), 22 saves from 23 shots - (0.957), W, 30-8-2, 60:00 minutes<br /><br /></td></tr></table>
+
+<hr class="STHSTodayGame_HR"><br /></td>
+<td class="STHSTodayGame_GameOverall">
+<table class="STHSTodayGame_GameTitle"><tr><td class="STHSTodayGame_GameNumber"><h3>Farm Game 1119</h3></td><td class="STHSTodayGame_Boxscore"><h3><a href="OTHL-Farm-1119.html">Boxscore</a></h3></td></tr></table><table class="STHSTodayGame_GameData">
+<tr><td class="STHSTodayGame_TeamName"><h3>Crunch</h3></td><td class="STHSTodayGame_TeamScore"><h3><span style="color:red">5</span></h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Brandon McMillan(33), Magnus Paajarvi(29,30), Brandon DeFazio(30), Seth Helgeson(4)<br /><br />
+Marek Mazanec (SYR), 20 saves from 24 shots - (0.833), W, 5-0-0, 60:00 minutes<br /><br /></td></tr>
+<tr><td class="STHSTodayGame_TeamName"><h3>Phantoms</h3></td><td class="STHSTodayGame_TeamScore"><h3>4</h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Andy Andreoff(26,27), Phillip Danault(55), Unknown Player(1)<br /><br />
+Niko Hovinen (LVP), 38 saves from 43 shots - (0.884), L, 7-5-0, 60:00 minutes<br /><br /></td></tr></table>
+
+<hr class="STHSTodayGame_HR"><br /></td></tr>
+<tr><td class="STHSTodayGame_GameOverall">
+<table class="STHSTodayGame_GameTitle"><tr><td class="STHSTodayGame_GameNumber"><h3>Farm Game 1120</h3></td><td class="STHSTodayGame_Boxscore"><h3><a href="OTHL-Farm-1120.html">Boxscore</a></h3></td></tr></table><table class="STHSTodayGame_GameData">
+<tr><td class="STHSTodayGame_TeamName"><h3>Heat</h3></td><td class="STHSTodayGame_TeamScore"><h3><span style="color:red">5</span></h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Unknown Player(1), John Albert(67,68), Ryan Spooner(52,53)<br /><br />
+Joni Ortio (STK), 31 saves from 32 shots - (0.969), W, 41-16-6, 60:00 minutes<br /><br /></td></tr>
+<tr><td class="STHSTodayGame_TeamName"><h3>Barracuda</h3></td><td class="STHSTodayGame_TeamScore"><h3>1</h3></td></tr><tr><td colspan="2" class="STHSTodayGame_TeamNote">Unknown Player(1)<br /><br />
+Unknown Goalie (SJB), 60 saves from 65 shots - (0.923), L, 0-1-0, 60:00 minutes<br /><br /></td></tr></table>
+
+<hr class="STHSTodayGame_HR"><br /></td>
+<td></td></tr></table>
+<h1 class="STHSTomorrowGame_TomorrowGame">Tomorrow's Games</h1>
+End of Season
+<table class="STHSSchedule_MainTable"><tr><td class="STHSSchedule_TitleGameNumber"><b>Game #</b></td><td class="STHSSchedule_TitleProSchedule"><b>Pro Schedule</b></td>
+<td class="STHSSchedule_TitleGameNumber"><b>Game #</b></td><td class="STHSSchedule_TitleFarmSchedule"><b>Farm Schedule</b></td>
+</tr>
+<tr><td colspan="4" class="STHSTomorrowGame_GameDay"><b>Day 196</b></td></tr>
+<tr><td colspan="2" class="STHSAlignTop">
+<table class="STHSTomorrowGame_SubTable">
+</table>
+</td><td colspan="2" class="STHSAlignTop">
+<table class="STHSTomorrowGame_SubTable">
+</table>
+</td></tr>
+</table>
+<br /><br /><br /><a href="#" class="scrollup">Scroll</a><div class="footer">Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

@@ -1,0 +1,1374 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<script src="STHSMain.js"></script>
+<title>OTHL - Trade History</title>
+<script src="OTHL-PRE.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.2.0.0 - OTHL-STHS.db - OTHL-STHSCareerStat.db"/>
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<link href="OTHL-PRE.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL-PRE Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League" class="activemenu"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-PRE-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-PRE-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-PRE-Schedule.html">Schedule </a></td>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-PRE-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-PRE-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-PRE-ProAllPlayersStats.html">All Players Stats</a></td>
+<td><a href="OTHL-PRE-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PRE-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PRE-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PRE-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PRE-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PRE-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PRE-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-PRE-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-PRE-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-PRE-TeamHistory.html">History</a></td>
+<td><a href="OTHL-PRE-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-PRE-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-PRE-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-PRE-FarmAllPlayersStats.html">All Players Stats</a></td>
+<td><a href="OTHL-PRE-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PRE-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PRE-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PRE-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PRE-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PRE-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PRE-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-PRE-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-PRE-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-PRE-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-PRE-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="OTHL-PRE-TradeHistory.html">Trade History</a></td>
+<td><a href="OTHL-PRE-RerateDifference.html">RerateDifference</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-PRE-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Ducks">ANH</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Coyotes">ARI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Bruins">BOS</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Sabres">BUF</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Hurricanes">CAR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Flames">CGY</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Blackhawks">CHI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#BlueJackets">CLB</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Avalanche">COL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Stars">DAL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#RedWings">DET</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Oilers">EDM</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Panthers">FLA</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Kings">LAK</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Wild">MIN</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Canadiens">MTL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Devils">NJD</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Predators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Islanders">NYI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Rangers">NYR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Senators">OTT</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Flyers">PHL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Penguins">PIT</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Sharks">SJS</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Blues">STL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Lightning">TBL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#MapleLeafs">TOR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Canucks">VAN</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#GoldenKnights">VGK</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Jets">WPG</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Capitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Trade History</td><td class="STHSHeaderDate">Last Update - November 13, 2020 at 21:29</td></tr>
+</table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+[2020-11-07 9:02:29 PM] - TRADE : From Sabres to Ducks : Zemgus Girgensons (68).<br />
+[2020-11-07 9:02:29 PM] - TRADE : From Ducks to Sabres : Zach Aston-Reese (65), Y:2021-RND:5-ANH.<br />
+[2020-11-01 3:10:00 PM] - TRADE : From Jets to Flyers : Y:2021-RND:5-WPG.<br />
+[2020-11-01 3:10:00 PM] - TRADE : From Flyers to Jets : Santeri Airola (P), Santeri Hatakka (P).<br />
+[2020-11-01 8:10:48 AM] - Dmitry Sokolov has been deleted from Hurricanes.<br />
+[2020-11-01 8:10:41 AM] - Sasha Chmelevski has been deleted from Hurricanes.<br />
+[2020-11-01 8:10:30 AM] - Stelio Mattheos has been deleted from Hurricanes.<br />
+[2020-11-01 8:10:18 AM] - Axel Jonsson-Fjallby has been deleted from Hurricanes.<br />
+[2020-11-01 8:10:11 AM] - Kirill Maksimov has been deleted from Hurricanes.<br />
+[2020-11-01 8:09:58 AM] - Dmitry Sokolov was added to Hurricanes.<br />
+[2020-11-01 8:09:51 AM] - Sasha Chmelevski was added to Hurricanes.<br />
+[2020-11-01 8:09:39 AM] - Stelio Mattheos was added to Hurricanes.<br />
+[2020-11-01 8:09:32 AM] - Axel Jonsson-Fjallby was added to Hurricanes.<br />
+[2020-11-01 8:09:24 AM] - Kirill Maksimov was added to Hurricanes.<br />
+[2020-10-31 9:23:54 AM] - TRADE : From Bruins to Lightning : Ethan Keppen (P).<br />
+[2020-10-31 9:23:54 AM] - TRADE : From Lightning to Bruins : Y:2022-RND:4-TBL.<br />
+[2020-10-31 9:23:30 AM] - TRADE : From Avalanche to Lightning : Y:2022-RND:6-COL.<br />
+[2020-10-31 9:23:30 AM] - TRADE : From Lightning to Avalanche : Brett Sutter (61), Matt Martin (64).<br />
+[2020-10-29 4:23:25 PM] - TRADE : From Devils to Bruins : Lucas Carlsson (60), Y:2022-RND:5-NJD.<br />
+[2020-10-29 4:23:25 PM] - TRADE : From Bruins to Devils : Jesper Sellgren (P), Victor Berglund (P).<br />
+[2020-10-29 4:22:48 PM] - TRADE : From Stars to Oilers : Corey Perry (66), $1,000,000 (Money).<br />
+[2020-10-29 4:22:48 PM] - TRADE : From Oilers to Stars : Andy Andreoff (60).<br />
+[2020-10-29 4:21:53 PM] - TRADE : From Flames to Blues : Markus Granlund (65).<br />
+[2020-10-29 4:21:53 PM] - TRADE : From Blues to Flames : $1,000,000 (Money), Y:2021-RND:5-NYR.<br />
+[2020-10-29 4:14:04 PM] - Julius Honka was added to Jets.<br />
+[2020-10-27 7:33:43 PM] - Patrik Westerholm has been deleted from Sharks.<br />
+[2020-10-27 7:33:32 PM] - Jack Glover has been deleted from Sharks.<br />
+[2020-10-27 7:33:26 PM] - Sam Dove-McFalls has been deleted from Sharks.<br />
+[2020-10-27 7:33:20 PM] - Luc Snuggerud has been deleted from Sharks.<br />
+[2020-10-27 7:33:14 PM] - Ivan Chukarov has been deleted from Sharks.<br />
+[2020-10-27 7:33:07 PM] - Edgars Kulda has been deleted from Sharks.<br />
+[2020-10-27 7:32:44 PM] - Cameron Clarke has been deleted from Bruins.<br />
+[2020-10-27 7:32:38 PM] - Antti Palojarvi has been deleted from Bruins.<br />
+[2020-10-27 7:32:20 PM] - Philip Nyberg has been deleted from Bruins.<br />
+[2020-10-27 7:32:05 PM] - Tyler Moy has been deleted from Bruins.<br />
+[2020-10-27 7:31:58 PM] - Semyon Kizimov has been deleted from Bruins.<br />
+[2020-10-27 7:31:50 PM] - Todd Burgess has been deleted from Bruins.<br />
+[2020-10-26 5:19:15 PM] - Christopher Gibson was added to Penguins.<br />
+[2020-10-26 5:17:02 PM] - TRADE : From Lightning to Hurricanes : Brandon Sutter (68).<br />
+[2020-10-26 5:17:02 PM] - TRADE : From Hurricanes to Lightning : Alex Chiasson (67), Brett Sutter (60), Riley Sutter (P).<br />
+[2020-10-26 5:13:50 PM] - TRADE : From Sabres to Ducks : Trevor Moore (61).<br />
+[2020-10-24 4:57:01 PM] - Erik Haula was added to Blackhawks.<br />
+[2020-10-24 4:45:54 PM] - TRADE : From Hurricanes to Bruins : Yegor Rykov (P).<br />
+[2020-10-24 4:45:54 PM] - TRADE : From Bruins to Hurricanes : Egor Sharangovich (59), Egor Serdyuk (P), Y:2021-RND:7-BOS.<br />
+[2020-10-24 4:45:09 PM] - TRADE : From Sharks to Flyers : Andrei Svetlakov (P).<br />
+[2020-10-24 4:45:09 PM] - TRADE : From Flyers to Sharks : Y:2020-RND:7-FLA.<br />
+[2020-10-24 4:44:40 PM] - TRADE : From Blackhawks to Sharks : Y:2020-RND:7-CHI.<br />
+[2020-10-24 4:44:40 PM] - TRADE : From Sharks to Blackhawks : $1,000,000 (Money), Y:2022-RND:6-SJS.<br />
+[2020-10-23 4:33:01 PM] - TRADE : From Blackhawks to Sabres : Y:2020-RND:7-CAR.<br />
+[2020-10-23 4:33:01 PM] - TRADE : From Sabres to Blackhawks : Y:2021-RND:6-MTL.<br />
+[2020-10-23 4:32:37 PM] - TRADE : From Avalanche to Sabres : Y:2020-RND:7-COL.<br />
+[2020-10-23 4:32:37 PM] - TRADE : From Sabres to Avalanche : Y:2021-RND:7-LAK.<br />
+[2020-10-23 4:32:17 PM] - TRADE : From Oilers to Lightning : Y:2020-RND:7-PIT.<br />
+[2020-10-23 4:32:17 PM] - TRADE : From Lightning to Oilers : Y:2021-RND:6-VGK.<br />
+[2020-10-23 4:31:40 PM] - TRADE : From Oilers to Sharks : Y:2020-RND:6-NYI.<br />
+[2020-10-23 4:31:40 PM] - TRADE : From Sharks to Oilers : Y:2021-RND:5-TOR.<br />
+[2020-10-20 9:38:51 PM] - TRADE : From Sharks to Flames : Y:2021-RND:4-CGY, Y:2021-RND:5-SJS.<br />
+[2020-10-20 9:38:51 PM] - TRADE : From Flames to Sharks : Y:2020-RND:6-NJD, Y:2020-RND:6-VAN, Y:2020-RND:7-BOS, Y:2020-RND:7-EDM.<br />
+[2020-10-20 9:38:10 PM] - TRADE : From Sabres to Flyers : Josiah Didier (56).<br />
+[2020-10-20 9:38:10 PM] - TRADE : From Flyers to Sabres : Y:2020-RND:7-VAN.<br />
+[2020-10-17 9:22:45 AM] - TRADE : From Kings to Sharks : Y:2020-RND:5-ANH, Y:2020-RND:5-LAK, Y:2020-RND:5-OTT, Y:2020-RND:6-ARI, Y:2020-RND:6-LAK.<br />
+[2020-10-17 9:22:45 AM] - TRADE : From Sharks to Kings : Y:2021-RND:2-LAK.<br />
+[2020-10-17 9:22:03 AM] - TRADE : From Hurricanes to Oilers : Andy Andreoff (60), Jan Rutta (63), Y:2022-RND:7-CAR.<br />
+[2020-10-17 9:22:03 AM] - TRADE : From Oilers to Hurricanes : Y:2022-RND:6-EDM.<br />
+[2020-10-15 6:54:38 PM] - TRADE : From Wild to Canucks : Y:2020-RND:4-ARI, Y:2020-RND:6-MIN.<br />
+[2020-10-15 6:54:38 PM] - TRADE : From Canucks to Wild : Y:2020-RND:4-MTL.<br />
+[2020-10-15 6:54:03 PM] - TRADE : From Hurricanes to Sabres : Y:2021-RND:4-MTL, Y:2021-RND:7-VAN.<br />
+[2020-10-15 6:54:03 PM] - TRADE : From Sabres to Hurricanes : Y:2020-RND:5-STL.<br />
+[2020-10-15 6:53:09 PM] - TRADE : From Hurricanes to Blue Jackets : Y:2020-RND:5-NJD, Y:2020-RND:6-CHI.<br />
+[2020-10-15 6:53:09 PM] - TRADE : From Blue Jackets to Hurricanes : Y:2020-RND:4-NYI.<br />
+[2020-10-15 6:52:51 PM] - TRADE : From Hurricanes to Red Wings : Josh Mahura (59).<br />
+[2020-10-15 6:52:51 PM] - TRADE : From Red Wings to Hurricanes : Y:2020-RND:4-FLA, Y:2020-RND:6-CHI, Y:2021-RND:4-MTL.<br />
+[2020-10-15 6:50:44 PM] - TRADE : From Predators to Blue Jackets : Y:2020-RND:5-CAR, Y:2020-RND:7-WSH.<br />
+[2020-10-15 6:50:44 PM] - TRADE : From Blue Jackets to Predators : Y:2021-RND:4-WSH, Y:2021-RND:7-WSH.<br />
+[2020-10-15 6:49:58 PM] - TRADE : From Kings to Blue Jackets : Y:2020-RND:4-NYI, Y:2020-RND:5-NSH.<br />
+[2020-10-15 6:49:58 PM] - TRADE : From Blue Jackets to Kings : Y:2021-RND:3-EDM, Y:2021-RND:6-WSH.<br />
+[2020-10-12 8:16:42 PM] - TRADE : From Sabres to Hurricanes : Y:2020-RND:4-NYR.<br />
+[2020-10-12 8:16:42 PM] - TRADE : From Hurricanes to Sabres : Y:2022-RND:6-CAR, Y:2022-RND:3-CAR.<br />
+[2020-10-12 8:16:14 PM] - TRADE : From Oilers to Islanders : Y:2020-RND:4-NJD, Y:2020-RND:7-LAK.<br />
+[2020-10-12 8:16:14 PM] - TRADE : From Islanders to Oilers : Y:2020-RND:4-MIN.<br />
+[2020-10-12 8:15:42 PM] - TRADE : From Oilers to Penguins : Jake Gardiner (66).<br />
+[2020-10-12 8:15:42 PM] - TRADE : From Penguins to Oilers : Y:2021-RND:6-PIT.<br />
+[2020-10-10 4:03:32 PM] - TRADE : From Wild to Oilers : $1,000,000 (Money), Y:2021-RND:6-MIN.<br />
+[2020-10-10 4:03:32 PM] - TRADE : From Oilers to Wild : Zach Bogosian (68).<br />
+[2020-10-10 4:03:01 PM] - TRADE : From Golden Knights to Blackhawks : Y:2021-RND:4-PIT, Y:2021-RND:6-STL.<br />
+[2020-10-10 4:03:01 PM] - TRADE : From Blackhawks to Golden Knights : Y:2020-RND:4-TOR.<br />
+[2020-10-10 4:02:32 PM] - TRADE : From Panthers to Canucks : Y:2020-RND:4-MTL, Y:2021-RND:4-FLA.<br />
+[2020-10-10 4:02:32 PM] - TRADE : From Canucks to Panthers : Y:2020-RND:4-PIT.<br />
+[2020-10-10 4:01:56 PM] - TRADE : From Sabres to Ducks : Y:2020-RND:3-CAR.<br />
+[2020-10-10 4:01:56 PM] - TRADE : From Ducks to Sabres : Y:2020-RND:3-VAN, Y:2020-RND:4-BOS, Y:2020-RND:4-NYR.<br />
+[2020-10-10 4:00:58 PM] - TRADE : From Predators to Maple Leafs : Y:2020-RND:3-NSH, Y:2020-RND:3-BUF, Y:2020-RND:3-TBL.<br />
+[2020-10-10 4:00:58 PM] - TRADE : From Maple Leafs to Predators : Y:2020-RND:3-TOR, Y:2021-RND:3-WPG.<br />
+[2020-10-10 9:24:13 AM] - TRADE : From Penguins to Oilers : Y:2020-RND:2-MTL.<br />
+[2020-10-10 9:24:13 AM] - TRADE : From Oilers to Penguins : Y:2020-RND:5-DAL, Y:2020-RND:3-COL.<br />
+[2020-10-10 9:07:25 AM] - TRADE : From Hurricanes to Blues : Y:2020-RND:2-ANH, Y:2022-RND:3-BOS.<br />
+[2020-10-10 9:07:25 AM] - TRADE : From Blues to Hurricanes : Y:2020-RND:2-CGY, Y:2020-RND:3-MIN.<br />
+[2020-10-10 8:53:58 AM] - TRADE : From Penguins to Canadiens : Y:2020-RND:2-OTT.<br />
+[2020-10-10 8:53:58 AM] - TRADE : From Canadiens to Penguins : Y:2020-RND:2-NYR, Y:2020-RND:3-DAL.<br />
+[2020-10-10 8:53:29 AM] - TRADE : From Oilers to Avalanche : John Moore (67).<br />
+[2020-10-10 8:53:29 AM] - TRADE : From Avalanche to Oilers : Will Butcher (66), $1,000,000 (Money), Y:2020-RND:3-COL.<br />
+[2020-10-10 8:42:10 AM] - TRADE : From Maple Leafs to Ducks : Y:2020-RND:2-TOR.<br />
+[2020-10-10 8:42:10 AM] - TRADE : From Ducks to Maple Leafs : Simon Holmstrom (P), Y:2022-RND:2-ANH, Y:2022-RND:3-ANH.<br />
+[2020-10-10 8:25:26 AM] - TRADE : From Flyers to Blackhawks : Max Comtois (64), Jett Woo (P), Y:2020-RND:7-NYR.<br />
+[2020-10-10 8:25:26 AM] - TRADE : From Blackhawks to Flyers : Y:2020-RND:1-CHI.<br />
+[2020-10-10 8:06:26 AM] - TRADE : From Blue Jackets to Blues : Y:2020-RND:1-VAN, Y:2020-RND:3-MIN.<br />
+[2020-10-10 8:06:26 AM] - TRADE : From Blues to Blue Jackets : Y:2020-RND:1-CGY, Y:2020-RND:2-SJS, Y:2020-RND:2-VAN.<br />
+[2020-10-10 8:05:33 AM] - TRADE : From Rangers to Ducks : Y:2020-RND:1-FLA, Y:2021-RND:3-SJS.<br />
+[2020-10-10 8:05:33 AM] - TRADE : From Ducks to Rangers : Y:2020-RND:1-TBL.<br />
+[2020-10-10 7:52:47 AM] - TRADE : From Blue Jackets to Wild : Y:2020-RND:1-PHL.<br />
+[2020-10-10 7:52:47 AM] - TRADE : From Wild to Blue Jackets : Y:2020-RND:1-VAN, Y:2020-RND:2-MIN.<br />
+[2020-10-10 7:52:32 AM] - TRADE : From Blue Jackets to Blues : Y:2020-RND:1-CLB.<br />
+[2020-10-10 7:52:32 AM] - TRADE : From Blues to Blue Jackets : Y:2020-RND:1-PHL, Y:2020-RND:3-STL.<br />
+[2020-10-10 7:21:28 AM] - TRADE : From Oilers to Ducks : Y:2020-RND:1-EDM, Y:2020-RND:4-DET, Y:2020-RND:4-NYR, Y:2020-RND:5-EDM.<br />
+[2020-10-10 7:21:28 AM] - TRADE : From Ducks to Oilers : Tyler Bertuzzi (72), Y:2021-RND:2-ANH.<br />
+[2020-10-10 6:58:45 AM] - TRADE : From Hurricanes to Sharks : Jonathan Dahlen (P), Y:2021-RND:2-LAK, Y:2021-RND:2-OTT, Y:2022-RND:4-CAR.<br />
+[2020-10-10 6:58:45 AM] - TRADE : From Sharks to Hurricanes : Y:2020-RND:2-ANH, Y:2020-RND:2-FLA, Y:2020-RND:3-BOS, Y:2020-RND:3-CHI.<br />
+[2020-10-10 6:58:03 AM] - TRADE : From Hurricanes to Flames : Y:2020-RND:4-OTT.<br />
+[2020-10-10 6:58:03 AM] - TRADE : From Flames to Hurricanes : Y:2020-RND:5-NJD.<br />
+[2020-10-10 6:57:31 AM] - TRADE : From Flyers to Maple Leafs : Bowen Byram (P), Y:2020-RND:3-LAK, Y:2020-RND:6-PIT.<br />
+[2020-10-10 6:57:31 AM] - TRADE : From Maple Leafs to Flyers : Y:2020-RND:1-TOR, Y:2020-RND:7-PHL.<br />
+[2020-10-10 6:56:43 AM] - TRADE : From Flyers to Islanders : Y:2023-RND:5-PHL.<br />
+[2020-10-10 6:56:43 AM] - TRADE : From Islanders to Flyers : Y:2020-RND:7-ARI, Y:2020-RND:7-NYI.<br />
+[2020-10-10 6:55:57 AM] - TRADE : From Sabres to Red Wings : Josh Manson (71), Y:2020-RND:2-BOS, Y:2021-RND:4-MTL.<br />
+[2020-10-10 6:55:57 AM] - TRADE : From Red Wings to Sabres : Ryan Suter (77).<br />
+[2020-10-10 6:55:08 AM] - TRADE : From Sabres to Penguins : Y:2020-RND:4-EDM.<br />
+[2020-10-10 6:55:08 AM] - TRADE : From Penguins to Sabres : Michael Del Zotto (68).<br />
+[2020-10-10 6:54:37 AM] - TRADE : From Flyers to Golden Knights : Y:2021-RND:6-STL.<br />
+[2020-10-10 6:54:37 AM] - TRADE : From Golden Knights to Flyers : Y:2020-RND:7-STL.<br />
+[2020-09-28 11:42:57 AM] - Jan Drozg has been deleted from Bruins.<br />
+[2020-09-28 11:42:51 AM] - Giorgio Estephan has been deleted from Bruins.<br />
+[2020-09-28 11:42:37 AM] - Devante Stephens has been deleted from Bruins.<br />
+[2020-09-28 11:42:28 AM] - Joseph Woll has been deleted from Predators.<br />
+[2020-09-28 11:42:23 AM] - Alexei Toropchenko has been deleted from Bruins.<br />
+[2020-09-28 11:41:39 AM] - Austin Poganski was added to Lightning.<br />
+[2020-09-28 11:41:23 AM] - Otto Koivula was added to Lightning.<br />
+[2020-09-28 11:40:49 AM] - Reece Willcox has been deleted from Red Wings.<br />
+[2020-09-28 11:40:40 AM] - Noah Gregor has been deleted from Red Wings.<br />
+[2020-09-28 11:40:32 AM] - Jake Bischoff has been deleted from Red Wings.<br />
+[2020-09-28 11:40:27 AM] - Jack Dougherty has been deleted from Red Wings.<br />
+[2020-09-28 11:40:20 AM] - Anthony Richard has been deleted from Red Wings.<br />
+[2020-09-28 11:40:06 AM] - Austin Poganski has been deleted from Lightning.<br />
+[2020-09-28 11:40:00 AM] - Otto Koivula has been deleted from Lightning.<br />
+[2020-09-28 11:39:47 AM] - Jake Paterson has been deleted from Red Wings.<br />
+[2020-09-28 11:39:32 AM] - Evan Fitzpatrick has been deleted from Red Wings.<br />
+[2020-09-28 11:39:16 AM] - Jake Paterson was added to Red Wings.<br />
+[2020-09-28 11:38:08 AM] - Evan Fitzpatrick was added to Red Wings.<br />
+[2020-09-28 11:37:49 AM] - Reece Willcox was added to Red Wings.<br />
+[2020-09-28 11:37:37 AM] - Noah Gregor was added to Red Wings.<br />
+[2020-09-28 11:37:25 AM] - Jake Bischoff was added to Red Wings.<br />
+[2020-09-28 11:37:14 AM] - Jack Dougherty was added to Red Wings.<br />
+[2020-09-28 11:37:03 AM] - Anthony Richard was added to Red Wings.<br />
+[2020-09-28 11:36:18 AM] - Joseph Woll was added to Predators.<br />
+[2020-09-28 11:35:48 AM] - Giorgio Estephan was added to Bruins.<br />
+[2020-09-28 11:35:16 AM] - Devante Stephens was added to Bruins.<br />
+[2020-09-28 11:34:59 AM] - Alexey Toropchenko was added to Bruins.<br />
+[2020-09-28 11:34:40 AM] - Jan Drozg was added to Bruins.<br />
+[2020-09-28 11:31:27 AM] - Samuel Montembeault was added to Avalanche.<br />
+[2020-09-28 11:20:30 AM] - Andrew Poturalski was added to Sabres.<br />
+[2020-09-28 11:20:07 AM] - Chris Terry was added to Sabres.<br />
+[2020-09-28 11:19:40 AM] - Nathan Paetsch was added to Wild.<br />
+[2020-09-28 11:18:58 AM] - Zach Redmond was added to Wild.<br />
+[2020-09-28 11:17:46 AM] - Cory Schneider was added to Rangers.<br />
+[2020-09-28 11:17:20 AM] - David Warsofsky was added to Wild.<br />
+[2020-09-28 11:16:51 AM] - Trevor Moore was added to Sabres.<br />
+[2020-09-28 11:16:14 AM] - Steven Kampfer was added to Wild.<br />
+[2020-09-28 11:15:39 AM] - Mike Condon was added to Wild.<br />
+[2020-09-28 11:15:03 AM] - Patrick Eaves was added to Senators.<br />
+[2020-09-28 11:14:33 AM] - Justin Auger was added to Maple Leafs.<br />
+[2020-09-28 11:14:03 AM] - Liam O'Brien was added to Maple Leafs.<br />
+[2020-09-28 11:13:45 AM] - Laurent Dauphin was added to Sabres.<br />
+[2020-09-28 11:12:32 AM] - Matt Read was added to Coyotes.<br />
+[2020-09-28 11:12:16 AM] - Kevin Czuczman was added to Islanders.<br />
+[2020-09-28 11:11:17 AM] - Luke Witkowski was added to Islanders.<br />
+[2020-09-28 11:10:51 AM] - Brandon Dubinsky was added to Canucks.<br />
+[2020-09-28 11:07:08 AM] - Max Domi was added to Panthers.<br />
+[2020-09-28 11:01:32 AM] - TRADE : From Kings to Ducks : Y:2020-RND:3-VAN, Y:2020-RND:4-BOS.<br />
+[2020-09-28 11:01:32 AM] - TRADE : From Ducks to Kings : Y:2020-RND:5-ARI, Y:2020-RND:5-NSH, Y:2020-RND:5-OTT, Y:2020-RND:5-PIT, Y:2020-RND:5-VGK.<br />
+[2020-09-28 11:00:01 AM] - TRADE : From Sabres to Rangers : Chad Ruhwedel (62).<br />
+[2020-09-28 11:00:01 AM] - TRADE : From Rangers to Sabres : Y:2021-RND:7-NYR.<br />
+[2020-09-28 10:59:40 AM] - TRADE : From Sabres to Golden Knights : Y:2020-RND:7-STL.<br />
+[2020-09-28 10:59:40 AM] - TRADE : From Golden Knights to Sabres : Jon Gillies (61).<br />
+[2020-09-28 10:59:11 AM] - TRADE : From Bruins to Kings : Y:2021-RND:4-BOS.<br />
+[2020-09-28 10:59:11 AM] - TRADE : From Kings to Bruins : Malcolm Subban (57).<br />
+[2020-09-28 10:58:35 AM] - TRADE : From Hurricanes to Coyotes : Ruslan Iskhakov (P), Y:2020-RND:2-BUF, Y:2020-RND:4-CHI.<br />
+[2020-09-28 10:58:35 AM] - TRADE : From Coyotes to Hurricanes : Jeff Skinner (69).<br />
+[2020-09-28 10:57:31 AM] - TRADE : From Golden Knights to Sharks : Jay Beagle (66), Philip Kemp (P).<br />
+[2020-09-28 10:57:31 AM] - TRADE : From Sharks to Golden Knights : Y:2020-RND:2-VGK.<br />
+[2020-09-28 10:56:41 AM] - TRADE : From Islanders to Bruins : Y:2020-RND:4-BUF.<br />
+[2020-09-28 10:56:41 AM] - TRADE : From Bruins to Islanders : Greg Pateryn (67).<br />
+[2020-09-28 10:56:11 AM] - TRADE : From Flyers to Bruins : Josh Leivo (67).<br />
+[2020-09-28 10:56:11 AM] - TRADE : From Bruins to Flyers : Cody Eakin (66), Y:2021-RND:6-STL, Y:2020-RND:6-PIT.<br />
+[2020-09-28 10:55:40 AM] - TRADE : From Flyers to Oilers : Brandon Saad (71).<br />
+[2020-09-28 10:55:40 AM] - TRADE : From Oilers to Flyers : Marcus Foligno (69), Jarred Tinordi (66), Y:2020-RND:3-LAK.<br />
+[2020-09-28 10:54:46 AM] - TRADE : From Kings to Blue Jackets : Miles Wood (67).<br />
+[2020-09-28 10:54:46 AM] - TRADE : From Blue Jackets to Kings : Robert Hagg (67).<br />
+[2020-09-28 10:51:03 AM] - TRADE : From Rangers to Bruins : Chris Tierney (71).<br />
+[2020-09-28 10:51:03 AM] - TRADE : From Bruins to Rangers : Kyle Palmieri (72), Marcus Sorensen (64), Y:2020-RND:2-NYI.<br />
+[2020-09-28 10:49:35 AM] - TRADE : From Sharks to Sabres : Y:2020-RND:5-STL.<br />
+[2020-09-28 10:49:35 AM] - TRADE : From Sabres to Sharks : Mattias Janmark (66).<br />
+[2020-09-28 10:49:07 AM] - TRADE : From Bruins to Penguins : Sven Baertschi (66), Y:2021-RND:3-MTL.<br />
+[2020-09-28 10:49:07 AM] - TRADE : From Penguins to Bruins : Y:2020-RND:3-FLA, Y:2020-RND:6-PIT.<br />
+[2020-09-28 10:48:23 AM] - TRADE : From Oilers to Penguins : Ilya Kovalchuk (70), David Hrenak (P), Scott Reedy (P).<br />
+[2020-09-28 10:48:23 AM] - TRADE : From Penguins to Oilers : Chris Wagner (66), Cooper Moore (P), Y:2021-RND:3-PIT.<br />
+[2020-09-28 10:47:21 AM] - TRADE : From Lightning to Oilers : Zach Bogosian (68), $1,000,000 (Money).<br />
+[2020-09-28 10:47:21 AM] - TRADE : From Oilers to Lightning : Morgan Klimchuk (59).<br />
+[2020-09-05 9:05:27 PM] - Mikhail Berdin has been deleted from Bruins.<br />
+[2020-09-05 9:05:10 PM] - Mikhail Berdin was added to Bruins.<br />
+[2020-09-05 8:59:02 PM] - Antti Suomela was added to Devils.<br />
+[2020-09-05 8:58:30 PM] - Ryan Kesler was added to Capitals.<br />
+[2020-09-05 8:58:06 PM] - Mark Barberio was added to Flames.<br />
+[2020-09-05 8:56:34 PM] - Cole Schneider was added to Sabres.<br />
+[2020-09-05 8:56:09 PM] - Colin Wilson was added to Sabres.<br />
+[2020-09-05 8:55:03 PM] - Dan Renouf was added to Panthers.<br />
+[2020-09-05 8:54:21 PM] - Jean-Francois Berube was added to Rangers.<br />
+[2020-09-05 8:53:44 PM] - Matt Hunwick was added to Kings.<br />
+[2020-09-05 8:52:14 PM] - Brandon Manning was added to Flyers.<br />
+[2020-09-05 8:51:47 PM] - Victor Rask was added to Flyers.<br />
+[2020-09-04 9:06:17 PM] - Samuel Montembeault has been deleted from Avalanche.<br />
+[2020-09-04 9:06:06 PM] - Evgeny Svechnikov has been deleted from Avalanche.<br />
+[2020-09-04 9:05:55 PM] - Sam Montembeault was added to Avalanche.<br />
+[2020-09-04 9:05:41 PM] - Evgeny Svechnikov was added to Avalanche.<br />
+[2020-09-04 9:03:57 PM] - Brogan Raferty was added to Sharks.<br />
+[2020-09-04 8:58:28 PM] - Vitaly Abramov has been deleted from Flames.<br />
+[2020-09-04 8:58:17 PM] - David Gustafsson has been deleted from Flames.<br />
+[2020-09-04 8:58:11 PM] - Jake Bean has been deleted from Flames.<br />
+[2020-09-04 8:58:05 PM] - Nick Merkley has been deleted from Flames.<br />
+[2020-09-04 8:57:59 PM] - Adam Helewka has been deleted from Sharks.<br />
+[2020-09-04 8:57:52 PM] - Eric Comrie has been deleted from Sharks.<br />
+[2020-09-04 8:52:56 PM] - Eric Comrie was added to Sharks.<br />
+[2020-09-04 8:52:44 PM] - Adam Helewka was added to Sharks.<br />
+[2020-09-04 8:52:25 PM] - Vitaly Abramov was added to Flames.<br />
+[2020-09-04 8:52:12 PM] - David Gustafsson was added to Flames.<br />
+[2020-09-04 8:51:59 PM] - Jake Bean was added to Flames.<br />
+[2020-09-04 8:51:39 PM] - Nick Merkley was added to Flames.<br />
+[2020-09-04 8:47:21 PM] - Valentin Zykov was added to Blackhawks.<br />
+[2020-09-04 8:47:06 PM] - Dominik Simon was added to Blackhawks.<br />
+[2020-09-04 8:46:50 PM] - Adam Erne was added to Blackhawks.<br />
+[2020-09-04 8:46:38 PM] - Matt Benning was added to Blackhawks.<br />
+[2020-09-04 8:46:18 PM] - Slater Koekkoek was added to Coyotes.<br />
+[2020-09-04 8:46:04 PM] - Mika Zibanejad was added to Coyotes.<br />
+[2020-09-04 8:45:41 PM] - Ryan Dzingel was added to Predators.<br />
+[2020-09-04 8:45:23 PM] - Mikhail Sergachev was added to Wild.<br />
+[2020-09-04 8:44:47 PM] - Rocco Grimaldi was added to Wild.<br />
+[2020-09-04 8:43:18 PM] - Anthony Greco was added to Penguins.<br />
+[2020-09-04 8:42:56 PM] - Artturi Lehkonen was added to Rangers.<br />
+[2020-09-04 8:42:39 PM] - Conor Sheary was added to Red Wings.<br />
+[2020-09-04 8:41:50 PM] - Robby Fabbri was added to Rangers.<br />
+[2020-09-04 8:41:26 PM] - Josh Leivo was added to Flyers.<br />
+[2020-09-04 8:40:53 PM] - Dylan DeMelo was added to Blackhawks.<br />
+[2020-09-04 8:39:52 PM] - Griffen Molino was added to Blackhawks.<br />
+[2020-09-04 8:39:33 PM] - Ryan Pulock was added to Islanders.<br />
+[2020-09-04 8:31:04 PM] - Trevor Lewis was added to Flyers.<br />
+[2020-09-04 8:30:38 PM] - Korbinian Holzer was added to Senators.<br />
+[2020-09-04 8:30:20 PM] - Trevor Daley was added to Sabres.<br />
+[2020-09-04 8:29:55 PM] - Carter Hutton was added to Islanders.<br />
+[2020-09-04 8:29:01 PM] - Tim Schaller was added to Lightning.<br />
+[2020-09-04 8:28:39 PM] - Dalton Smith was added to Sabres.<br />
+[2020-09-04 8:28:07 PM] - Calvin Pickard was added to Maple Leafs.<br />
+[2020-09-04 8:27:38 PM] - Michael Frolik was added to Sharks.<br />
+[2020-09-04 8:26:21 PM] - Nicolas Deslauriers was added to Stars.<br />
+[2020-09-04 8:25:49 PM] - Tim Heed was added to Flames.<br />
+[2020-09-04 8:24:51 PM] - Pontus Aberg was added to Panthers.<br />
+[2020-09-04 8:24:26 PM] - Tyler Gaudet was added to Maple Leafs.<br />
+[2020-09-04 8:23:59 PM] - Michael Hutchinson was added to Flyers.<br />
+[2020-09-04 8:20:56 PM] - Curtis McElhinney was added to Canadiens.<br />
+[2020-09-04 8:20:32 PM] - Ryan Miller was added to Ducks.<br />
+[2020-09-04 8:18:25 PM] - Riley Nash was added to Kings.<br />
+[2020-09-04 8:18:06 PM] - Ron Hainsey was added to Sabres.<br />
+[2020-09-04 8:17:22 PM] - Jason Spezza was added to Senators.<br />
+[2020-09-04 8:17:04 PM] - Anders Nilsson was added to Wild.<br />
+[2020-09-04 8:16:39 PM] - Michael Stone was added to Islanders.<br />
+[2020-09-04 8:16:14 PM] - Melker Karlsson was added to Rangers.<br />
+[2020-09-04 8:15:20 PM] - Garnet Hathaway was added to Sharks.<br />
+[2020-09-04 8:14:14 PM] - Joe Thornton was added to Kings.<br />
+[2020-09-04 8:12:55 PM] - Andrej Sekera was added to Rangers.<br />
+[2020-09-04 8:12:12 PM] - Kyle Rau was added to Maple Leafs.<br />
+[2020-09-04 8:11:41 PM] - Jonathan Bernier was added to Wild.<br />
+[2020-09-04 8:06:18 PM] - Radko Gudas was added to Stars.<br />
+[2020-09-04 8:04:38 PM] - Alex Biega was added to Oilers.<br />
+[2020-09-04 8:04:11 PM] - Emile Poirier was added to Maple Leafs.<br />
+[2020-09-04 8:03:13 PM] - Nelson Nogier was added to Hurricanes.<br />
+[2020-09-04 8:02:39 PM] - Andrew Cogliano was added to Golden Knights.<br />
+[2020-09-04 8:02:04 PM] - Phil Kessel was added to Golden Knights.<br />
+[2020-09-04 8:00:02 PM] - Ryan Reaves was added to Coyotes.<br />
+[2020-09-04 7:59:42 PM] - David Backes was added to Coyotes.<br />
+[2020-09-04 7:58:44 PM] - Nick Holden was added to Golden Knights.<br />
+[2020-09-04 7:58:21 PM] - Matt Irwin was added to Canadiens.<br />
+[2020-09-04 7:57:38 PM] - Brad Richardson was added to Rangers.<br />
+[2020-09-04 7:56:59 PM] - Antti Raanta was added to Blues.<br />
+[2020-09-04 7:56:23 PM] - Blake Comeau was added to Capitals.<br />
+[2020-09-04 7:55:58 PM] - Mats Zuccarello was added to Sharks.<br />
+[2020-09-04 7:54:42 PM] - Tom Kuhnhackl was added to Islanders.<br />
+[2020-09-04 7:53:19 PM] - Nick Foligno was added to Penguins.<br />
+[2020-09-04 7:52:36 PM] - Vladimir Tarasenko was added to Blues.<br />
+[2020-09-04 7:51:42 PM] - Wayne Simmonds was added to Canucks.<br />
+[2020-09-04 7:51:20 PM] - Aaron Dell was added to Blackhawks.<br />
+[2020-09-04 7:50:47 PM] - Eric Staal was added to Golden Knights.<br />
+[2020-09-04 7:50:23 PM] - Zach Trotman was added to Flames.<br />
+[2020-09-04 7:49:49 PM] - Matt Moulson was added to Islanders.<br />
+[2020-09-04 7:49:26 PM] - Marco Scandella was added to Lightning.<br />
+[2020-09-04 7:49:02 PM] - Tyler Pitlick was added to Lightning.<br />
+[2020-09-04 7:45:52 PM] - Brian Lashoff was added to Oilers.<br />
+[2020-09-04 7:45:25 PM] - Greg Carey was added to Predators.<br />
+[2020-09-04 7:31:45 PM] - Rob O'Gara was added to Flames.<br />
+[2020-09-04 7:31:04 PM] - Justin Williams was added to Maple Leafs.<br />
+[2020-09-04 7:30:39 PM] - Nick Shore was added to Bruins.<br />
+[2020-09-04 7:29:28 PM] - Buddy Robinson was added to Oilers.<br />
+[2020-09-04 7:28:28 PM] - Erik Burgdoerfer was added to Flyers.<br />
+[2020-09-04 7:27:57 PM] - Pekka Rinne was added to Capitals.<br />
+[2020-09-04 7:26:59 PM] - Kyle Turris was added to Canadiens.<br />
+[2020-09-04 7:26:06 PM] - Luke Gazdic was added to Flyers.<br />
+[2020-09-04 7:25:29 PM] - Nic Dowd was added to Lightning.<br />
+[2020-09-04 7:24:22 PM] - David Ayres was added to Flyers.<br />
+[2020-09-04 7:22:55 PM] - TRADE : From Predators to Flames : Zdeno Chara (75).<br />
+[2020-09-04 7:22:55 PM] - TRADE : From Flames to Predators : $3,000,000 (Money).<br />
+[2020-09-04 7:22:12 PM] - Zdeno Chara was added to Predators.<br />
+[2020-09-02 8:58:29 PM] - Mikael Backlund was added to Blues.<br />
+[2020-09-02 8:55:42 PM] - Mark Giordano was added to Senators.<br />
+[2020-09-02 8:55:10 PM] - Zack Kassian was added to Sharks.<br />
+[2020-09-02 8:54:21 PM] - Adam Henrique was added to Predators.<br />
+[2020-09-02 8:53:45 PM] - Jay Bouwmeester was added to Sabres.<br />
+[2020-09-02 8:53:03 PM] - Brian Boyle was added to Stars.<br />
+[2020-09-02 8:52:10 PM] - Alex Killorn was added to Predators.<br />
+[2020-09-02 8:51:20 PM] - Jeff Carter was added to Stars.<br />
+[2020-09-02 8:50:33 PM] - Patrick Marleau was added to Senators.<br />
+[2020-09-02 8:50:14 PM] - Gustav Nyquist was added to Senators.<br />
+[2020-09-02 8:49:42 PM] - Pierre-Edouard Bellemare was added to Blues.<br />
+[2020-09-02 8:40:42 PM] - TRADE : From Canucks to Bruins : Y:2020-RND:3-NYI.<br />
+[2020-09-02 8:40:42 PM] - TRADE : From Bruins to Canucks : James Reimer (74).<br />
+[2020-09-02 8:40:15 PM] - TRADE : From Capitals to Sabres : Nikita Gusev (68), Y:2020-RND:2-BOS.<br />
+[2020-09-02 8:40:15 PM] - TRADE : From Sabres to Capitals : Rickard Rakell (72).<br />
+[2020-09-02 8:39:41 PM] - TRADE : From Capitals to Canucks : Paul Byron (66).<br />
+[2020-09-02 8:39:41 PM] - TRADE : From Canucks to Capitals : Y:2021-RND:6-CGY.<br />
+[2020-09-02 8:39:16 PM] - TRADE : From Bruins to Canucks : Y:2021-RND:6-CGY.<br />
+[2020-09-02 8:39:16 PM] - TRADE : From Canucks to Bruins : Sven Baertschi (66).<br />
+[2020-09-02 8:38:33 PM] - TRADE : From Flames to Hurricanes : Derek Ryan (68).<br />
+[2020-09-02 8:38:33 PM] - TRADE : From Hurricanes to Flames : Y:2023-RND:5-CAR.<br />
+[2020-09-02 8:37:58 PM] - TRADE : From Flames to Rangers : Jack Roslovic (66).<br />
+[2020-09-02 8:37:58 PM] - TRADE : From Rangers to Flames : Travis Dermott (67).<br />
+[2020-09-02 8:37:39 PM] - TRADE : From Oilers to Senators : Mitch Reinke (59), Ryan Kuffner (56), Y:2021-RND:6-EDM.<br />
+[2020-09-02 8:37:39 PM] - TRADE : From Senators to Oilers : John Hayden (60), Y:2020-RND:3-LAK.<br />
+[2020-08-30 9:17:34 PM] - TRADE : From Bruins to Capitals : Boone Jenner (72), Matt Roy (65), Tomas Tatar (73).<br />
+[2020-08-30 9:17:34 PM] - TRADE : From Capitals to Bruins : Greg Pateryn (67), Kyle Palmieri (72), Vincent Trocheck (70), Y:2020-RND:2-NYI.<br />
+[2020-08-30 9:15:59 PM] - TRADE : From Golden Knights to Rangers : Milan Lucic (66).<br />
+[2020-08-30 9:15:59 PM] - TRADE : From Rangers to Golden Knights : Y:2022-RND:6-NYR.<br />
+[2020-08-30 9:15:34 PM] - TRADE : From Bruins to Sharks : Y:2021-RND:4-CGY.<br />
+[2020-08-30 9:15:34 PM] - TRADE : From Sharks to Bruins : Ondrej Kase (66).<br />
+[2020-08-30 9:14:11 PM] - TRADE : From Hurricanes to Sharks : Dylan Sikura (61).<br />
+[2020-08-30 9:14:11 PM] - TRADE : From Sharks to Hurricanes : Y:2020-RND:4-OTT.<br />
+[2020-08-30 9:13:29 PM] - TRADE : From Bruins to Sharks : Y:2021-RND:5-TOR.<br />
+[2020-08-30 9:13:29 PM] - TRADE : From Sharks to Bruins : Brett Kulak (64).<br />
+[2020-08-30 9:13:00 PM] - TRADE : From Bruins to Sharks : Kieffer Bellows (60), Warren Foegele (66).<br />
+[2020-08-30 9:13:00 PM] - TRADE : From Sharks to Bruins : Oskar Lindblom (69).<br />
+[2020-08-30 9:12:36 PM] - TRADE : From Bruins to Hurricanes : Bryan Little (71), Y:2022-RND:4-CAR, Y:2022-RND:6-BOS.<br />
+[2020-08-30 9:12:36 PM] - TRADE : From Hurricanes to Bruins : Paul Stastny (71).<br />
+[2020-08-30 9:11:10 PM] - TRADE : From Flames to Islanders : Austin Watson (65), Y:2020-RND:5-CHI, Y:2020-RND:6-CGY, Y:2020-RND:7-ARI.<br />
+[2020-08-30 9:11:10 PM] - TRADE : From Islanders to Flames : Matthew Nieto (66).<br />
+[2020-08-30 9:08:44 PM] - TRADE : From Rangers to Maple Leafs : Shea Weber (77), Y:2021-RND:4-TBL.<br />
+[2020-08-30 9:08:44 PM] - TRADE : From Maple Leafs to Rangers : Brenden Dillon (72), Travis Dermott (67), Y:2020-RND:1-FLA, Y:2021-RND:7-OTT.<br />
+[2020-08-30 9:07:31 PM] - TRADE : From Lightning to Maple Leafs : Ondrej Palat (71), Y:2021-RND:6-TBL.<br />
+[2020-08-30 9:07:31 PM] - TRADE : From Maple Leafs to Lightning : Tomas Nosek (63), Jack Rathbone (P).<br />
+[2020-08-30 9:05:44 PM] - TRADE : From Golden Knights to Bruins : Y:2021-RND:4-BOS.<br />
+[2020-08-30 9:04:00 PM] - TRADE : From Rangers to Hurricanes : Artem Anisimov (68).<br />
+[2020-08-30 9:04:00 PM] - TRADE : From Hurricanes to Rangers : Y:2022-RND:5-CAR.<br />
+[2020-08-30 9:03:43 PM] - TRADE : From Rangers to Bruins : Y:2020-RND:2-ARI.<br />
+[2020-08-30 9:03:43 PM] - TRADE : From Bruins to Rangers : Ryan McLeod (P).<br />
+[2020-08-30 9:03:16 PM] - TRADE : From Rangers to Stars : Nick Jensen (67).<br />
+[2020-08-30 9:03:16 PM] - TRADE : From Stars to Rangers : Y:2022-RND:4-DAL.<br />
+[2020-08-30 9:01:39 PM] - TRADE : From Islanders to Blackhawks : Dylan DeMelo (70).<br />
+[2020-08-30 9:01:39 PM] - TRADE : From Blackhawks to Islanders : Y:2021-RND:2-CHI, Y:2020-RND:4-ANH.<br />
+[2020-08-30 8:58:05 PM] - TRADE : From Canucks to Hurricanes : Y:2021-RND:7-VAN.<br />
+[2020-08-30 8:58:05 PM] - TRADE : From Hurricanes to Canucks : Sven Baertschi (66).<br />
+[2020-08-30 8:57:44 PM] - TRADE : From Sharks to Hurricanes : Y:2020-RND:3-SJS, Y:2020-RND:4-STL.<br />
+[2020-08-30 8:57:44 PM] - TRADE : From Hurricanes to Sharks : James Neal (70).<br />
+[2020-08-30 8:56:49 PM] - TRADE : From Sharks to Lightning : Tyler Toffoli (72).<br />
+[2020-08-30 8:56:49 PM] - TRADE : From Lightning to Sharks : Chase Pearson (P), Y:2021-RND:2-TBL, Y:2022-RND:1-TBL.<br />
+[2020-08-30 8:53:01 PM] - TRADE : From Hurricanes to Oilers : Jordan Schmaltz (58).<br />
+[2020-08-30 8:52:05 PM] - TRADE : From Senators to Islanders : Boo Nieves (63), Y:2020-RND:4-WSH.<br />
+[2020-08-30 8:52:05 PM] - TRADE : From Islanders to Senators : Matthew Stienburg (P).<br />
+[2020-08-30 8:51:01 PM] - TRADE : From Sharks to Blues : Travis Konecny (74), Y:2020-RND:6-SJS.<br />
+[2020-08-30 8:51:01 PM] - TRADE : From Blues to Sharks : Jakub Vrana (72), Bobby Brink (P).<br />
+[2020-08-21 4:25:43 PM] - Michael Downing has been deleted from Sharks.<br />
+[2020-08-21 4:25:36 PM] - Zachary Leslie has been deleted from Sharks.<br />
+[2020-08-21 4:25:26 PM] - Cole Ully has been deleted from Sharks.<br />
+[2020-08-21 4:25:14 PM] - Michael Downing was added to Sharks.<br />
+[2020-08-21 4:24:50 PM] - Zac Leslie was added to Sharks.<br />
+[2020-08-21 4:24:15 PM] - Cole Ully was added to Sharks.<br />
+[2020-08-20 5:38:14 PM] - Vili Saarijarvi has been deleted from Jets.<br />
+[2020-08-20 5:38:07 PM] - Alex Lintuniemi has been deleted from Jets.<br />
+[2020-08-20 5:38:00 PM] - Steven Shipley has been deleted from Blackhawks.<br />
+[2020-08-20 5:37:53 PM] - Gus Young has been deleted from Blackhawks.<br />
+[2020-08-20 5:36:43 PM] - Lukas Jasek has been deleted from Blue Jackets.<br />
+[2020-08-20 5:36:27 PM] - Justin Kirkland has been deleted from Blue Jackets.<br />
+[2020-08-20 5:36:11 PM] - Kole Lind has been deleted from Blue Jackets.<br />
+[2020-08-20 5:36:06 PM] - Trey Fix-Wolansky has been deleted from Flyers.<br />
+[2020-08-20 5:35:58 PM] - Mason Geertsen has been deleted from Blue Jackets.<br />
+[2020-08-20 5:35:43 PM] - Mason Shaw has been deleted from Flyers.<br />
+[2020-08-20 5:35:24 PM] - Taylor Raddysh has been deleted from Jets.<br />
+[2020-08-20 5:35:16 PM] - Joni Tuulola has been deleted from Jets.<br />
+[2020-08-20 5:35:00 PM] - Brett Pollock has been deleted from Jets.<br />
+[2020-08-20 5:34:53 PM] - Ryan Kujawinski has been deleted from Kings.<br />
+[2020-08-20 5:34:46 PM] - J.C. Lipon has been deleted from Kings.<br />
+[2020-08-20 5:34:22 PM] - Nicolas Meloche has been deleted from Capitals.<br />
+[2020-08-20 5:34:15 PM] - Kyle Capobianco has been deleted from Capitals.<br />
+[2020-08-20 5:34:09 PM] - Cameron Darcy has been deleted from Capitals.<br />
+[2020-08-20 5:34:02 PM] - Parker Wotherspoon has been deleted from Panthers.<br />
+[2020-08-20 5:33:56 PM] - Julius Bergman has been deleted from Predators.<br />
+[2020-08-20 5:33:48 PM] - Adam Musil has been deleted from Predators.<br />
+[2020-08-20 5:33:36 PM] - Michael Spacek has been deleted from Sabres.<br />
+[2020-08-20 5:33:29 PM] - Michael Eyssimont has been deleted from Sabres.<br />
+[2020-08-20 5:33:15 PM] - Ryan Gropp has been deleted from Jets.<br />
+[2020-08-20 5:33:11 PM] - Ryan Fitzgerald has been deleted from Sabres.<br />
+[2020-08-20 5:33:02 PM] - Sean Malone has been deleted from Sabres.<br />
+[2020-08-20 5:32:48 PM] - Josiah Didier has been deleted from Sabres.<br />
+[2020-08-20 5:32:40 PM] - Igor Shvyrev has been deleted from Devils.<br />
+[2020-08-20 5:32:29 PM] - Blake Speers has been deleted from Devils.<br />
+[2020-08-20 5:32:16 PM] - Andrew Nielsen has been deleted from Ducks.<br />
+[2020-08-20 5:32:04 PM] - Jeremy Roy has been deleted from Ducks.<br />
+[2020-08-20 5:31:44 PM] - Lucas Johansen has been deleted from Ducks.<br />
+[2020-08-20 5:31:31 PM] - Urho Vaakanainen has been deleted from Coyotes.<br />
+[2020-08-20 5:31:25 PM] - Dominik Masin has been deleted from Coyotes.<br />
+[2020-08-20 5:31:17 PM] - Ross Colton has been deleted from Flyers.<br />
+[2020-08-20 5:31:11 PM] - Nolan Stevens has been deleted from Flyers.<br />
+[2020-08-20 5:30:18 PM] - Gabriel Gagne has been deleted from Penguins.<br />
+[2020-08-20 5:30:10 PM] - Martin Kaut has been deleted from Maple Leafs.<br />
+[2020-08-20 5:30:03 PM] - Keaton Middleton has been deleted from Maple Leafs.<br />
+[2020-08-20 5:29:49 PM] - Brandon Baddock was added to Blue Jackets.<br />
+[2020-08-20 5:29:24 PM] - Brandon Baddock has been deleted from Blue Jackets.<br />
+[2020-08-20 5:29:19 PM] - Brandon Duhaime has been deleted from Flyers.<br />
+[2020-08-20 5:29:16 PM] - Brandon Crawley has been deleted from Maple Leafs.<br />
+[2020-08-20 5:28:12 PM] - Deven Sideroff has been deleted from Predators.<br />
+[2020-08-20 5:28:03 PM] - Aaron Harstad has been deleted from Predators.<br />
+[2020-08-20 5:27:48 PM] - Gabriel Fontaine has been deleted from Bruins.<br />
+[2020-08-20 5:27:39 PM] - Manuel Wiederer has been deleted from Bruins.<br />
+[2020-08-20 5:27:26 PM] - Yegor Sharangovich has been deleted from Bruins.<br />
+[2020-08-20 5:27:10 PM] - Jens Looke has been deleted from Bruins.<br />
+[2020-08-20 5:26:58 PM] - Ryan Collins has been deleted from Bruins.<br />
+[2020-08-20 5:26:50 PM] - Chad Krys has been deleted from Blues.<br />
+[2020-08-20 5:26:42 PM] - Matteo Gennaro has been deleted from Blues.<br />
+[2020-08-20 5:26:34 PM] - Niclas Almari has been deleted from Blues.<br />
+[2020-08-20 5:26:27 PM] - Joe Cecconi has been deleted from Maple Leafs.<br />
+[2020-08-20 5:26:18 PM] - Sean Day has been deleted from Maple Leafs.<br />
+[2020-08-20 5:26:11 PM] - Oleg Sosunov has been deleted from Maple Leafs.<br />
+[2020-08-20 5:25:57 PM] - Stepan Falkovsky has been deleted from Maple Leafs.<br />
+[2020-08-20 5:25:49 PM] - Jeremy Davies has been deleted from Maple Leafs.<br />
+[2020-08-20 5:25:42 PM] - Jonathan Davidsson has been deleted from Maple Leafs.<br />
+[2020-08-20 5:25:24 PM] - Thomas Schemitsch has been deleted from Devils.<br />
+[2020-08-20 5:25:17 PM] - Nathan Noel has been deleted from Devils.<br />
+[2020-08-20 5:25:08 PM] - Leon Gawanke has been deleted from Devils.<br />
+[2020-08-20 5:25:00 PM] - Jakob Stukel has been deleted from Devils.<br />
+[2020-08-20 5:24:52 PM] - Jake Massie has been deleted from Devils.<br />
+[2020-08-20 5:24:46 PM] - Hunter Drew has been deleted from Devils.<br />
+[2020-08-20 5:24:38 PM] - Brent Gates has been deleted from Devils.<br />
+[2020-08-20 5:24:32 PM] - Antoine Morand has been deleted from Devils.<br />
+[2020-08-20 5:24:21 PM] - Jeremy Helvig has been deleted from Jets.<br />
+[2020-08-20 5:24:15 PM] - Connor Ingram has been deleted from Jets.<br />
+[2020-08-20 5:24:07 PM] - Veini Vehvilainen has been deleted from Jets.<br />
+[2020-08-20 5:23:57 PM] - Matheson Iacopelli has been deleted from Jets.<br />
+[2020-08-20 5:23:41 PM] - Rasmus Kupari has been deleted from Jets.<br />
+[2020-08-20 5:23:34 PM] - Olli Juolevi has been deleted from Jets.<br />
+[2020-08-20 5:23:18 PM] - Maxwell Willman has been deleted from Oilers.<br />
+[2020-08-20 5:23:07 PM] - Marian Studenic has been deleted from Oilers.<br />
+[2020-08-20 5:22:48 PM] - Christopher Brown has been deleted from Oilers.<br />
+[2020-08-20 5:22:37 PM] - Ville Husso has been deleted from Capitals.<br />
+[2020-08-20 5:22:32 PM] - Ville Pokka has been deleted from Blackhawks.<br />
+[2020-08-20 5:22:22 PM] - Mitch Vande Sompel has been deleted from Blackhawks.<br />
+[2020-08-20 5:22:13 PM] - Skyler McKenzie has been deleted from Blackhawks.<br />
+[2020-08-20 5:22:06 PM] - Igor Shesterkin has been deleted from Blackhawks.<br />
+[2020-08-20 5:21:59 PM] - Glenn Gawdin has been deleted from Blackhawks.<br />
+[2020-08-20 5:21:53 PM] - Gabriel Vilardi has been deleted from Capitals.<br />
+[2020-08-20 5:21:29 PM] - Boris Katchouk has been deleted from Canucks.<br />
+[2020-08-20 5:21:22 PM] - Tyler Steenbergen has been deleted from Canucks.<br />
+[2020-08-20 5:21:13 PM] - Garrett Pilon has been deleted from Canucks.<br />
+[2020-08-20 5:21:07 PM] - Tanner Kaspick has been deleted from Canucks.<br />
+[2020-08-20 5:20:53 PM] - Brian Pinho has been deleted from Canucks.<br />
+[2020-08-20 5:20:47 PM] - Frederic Allard has been deleted from Canucks.<br />
+[2020-08-20 5:20:39 PM] - Jonathan Ang has been deleted from Canucks.<br />
+[2020-08-20 5:20:31 PM] - Dennis Robertson has been deleted from Predators.<br />
+[2020-08-20 5:20:22 PM] - Dennis Yan has been deleted from Canucks.<br />
+[2020-08-20 5:20:12 PM] - Adam Mascherin has been deleted from Maple Leafs.<br />
+[2020-08-20 5:17:54 PM] - TRADE : From Sharks to Canucks : Y:2020-RND:6-NYR, Y:2021-RND:6-CAR.<br />
+[2020-08-20 5:17:54 PM] - TRADE : From Canucks to Sharks : Danick Martel (59), J.T. Brown (60), Matt Lorito (57), Nic Petan (61), Cole Ully (P), Michael Downing (P), Zachary Leslie (P).<br />
+[2020-08-20 5:15:25 PM] - Mason Geertsen was added to Blue Jackets.<br />
+[2020-08-20 5:14:41 PM] - Lukas Jasek was added to Blue Jackets.<br />
+[2020-08-20 5:13:47 PM] - Kole Lind was added to Blue Jackets.<br />
+[2020-08-20 5:12:59 PM] - Justin Kirkland was added to Blue Jackets.<br />
+[2020-08-20 5:11:26 PM] - Mitch Vande Sompel was added to Blackhawks.<br />
+[2020-08-20 5:11:00 PM] - Ville Pokka was added to Blackhawks.<br />
+[2020-08-20 4:33:02 PM] - Jonathan Ang was added to Canucks.<br />
+[2020-08-20 4:32:47 PM] - Dennis Yan was added to Canucks.<br />
+[2020-08-20 4:32:20 PM] - Frederic Allard was added to Canucks.<br />
+[2020-08-20 4:31:58 PM] - Brian Pinho was added to Canucks.<br />
+[2020-08-20 4:31:42 PM] - Tanner Kaspick was added to Canucks.<br />
+[2020-08-20 4:31:11 PM] - Garrett Pilon was added to Canucks.<br />
+[2020-08-20 4:30:56 PM] - Tyler Steenbergen was added to Canucks.<br />
+[2020-08-20 4:30:40 PM] - Boris Katchouk was added to Canucks.<br />
+[2020-08-20 4:29:54 PM] - Skyler McKenzie was added to Blackhawks.<br />
+[2020-08-20 4:29:24 PM] - Igor Shesterkin was added to Blackhawks.<br />
+[2020-08-20 4:29:07 PM] - Glenn Gawdin was added to Blackhawks.<br />
+[2020-08-20 4:27:38 PM] - Max Willman was added to Oilers.<br />
+[2020-08-20 4:27:18 PM] - Marian Studenic was added to Oilers.<br />
+[2020-08-20 4:27:01 PM] - Christopher Brown was added to Oilers.<br />
+[2020-08-20 4:22:11 PM] - TRADE : From Flyers to Capitals : Gabriel Vilardi (63).<br />
+[2020-08-20 4:21:40 PM] - Gabriel Vilardi was added to Flyers.<br />
+[2020-08-20 4:20:49 PM] - Jeremy Helvig was added to Jets.<br />
+[2020-08-20 4:20:28 PM] - Connor Ingram was added to Jets.<br />
+[2020-08-20 4:20:11 PM] - Veini Vehvilainen was added to Jets.<br />
+[2020-08-20 4:17:46 PM] - Matheson Iacopelli was added to Jets.<br />
+[2020-08-20 4:10:19 PM] - Joona Koppanen was added to Jets.<br />
+[2020-08-20 4:09:54 PM] - Rasmus Kupari was added to Jets.<br />
+[2020-08-20 4:09:27 PM] - Olli Juolevi was added to Jets.<br />
+[2020-08-20 4:07:35 PM] - Nathan Noel was added to Devils.<br />
+[2020-08-20 4:07:11 PM] - Leon Gawanke was added to Devils.<br />
+[2020-08-20 4:05:33 PM] - Jakob Stukel was added to Devils.<br />
+[2020-08-20 4:05:06 PM] - Jake Massie was added to Devils.<br />
+[2020-08-20 4:04:37 PM] - Hunter Drew was added to Devils.<br />
+[2020-08-20 4:04:21 PM] - Brent Gates was added to Devils.<br />
+[2020-08-20 4:04:07 PM] - Antoine Morand was added to Devils.<br />
+[2020-08-20 4:03:37 PM] - Jonathan Davidsson was added to Maple Leafs.<br />
+[2020-08-20 4:03:15 PM] - Jeremy Davies was added to Maple Leafs.<br />
+[2020-08-20 4:03:01 PM] - Stepan Falkovsky was added to Maple Leafs.<br />
+[2020-08-20 4:02:33 PM] - Oleg Sosunov was added to Maple Leafs.<br />
+[2020-08-20 4:02:17 PM] - Sean Day was added to Maple Leafs.<br />
+[2020-08-20 4:01:52 PM] - Joseph Cecconi was added to Maple Leafs.<br />
+[2020-08-19 9:56:18 PM] - Chad Krys was added to Blues.<br />
+[2020-08-19 9:55:52 PM] - Matteo Gennaro was added to Blues.<br />
+[2020-08-19 9:55:21 PM] - Niclas Almari was added to Blues.<br />
+[2020-08-19 9:54:57 PM] - Gabriel Fontaine was added to Bruins.<br />
+[2020-08-19 9:54:44 PM] - Manuel Wiederer was added to Bruins.<br />
+[2020-08-19 9:54:27 PM] - Egor Sharangovich was added to Bruins.<br />
+[2020-08-19 9:54:13 PM] - Jens Looke was added to Bruins.<br />
+[2020-08-19 9:54:00 PM] - Ryan Collins was added to Bruins.<br />
+[2020-08-19 9:42:49 PM] - TRADE : From Flyers to Predators : Aaron Harstad (51).<br />
+[2020-08-19 9:40:55 PM] - Deven Sideroff was added to Predators.<br />
+[2020-08-19 9:40:32 PM] - Aaron Harstad was added to Flyers.<br />
+[2020-08-19 9:39:05 PM] - Trey Fix-Wolansky was added to Flyers.<br />
+[2020-08-19 9:38:26 PM] - Mason Shaw was added to Flyers.<br />
+[2020-08-19 9:38:15 PM] - Brandon Duhaime was added to Flyers.<br />
+[2020-08-19 9:37:15 PM] - Taylor Raddysh was added to Jets.<br />
+[2020-08-19 9:37:01 PM] - Brett Pollock was added to Jets.<br />
+[2020-08-19 9:32:28 PM] - Joni Tuulola was added to Jets.<br />
+[2020-08-19 9:32:08 PM] - Brett Pollock was added to Jets.<br />
+[2020-08-19 9:31:55 PM] - Ryan Gropp was added to Jets.<br />
+[2020-08-19 9:31:40 PM] - Ryan Kujawinski was added to Kings.<br />
+[2020-08-19 9:31:28 PM] - J.C. Lipon was added to Kings.<br />
+[2020-08-19 9:30:52 PM] - Ville Husso was added to Capitals.<br />
+[2020-08-19 9:30:31 PM] - Nicolas Meloche was added to Capitals.<br />
+[2020-08-19 9:30:12 PM] - Kyle Capobianco was added to Capitals.<br />
+[2020-08-19 9:29:59 PM] - Cameron Darcy was added to Capitals.<br />
+[2020-08-19 9:27:52 PM] - Parker Wotherspoon was added to Panthers.<br />
+[2020-08-19 9:27:20 PM] - Julius Bergman was added to Predators.<br />
+[2020-08-19 9:27:07 PM] - Dennis Robertson was added to Predators.<br />
+[2020-08-19 9:26:53 PM] - Adam Musil was added to Predators.<br />
+[2020-08-19 9:26:24 PM] - Igor Shvyrev was added to Devils.<br />
+[2020-08-19 9:25:13 PM] - Michael Spacek was added to Sabres.<br />
+[2020-08-19 9:24:56 PM] - Mikey Eyssimont was added to Sabres.<br />
+[2020-08-19 9:24:17 PM] - Ryan Fitzgerald was added to Sabres.<br />
+[2020-08-19 9:23:47 PM] - Sean Malone was added to Sabres.<br />
+[2020-08-19 9:23:35 PM] - Josiah Didier was added to Sabres.<br />
+[2020-08-19 9:23:09 PM] - Thomas Schemitsch was added to Devils.<br />
+[2020-08-19 9:22:51 PM] - Blake Speers was added to Devils.<br />
+[2020-08-19 9:22:15 PM] - Andrew Nielson was added to Ducks.<br />
+[2020-08-19 9:22:03 PM] - Andrew Nielsen was added to Ducks.<br />
+[2020-08-19 9:21:43 PM] - Jeremy Roy was added to Ducks.<br />
+[2020-08-19 9:21:28 PM] - Lucas Johansen was added to Ducks.<br />
+[2020-08-19 9:20:52 PM] - Urho Vaakanainen was added to Coyotes.<br />
+[2020-08-19 9:20:36 PM] - Dominik Masin was added to Coyotes.<br />
+[2020-08-19 9:20:15 PM] - Ross Colton was added to Flyers.<br />
+[2020-08-19 9:20:02 PM] - Nolan Stevens was added to Flyers.<br />
+[2020-08-19 9:19:19 PM] - Gabriel Gagne was added to Penguins.<br />
+[2020-08-19 9:18:52 PM] - Martin Kaut was added to Maple Leafs.<br />
+[2020-08-19 9:18:38 PM] - Keaton Middleton was added to Maple Leafs.<br />
+[2020-08-19 9:18:27 PM] - Brandon Crawley was added to Maple Leafs.<br />
+[2020-08-19 9:18:14 PM] - Adam Mascherin was added to Maple Leafs.<br />
+[2020-08-19 9:02:51 PM] - TRADE : From Canucks to Ducks : Ryan MacInnis (58).<br />
+[2020-08-19 8:57:41 PM] - Denis Malgin was added to Blue Jackets.<br />
+[2020-08-19 8:57:31 PM] - T.J. Tynan was added to Blue Jackets.<br />
+[2020-08-19 8:57:19 PM] - Frederick Gaudreau was added to Blue Jackets.<br />
+[2020-08-19 8:57:05 PM] - Phillip Di Giuseppe was added to Blue Jackets.<br />
+[2020-08-19 8:56:19 PM] - Evan McEneny was added to Blue Jackets.<br />
+[2020-08-19 8:56:01 PM] - Jaycob Megna was added to Bruins.<br />
+[2020-08-19 8:55:48 PM] - Ben Hutton was added to Bruins.<br />
+[2020-08-19 8:55:25 PM] - Scott Harrington was added to Islanders.<br />
+[2020-08-19 8:55:09 PM] - Mark Stone was added to Rangers.<br />
+[2020-08-19 8:53:46 PM] - Nick Lappin was added to Predators.<br />
+[2020-08-19 8:53:26 PM] - Logan Shaw was added to Predators.<br />
+[2020-08-19 8:53:12 PM] - Stuart Percy was added to Predators.<br />
+[2020-08-19 8:51:18 PM] - Tyler Graovac was added to Wild.<br />
+[2020-08-19 8:51:07 PM] - Brett Ritchie was added to Wild.<br />
+[2020-08-19 8:50:46 PM] - Seth Griffith was added to Wild.<br />
+[2020-08-19 8:48:20 PM] - TRADE : From Hurricanes to Blackhawks : Y:2022-RND:5-BUF.<br />
+[2020-08-19 8:48:20 PM] - TRADE : From Blackhawks to Hurricanes : Shayne Gostisbehere (65).<br />
+[2020-08-19 8:47:43 PM] - TRADE : From Blue Jackets to Capitals : Jake Virtanen (68), Tyler Madden (P).<br />
+[2020-08-19 8:47:43 PM] - TRADE : From Capitals to Blue Jackets : Dylan Gambrell (61), Jamie Benn (73).<br />
+[2020-08-15 2:18:05 PM] - Anthony Beauvillier was added to Flames.<br />
+[2020-08-15 2:13:40 PM] - Mario Ferraro has been deleted from Sharks.<br />
+[2020-08-15 2:13:29 PM] - Kaapo Kahkonen has been deleted from Coyotes.<br />
+[2020-08-15 2:13:17 PM] - Barrett Hayton has been deleted from Maple Leafs.<br />
+[2020-08-15 2:12:50 PM] - Colin Blackwell has been deleted from Flames.<br />
+[2020-08-15 2:12:37 PM] - Victor Olofsson has been deleted from Wild.<br />
+[2020-08-15 2:12:28 PM] - Adam Fox has been deleted from Wild.<br />
+[2020-08-15 2:11:07 PM] - Liam Foudy has been deleted from Golden Knights.<br />
+[2020-08-15 2:11:01 PM] - Jake Evans has been deleted from Golden Knights.<br />
+[2020-08-15 2:10:53 PM] - Adam Werner has been deleted from Golden Knights.<br />
+[2020-08-15 2:10:47 PM] - Gustav Lindstrom has been deleted from Golden Knights.<br />
+[2020-08-15 2:10:39 PM] - Morgan Geekie has been deleted from Golden Knights.<br />
+[2020-08-15 2:10:33 PM] - Timothy Liljegren has been deleted from Kings.<br />
+[2020-08-15 2:10:11 PM] - Kieffer Bellows has been deleted from Bruins.<br />
+[2020-08-15 2:10:01 PM] - Hudson Fasching has been deleted from Wild.<br />
+[2020-08-15 2:09:53 PM] - Sam Lafferty has been deleted from Wild.<br />
+[2020-08-15 2:09:47 PM] - Connor Bunnaman has been deleted from Wild.<br />
+[2020-08-15 2:09:40 PM] - Sebastian Aho has been deleted from Wild.<br />
+[2020-08-15 2:09:32 PM] - Mikhail Vorobyov has been deleted from Canucks.<br />
+[2020-08-15 2:09:20 PM] - Gabriel Carlsson has been deleted from Canucks.<br />
+[2020-08-15 2:05:59 PM] - Ryan MacInnis has been deleted from Ducks.<br />
+[2020-08-15 2:05:52 PM] - Calvin Petersen has been deleted from Capitals.<br />
+[2020-08-15 2:05:35 PM] - Cal Petersen was added to Capitals.<br />
+[2020-08-15 11:35:59 AM] - Liam Foudy was added to Golden Knights.<br />
+[2020-08-15 11:32:43 AM] - Ryan MacInnis was added to Canucks.<br />
+[2020-08-15 11:32:02 AM] - Mikhail Vorobyov was added to Canucks.<br />
+[2020-08-15 11:31:39 AM] - Mikhail Vorobyev was added to Canucks.<br />
+[2020-08-15 11:30:28 AM] - Gabriel Carlsson was added to Canucks.<br />
+[2020-08-15 11:29:43 AM] - Sam Lafferty was added to Wild.<br />
+[2020-08-15 11:29:29 AM] - Connor Bunnaman was added to Wild.<br />
+[2020-08-15 11:29:17 AM] - Sebastian AhoD was added to Wild.<br />
+[2020-08-15 11:28:50 AM] - Kieffer Bellows was added to Bruins.<br />
+[2020-08-15 11:28:33 AM] - Timothy Liljegren was added to Kings.<br />
+[2020-08-15 11:27:56 AM] - Morgan Geekie was added to Golden Knights.<br />
+[2020-08-15 11:27:43 AM] - Gustav Lindstrom was added to Golden Knights.<br />
+[2020-08-15 11:27:24 AM] - Adam Werner was added to Golden Knights.<br />
+[2020-08-15 11:26:57 AM] - Jake Evans was added to Golden Knights.<br />
+[2020-08-15 11:25:44 AM] - Kaapo Kahkonen was added to Coyotes.<br />
+[2020-08-15 11:25:05 AM] - Mario Ferraro was added to Sharks.<br />
+[2020-08-15 11:24:45 AM] - Barrett Hayton was added to Maple Leafs.<br />
+[2020-08-15 11:23:46 AM] - Colin Blackwell was added to Flames.<br />
+[2020-08-15 11:22:42 AM] - Victor Olofsson was added to Wild.<br />
+[2020-08-15 11:22:22 AM] - Adam Fox was added to Wild.<br />
+[2020-08-15 11:10:01 AM] - Scott Wedgewood was added to Ducks.<br />
+[2020-08-15 11:09:45 AM] - Marko Dano was added to Blues.<br />
+[2020-08-15 11:09:18 AM] - Hudson Fasching was added to Wild.<br />
+[2020-08-15 11:08:14 AM] - Nate Prosser was added to Stars.<br />
+[2020-08-15 11:08:03 AM] - Matt Puempel was added to Stars.<br />
+[2020-08-15 11:07:50 AM] - Jordan Weal was added to Stars.<br />
+[2020-08-15 11:07:34 AM] - Derek Forbort was added to Stars.<br />
+[2020-08-15 11:07:12 AM] - Brendan Gaunce was added to Stars.<br />
+[2020-08-15 11:06:57 AM] - Anthony Stolarz was added to Stars.<br />
+[2020-08-15 11:06:43 AM] - Andrew Agozzino was added to Stars.<br />
+[2020-08-15 11:06:22 AM] - Laurent Brossoit was added to Sharks.<br />
+[2020-08-15 11:05:48 AM] - Travis Konecny was added to Sharks.<br />
+[2020-08-15 11:04:53 AM] - Josh Anderson was added to Kings.<br />
+[2020-08-15 11:04:06 AM] - Adam Pelech was added to Kings.<br />
+[2020-08-15 11:03:42 AM] - Steven Santini was added to Flames.<br />
+[2020-08-15 11:03:23 AM] - Kevin Fiala was added to Coyotes.<br />
+[2020-08-15 11:02:11 AM] - Markus Hannikainen was added to Jets.<br />
+[2020-08-15 11:01:19 AM] - Madison Bowey was added to Jets.<br />
+[2020-08-15 11:00:37 AM] - Landon Bow was added to Canucks.<br />
+[2020-08-15 11:00:18 AM] - Gavin Bayreuther was added to Canucks.<br />
+[2020-08-15 10:59:58 AM] - Joel Armia was added to Canucks.<br />
+[2020-08-15 10:59:34 AM] - Hunter Miska was added to Canucks.<br />
+[2020-08-15 10:59:17 AM] - Zane McIntyre was added to Oilers.<br />
+[2020-08-15 10:58:38 AM] - Nic Petan was added to Canucks.<br />
+[2020-08-15 10:56:37 AM] - Petr Mrazek was added to Capitals.<br />
+[2020-08-15 10:56:01 AM] - Colin Miller was added to Flyers.<br />
+[2020-08-15 10:55:36 AM] - Taylor Leier was added to Islanders.<br />
+[2020-08-15 10:55:18 AM] - Max McCormick was added to Islanders.<br />
+[2020-08-15 10:54:59 AM] - Brett Lernout was added to Islanders.<br />
+[2020-08-15 10:54:27 AM] - Alan Quine was added to Islanders.<br />
+[2020-08-15 10:53:28 AM] - Matthew Nieto was added to Islanders.<br />
+[2020-08-15 10:53:03 AM] - Daniel Carr was added to Islanders.<br />
+[2020-08-15 10:52:47 AM] - Connor Brown was added to Islanders.<br />
+[2020-08-15 10:52:05 AM] - Charlie Coyle was added to Rangers.<br />
+[2020-08-15 10:51:51 AM] - Jesper Bratt was added to Rangers.<br />
+[2020-08-15 10:50:39 AM] - Erik Gustafsson was added to Rangers.<br />
+[2020-08-15 10:44:22 AM] - Jack Campbell was added to Maple Leafs.<br />
+[2020-08-15 10:43:44 AM] - Connor McDavid was added to Red Wings.<br />
+[2020-08-15 10:43:27 AM] - Oliver Bjorkstrand was added to Red Wings.<br />
+[2020-08-15 10:43:09 AM] - Jared McCann was added to Red Wings.<br />
+[2020-08-15 10:42:44 AM] - Austin Czarnik was added to Penguins.<br />
+[2020-08-15 10:42:11 AM] - Alex Galchenyuk was added to Hurricanes.<br />
+[2020-08-15 10:41:52 AM] - Dylan McIlrath was added to Senators.<br />
+[2020-08-15 10:41:10 AM] - Jason Dickinson was added to Senators.<br />
+[2020-08-15 10:32:40 AM] - Mattias Janmark was added to Sabres.<br />
+[2020-08-15 10:31:45 AM] - Chris Tierney was added to Rangers.<br />
+[2020-08-15 10:21:02 AM] - Radim Simek was added to Lightning.<br />
+[2020-08-15 10:20:39 AM] - Fredrik Claesson was added to Senators.<br />
+[2020-08-15 10:20:16 AM] - Brendan Perlini was added to Rangers.<br />
+[2020-08-15 10:19:45 AM] - Joonas Korpisalo was added to Bruins.<br />
+[2020-08-15 10:19:15 AM] - Gustav Olofsson was added to Bruins.<br />
+[2020-08-15 10:18:57 AM] - Matt Roy was added to Bruins.<br />
+[2020-08-15 10:18:41 AM] - Mirco Mueller was added to Bruins.<br />
+[2020-08-15 10:17:21 AM] - Nathan Walker was added to Bruins.<br />
+[2020-08-15 10:15:43 AM] - Ben Harpur was added to Bruins.<br />
+[2020-08-15 10:15:17 AM] - Kyle Criscuolo was added to Devils.<br />
+[2020-08-15 10:14:34 AM] - Patrick Brown was added to Oilers.<br />
+[2020-08-15 10:04:23 AM] - Carey Price was added to Predators.<br />
+[2020-08-15 9:34:41 AM] - Antoine Bibeau has been deleted from Kings.<br />
+[2020-08-15 9:34:30 AM] - Adam Comrie has been deleted from Kings.<br />
+[2020-08-15 9:34:18 AM] - John Persson has been deleted from Kings.<br />
+[2020-08-15 9:33:51 AM] - Marc McNulty has been deleted from Kings.<br />
+[2020-08-15 9:33:42 AM] - Adam Janosik has been deleted from Kings.<br />
+[2020-08-15 9:33:34 AM] - Alexis Pepin has been deleted from Kings.<br />
+[2020-08-15 9:33:27 AM] - Nolan Vesey has been deleted from Kings.<br />
+[2020-08-15 9:33:19 AM] - Kenny Ryan has been deleted from Kings.<br />
+[2020-08-15 9:33:11 AM] - Tyler Biggs has been deleted from Kings.<br />
+[2020-08-15 9:33:04 AM] - Daniel Catenacci has been deleted from Kings.<br />
+[2020-08-15 9:32:55 AM] - Daniel Bernhardt has been deleted from Islanders.<br />
+[2020-08-15 9:32:45 AM] - Colin Smith has been deleted from Islanders.<br />
+[2020-08-15 9:32:36 AM] - Jonathan Walker has been deleted from Maple Leafs.<br />
+[2020-08-15 9:23:49 AM] - TRADE : From Bruins to Rangers : Brendan Perlini (63).<br />
+[2020-08-15 9:23:49 AM] - TRADE : From Rangers to Bruins : Y:2020-RND:3-ANH.<br />
+[2020-08-15 9:23:13 AM] - TRADE : From Ducks to Flyers : Colin Miller (66), $500,000 (Money), Y:2020-RND:7-ANH, Y:2020-RND:7-VGK.<br />
+[2020-08-15 9:23:13 AM] - TRADE : From Flyers to Ducks : Alexis Gravel (P), Olle Lycksell (P).<br />
+[2020-08-15 9:21:35 AM] - TRADE : From Islanders to Golden Knights : Joe Pavelski (71).<br />
+[2020-08-15 9:21:35 AM] - TRADE : From Golden Knights to Islanders : Y:2021-RND:3-ARI.<br />
+[2020-08-09 8:20:02 PM] - TRADE : From Sabres to Hurricanes : Y:2022-RND:5-BUF.<br />
+[2020-08-09 8:20:02 PM] - TRADE : From Hurricanes to Sabres : Y:2020-RND:7-STL, Y:2021-RND:6-SJS, Y:2021-RND:7-LAK.<br />
+[2020-08-09 8:18:50 PM] - TRADE : From Bruins to Canadiens : Noah Juulsen (53).<br />
+[2020-08-09 8:18:50 PM] - TRADE : From Canadiens to Bruins : Y:2021-RND:3-MTL, Y:2021-RND:4-CGY.<br />
+[2020-08-09 8:18:01 PM] - TRADE : From Bruins to Rangers : Y:2021-RND:4-TBL, Y:2021-RND:3-SJS.<br />
+[2020-08-09 8:18:01 PM] - TRADE : From Rangers to Bruins : Ben Hutton (68).<br />
+[2020-08-09 8:17:09 PM] - TRADE : From Bruins to Golden Knights : Y:2021-RND:4-PIT.<br />
+[2020-08-09 8:17:09 PM] - TRADE : From Golden Knights to Bruins : Marcus Sorensen (64).<br />
+[2020-08-09 8:16:35 PM] - TRADE : From Ducks to Oilers : Morgan Klimchuk (59).<br />
+[2020-08-09 8:16:35 PM] - TRADE : From Oilers to Ducks : Scott Wedgewood (57).<br />
+[2020-08-09 8:15:13 PM] - TRADE : From Hurricanes to Bruins : Y:2021-RND:6-CGY, Y:2022-RND:4-CAR.<br />
+[2020-08-09 8:15:13 PM] - TRADE : From Bruins to Hurricanes : Braden Holtby (68).<br />
+[2020-08-09 8:14:18 PM] - TRADE : From Hurricanes to Bruins : Pavel Francouz (74).<br />
+[2020-08-09 8:14:18 PM] - TRADE : From Bruins to Hurricanes : Y:2023-RND:1-BOS, Y:2022-RND:3-BOS, Y:2021-RND:2-LAK, Y:2021-RND:2-OTT.<br />
+[2020-08-09 8:13:09 PM] - TRADE : From Kings to Islanders : Jonathan Huberdeau (76).<br />
+[2020-08-09 8:13:09 PM] - TRADE : From Islanders to Kings : Josh Anderson (66), Jordan Binnington (74), Y:2020-RND:2-CAR, Y:2020-RND:5-ANH.<br />
+[2020-08-09 8:12:20 PM] - TRADE : From Bruins to Maple Leafs : Jack Campbell (66), Y:2021-RND:4-PHL.<br />
+[2020-08-09 8:12:20 PM] - TRADE : From Maple Leafs to Bruins : James Reimer (74), Y:2021-RND:5-TOR.<br />
+[2020-08-09 8:11:27 PM] - TRADE : From Flames to Blues : Y:2020-RND:1-PHL, Y:2020-RND:2-CGY, Y:2020-RND:2-SJS.<br />
+[2020-08-09 8:11:27 PM] - TRADE : From Blues to Flames : Anthony Beauvillier (71).<br />
+[2020-08-09 8:10:30 PM] - TRADE : From Devils to Oilers : Patrick Brown (59), $1,000,000 (Money), Y:2021-RND:6-NJD.<br />
+[2020-08-09 8:10:30 PM] - TRADE : From Oilers to Devils : Trevor van Riemsdyk (64).<br />
+[2020-08-09 8:09:46 PM] - TRADE : From Ducks to Bruins : Martin Marincin (65).<br />
+[2020-08-09 8:09:46 PM] - TRADE : From Bruins to Ducks : Y:2022-RND:5-BOS.<br />
+[2020-08-09 8:09:25 PM] - TRADE : From Rangers to Hurricanes : Ryan Donato (65).<br />
+[2020-08-09 8:09:25 PM] - TRADE : From Hurricanes to Rangers : Caleb Jones (63), Y:2020-RND:3-ANH.<br />
+[2020-08-09 8:08:20 PM] - TRADE : From Stars to Oilers : Y:2021-RND:4-DAL.<br />
+[2020-08-09 8:08:20 PM] - TRADE : From Oilers to Stars : Anthony Bitetto (65).<br />
+[2020-08-09 8:06:53 PM] - TRADE : From Ducks to Bruins : Warren Foegele (66), Kieffer Bellows (P), Y:2021-RND:2-OTT.<br />
+[2020-08-09 8:06:53 PM] - TRADE : From Bruins to Ducks : Zach Hyman (71), Y:2022-RND:2-BOS.<br />
+[2020-08-09 8:05:20 PM] - TRADE : From Lightning to Flames : Lawrence Pilut (64).<br />
+[2020-08-09 8:05:20 PM] - TRADE : From Flames to Lightning : Matthew Highmore (60), $500,000 (Money).<br />
+[2020-08-09 8:04:02 PM] - TRADE : From Bruins to Hurricanes : Vladislav Gavrikov (69).<br />
+[2020-08-09 8:04:02 PM] - TRADE : From Hurricanes to Bruins : Michael Anderson (58), Mikhail Berdin (P), Ryan McLeod (P), Y:2021-RND:4-PIT, Y:2021-RND:4-TBL.<br />
+[2020-08-09 8:01:48 PM] - TRADE : From Blues to Hurricanes : Matiss Kivlenieks (54), Y:2020-RND:3-ANH, Y:2020-RND:7-STL.<br />
+[2020-08-09 8:01:48 PM] - TRADE : From Hurricanes to Blues : Y:2020-RND:2-VAN.<br />
+[2020-08-09 4:06:11 PM] - TRADE : From Devils to Sabres : Alexander Yelesin (58).<br />
+[2020-08-09 4:04:58 PM] - Gage Quinney was added to Predators.<br />
+[2020-08-09 4:04:47 PM] - Ilya Mikheyev was added to Penguins.<br />
+[2020-08-09 4:04:38 PM] - Brennan Menell was added to Hurricanes.<br />
+[2020-08-09 4:04:20 PM] - Joona Luoto was added to Sabres.<br />
+[2020-08-09 4:04:10 PM] - Lean Bergmann was added to Predators.<br />
+[2020-08-09 4:03:58 PM] - Gerald Mayhew was added to Senators.<br />
+[2020-08-09 4:03:46 PM] - Joel Kellman was added to Predators.<br />
+[2020-08-09 4:03:33 PM] - Gaetan Haas was added to Predators.<br />
+[2020-08-09 4:03:23 PM] - Cole Bardreau was added to Senators.<br />
+[2020-08-09 4:03:17 PM] - Jordan Gross was added to Senators.<br />
+[2020-08-09 4:03:03 PM] - Mathieu Olivier was added to Flames.<br />
+[2020-08-09 4:02:12 PM] - Danil Yurtaykin was added to Flames.<br />
+[2020-08-09 4:01:47 PM] - Joakim Nygard was added to Devils.<br />
+[2020-08-09 4:01:35 PM] - Jani Hakanpaa was added to Capitals.<br />
+[2020-08-09 4:01:12 PM] - Otto Leskinen was added to Canadiens.<br />
+[2020-08-09 4:00:49 PM] - Nikolai Knyzhov was added to Blue Jackets.<br />
+[2020-08-09 4:00:37 PM] - Mason Marchment was added to Devils.<br />
+[2020-08-09 4:00:20 PM] - Joel Lowry was added to Devils.<br />
+[2020-08-09 4:00:18 PM] - Joel Kiviranta was added to Devils.<br />
+[2020-08-09 4:00:01 PM] - Kasimir Kaskisuo was added to Devils.<br />
+[2020-08-09 3:59:50 PM] - Andrei Chibisov was added to Devils.<br />
+[2020-08-09 3:59:29 PM] - Alexander Yelesin was added to Devils.<br />
+[2020-08-09 3:59:06 PM] - Alexander True was added to Canucks.<br />
+[2020-08-09 3:58:53 PM] - Matiss Kivlenieks was added to Blues.<br />
+[2020-08-09 3:58:21 PM] - Scott Sabourin was added to Devils.<br />
+[2020-08-09 3:48:38 PM] - TRADE : From Hurricanes to Lightning : Christian Djoos (65), Ilya Lyubushkin (63).<br />
+[2020-08-09 3:48:38 PM] - TRADE : From Lightning to Hurricanes : Jakub Galvas (P), Wade Allison (P), Y:2023-RND:5-TBL.<br />
+[2020-08-09 3:47:53 PM] - TRADE : From Penguins to Canucks : Y:2020-RND:4-PIT.<br />
+[2020-08-09 3:47:53 PM] - TRADE : From Canucks to Penguins : Steven Fogarty (63), Pat Maroon (66).<br />
+[2020-08-09 3:26:09 PM] - Tyler Ganly has been deleted from Islanders.<br />
+[2020-08-09 3:26:00 PM] - Ludvig Rensfeldt has been deleted from Islanders.<br />
+[2020-08-09 3:25:46 PM] - Ludwig Bystrom has been deleted from Islanders.<br />
+[2020-08-09 3:25:31 PM] - Ryan Pilon has been deleted from Islanders.<br />
+[2020-08-09 3:25:23 PM] - Evan Cowley has been deleted from Islanders.<br />
+[2020-08-09 3:25:13 PM] - Austin Wuthrich has been deleted from Islanders.<br />
+[2020-08-09 3:25:00 PM] - Brian Ferlin has been deleted from Islanders.<br />
+[2020-08-09 3:24:50 PM] - Nikolas Koberstein has been deleted from Islanders.<br />
+[2020-08-09 3:24:41 PM] - Austin Levi has been deleted from Islanders.<br />
+[2020-08-09 3:24:22 PM] - Alexandre Mallet has been deleted from Islanders.<br />
+[2020-08-09 3:24:13 PM] - Michael Paliotta has been deleted from Islanders.<br />
+[2020-08-09 3:24:03 PM] - Rasmus Bengtsson has been deleted from Islanders.<br />
+[2020-08-09 3:23:55 PM] - Yan Pavel Laplante has been deleted from Islanders.<br />
+[2020-08-09 3:23:26 PM] - Vladimir Ruzicka has been deleted from Panthers.<br />
+[2020-08-09 3:23:10 PM] - A.J. Jenks has been deleted from Panthers.<br />
+[2020-07-21 5:41:09 PM] - Erik Gudbranson was added to Bruins.<br />
+[2020-07-21 5:40:24 PM] - Vinnie Hinostroza was added to Blue Jackets.<br />
+[2020-07-21 5:40:08 PM] - Viktor Arvidsson was added to Flyers.<br />
+[2020-07-21 5:39:14 PM] - Connor Hellebuyck was added to Lightning.<br />
+[2020-07-21 5:38:37 PM] - Sam Bennett was added to Maple Leafs.<br />
+[2020-07-21 5:38:07 PM] - Tyler Seguin was added to Panthers.<br />
+[2020-07-21 5:37:48 PM] - David Rittich was added to Panthers.<br />
+[2020-07-21 5:37:35 PM] - Lawson Crouse was added to Panthers.<br />
+[2020-07-21 5:37:12 PM] - Brendan Guhle was added to Panthers.<br />
+[2020-07-21 5:36:59 PM] - Curtis Lazar was added to Panthers.<br />
+[2020-07-21 5:36:47 PM] - Derrick Pouliot was added to Panthers.<br />
+[2020-07-21 5:36:31 PM] - C.J. Smith was added to Panthers.<br />
+[2020-07-21 5:34:26 PM] - Luke Johnson was added to Panthers.<br />
+[2020-07-21 5:34:15 PM] - Andy Welinski was added to Panthers.<br />
+[2020-07-21 5:34:01 PM] - Tyler Wotherspoon was added to Panthers.<br />
+[2020-07-21 5:33:35 PM] - Nick Ritchie was added to Devils.<br />
+[2020-07-21 5:32:55 PM] - Gabriel Landeskog was added to Rangers.<br />
+[2020-07-21 5:32:17 PM] - Dean Kukan was added to Senators.<br />
+[2020-07-21 5:32:03 PM] - Trevor Carrick was added to Senators.<br />
+[2020-07-21 5:31:51 PM] - Joakim Nordstrom was added to Senators.<br />
+[2020-07-21 5:30:44 PM] - Evgeny Kuznetsov was added to Sharks.<br />
+[2020-07-21 5:30:26 PM] - Brady Skjei was added to Flames.<br />
+[2020-07-21 5:30:00 PM] - Andre Burakovsky was added to Flames.<br />
+[2020-07-21 5:29:27 PM] - Anton Blidh was added to Canucks.<br />
+[2020-07-21 5:29:15 PM] - Logan O'Connor was added to Canucks.<br />
+[2020-07-21 5:29:04 PM] - Joshua Ho-Sang was added to Canucks.<br />
+[2020-07-21 5:28:36 PM] - Brandon Carlo was added to Avalanche.<br />
+[2020-07-21 5:28:23 PM] - Jon Gillies was added to Golden Knights.<br />
+[2020-07-21 5:28:11 PM] - Adin Hill was added to Golden Knights.<br />
+[2020-07-21 5:27:50 PM] - John Gilmour was added to Golden Knights.<br />
+[2020-07-21 5:27:35 PM] - Marcus Sorensen was added to Golden Knights.<br />
+[2020-07-21 5:27:24 PM] - Jacob de La Rose was added to Golden Knights.<br />
+[2020-07-21 5:27:01 PM] - William Nylander was added to Coyotes.<br />
+[2020-07-21 5:25:25 PM] - Tyler Ennis was added to Flyers.<br />
+[2020-07-21 5:19:33 PM] - Thomas Larkin has been deleted from Stars.<br />
+[2020-07-21 5:17:04 PM] - Teemu Eronen has been deleted from Stars.<br />
+[2020-07-21 5:16:50 PM] - Rob Flick has been deleted from Stars.<br />
+[2020-07-21 5:16:43 PM] - Olivier Roy has been deleted from Stars.<br />
+[2020-07-21 5:16:32 PM] - Olivier Archambault has been deleted from Stars.<br />
+[2020-07-21 5:16:21 PM] - Nicolas Deschamps has been deleted from Stars.<br />
+[2020-07-21 5:16:15 PM] - Nick Petersen has been deleted from Stars.<br />
+[2020-07-21 5:16:08 PM] - Matia Marcantuoni has been deleted from Stars.<br />
+[2020-07-21 5:16:03 PM] - Magnus Nygren has been deleted from Stars.<br />
+[2020-07-21 5:15:55 PM] - Kelsey Tessier has been deleted from Stars.<br />
+[2020-07-21 5:15:49 PM] - Jonathan Racine has been deleted from Stars.<br />
+[2020-07-21 5:15:43 PM] - Gleason Fournier has been deleted from Stars.<br />
+[2020-07-21 5:15:35 PM] - Danny Biega has been deleted from Stars.<br />
+[2020-07-21 5:15:28 PM] - Corey Cowick has been deleted from Stars.<br />
+[2020-07-21 5:15:19 PM] - Anton Zlobin has been deleted from Stars.<br />
+[2020-07-21 5:15:12 PM] - Alex Lepkowski has been deleted from Stars.<br />
+[2020-07-21 5:14:48 PM] - Zach Fischer has been deleted from Flyers.<br />
+[2020-07-21 5:14:37 PM] - Jocktan Chainey has been deleted from Sabres.<br />
+[2020-07-21 5:14:21 PM] - Jermaine Loewen has been deleted from Flyers.<br />
+[2020-07-21 5:13:03 PM] - Ryan Poehling has been deleted from Stars.<br />
+[2020-07-21 5:12:57 PM] - Isac Lundestrom has been deleted from Stars.<br />
+[2020-07-21 5:12:51 PM] - Keegan Kolesar has been deleted from Sabres.<br />
+[2020-07-21 5:12:40 PM] - Keegan Kolesar was added to Sabres.<br />
+[2020-07-21 5:12:30 PM] - Ryan Poehling was added to Stars.<br />
+[2020-07-21 5:12:22 PM] - Isac Lundestrom was added to Stars.<br />
+[2020-07-21 5:09:34 PM] - TRADE : From Senators to Hurricanes : Alex Galchenyuk (66).<br />
+[2020-07-21 5:09:34 PM] - TRADE : From Hurricanes to Senators : Boo Nieves (63), Y:2021-RND:3-ANH.<br />
+[2020-07-21 5:09:13 PM] - TRADE : From Senators to Flyers : $500,000 (Money), Y:2023-RND:7-OTT.<br />
+[2020-07-21 5:09:13 PM] - TRADE : From Flyers to Senators : Jonathan Ericsson (65), Y:2023-RND:7-SJS.<br />
+[2020-07-21 5:08:30 PM] - TRADE : From Blues to Flyers : Y:2022-RND:7-STL.<br />
+[2020-07-21 5:08:30 PM] - TRADE : From Flyers to Blues : Mark Pysyk (66).<br />
+[2020-07-21 5:08:08 PM] - TRADE : From Sabres to Ducks : Y:2020-RND:5-PIT.<br />
+[2020-07-21 5:08:08 PM] - TRADE : From Ducks to Sabres : Y:2021-RND:4-DET, Y:2021-RND:6-ANH.<br />
+[2020-07-21 5:07:15 PM] - TRADE : From Sharks to Flames : Derek Ryan (68).<br />
+[2020-07-21 5:07:15 PM] - TRADE : From Flames to Sharks : Y:2020-RND:3-BOS.<br />
+[2020-07-21 5:06:52 PM] - TRADE : From Sharks to Canucks : Joel Armia (70).<br />
+[2020-07-21 5:06:52 PM] - TRADE : From Canucks to Sharks : Brogan Rafferty (61), Cal Clutterbuck (67), Y:2020-RND:6-ANH.<br />
+[2020-07-21 5:06:25 PM] - TRADE : From Sharks to Hurricanes : Sven Baertschi (66).<br />
+[2020-07-21 5:06:25 PM] - TRADE : From Hurricanes to Sharks : Y:2021-RND:6-CAR.<br />
+[2020-07-21 5:05:49 PM] - TRADE : From Sharks to Coyotes : Y:2021-RND:6-BUF.<br />
+[2020-07-21 5:05:49 PM] - TRADE : From Coyotes to Sharks : Zack Kassian (68).<br />
+[2020-07-21 5:00:36 PM] - TRADE : From Sharks to Bruins : Y:2021-RND:2-LAK, Y:2021-RND:3-SJS.<br />
+[2020-07-21 5:00:36 PM] - TRADE : From Bruins to Sharks : Y:2020-RND:4-OTT, Y:2020-RND:5-STL, Y:2020-RND:5-VAN, Y:2020-RND:6-BUF, Y:2020-RND:6-NYR, Y:2020-RND:6-OTT.<br />
+[2020-07-14 3:09:36 PM] - Darren Helm was added to Panthers.<br />
+[2020-07-14 3:09:11 PM] - Ben Bishop was added to Flames.<br />
+[2020-07-14 3:08:47 PM] - Carl Hagelin was added to Blackhawks.<br />
+[2020-07-14 3:06:42 PM] - TRADE : From Sharks to Hurricanes : Phil Kessel (71).<br />
+[2020-07-14 3:06:42 PM] - TRADE : From Hurricanes to Sharks : Y:2021-RND:6-BUF.<br />
+[2020-07-14 3:05:54 PM] - Michael McLeod has been deleted from Canucks.<br />
+[2020-07-14 3:05:46 PM] - Joel Farabee has been deleted from Canucks.<br />
+[2020-07-14 3:05:40 PM] - Dylan Gambrell has been deleted from Capitals.<br />
+[2020-07-14 3:05:33 PM] - Nikita Gusev has been deleted from Capitals.<br />
+[2020-07-14 3:05:21 PM] - Lukas Vejdemo has been deleted from Blues.<br />
+[2020-07-14 3:05:15 PM] - Janne Kuokkanen has been deleted from Blues.<br />
+[2020-07-14 3:05:09 PM] - Denis Guryanov has been deleted from Blues.<br />
+[2020-07-14 3:05:02 PM] - Cale Fleury has been deleted from Blues.<br />
+[2020-07-14 3:04:55 PM] - Alexandre Texier has been deleted from Blues.<br />
+[2020-07-14 3:04:44 PM] - Adam Boqvist has been deleted from Blues.<br />
+[2020-07-14 3:04:34 PM] - Chase Priskie has been deleted from Canadiens.<br />
+[2020-07-14 3:04:23 PM] - Matthew Phillips has been deleted from Canadiens.<br />
+[2020-07-14 3:04:15 PM] - Beck Malenstyn has been deleted from Jets.<br />
+[2020-07-14 3:04:08 PM] - Kale Clague has been deleted from Jets.<br />
+[2020-07-14 3:04:02 PM] - David Kase has been deleted from Jets.<br />
+[2020-07-14 3:03:55 PM] - Eetu Luostarinen has been deleted from Jets.<br />
+[2020-07-14 3:03:49 PM] - Carson Soucy has been deleted from Avalanche.<br />
+[2020-07-14 3:03:29 PM] - Andreas Englund has been deleted from Avalanche.<br />
+[2020-07-14 3:03:22 PM] - John Marino has been deleted from Rangers.<br />
+[2020-07-14 3:03:14 PM] - Dmytro Timashov has been deleted from Senators.<br />
+[2020-07-14 3:03:08 PM] - Klim Kostin has been deleted from Senators.<br />
+[2020-07-14 3:03:02 PM] - Gilles Senn has been deleted from Senators.<br />
+[2020-07-14 3:02:46 PM] - Gilles Senn was added to Senators.<br />
+[2020-07-14 3:02:36 PM] - Klim Kostin was added to Senators.<br />
+[2020-07-14 3:02:30 PM] - Dmytro Timashov was added to Senators.<br />
+[2020-07-14 3:02:13 PM] - John Marino was added to Rangers.<br />
+[2020-07-14 3:01:39 PM] - Beck Malenstyn was added to Jets.<br />
+[2020-07-14 3:01:34 PM] - Kale Clague was added to Jets.<br />
+[2020-07-14 3:01:27 PM] - David Kase was added to Jets.<br />
+[2020-07-14 3:01:20 PM] - Eetu Luostarinen was added to Jets.<br />
+[2020-07-14 3:00:58 PM] - Andreas Englund was added to Avalanche.<br />
+[2020-07-14 3:00:36 PM] - Carson Soucy was added to Avalanche.<br />
+[2020-07-14 3:00:11 PM] - Matthew Phillips was added to Canadiens.<br />
+[2020-07-14 3:00:04 PM] - Chase Priskie was added to Canadiens.<br />
+[2020-07-14 2:59:44 PM] - Lukas Vejdemo was added to Blues.<br />
+[2020-07-14 2:59:37 PM] - Janne Kuokkanen was added to Blues.<br />
+[2020-07-14 2:59:29 PM] - Denis Gurianov was added to Blues.<br />
+[2020-07-14 2:59:23 PM] - Cale Fleury was added to Blues.<br />
+[2020-07-14 2:59:17 PM] - Alexandre Texier was added to Blues.<br />
+[2020-07-14 2:59:12 PM] - Adam Boqvist was added to Blues.<br />
+[2020-07-14 2:58:56 PM] - Dylan Gambrell was added to Capitals.<br />
+[2020-07-14 2:58:50 PM] - Nikita Gusev was added to Capitals.<br />
+[2020-07-14 2:58:32 PM] - Michael McLeod was added to Canucks.<br />
+[2020-07-14 2:58:25 PM] - Joel Farabee was added to Canucks.<br />
+[2020-07-14 2:42:22 PM] - Mitchell Dempsey has been deleted from Penguins.<br />
+[2020-07-14 2:42:16 PM] - Jared Fiegl has been deleted from Penguins.<br />
+[2020-07-14 2:42:08 PM] - Matt Brassard has been deleted from Maple Leafs.<br />
+[2020-07-14 2:42:00 PM] - Brendan De Jong has been deleted from Maple Leafs.<br />
+[2020-07-14 2:41:48 PM] - Alexander Kadeikin has been deleted from Senators.<br />
+[2020-07-14 2:41:39 PM] - Jeremy Gregoire has been deleted from Senators.<br />
+[2020-07-14 2:41:32 PM] - Henri Ikonen has been deleted from Senators.<br />
+[2020-07-14 2:41:23 PM] - Grant Besse has been deleted from Senators.<br />
+[2020-07-14 2:41:17 PM] - Martin Reway has been deleted from Senators.<br />
+[2020-07-14 2:41:12 PM] - Brandon Gormley has been deleted from Senators.<br />
+[2020-07-11 10:36:09 PM] - Libor Hajek has been deleted from Coyotes.<br />
+[2020-07-11 10:35:57 PM] - Ethan Bear has been deleted from Coyotes.<br />
+[2020-07-11 10:35:50 PM] - Erik Brannstrom has been deleted from Panthers.<br />
+[2020-07-11 10:35:16 PM] - Alexander Nylander has been deleted from Panthers.<br />
+[2020-07-11 10:35:10 PM] - Martin Necas has been deleted from Panthers.<br />
+[2020-07-11 10:35:03 PM] - Michael Anderson has been deleted from Hurricanes.<br />
+[2020-07-11 10:34:55 PM] - Alexander Volkov has been deleted from Hurricanes.<br />
+[2020-07-11 10:34:36 PM] - Cale Makar has been deleted from Islanders.<br />
+[2020-07-11 10:34:23 PM] - Jesper Boqvist has been deleted from Blackhawks.<br />
+[2020-07-11 10:34:02 PM] - Cale Makar was added to Islanders.<br />
+[2020-07-11 10:33:49 PM] - Jesper Boqvist was added to Blackhawks.<br />
+[2020-07-11 10:33:27 PM] - Libor Hajek was added to Coyotes.<br />
+[2020-07-11 10:33:22 PM] - Ethan Bear was added to Coyotes.<br />
+[2020-07-11 10:33:11 PM] - Erik Brannstrom was added to Panthers.<br />
+[2020-07-11 10:32:57 PM] - Alexander Nylander was added to Panthers.<br />
+[2020-07-11 10:32:49 PM] - Martin Necas was added to Panthers.<br />
+[2020-07-11 10:32:34 PM] - Michael Anderson was added to Hurricanes.<br />
+[2020-07-11 10:32:23 PM] - Alexander Volkov was added to Hurricanes.<br />
+[2020-07-11 10:24:19 PM] - Nicolas Roy has been deleted from Kings.<br />
+[2020-07-11 10:24:10 PM] - Pierre Engvall has been deleted from Kings.<br />
+[2020-07-11 10:24:04 PM] - Yakov Trenin has been deleted from Flyers.<br />
+[2020-07-11 10:23:58 PM] - Emil Bemstrom has been deleted from Flyers.<br />
+[2020-07-11 10:23:51 PM] - Filip Zadina has been deleted from Flyers.<br />
+[2020-07-11 10:23:45 PM] - Andrew Peeke has been deleted from Flyers.<br />
+[2020-07-11 10:23:28 PM] - Cayden Primeau has been deleted from Hurricanes.<br />
+[2020-07-11 10:23:21 PM] - German Rubtsov has been deleted from Hurricanes.<br />
+[2020-07-11 10:23:13 PM] - Nick Suzuki has been deleted from Hurricanes.<br />
+[2020-07-11 10:23:05 PM] - Kaapo Kakko has been deleted from Hurricanes.<br />
+[2020-07-11 10:23:00 PM] - Jack Hughes has been deleted from Hurricanes.<br />
+[2020-07-11 10:22:53 PM] - Nikolay Prokhorkin has been deleted from Canadiens.<br />
+[2020-07-11 10:22:46 PM] - Ilya Samsonov has been deleted from Sabres.<br />
+[2020-07-11 10:22:25 PM] - Dante Fabbro has been deleted from Penguins.<br />
+[2020-07-11 10:22:18 PM] - Niko Mikkola has been deleted from Devils.<br />
+[2020-07-11 10:22:11 PM] - Lucas Carlsson has been deleted from Devils.<br />
+[2020-07-11 10:22:04 PM] - Morgan Frost has been deleted from Predators.<br />
+[2020-07-11 10:21:58 PM] - Jean-Christophe Beaudin has been deleted from Predators.<br />
+[2020-07-11 10:21:50 PM] - Dominik Kubalik has been deleted from Predators.<br />
+[2020-07-11 10:21:42 PM] - Brandon Gignac has been deleted from Predators.<br />
+[2020-07-11 10:21:30 PM] - Rasmus Sandin has been deleted from Ducks.<br />
+[2020-07-11 10:21:17 PM] - Noah Dobson has been deleted from Ducks.<br />
+[2020-07-11 10:21:10 PM] - Mitchell Stephens has been deleted from Hurricanes.<br />
+[2020-07-11 10:20:57 PM] - Kevin Stenlund has been deleted from Ducks.<br />
+[2020-07-11 10:20:49 PM] - Jordan Kyrou has been deleted from Ducks.<br />
+[2020-07-11 10:20:40 PM] - Rasmus Asplund has been deleted from Flames.<br />
+[2020-07-11 10:20:30 PM] - Nicolas Hague has been deleted from Maple Leafs.<br />
+[2020-07-11 10:20:23 PM] - Cody Glass has been deleted from Maple Leafs.<br />
+[2020-07-11 10:20:10 PM] - Nic Hague was added to Maple Leafs.<br />
+[2020-07-11 10:19:56 PM] - Cody Glass was added to Maple Leafs.<br />
+[2020-07-11 10:19:44 PM] - Rasmus Asplund was added to Flames.<br />
+[2020-07-11 10:19:34 PM] - Rasmus Sandin was added to Ducks.<br />
+[2020-07-11 10:19:25 PM] - Noah Dobson was added to Ducks.<br />
+[2020-07-11 10:19:19 PM] - Kevin Stenlund was added to Ducks.<br />
+[2020-07-11 10:19:13 PM] - Jordan Kyrou was added to Ducks.<br />
+[2020-07-11 10:18:50 PM] - Niko Mikkola was added to Devils.<br />
+[2020-07-11 10:18:45 PM] - Lucas Carlsson was added to Devils.<br />
+[2020-07-11 10:18:35 PM] - Brandon Gignac was added to Predators.<br />
+[2020-07-11 10:18:29 PM] - Dominik Kubalik was added to Predators.<br />
+[2020-07-11 10:18:23 PM] - J.C. Beaudin was added to Predators.<br />
+[2020-07-11 10:18:17 PM] - Morgan Frost was added to Predators.<br />
+[2020-07-11 10:18:04 PM] - Dante Fabbro was added to Penguins.<br />
+[2020-07-11 10:17:47 PM] - Ilya Samsonov was added to Sabres.<br />
+[2020-07-11 10:17:34 PM] - Cayden Primeau was added to Hurricanes.<br />
+[2020-07-11 10:17:27 PM] - German Rubtsov was added to Hurricanes.<br />
+[2020-07-11 10:17:21 PM] - Nick Suzuki was added to Hurricanes.<br />
+[2020-07-11 10:17:13 PM] - Kaapo Kakko was added to Hurricanes.<br />
+[2020-07-11 10:17:07 PM] - Jack Hughes was added to Hurricanes.<br />
+[2020-07-11 10:16:51 PM] - Yakov Trenin was added to Flyers.<br />
+[2020-07-11 10:16:44 PM] - Emil Bemstrom was added to Flyers.<br />
+[2020-07-11 10:16:36 PM] - Filip Zadina was added to Flyers.<br />
+[2020-07-11 10:16:28 PM] - Andrew Peeke was added to Flyers.<br />
+[2020-07-11 10:16:09 PM] - Nicolas Roy was added to Kings.<br />
+[2020-07-11 10:15:54 PM] - Pierre Engvall was added to Kings.<br />
+[2020-07-11 10:15:08 PM] - Mitchell Stephens was added to Hurricanes.<br />
+[2020-07-11 10:14:50 PM] - Nikolai Prokhorkin was added to Canadiens.<br />
+[2020-07-11 9:51:57 PM] - Connor Chatham has been deleted from Avalanche.<br />
+[2020-07-11 9:51:42 PM] - Sergey Zborovskiy has been deleted from Avalanche.<br />
+[2020-07-11 9:51:32 PM] - Tanner Richard has been deleted from Coyotes.<br />
+[2020-07-11 9:51:24 PM] - Yaroslav Kosov has been deleted from Coyotes.<br />
+[2020-07-11 9:51:17 PM] - Scott Kosmachuk has been deleted from Coyotes.<br />
+[2020-07-11 9:41:05 PM] - TRADE : From Hurricanes to Lightning : Ben Jones (P).<br />
+[2020-07-11 9:41:05 PM] - TRADE : From Lightning to Hurricanes : Cole Koepke (P).<br />
+[2020-07-11 9:39:58 PM] - TRADE : From Canadiens to Sabres : Y:2021-RND:4-MTL, Y:2021-RND:6-MTL.<br />
+[2020-07-11 9:39:58 PM] - TRADE : From Sabres to Canadiens : Nikolay Prokhorkin (P).<br />
+[2020-07-11 9:39:23 PM] - TRADE : From Bruins to Golden Knights : Eric Staal (73).<br />
+[2020-07-11 9:39:23 PM] - TRADE : From Golden Knights to Bruins : Y:2021-RND:4-PHL.<br />
+[2020-07-11 9:39:04 PM] - TRADE : From Sharks to Golden Knights : Y:2020-RND:1-SJS, Y:2021-RND:1-SJS.<br />
+[2020-07-11 9:39:04 PM] - TRADE : From Golden Knights to Sharks : Y:2020-RND:2-ANH, Y:2020-RND:2-FLA, Y:2020-RND:2-VGK, Y:2021-RND:2-LAK, Y:2021-RND:2-VGK.<br />
+[2020-07-11 9:38:08 PM] - TRADE : From Sharks to Flyers : Y:2020-RND:7-SJS, Y:2021-RND:7-SJS, Y:2022-RND:7-SJS, Y:2023-RND:7-SJS, Y:2024-RND:7-SJS.<br />
+[2020-07-11 9:38:08 PM] - TRADE : From Flyers to Sharks : Mats Zuccarello (69), Sven Baertschi (66).<br />
+[2020-07-11 9:37:20 PM] - TRADE : From Sabres to Hurricanes : Brent Seabrook (71).<br />
+[2020-07-11 9:37:20 PM] - TRADE : From Hurricanes to Sabres : Y:2020-RND:4-EDM.<br />
+[2020-07-11 9:36:49 PM] - TRADE : From Rangers to Coyotes : Jesper Fast (69), Y:2021-RND:5-VGK.<br />
+[2020-07-11 9:36:49 PM] - TRADE : From Coyotes to Rangers : Y:2020-RND:1-ARI, Y:2020-RND:2-ARI.<br />
+[2020-07-11 9:36:10 PM] - TRADE : From Flames to Canadiens : Y:2020-RND:2-NYR.<br />
+[2020-07-11 9:35:46 PM] - TRADE : From Golden Knights to Hurricanes : Y:2020-RND:3-DET, Y:2020-RND:3-VGK.<br />
+[2020-07-11 9:35:46 PM] - TRADE : From Hurricanes to Golden Knights : Y:2020-RND:2-FLA.<br />
+[2020-07-11 9:34:25 PM] - TRADE : From Canadiens to Ducks : Artemi Panarin (78), Y:2022-RND:3-MTL.<br />
+[2020-07-11 9:34:25 PM] - TRADE : From Ducks to Canadiens : Tucker Poolman (64), Travis Zajac (70), Grigori Denisenko (P), Moritz Seider (P), Y:2020-RND:1-OTT, Y:2021-RND:1-ANH.<br />
+[2020-07-11 9:33:25 PM] - TRADE : From Flyers to Coyotes : Patrick Marleau (69).<br />
+[2020-07-11 9:33:25 PM] - TRADE : From Coyotes to Flyers : Y:2021-RND:7-ARI.<br />
+[2020-07-11 9:32:52 PM] - TRADE : From Flyers to Oilers : Jake Gardiner (66).<br />
+[2020-07-11 9:32:52 PM] - TRADE : From Oilers to Flyers : Patrick Marleau (69).<br />
+[2020-07-11 9:32:22 PM] - TRADE : From Kings to Oilers : $500,000 (Money), Y:2020-RND:7-LAK.<br />
+[2020-07-11 9:32:22 PM] - TRADE : From Oilers to Kings : Ron Hainsey (73).<br />
+[2020-07-11 9:30:17 PM] - TRADE : From Hurricanes to Ducks : Robin Salo (P), Y:2021-RND:6-ANH, Y:2022-RND:2-CAR.<br />
+[2020-07-11 9:30:17 PM] - TRADE : From Ducks to Hurricanes : Alex Chiasson (67), Alexander Volkov (P), Mitchell Stephens (P).<br />
+[2020-07-11 9:28:29 PM] - TRADE : From Hurricanes to Kings : Kyle Clifford (63).<br />
+[2020-07-11 9:28:29 PM] - TRADE : From Kings to Hurricanes : Y:2021-RND:7-LAK.<br />
+[2020-07-01 4:32:22 PM] - Rhett Gardner was added to Oilers.<br />
+[2020-07-01 4:32:14 PM] - Givani Smith was added to Oilers.<br />
+[2020-07-01 4:31:22 PM] - Givani Smith has been deleted from Oilers.<br />
+[2020-07-01 4:31:08 PM] - Rhett Gardner has been deleted from Oilers.<br />
+[2020-07-01 4:17:46 PM] - Quinn Hughes has been deleted from Blue Jackets.<br />
+[2020-07-01 2:30:08 PM] - Carl Soderberg was added to Panthers.<br />
+[2020-07-01 2:29:36 PM] - Derek Grant was added to Sabres.<br />
+[2020-07-01 2:29:11 PM] - Luca Sbisa was added to Lightning.<br />
+[2020-07-01 2:28:42 PM] - Nate Thompson was added to Coyotes.<br />
+[2020-07-01 2:17:25 PM] - Carsen Twarynski has been deleted from Jets.<br />
+[2020-07-01 2:17:09 PM] - Nicolas Aube-Kubel has been deleted from Blue Jackets.<br />
+[2020-07-01 2:16:54 PM] - Thatcher Demko has been deleted from Blue Jackets.<br />
+[2020-07-01 2:16:47 PM] - Jansen Harkins has been deleted from Jets.<br />
+[2020-07-01 2:16:37 PM] - Nicolas Aube-Kubel was added to Blue Jackets.<br />
+[2020-07-01 2:15:54 PM] - Thatcher Demko was added to Blue Jackets.<br />
+[2020-07-01 2:15:46 PM] - Quinn Hughes was added to Blue Jackets.<br />
+[2020-07-01 2:15:37 PM] - Carsen Twarynski was added to Jets.<br />
+[2020-07-01 2:15:20 PM] - Jansen Harkins was added to Jets.<br />
+[2020-07-01 2:09:25 PM] - TRADE : From Penguins to Oilers : Trevor van Riemsdyk (64).<br />
+[2020-07-01 2:09:25 PM] - TRADE : From Oilers to Penguins : Nick Foligno (73).<br />
+[2020-07-01 2:08:59 PM] - TRADE : From Flames to Bruins : Y:2020-RND:4-OTT.<br />
+[2020-07-01 2:08:59 PM] - TRADE : From Bruins to Flames : Y:2020-RND:5-CHI, Y:2020-RND:5-NJD.<br />
+[2020-07-01 2:07:59 PM] - TRADE : From Sabres to Ducks : Y:2021-RND:7-BUF.<br />
+[2020-07-01 2:07:59 PM] - TRADE : From Ducks to Sabres : Mattias Janmark (66).<br />
+[2020-07-01 2:07:08 PM] - TRADE : From Canadiens to Lightning : John Klingberg (69).<br />
+[2020-07-01 2:07:08 PM] - TRADE : From Lightning to Canadiens : Kevin Connauton (64), Vladimir Sobotka (64), Y:2021-RND:1-TBL.<br />
+[2020-07-01 2:06:19 PM] - TRADE : From Canadiens to Stars : Nikita Zadorov (70).<br />
+[2020-07-01 2:06:19 PM] - TRADE : From Stars to Canadiens : Y:2020-RND:3-DAL, Y:2021-RND:2-DAL.<br />
+[2020-07-01 2:05:03 PM] - TRADE : From Blackhawks to Flyers : Tyler Ennis (69).<br />
+[2020-07-01 2:05:03 PM] - TRADE : From Flyers to Blackhawks : Marc Del Gaizo (P).<br />
+[2020-07-01 2:04:25 PM] - TRADE : From Sabres to Hurricanes : Mikael Backlund (72).<br />
+[2020-07-01 2:04:25 PM] - TRADE : From Hurricanes to Sabres : Y:2020-RND:5-PIT.<br />
+[2020-07-01 2:03:58 PM] - TRADE : From Ducks to Hurricanes : Caleb Jones (63), Ryan Murray (69), Y:2020-RND:2-BUF, Y:2020-RND:2-FLA, Y:2020-RND:4-CHI, Y:2020-RND:4-EDM, Y:2020-RND:4-WPG.<br />
+[2020-07-01 2:03:58 PM] - TRADE : From Hurricanes to Ducks : Joakim Ryan (64), Tucker Poolman (64), Lucas Johansen (P), Y:2020-RND:1-TBL, Y:2022-RND:3-TBL.<br />
+[2020-07-01 2:02:33 PM] - TRADE : From Ducks to Oilers : Dylan Samberg (P).<br />
+[2020-07-01 2:02:33 PM] - TRADE : From Oilers to Ducks : Josh Archibald (66).<br />
+[2020-07-01 2:01:58 PM] - TRADE : From Panthers to Flyers : Mats Zuccarello (69).<br />
+[2020-07-01 2:01:58 PM] - TRADE : From Flyers to Panthers : Y:2022-RND:5-PHL.<br />
+[2020-07-01 2:00:49 PM] - TRADE : From Kings to Coyotes : Zack Kassian (68).<br />
+[2020-07-01 2:00:49 PM] - TRADE : From Coyotes to Kings : Y:2020-RND:6-ARI.<br />
+[2020-07-01 2:00:10 PM] - TRADE : From Lightning to Flyers : Y:2023-RND:7-TBL.<br />
+[2020-07-01 2:00:10 PM] - TRADE : From Flyers to Lightning : Marco Scandella (68).<br />
+[2020-07-01 1:59:08 PM] - TRADE : From Flames to Flyers : Viktor Arvidsson (68).<br />
+[2020-07-01 1:59:08 PM] - TRADE : From Flyers to Flames : Y:2020-RND:1-PHL.<br />
+[2020-06-24 9:22:09 PM] - Oliver Kylington was added to Hurricanes.<br />
+[2020-06-24 9:21:49 PM] - Christian Djoos was added to Hurricanes.<br />
+[2020-06-24 9:20:49 PM] - Drake Caggiula was added to Hurricanes.<br />
+[2020-06-24 9:19:15 PM] - Markus Nutivaara was added to Devils.<br />
+[2020-06-24 9:18:56 PM] - Jimmy Vesey was added to Devils.<br />
+[2020-06-24 9:18:31 PM] - Darnell Nurse was added to Devils.<br />
+[2020-06-24 9:16:27 PM] - Gemel Smith was added to Devils.<br />
+[2020-06-24 9:15:49 PM] - Brett Connolly was added to Flyers.<br />
+[2020-06-24 9:15:28 PM] - Andrew Copp was added to Blue Jackets.<br />
+[2020-06-24 9:15:11 PM] - Troy Stecher was added to Blue Jackets.<br />
+[2020-06-24 9:14:44 PM] - Sean Kuraly was added to Maple Leafs.<br />
+[2020-06-24 9:14:02 PM] - Matthew Peca was added to Capitals.<br />
+[2020-06-24 9:13:41 PM] - Kevin Gravel was added to Capitals.<br />
+[2020-06-24 9:13:27 PM] - Spencer Martin was added to Capitals.<br />
+[2020-06-24 9:13:06 PM] - Michael Chaput was added to Capitals.<br />
+[2020-06-24 9:12:41 PM] - J.T. Compher was added to Sabres.<br />
+[2020-06-24 9:12:27 PM] - Zemgus Girgensons was added to Sabres.<br />
+[2020-06-24 9:12:14 PM] - Rickard Rakell was added to Sabres.<br />
+[2020-06-24 9:11:50 PM] - Pavel Buchnevich was added to Sabres.<br />
+[2020-06-24 9:11:36 PM] - Linus Ullmark was added to Sabres.<br />
+[2020-06-24 9:11:12 PM] - Remi Elie was added to Sabres.<br />
+[2020-06-24 9:10:00 PM] - Brayden Point was added to Red Wings.<br />
+[2020-06-24 9:03:31 PM] - Patrik Laine was added to Red Wings.<br />
+[2020-06-24 9:02:48 PM] - Blaine Byron was added to Red Wings.<br />
+[2020-06-24 9:02:24 PM] - Jake McCabe was added to Red Wings.<br />
+[2020-06-24 9:01:45 PM] - Alexandre Fortin was added to Penguins.<br />
+[2020-06-24 9:01:28 PM] - Nick Cousins was added to Penguins.<br />
+[2020-06-24 8:57:25 PM] - Cody Ceci was added to Coyotes.<br />
+[2020-06-24 8:57:01 PM] - Tyler Bertuzzi was added to Ducks.<br />
+[2020-06-24 8:56:44 PM] - Martin Marincin was added to Ducks.<br />
+[2020-06-24 8:56:28 PM] - Tristan Jarry was added to Ducks.<br />
+[2020-06-24 8:56:08 PM] - Mark Jankowski was added to Hurricanes.<br />
+[2020-06-24 8:55:01 PM] - TRADE : From Penguins to Blackhawks : Andy Greene (73), Y:2020-RND:4-TOR.<br />
+[2020-06-24 8:55:01 PM] - TRADE : From Blackhawks to Penguins : Jordan Oesterle (65), Austin Czarnik (66), Y:2020-RND:2-CHI.<br />
+[2020-06-24 8:54:23 PM] - TRADE : From Canadiens to Flames : Ben Bishop (80).<br />
+[2020-06-24 8:54:23 PM] - TRADE : From Flames to Canadiens : Y:2021-RND:4-CGY.<br />
+[2020-06-24 8:53:18 PM] - TRADE : From Golden Knights to Kings : Y:2020-RND:3-CLB, Y:2020-RND:3-VAN, Y:2022-RND:6-VGK.<br />
+[2020-06-24 8:53:18 PM] - TRADE : From Kings to Golden Knights : Nate Schmidt (70).<br />
+[2020-06-24 8:52:36 PM] - TRADE : From Golden Knights to Ducks : Y:2020-RND:4-WPG.<br />
+[2020-06-24 8:52:36 PM] - TRADE : From Ducks to Golden Knights : Jay Beagle (66).<br />
+[2020-06-24 8:52:21 PM] - TRADE : From Golden Knights to Red Wings : Y:2020-RND:3-EDM, Y:2020-RND:4-FLA, Y:2021-RND:5-BOS.<br />
+[2020-06-24 8:52:21 PM] - TRADE : From Red Wings to Golden Knights : Calvin de Haan (72).<br />
+[2020-06-24 8:51:41 PM] - TRADE : From Panthers to Flyers : Brian Dumoulin (69), Ivan Lodnia (P), Yakov Trenin (P).<br />
+[2020-06-24 8:51:41 PM] - TRADE : From Flyers to Panthers : Max Domi (71).<br />
+[2020-06-24 8:50:59 PM] - TRADE : From Hurricanes to Flyers : Y:2020-RND:7-NYR.<br />
+[2020-06-24 8:50:59 PM] - TRADE : From Flyers to Hurricanes : Andrew Shaw (66).<br />
+[2020-06-24 8:50:29 PM] - TRADE : From Oilers to Flyers : Y:2020-RND:7-DAL, Y:2020-RND:7-MIN, Y:2020-RND:7-VAN.<br />
+[2020-06-24 8:50:29 PM] - TRADE : From Flyers to Oilers : Ilya Kovalchuk (70), Y:2020-RND:6-NYI.<br />
+[2020-06-24 8:49:47 PM] - TRADE : From Ducks to Flyers : Y:2020-RND:7-BUF.<br />
+[2020-06-24 8:49:47 PM] - TRADE : From Flyers to Ducks : Justin Williams (70).<br />
+[2020-06-24 8:49:18 PM] - TRADE : From Oilers to Devils : Anders Nilsson (69).<br />
+[2020-06-24 8:49:18 PM] - TRADE : From Devils to Oilers : Y:2020-RND:4-NJD, Y:2021-RND:2-NJD.<br />
+[2020-06-24 8:47:15 PM] - TRADE : From Ducks to Hurricanes : Mike Smith (69), Mark Jankowski (63), German Rubtsov (P).<br />
+[2020-06-24 8:47:15 PM] - TRADE : From Hurricanes to Ducks : Nathan Gerbe (64), Jeremy Roy (P), Shamil Shmakov (P), Y:2022-RND:5-TBL.<br />
+[2020-06-24 8:45:57 PM] - TRADE : From Red Wings to Hurricanes : Y:2021-RND:4-TBL.<br />
+[2020-06-24 8:45:43 PM] - TRADE : From Hurricanes to Red Wings : Y:2021-RND:3-TBL.<br />
+[2020-06-24 8:45:17 PM] - TRADE : From Kings to Canucks : Yanni Gourde (68).<br />
+[2020-06-24 8:45:17 PM] - TRADE : From Canucks to Kings : Y:2020-RND:3-ARI, Y:2020-RND:4-NYI.<br />
+[2020-06-24 8:44:46 PM] - TRADE : From Kings to Maple Leafs : Jaden Schwartz (73), Y:2020-RND:2-LAK, Y:2021-RND:4-LAK.<br />
+[2020-06-24 8:44:46 PM] - TRADE : From Maple Leafs to Kings : Y:2020-RND:1-ANH, Y:2020-RND:3-WPG.<br />
+[2020-06-24 8:21:31 PM] - Kenny Agostino was added to Ducks.<br />
+[2020-06-24 8:20:41 PM] - Mikael Granlund was added to Oilers.<br />
+[2020-06-24 8:20:16 PM] - Tanner Kero was added to Blues.<br />
+[2020-06-24 8:19:52 PM] - Sebastian Aho was added to Blackhawks.<br />
+[2020-06-24 8:19:30 PM] - Kevin Rooney was added to Blackhawks.<br />
+[2020-06-24 8:19:09 PM] - Vladislav Namestnikov was added to Blackhawks.<br />
+[2020-06-24 8:18:30 PM] - Mark Alt was added to Avalanche.<br />
+[2020-06-24 8:18:16 PM] - Julian Melchiori was added to Avalanche.<br />
+[2020-06-24 8:18:02 PM] - Chris Driedger was added to Avalanche.<br />
+[2020-06-24 8:17:49 PM] - Brock McGinn was added to Avalanche.<br />
+[2020-06-24 8:17:35 PM] - Travis Boyd was added to Avalanche.<br />
+[2020-06-24 8:17:05 PM] - Mike Vecchione was added to Avalanche.<br />
+[2020-06-24 8:16:37 PM] - Lucas Wallmark was added to Avalanche.<br />
+[2020-06-24 8:16:15 PM] - Keegan Lowe was added to Avalanche.<br />
+[2020-06-24 8:14:08 PM] - Jonathan Toews was added to Devils.<br />
+[2020-06-24 8:13:45 PM] - Thomas Greiss was added to Sabres.<br />
+[2020-06-24 8:12:30 PM] - TRADE : From Sabres to Stars : Max Pacioretty (74).<br />
+[2020-06-24 8:12:30 PM] - TRADE : From Stars to Sabres : $7,000,000 (Money).<br />
+[2020-06-21 8:21:00 PM] - Josh Archibald was added to Oilers.<br />
+[2020-06-21 8:18:00 PM] - Par Lindholm was added to Bruins.<br />
+[2020-06-21 11:33:58 AM] - Anthony Mantha was added to Canadiens.<br />
+[2020-06-21 11:33:27 AM] - Mike Matheson was added to Maple Leafs.<br />
+[2020-06-21 11:32:48 AM] - Tyler Motte was added to Lightning.<br />
+[2020-06-21 11:32:27 AM] - Evan Rodrigues was added to Penguins.<br />
+[2020-06-21 11:31:58 AM] - Radek Faksa was added to Maple Leafs.<br />
+[2020-06-21 11:31:37 AM] - Christian Dvorak was added to Maple Leafs.<br />
+[2020-06-21 11:31:12 AM] - Andrei Vasilevskiy was added to Senators.<br />
+[2020-06-21 11:30:41 AM] - Jujhar Khaira was added to Capitals.<br />
+[2020-06-21 11:30:22 AM] - Pavel Zacha was added to Capitals.<br />
+[2020-06-21 11:29:49 AM] - Alex Nedeljkovic was added to Canadiens.<br />
+[2020-06-21 11:29:27 AM] - Connor Murphy was added to Canadiens.<br />
+[2020-06-21 11:29:11 AM] - Jonny Brodzinski was added to Canadiens.<br />
+[2020-06-21 11:28:49 AM] - Kalle Kossila was added to Canadiens.<br />
+[2020-06-21 11:28:34 AM] - Michael Kapla was added to Canadiens.<br />
+[2020-06-21 11:28:12 AM] - Ivan Provorov was added to Canadiens.<br />
+[2020-06-21 11:27:54 AM] - Vladislav Kamenev was added to Canadiens.<br />
+[2020-06-21 11:26:05 AM] - Ryan Hartman was added to Hurricanes.<br />
+[2020-06-21 11:25:44 AM] - Jakob Chychrun was added to Hurricanes.<br />
+[2020-06-21 11:25:27 AM] - Rasmus Andersson was added to Hurricanes.<br />
+[2020-06-21 11:25:04 AM] - Joel Eriksson Ek was added to Flyers.<br />
+[2020-06-21 11:24:48 AM] - Mark Pysyk was added to Flyers.<br />
+[2020-06-21 11:24:34 AM] - Sven Baertschi was added to Flyers.<br />
+[2020-06-21 11:24:11 AM] - Ryan Strome was added to Flyers.<br />
+[2020-06-21 11:23:56 AM] - Brandon Saad was added to Flyers.<br />
+[2020-06-21 11:22:19 AM] - Anthony Duclair was added to Blue Jackets.<br />
+[2020-06-21 11:19:41 AM] - Seth Jones was added to Kings.<br />
+[2020-06-21 11:19:29 AM] - Miles Wood was added to Kings.<br />
+[2020-06-21 11:19:13 AM] - Nathan MacKinnon was added to Kings.<br />
+[2020-06-21 11:18:47 AM] - Ryan Nugent-Hopkins was added to Oilers.<br />
+[2020-06-21 11:18:20 AM] - Jamie Oleksiak was added to Oilers.<br />
+[2020-06-21 11:18:05 AM] - Nick Schmaltz was added to Oilers.<br />
+[2020-06-21 11:17:45 AM] - Eric Robinson was added to Oilers.<br />
+[2020-06-21 11:17:03 AM] - Auston Matthews was added to Canucks.<br />
+[2020-06-21 11:15:47 AM] - Mikko Rantanen was added to Canucks.<br />
+[2020-06-21 11:14:49 AM] - Josh Morrissey was added to Ducks.<br />
+[2020-06-21 11:14:27 AM] - Jake Guentzel was added to Ducks.<br />
+[2020-06-21 11:12:36 AM] - Frederik Gauthier was added to Kings.<br />
+[2020-06-21 11:11:01 AM] - Vitek Vanecek was added to Jets.<br />
+[2020-06-21 11:10:32 AM] - Scott Wilson was added to Jets.<br />
+[2020-06-21 11:10:12 AM] - Juuse Saros was added to Jets.<br />
+[2020-06-21 11:09:55 AM] - Juuso Riikola was added to Jets.<br />
+[2020-06-21 11:08:59 AM] - Matthew Tkachuk was added to Jets.<br />
+[2020-06-21 11:08:41 AM] - Barclay Goodrow was added to Jets.<br />
+[2020-06-21 11:07:59 AM] - Jean-Gabriel Pageau was added to Jets.<br />
+[2020-06-21 11:07:31 AM] - Mitch Marner was added to Kings.<br />
+[2020-06-21 11:06:48 AM] - Justin Faulk was added to Blackhawks.<br />
+[2020-06-21 11:06:27 AM] - Zach Werenski was added to Blackhawks.<br />
+[2020-06-21 11:03:03 AM] - Marc Staal was added to Red Wings.<br />
+[2020-06-21 11:02:22 AM] - Blake Wheeler was added to Oilers.<br />
+[2020-06-21 11:01:47 AM] - Christian Folin was added to Devils.<br />
+[2020-06-21 11:01:03 AM] - Michal Kempny was added to Devils.<br />
+[2020-06-21 10:59:50 AM] - Sam Gagner was added to Penguins.<br />
+[2020-06-21 10:59:12 AM] - Blake Coleman was added to Bruins.<br />
+[2020-06-21 10:55:45 AM] - Matt Calvert was added to Blackhawks.<br />
+[2020-06-21 10:55:22 AM] - Tyler Johnson was added to Blackhawks.<br />
+[2020-06-21 10:54:48 AM] - Brad Marchand was added to Bruins.<br />
+[2020-06-21 10:54:11 AM] - Brian Elliott was added to Lightning.<br />
+[2020-06-21 10:53:32 AM] - Luke Schenn was added to Ducks.<br />
+[2020-06-21 10:52:52 AM] - Derick Brassard was added to Lightning.<br />
+[2020-06-21 10:52:04 AM] - Devan Dubnyk was added to Kings.<br />
+[2020-06-21 10:51:30 AM] - Sami Vatanen was added to Jets.<br />
+[2020-06-21 10:50:55 AM] - Brayden Schenn was added to Ducks.<br />
+[2020-06-21 10:50:24 AM] - Max Pacioretty was added to Sabres.<br />
+[2020-06-21 10:50:08 AM] - Anze Kopitar was added to Sabres.<br />
+[2020-06-21 10:49:04 AM] - Nick Bonino was added to Canucks.<br />
+[2020-06-21 10:47:46 AM] - Lars Eller was added to Oilers.<br />
+[2020-06-21 10:47:06 AM] - Mikko Koskinen was added to Flyers.<br />
+[2020-06-21 10:37:49 AM] - Jonathan Marchessault was added to Stars.<br />
+[2020-06-21 10:28:27 AM] - Danny O'Regan was added to Panthers.<br />
+[2020-06-21 10:26:17 AM] - Elvis Merzlikins was added to Oilers.<br />
+[2020-06-21 10:10:43 AM] - Max Comtois was added to Flyers.<br />
+[2020-06-21 9:39:14 AM] - Alex Petrovic was added to Canadiens.<br />
+[2020-06-21 9:32:27 AM] - Joe Gambardella was added to Blues.<br />
+[2020-06-21 9:30:23 AM] - Sammy Blais was added to Blues.<br />
+[2020-06-21 9:11:01 AM] - Michael Sgarbossa was added to Avalanche.<br />
+[2020-04-19 6:36:10 PM] - Sam Gagner was added to Penguins.<br />
+[2020-04-15 6:37:52 PM] - Eddie Lack was added to Wild.<br />
+[2020-04-15 6:32:57 PM] - Matthew Villalta was added to Bruins.<br />
+[2020-04-15 6:32:36 PM] - Matthew Villalta has been deleted from Bruins.<br />
+[2020-04-11 5:56:25 PM] - Elvis Merzlikins has been deleted from Oilers.<br />
+[2020-04-11 5:56:12 PM] - Elvis Merlikins was added to Oilers.<br />
+[2020-04-10 6:07:39 PM] - Magnus Paajarvi was added to Sabres.<br />
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

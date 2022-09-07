@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeLeagueGameRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeLeagueGameRecord>
+    <intGameMostGoals>
+      <HomeTeamName>
+        <string xsi:nil="true" />
+        <string>Flyers</string>
+        <string>Penguins</string>
+        <string>Coyotes</string>
+        <string>Predators</string>
+        <string>Senators</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </HomeTeamName>
+      <VisitorTeamName>
+        <string xsi:nil="true" />
+        <string>Devils</string>
+        <string>Islanders</string>
+        <string>Flyers</string>
+        <string>Blackhawks</string>
+        <string>Maple Leafs</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </VisitorTeamName>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2010</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>17</short>
+        <short>16</short>
+        <short>15</short>
+        <short>14</short>
+        <short>13</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>3</short>
+        <short>890</short>
+        <short>1183</short>
+        <short>23</short>
+        <short>54</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intGameMostGoals>
+    <intGameMostAssists>
+      <HomeTeamName>
+        <string xsi:nil="true" />
+        <string>Penguins</string>
+        <string>Flyers</string>
+        <string>Coyotes</string>
+        <string>Predators</string>
+        <string>Islanders</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </HomeTeamName>
+      <VisitorTeamName>
+        <string xsi:nil="true" />
+        <string>Islanders</string>
+        <string>Devils</string>
+        <string>Flyers</string>
+        <string>Blackhawks</string>
+        <string>Predators</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </VisitorTeamName>
+      <Year>
+        <short>0</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>31</short>
+        <short>30</short>
+        <short>29</short>
+        <short>25</short>
+        <short>25</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>890</short>
+        <short>3</short>
+        <short>1183</short>
+        <short>23</short>
+        <short>877</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intGameMostAssists>
+    <intGameMostPoints>
+      <HomeTeamName>
+        <string xsi:nil="true" />
+        <string>Flyers</string>
+        <string>Penguins</string>
+        <string>Coyotes</string>
+        <string>Predators</string>
+        <string>Islanders</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </HomeTeamName>
+      <VisitorTeamName>
+        <string xsi:nil="true" />
+        <string>Devils</string>
+        <string>Islanders</string>
+        <string>Flyers</string>
+        <string>Blackhawks</string>
+        <string>Predators</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </VisitorTeamName>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2010</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>47</short>
+        <short>47</short>
+        <short>44</short>
+        <short>39</short>
+        <short>38</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>3</short>
+        <short>890</short>
+        <short>1183</short>
+        <short>23</short>
+        <short>877</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intGameMostPoints>
+    <intGameMostShots>
+      <HomeTeamName>
+        <string xsi:nil="true" />
+        <string>Rangers</string>
+        <string>Predators</string>
+        <string>Stars</string>
+        <string>Canucks</string>
+        <string>Lightning</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </HomeTeamName>
+      <VisitorTeamName>
+        <string xsi:nil="true" />
+        <string>Penguins</string>
+        <string>Blackhawks</string>
+        <string>Thrashers</string>
+        <string>Oilers</string>
+        <string>Blues</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </VisitorTeamName>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>100</short>
+        <short>95</short>
+        <short>91</short>
+        <short>87</short>
+        <short>85</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>9</short>
+        <short>23</short>
+        <short>28</short>
+        <short>142</short>
+        <short>14</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intGameMostShots>
+    <intGameMostPim>
+      <HomeTeamName>
+        <string xsi:nil="true" />
+        <string>Maple Leafs</string>
+        <string>Penguins</string>
+        <string>Canadiens</string>
+        <string>Thrashers</string>
+        <string>Lightning</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </HomeTeamName>
+      <VisitorTeamName>
+        <string xsi:nil="true" />
+        <string>Sabres</string>
+        <string>Islanders</string>
+        <string>Maple Leafs</string>
+        <string>Panthers</string>
+        <string>Hurricanes</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </VisitorTeamName>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>166</short>
+        <short>130</short>
+        <short>126</short>
+        <short>124</short>
+        <short>118</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>382</short>
+        <short>738</short>
+        <short>184</short>
+        <short>862</short>
+        <short>367</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intGameMostPim>
+    <intGameMostHits>
+      <HomeTeamName>
+        <string xsi:nil="true" />
+        <string>Maple Leafs</string>
+        <string>Thrashers</string>
+        <string>Ducks</string>
+        <string>Canadiens</string>
+        <string>Canadiens</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </HomeTeamName>
+      <VisitorTeamName>
+        <string xsi:nil="true" />
+        <string>Senators</string>
+        <string>Panthers</string>
+        <string>Lightning</string>
+        <string>Bruins</string>
+        <string>Bruins</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </VisitorTeamName>
+      <Year>
+        <short>0</short>
+        <short>2010</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2010</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>71</short>
+        <short>68</short>
+        <short>66</short>
+        <short>63</short>
+        <short>62</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>105</short>
+        <short>84</short>
+        <short>1031</short>
+        <short>1008</short>
+        <short>897</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intGameMostHits>
+  </TypeLeagueGameRecord>
+</ArrayOfTypeLeagueGameRecord>

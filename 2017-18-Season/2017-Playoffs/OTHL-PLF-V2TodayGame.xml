@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLTodayGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro104</GameNumber>
+    <Link>OTHL-PLF-104.html</Link>
+    <VisitorTeamNumber>28</VisitorTeamNumber>
+    <VisitorTeam>Maple Leafs</VisitorTeam>
+    <VisitorTeamAbbre>TOR</VisitorTeamAbbre>
+    <VisitorTeamScore>5</VisitorTeamScore>
+    <VisitorTeamGoal>Christian Dvorak(4), Nazem Kadri(3), Evgeni Malkin(8), Ryan Reaves(2), Troy Brouwer(6)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Frederik Andersen (TOR), 33 saves from 36 shots - (0.917), W, 16-4-2, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>23</HomeTeamNumber>
+    <HomeTeam>Coyotes</HomeTeam>
+    <HomeTeamAbbre>ARI</HomeTeamAbbre>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Jeff Skinner(7), Kyle Turris(9), Mika Zibanejad(7)</HomeTeamGoal>
+    <HomeTeamGoaler>Tuukka Rask (ARI), 37 saves from 41 shots - (0.902), L, 14-10-0, 59:42 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Farm104</GameNumber>
+    <Link>OTHL-PLF-Farm-104.html</Link>
+    <VisitorTeamNumber>29</VisitorTeamNumber>
+    <VisitorTeam>Comets</VisitorTeam>
+    <VisitorTeamAbbre>UTI</VisitorTeamAbbre>
+    <VisitorTeamScore>8</VisitorTeamScore>
+    <VisitorTeamGoal>Chris DiDomenico(5), Jordin Tootoo(8), Matt Lorito(9), Kerby Rychel(9), Justin Dowling(6), Jean-Sebastien Dea(11,12), Mike Halmo(2)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Eddie Lack (UTI), 21 saves from 22 shots - (0.955), W, 16-5-0, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>22</HomeTeamNumber>
+    <HomeTeam>Phantoms</HomeTeam>
+    <HomeTeamAbbre>LVP</HomeTeamAbbre>
+    <HomeTeamScore>1</HomeTeamScore>
+    <HomeTeamGoal>Luke Gazdic(15)</HomeTeamGoal>
+    <HomeTeamGoaler>Yann Danis (LVP), 8 saves from 12 shots - (0.667), L, 12-6-2, 21:47 minutes Unknown Goalie (LVP), 14 saves from 18 shots - (0.778), 38:13 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+</ArrayOfTypeOutputXMLTodayGame>

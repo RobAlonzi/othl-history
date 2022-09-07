@@ -1,0 +1,3014 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<script src="STHSMain.js"></script>
+<title>OTHL - Pro Team Lines</title>
+<script src="OTHL.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.1.6.6" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<link href="OTHL.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam" class="activemenu"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-Schedule.html">Schedule </a></td>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-TeamHistory.html">History</a></td>
+<td><a href="OTHL-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-Waivers.html">Waivers</a></td>
+<td><a href="OTHL-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-TeamsAndGMInfo.html">Team/GM</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html#AnaheimDucks">ANH</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ArizonaCoyotes">ARI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BostonBruins">BOS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BuffaloSabres">BUF</a></td>
+<td><a href="OTHL-ProTeamRoster.html#CarolinaHurricanes">CAR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#CalgaryFlames">CGY</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ChicagoBlackhawks">CHI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ColumbusBlueJackets">CLB</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ColoradoAvalanche">COL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#DallasStars">DAL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#DetroitRedWings">DET</a></td>
+<td><a href="OTHL-ProTeamRoster.html#EdmontonOilers">EDM</a></td>
+<td><a href="OTHL-ProTeamRoster.html#FloridaPanthers">FLA</a></td>
+<td><a href="OTHL-ProTeamRoster.html#LosAngelesKings">LAK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MinnesotaWild">MIN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MontrealCanadiens">MTL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#NewJerseyDevils">NJD</a></td>
+<td><a href="OTHL-ProTeamRoster.html#NashvillePredators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-ProTeamRoster.html#NewYorkIslanders">NYI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#NewYorkRangers">NYR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#OttawaSenators">OTT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#PhiladelphiaFlyers">PHL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#PittsburghPenguins">PIT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#SanJoseSharks">SJS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#St.LouisBlues">STL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#TampaBayLightning">TBL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#TorontoMapleLeafs">TOR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#VancouverCanucks">VAN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#VegasGoldenKnights">VGK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#WinnipegJets">WPG</a></td>
+<td><a href="OTHL-ProTeamRoster.html#WashingtonCapitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Pro Team Lines</td><td class="STHSHeaderDate">Last Update - June 8, 2019 at 15:27</td></tr>
+</table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<div class="STHSTopLink"><a id="STHSRosterTop"></a> <a href="#AnaheimDucks">Anaheim Ducks</a> | <a href="#ArizonaCoyotes">Arizona Coyotes</a> | <a href="#BostonBruins">Boston Bruins</a> | <a href="#BuffaloSabres">Buffalo Sabres</a> | <a href="#CalgaryFlames">Calgary Flames</a> | <a href="#CarolinaHurricanes">Carolina Hurricanes</a> | <a href="#ChicagoBlackhawks">Chicago Blackhawks</a> | <a href="#ColoradoAvalanche">Colorado Avalanche</a> | <a href="#ColumbusBlueJackets">Columbus Blue Jackets</a> | <a href="#DallasStars">Dallas Stars</a> | <a href="#DetroitRedWings">Detroit Red Wings</a> | <a href="#EdmontonOilers">Edmonton Oilers</a> | <a href="#FloridaPanthers">Florida Panthers</a> | <a href="#LosAngelesKings">Los Angeles Kings</a> | <a href="#MinnesotaWild">Minnesota Wild</a> | <a href="#MontrealCanadiens">Montreal Canadiens</a> | <a href="#NashvillePredators">Nashville Predators</a> | <a href="#NewJerseyDevils">New Jersey Devils</a> | <a href="#NewYorkIslanders">New York Islanders</a> | <a href="#NewYorkRangers">New York Rangers</a> | <a href="#OttawaSenators">Ottawa Senators</a> | <a href="#PhiladelphiaFlyers">Philadelphia Flyers</a> | <a href="#PittsburghPenguins">Pittsburgh Penguins</a> | <a href="#SanJoseSharks">San Jose Sharks</a> | <a href="#St.LouisBlues">St. Louis Blues</a> | <a href="#TampaBayLightning">Tampa Bay Lightning</a> | <a href="#TorontoMapleLeafs">Toronto Maple Leafs</a> | <a href="#VancouverCanucks">Vancouver Canucks</a> | <a href="#VegasGoldenKnights">Vegas Golden Knights</a> | <a href="#WashingtonCapitals">Washington Capitals</a> | <a href="#WinnipegJets">Winnipeg Jets</a> | <a href="javascript:STHS_JS_CloseAll('');">Close All Team View</a> | <a href="javascript:STHS_JS_OpenAll('');">Open All Team View</a>
+</div>
+<h1 class="TeamLinesPro_ANH"><a id="AnaheimDucks">Anaheim Ducks</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#AnaheimDucks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#AnaheimDucks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#AnaheimDucks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#AnaheimDucks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#AnaheimDucks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#AnaheimDucks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#AnaheimDucks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#AnaheimDucks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#AnaheimDucks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#AnaheimDucks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#AnaheimDucks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#AnaheimDucks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_AnaheimDucks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_AnaheimDucks" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Sean Monahan             Johnny Gaudreau          Richard Panik            27     0   4  1  
+ 2 Nazem Kadri              Jake Guentzel            Charlie Coyle            26     0   4  1  
+ 3 Travis Zajac             Devin Shore              Patrick Eaves            25     0   4  1  
+ 4 Tomas Plekanec           Cody Eakin               Artturi Lehkonen         22     0   4  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Alex Goligoski           Charlie McAvoy                                    32     0   4  1  
+ 2 Morgan Rielly            Josh Morrissey                                    30     0   4  1  
+ 3 Andrej Sekera            Michael Stone                                     28     0   4  1  
+ 4 Alex Goligoski           Morgan Rielly                                     10     0   4  1  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Sean Monahan             Johnny Gaudreau          Charlie Coyle            50     0   0  5  
+ 2 Nazem Kadri              Jake Guentzel            Richard Panik            50     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Alex Goligoski           Charlie McAvoy                                    50     0   0  5  
+ 2 Morgan Rielly            Josh Morrissey                                    50     0   0  5  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Travis Zajac             Artturi Lehkonen         50     0   5  0  
+ 2 Tomas Plekanec           Cody Eakin               50     0   5  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Alex Goligoski           Michael Stone            50     0   5  0  
+ 2 Morgan Rielly            Josh Morrissey           50     0   5  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Travis Zajac                                      50     0   5  0  
+ 2 Tomas Plekanec                                    50     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Morgan Rielly            Josh Morrissey           50     0   5  0  
+ 2 Alex Goligoski           Michael Stone            50     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Sean Monahan             Johnny Gaudreau          50     0   4  1  
+ 2 Nazem Kadri              Jake Guentzel            50     0   4  1  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Josh Morrissey           Charlie McAvoy           50     0   4  1  
+ 2 Morgan Rielly            Andrej Sekera            50     0   4  1  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Sean Monahan             Johnny Gaudreau          Charlie Coyle            Morgan Rielly            Charlie McAvoy           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Travis Zajac             Cody Eakin               Artturi Lehkonen         Alex Goligoski           Josh Morrissey           
+
+<b>Goaltenders</b>
+Starting : Kari Lehtonen            
+Backup : Martin Jones             
+
+<b>Extra Forwards</b>
+Normal : Devin Shore, Patrick Eaves, Johnny Gaudreau - PP : Devin Shore, Patrick Eaves - PK : Patrick Eaves
+<b>Extra Defensemen</b>
+Normal : Andrej Sekera, Michael Stone, Josh Morrissey - PP : Josh Morrissey - PK : Charlie McAvoy, Andrej Sekera
+<b>Penalty Shots</b>
+Alex Goligoski, Sean Monahan, Charlie Coyle, Johnny Gaudreau, Travis Zajac
+
+<b>Scratches</b>
+Marian Gaborik (Healthy), Alex Chiasson (Healthy), Colin Miller (Healthy)</pre></div>
+<h1 class="TeamLinesPro_ARI"><a id="ArizonaCoyotes">Arizona Coyotes</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#ArizonaCoyotes">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#ArizonaCoyotes">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#ArizonaCoyotes">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#ArizonaCoyotes">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#ArizonaCoyotes">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#ArizonaCoyotes">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#ArizonaCoyotes">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#ArizonaCoyotes">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#ArizonaCoyotes">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#ArizonaCoyotes">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#ArizonaCoyotes">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#ArizonaCoyotes">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_ArizonaCoyotes');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_ArizonaCoyotes" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mika Zibanejad           Leon Draisaitl           Nikita Kucherov          40     1   2  2  
+ 2 Kyle Turris              Jeff Skinner             Kevin Hayes              30     1   2  2  
+ 3 Henrik Zetterberg        Kevin Fiala              William Nylander         20     1   2  2  
+ 4 Nate Thompson            Tom Pyatt                Christian Fischer        10     1   3  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Oliver Ekman-Larsson     Niklas Hjalmarsson                                40     1   2  2  
+ 2 Cody Ceci                Matt Hunwick                                      30     1   2  2  
+ 3 Torey Krug               Josh Gorges                                       20     1   3  1  
+ 4 Oliver Ekman-Larsson     Niklas Hjalmarsson                                10     1   4  0  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mika Zibanejad           Leon Draisaitl           Nikita Kucherov          60     0   1  4  
+ 2 Kyle Turris              Jeff Skinner             Kevin Hayes              40     0   1  4  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Oliver Ekman-Larsson     William Nylander                                  60     0   1  4  
+ 2 Torey Krug               Henrik Zetterberg                                 40     0   2  3  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Kevin Hayes              Nate Thompson            60     1   3  1  
+ 2 Mika Zibanejad           Tom Pyatt                40     1   3  1  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Josh Gorges              Niklas Hjalmarsson       60     1   3  1  
+ 2 Torey Krug               Oliver Ekman-Larsson     40     1   3  1  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Kevin Hayes                                       60     1   3  1  
+ 2 Mika Zibanejad                                    40     1   3  1  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Oliver Ekman-Larsson     Josh Gorges              60     1   3  1  
+ 2 Niklas Hjalmarsson       Torey Krug               40     1   3  1  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mika Zibanejad           Nikita Kucherov          60     0   1  4  
+ 2 Leon Draisaitl           Kevin Hayes              40     0   1  4  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Oliver Ekman-Larsson     Niklas Hjalmarsson       60     0   2  3  
+ 2 Torey Krug               Cody Ceci                40     0   2  3  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Leon Draisaitl           Mika Zibanejad           Nikita Kucherov          Oliver Ekman-Larsson     William Nylander         
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Kevin Hayes              Mika Zibanejad           Nikita Kucherov          Josh Gorges              Niklas Hjalmarsson       
+
+<b>Goaltenders</b>
+Starting : Tuukka Rask              
+Backup : Al Montoya               
+
+<b>Extra Forwards</b>
+Normal : Leon Draisaitl, Nikita Kucherov, Kevin Hayes - PP : Kevin Hayes, Nikita Kucherov - PK : Kevin Hayes
+<b>Extra Defensemen</b>
+Normal : Oliver Ekman-Larsson, Niklas Hjalmarsson, Torey Krug - PP : Torey Krug - PK : Josh Gorges, Niklas Hjalmarsson
+<b>Penalty Shots</b>
+Leon Draisaitl, Mika Zibanejad, Nikita Kucherov, Torey Krug, Oliver Ekman-Larsson
+
+<b>Scratches</b>
+John Gilmour (Healthy), Matthew O'Connor (Healthy)</pre></div>
+<h1 class="TeamLinesPro_BOS"><a id="BostonBruins">Boston Bruins</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#BostonBruins">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#BostonBruins">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#BostonBruins">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#BostonBruins">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#BostonBruins">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#BostonBruins">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#BostonBruins">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#BostonBruins">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#BostonBruins">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#BostonBruins">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#BostonBruins">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#BostonBruins">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_BostonBruins');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_BostonBruins" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Bryan Little             Cam Atkinson             Evgeni Dadonov           35     0   3  2  
+ 2 Sean Couturier           Brad Marchand            Leo Komarov              35     0   3  2  
+ 3 Radek Faksa              Zach Hyman               Ondrej Palat             25     0   4  1  
+ 4 Carter Rowney            Tim Schaller             Scottie Upshall          5      0   4  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Dustin Byfuglien         Karl Alzner                                       45     0   4  1  
+ 2 Luca Sbisa               Brayden McNabb                                    40     0   4  1  
+ 3 Andrew MacDonald         Scott Mayfield                                    10     0   4  1  
+ 4 Karl Alzner              Dustin Byfuglien                                  5      0   4  1  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Sean Couturier           Brad Marchand            Zach Hyman               50     1   0  4  
+ 2 Bryan Little             Evgeni Dadonov           Cam Atkinson             50     1   0  4  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Dustin Byfuglien         Karl Alzner                                       50     0   1  4  
+ 2 Brayden McNabb           Luca Sbisa                                        50     0   1  4  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Radek Faksa              Leo Komarov              70     0   5  0  
+ 2 Sean Couturier           Zach Hyman               30     0   4  1  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Karl Alzner              Brayden McNabb           70     0   5  0  
+ 2 Luca Sbisa               Andrew MacDonald         30     0   5  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Radek Faksa                                       60     0   5  0  
+ 2 Sean Couturier                                    40     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Karl Alzner              Brayden McNabb           60     0   5  0  
+ 2 Luca Sbisa               Andrew MacDonald         40     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Sean Couturier           Brad Marchand            60     1   2  2  
+ 2 Bryan Little             Evgeni Dadonov           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Dustin Byfuglien         Brayden McNabb           60     1   2  2  
+ 2 Luca Sbisa               Karl Alzner              40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Sean Couturier           Brad Marchand            Cam Atkinson             Dustin Byfuglien         Brayden McNabb           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Sean Couturier           Radek Faksa              Leo Komarov              Karl Alzner              Brayden McNabb           
+
+<b>Goaltenders</b>
+Starting : Mike Smith               
+Backup : Cam Ward                 
+
+<b>Extra Forwards</b>
+Normal : Brad Marchand, Sean Couturier, Cam Atkinson - PP : Brad Marchand, Sean Couturier - PK : Leo Komarov
+<b>Extra Defensemen</b>
+Normal : Brayden McNabb, Karl Alzner, Dustin Byfuglien - PP : Dustin Byfuglien - PK : Karl Alzner, Brayden McNabb
+<b>Penalty Shots</b>
+Cam Atkinson, Ondrej Palat, Evgeni Dadonov, Brad Marchand, Sean Couturier
+
+<b>Scratches</b>
+Antoine Vermette (Healthy), Barclay Goodrow (Healthy), Jaycob Megna (Healthy)</pre></div>
+<h1 class="TeamLinesPro_BUF"><a id="BuffaloSabres">Buffalo Sabres</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#BuffaloSabres">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#BuffaloSabres">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#BuffaloSabres">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#BuffaloSabres">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#BuffaloSabres">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#BuffaloSabres">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#BuffaloSabres">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#BuffaloSabres">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#BuffaloSabres">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#BuffaloSabres">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#BuffaloSabres">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#BuffaloSabres">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_BuffaloSabres');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_BuffaloSabres" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Anze Kopitar             Chris Kreider            J.T. Compher             32     0   3  2  
+ 2 Mikael Backlund          Trevor Lewis             Rickard Rakell           32     0   3  2  
+ 3 Sidney Crosby            Anders Lee               Teuvo Teravainen         31     0   1  4  
+ 4 Derek Grant              Zac Rinaldo              Ryan Carpenter           5      0   4  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Rasmus Ristolainen       Deryk Engelland                                   40     0   4  1  
+ 2 Tyler Myers              Josh Manson                                       30     0   4  1  
+ 3 Jack Johnson             Brent Seabrook                                    20     0   4  1  
+ 4 Josh Manson              Rasmus Ristolainen                                10     0   4  1  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Sidney Crosby            Anders Lee               Rickard Rakell           70     0   0  5  
+ 2 Anze Kopitar             Chris Kreider            Teuvo Teravainen         30     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Rasmus Ristolainen       Tyler Myers                                       70     0   1  4  
+ 2 Brent Seabrook           Josh Manson                                       30     0   1  4  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Anze Kopitar             Trevor Lewis             60     1   4  0  
+ 2 Mikael Backlund          J.T. Compher             40     1   4  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Jack Johnson             Deryk Engelland          65     1   4  0  
+ 2 Josh Manson              Rasmus Ristolainen       35     1   4  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Mikael Backlund                                   55     0   5  0  
+ 2 Anze Kopitar                                      45     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Jack Johnson             Deryk Engelland          55     0   5  0  
+ 2 Josh Manson              Rasmus Ristolainen       45     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Sidney Crosby            Rickard Rakell           60     0   2  3  
+ 2 Anze Kopitar             Anders Lee               40     0   2  3  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Rasmus Ristolainen       Josh Manson              65     0   4  1  
+ 2 Jack Johnson             Tyler Myers              35     0   4  1  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Anze Kopitar             Anders Lee               Rickard Rakell           Sidney Crosby            Rasmus Ristolainen       
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Anze Kopitar             J.T. Compher             Trevor Lewis             Jack Johnson             Josh Manson              
+
+<b>Goaltenders</b>
+Starting : Braden Holtby            
+Backup : Linus Ullmark            
+
+<b>Extra Forwards</b>
+Normal : Anze Kopitar, Sidney Crosby, Rickard Rakell - PP : Sidney Crosby, Teuvo Teravainen - PK : J.T. Compher
+<b>Extra Defensemen</b>
+Normal : Rasmus Ristolainen, Josh Manson, Tyler Myers - PP : Rasmus Ristolainen - PK : Jack Johnson, Deryk Engelland
+<b>Penalty Shots</b>
+Sidney Crosby, Anze Kopitar, Rasmus Ristolainen, Brent Seabrook, Rickard Rakell
+
+<b>Scratches</b>
+None
+</pre></div>
+<h1 class="TeamLinesPro_CGY"><a id="CalgaryFlames">Calgary Flames</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#CalgaryFlames">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#CalgaryFlames">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#CalgaryFlames">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#CalgaryFlames">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#CalgaryFlames">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#CalgaryFlames">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#CalgaryFlames">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#CalgaryFlames">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#CalgaryFlames">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#CalgaryFlames">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#CalgaryFlames">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#CalgaryFlames">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_CalgaryFlames');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_CalgaryFlames" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Adam Lowry               Phillip Danault          Tom Wilson               32     0   3  2  
+ 2 Dylan Larkin             Filip Forsberg           Viktor Arvidsson         32     0   2  3  
+ 3 Martin Hanzal            David Perron             Loui Eriksson            25     0   3  2  
+ 4 Mathieu Perreault        Austin Watson            Markus Granlund          11     0   4  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Mathew Dumba             Erik Karlsson                                     45     0   4  1  
+ 2 Jaccob Slavin            Brady Skjei                                       30     0   4  1  
+ 3 Joel Edmundson           Jonathan Ericsson                                 15     0   4  1  
+ 4 Jaccob Slavin            Erik Karlsson                                     10     0   3  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Dylan Larkin             Filip Forsberg           Viktor Arvidsson         80     0   0  5  
+ 2 Adam Lowry               Mathieu Perreault        Tom Wilson               20     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Erik Karlsson            Mathew Dumba                                      72     0   1  4  
+ 2 Jaccob Slavin            Brady Skjei                                       28     0   0  5  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Adam Lowry               Austin Watson            60     0   5  0  
+ 2 Martin Hanzal            Filip Forsberg           40     0   5  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Joel Edmundson           Jaccob Slavin            60     0   5  0  
+ 2 Jonathan Ericsson        Mathew Dumba             40     0   5  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Adam Lowry                                        60     0   5  0  
+ 2 Martin Hanzal                                     40     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Jonathan Ericsson        Mathew Dumba             60     0   5  0  
+ 2 Jaccob Slavin            Joel Edmundson           40     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Dylan Larkin             Filip Forsberg           51     1   3  1  
+ 2 Adam Lowry               Viktor Arvidsson         49     1   3  1  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Erik Karlsson            Jaccob Slavin            60     1   3  1  
+ 2 Mathew Dumba             Jonathan Ericsson        40     1   3  1  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Dylan Larkin             Filip Forsberg           Viktor Arvidsson         Mathew Dumba             Erik Karlsson            
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Adam Lowry               Phillip Danault          Austin Watson            Jonathan Ericsson        Jaccob Slavin            
+
+<b>Goaltenders</b>
+Starting : Pekka Rinne              
+Backup : Petr Mrazek              
+
+<b>Extra Forwards</b>
+Normal : Adam Lowry, Tom Wilson, Dylan Larkin - PP : Tom Wilson, Loui Eriksson - PK : Tom Wilson
+<b>Extra Defensemen</b>
+Normal : Mathew Dumba, Erik Karlsson, Jaccob Slavin - PP : Joel Edmundson - PK : Joel Edmundson, Erik Karlsson
+<b>Penalty Shots</b>
+Adam Lowry, Jaccob Slavin, Filip Forsberg, Mathieu Perreault, Erik Karlsson
+
+<b>Scratches</b>
+Ben Hutton (Healthy), Garnet Hathaway (Healthy)</pre></div>
+<h1 class="TeamLinesPro_CAR"><a id="CarolinaHurricanes">Carolina Hurricanes</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#CarolinaHurricanes">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#CarolinaHurricanes">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#CarolinaHurricanes">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#CarolinaHurricanes">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#CarolinaHurricanes">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#CarolinaHurricanes">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#CarolinaHurricanes">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#CarolinaHurricanes">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#CarolinaHurricanes">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#CarolinaHurricanes">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#CarolinaHurricanes">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#CarolinaHurricanes">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_CarolinaHurricanes');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_CarolinaHurricanes" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Dylan Sikura             Milan Lucic              Spencer Foo              50     1   2  2  
+ 2 Brett Sutter             Nathan Gerbe             Ryan Callahan            30     1   2  2  
+ 3 Cal O'Reilly             Reid Boucher             Sven Andrighetto         10     1   2  2  
+ 4 Greg McKegg              Drake Caggiula           Conor Sheary             10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Paul Martin              Jordan Schmaltz                                   50     1   2  2  
+ 2 Martin Marincin          Slater Koekkoek                                   30     1   2  2  
+ 3 Connor Murphy            Unknown Player                                    10     1   2  2  
+ 4 Paul Martin              Jordan Schmaltz                                   10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Milan Lucic              Sven Andrighetto         Reid Boucher             60     1   2  2  
+ 2 Ryan Callahan            Cal O'Reilly             Conor Sheary             40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Connor Murphy            Paul Martin                                       60     1   2  2  
+ 2 Slater Koekkoek          Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Milan Lucic              Reid Boucher             60     1   2  2  
+ 2 Drake Caggiula           Nathan Gerbe             40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Jordan Schmaltz          60     1   2  2  
+ 2 Paul Martin              Connor Murphy            40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Sven Andrighetto                                  60     1   2  2  
+ 2 Spencer Foo                                       40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Connor Murphy            Unknown Player           60     1   2  2  
+ 2 Jordan Schmaltz          Slater Koekkoek          40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Sven Andrighetto         Milan Lucic              60     1   2  2  
+ 2 Reid Boucher             Greg McKegg              40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Connor Murphy            60     1   2  2  
+ 2 Martin Marincin          Paul Martin              40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Milan Lucic              Sven Andrighetto         Reid Boucher             Connor Murphy            Unknown Player           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Milan Lucic              Sven Andrighetto         Reid Boucher             Connor Murphy            Unknown Player           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Jonathan Bernier         
+
+<b>Extra Forwards</b>
+Normal : Dylan Sikura, Milan Lucic, Sven Andrighetto - PP : Reid Boucher, Ryan Callahan - PK : Brett Sutter
+<b>Extra Defensemen</b>
+Normal : Jordan Schmaltz, Connor Murphy, Unknown Player - PP : Paul Martin - PK : Slater Koekkoek, Martin Marincin
+<b>Penalty Shots</b>
+Dylan Sikura, Milan Lucic, Sven Andrighetto, Reid Boucher, Ryan Callahan
+
+<b>Scratches</b>
+Andrew Copp (Healthy), Matt Niskanen (Healthy), Zach Bogosian (Bruised Left Leg Injury), Casey DeSmith (Healthy), James Reimer (Healthy)</pre></div>
+<h1 class="TeamLinesPro_CHI"><a id="ChicagoBlackhawks">Chicago Blackhawks</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#ChicagoBlackhawks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#ChicagoBlackhawks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#ChicagoBlackhawks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#ChicagoBlackhawks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#ChicagoBlackhawks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#ChicagoBlackhawks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#ChicagoBlackhawks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#ChicagoBlackhawks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#ChicagoBlackhawks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#ChicagoBlackhawks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#ChicagoBlackhawks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#ChicagoBlackhawks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_ChicagoBlackhawks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_ChicagoBlackhawks" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Tyler Johnson            Carl Hagelin             David Kampf              37     1   3  1  
+ 2 Vladislav Namestnikov    Unknown Player           Alex Tuch                37     0   1  4  
+ 3 Brian Boyle              Nick Cousins             Ty Rattie                16     0   2  3  
+ 4 Josh Leivo               Brendan Lemieux          Joshua Ho-Sang           10     1   3  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Justin Faulk             Anthony DeAngelo                                  40     1   3  1  
+ 2 Jan Rutta                Shayne Gostisbehere                               30     0   2  3  
+ 3 Zach Werenski            Brad Hunt                                         24     1   2  2  
+ 4 Jan Rutta                Justin Faulk                                      6      1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Tyler Johnson            Unknown Player           Alex Tuch                65     0   1  4  
+ 2 Brian Boyle              Vladislav Namestnikov    Ty Rattie                35     0   1  4  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Justin Faulk             Shayne Gostisbehere                               60     0   1  4  
+ 2 Zach Werenski            Anthony DeAngelo                                  40     0   1  4  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Tyler Johnson            David Kampf              60     0   5  0  
+ 2 Josh Leivo               Carl Hagelin             40     0   5  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Justin Faulk             Jan Rutta                60     0   5  0  
+ 2 Shayne Gostisbehere      Zach Werenski            40     0   5  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Carl Hagelin                                      60     0   5  0  
+ 2 David Kampf                                       40     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Justin Faulk             Jan Rutta                60     0   5  0  
+ 2 Zach Werenski            Shayne Gostisbehere      40     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Tyler Johnson            Unknown Player           60     0   0  5  
+ 2 Brian Boyle              Alex Tuch                40     0   0  5  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Zach Werenski            Justin Faulk             60     0   0  5  
+ 2 Jan Rutta                Shayne Gostisbehere      40     0   0  5  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Tyler Johnson            Unknown Player           Alex Tuch                Shayne Gostisbehere      Justin Faulk             
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Tyler Johnson            Carl Hagelin             David Kampf              Jan Rutta                Justin Faulk             
+
+<b>Goaltenders</b>
+Starting : Jimmy Howard             
+Backup : Cal Heeter               
+
+<b>Extra Forwards</b>
+Normal : Ty Rattie, Josh Leivo, Alex Tuch - PP : Joshua Ho-Sang, Ty Rattie - PK : Brendan Lemieux
+<b>Extra Defensemen</b>
+Normal : Zach Werenski, Anthony DeAngelo, Jan Rutta - PP : Brad Hunt - PK : Shayne Gostisbehere, Anthony DeAngelo
+<b>Penalty Shots</b>
+Anthony DeAngelo, Nick Cousins, Brian Boyle, Alex Tuch, Brendan Lemieux
+
+<b>Scratches</b>
+Matt Calvert (Bruised Left Leg Injury), Alexander Wennberg (Broken Bone (Left Foot) Injury), Jordan Oesterle (Healthy), Jason Zucker (Upper Body Injury), Dmitrij Jaskin (Sprained Left Ankle Injury)</pre></div>
+<h1 class="TeamLinesPro_COL"><a id="ColoradoAvalanche">Colorado Avalanche</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#ColoradoAvalanche">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#ColoradoAvalanche">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#ColoradoAvalanche">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#ColoradoAvalanche">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#ColoradoAvalanche">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#ColoradoAvalanche">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#ColoradoAvalanche">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#ColoradoAvalanche">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#ColoradoAvalanche">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#ColoradoAvalanche">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#ColoradoAvalanche">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#ColoradoAvalanche">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_ColoradoAvalanche');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_ColoradoAvalanche" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mikko Koivu              J.T. Miller              Patrick Kane             25     3   0  2  
+ 2 Tobias Rieder            Michael Frolik           Brock McGinn             25     3   0  2  
+ 3 Marcus Kruger            Antoine Roussel          Travis Boyd              25     3   0  2  
+ 4 Chris Mueller            Josh Archibald           Patrick Kane             25     3   0  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Ron Hainsey              Hampus Lindholm                                   40     3   0  2  
+ 2 Brett Pesce              Brandon Carlo                                     30     3   0  2  
+ 3 Brandon Manning          Will Butcher                                      20     3   0  2  
+ 4 Keegan Lowe              Ron Hainsey                                       10     3   0  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mikko Koivu              J.T. Miller              Patrick Kane             51     3   2  0  
+ 2 Tobias Rieder            Michael Frolik           Travis Boyd              49     3   2  0  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Ron Hainsey              Hampus Lindholm                                   60     3   2  0  
+ 2 Brett Pesce              Brandon Carlo                                     40     3   2  0  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Patrick Kane             Mikko Koivu              60     1   2  2  
+ 2 J.T. Miller              Michael Frolik           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Ron Hainsey              Hampus Lindholm          60     1   2  2  
+ 2 Brett Pesce              Brandon Carlo            40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Patrick Kane                                      60     1   2  2  
+ 2 Mikko Koivu                                       40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Ron Hainsey              Hampus Lindholm          60     1   2  2  
+ 2 Brett Pesce              Brandon Carlo            40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Patrick Kane             Mikko Koivu              60     1   2  2  
+ 2 J.T. Miller              Michael Frolik           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Ron Hainsey              Hampus Lindholm          60     1   2  2  
+ 2 Brett Pesce              Brandon Carlo            40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Mikko Koivu              J.T. Miller              Patrick Kane             Ron Hainsey              Hampus Lindholm          
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Mikko Koivu              J.T. Miller              Patrick Kane             Ron Hainsey              Hampus Lindholm          
+
+<b>Goaltenders</b>
+Starting : Chris Driedger           
+Backup : Anders Nilsson           
+
+<b>Extra Forwards</b>
+Normal : Antoine Roussel, Marcus Kruger, Travis Boyd - PP : Antoine Roussel, Marcus Kruger - PK : Travis Boyd
+<b>Extra Defensemen</b>
+Normal : Brandon Manning, Will Butcher, Keegan Lowe - PP : Brandon Manning - PK : Will Butcher, Keegan Lowe
+<b>Penalty Shots</b>
+Patrick Kane, Mikko Koivu, J.T. Miller, Michael Frolik, Tobias Rieder
+
+<b>Scratches</b>
+Cameron Gaunce (Healthy), Jake Allen (Exhaustion)</pre></div>
+<h1 class="TeamLinesPro_CLB"><a id="ColumbusBlueJackets">Columbus Blue Jackets</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#ColumbusBlueJackets">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#ColumbusBlueJackets">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#ColumbusBlueJackets">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#ColumbusBlueJackets">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#ColumbusBlueJackets">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#ColumbusBlueJackets">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#ColumbusBlueJackets">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#ColumbusBlueJackets">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#ColumbusBlueJackets">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#ColumbusBlueJackets">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#ColumbusBlueJackets">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#ColumbusBlueJackets">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_ColumbusBlueJackets');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_ColumbusBlueJackets" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 David Krejci             Mats Zuccarello          Kyle Okposo              40     0   0  5  
+ 2 Alexander Kerfoot        Evander Kane             Bobby Ryan               30     1   2  2  
+ 3 Nick Shore               Sven Baertschi           Adam Cracknell           20     1   2  2  
+ 4 Nick Shore               Denis Malgin             Vinnie Hinostroza        10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Dion Phaneuf             Jason Demers                                      40     1   2  2  
+ 2 Anton Stralman           Unknown Player                                    30     1   2  2  
+ 3 Ian Cole                 Robert Hagg                                       20     1   2  2  
+ 4 Troy Stecher             Jason Demers                                      10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 David Krejci             Mats Zuccarello          Kyle Okposo              60     1   2  2  
+ 2 Alexander Kerfoot        Evander Kane             Bobby Ryan               40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Dion Phaneuf             Jason Demers                                      60     1   2  2  
+ 2 Anton Stralman           Unknown Player                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mats Zuccarello          Evander Kane             60     1   2  2  
+ 2 Kyle Okposo              David Krejci             40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Dion Phaneuf             Jason Demers             60     1   2  2  
+ 2 Anton Stralman           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Mats Zuccarello                                   60     1   2  2  
+ 2 Evander Kane                                      40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Dion Phaneuf             Jason Demers             60     1   2  2  
+ 2 Anton Stralman           Unknown Player           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mats Zuccarello          Evander Kane             60     1   2  2  
+ 2 Kyle Okposo              David Krejci             40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Dion Phaneuf             Jason Demers             60     1   2  2  
+ 2 Anton Stralman           Unknown Player           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   David Krejci             Mats Zuccarello          Kyle Okposo              Dion Phaneuf             Jason Demers             
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   David Krejci             Mats Zuccarello          Kyle Okposo              Dion Phaneuf             Jason Demers             
+
+<b>Goaltenders</b>
+Starting : Adam Wilcox              
+Backup : Jacob Markstrom          
+
+<b>Extra Forwards</b>
+Normal : Sven Baertschi, Mats Zuccarello, Nick Shore - PP : Sven Baertschi, Evander Kane - PK : Nick Shore
+<b>Extra Defensemen</b>
+Normal : Ian Cole, Robert Hagg, Anton Stralman - PP : Ian Cole - PK : Robert Hagg, Anton Stralman
+<b>Penalty Shots</b>
+Mats Zuccarello, Evander Kane, Kyle Okposo, David Krejci, Bobby Ryan
+
+<b>Scratches</b>
+Andre Burakovsky (Healthy), Bo Horvat (Healthy), Danny DeKeyser (Healthy), Michael Chaput (Torn Left Knee Ligaments Injury), Jeremy Smith (Healthy)</pre></div>
+<h1 class="TeamLinesPro_DAL"><a id="DallasStars">Dallas Stars</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#DallasStars">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#DallasStars">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#DallasStars">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#DallasStars">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#DallasStars">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#DallasStars">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#DallasStars">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#DallasStars">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#DallasStars">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#DallasStars">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#DallasStars">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#DallasStars">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_DallasStars');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_DallasStars" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Patrice Bergeron         Max Pacioretty           Zach Parise              34     0   1  4  
+ 2 Frans Nielsen            Jon Marchessault         Paul Byron               34     0   1  4  
+ 3 Derek MacKenzie          Colton Sceviour          Corey Perry              26     0   2  3  
+ 4 Mark Letestu             Johan Larsson            Cal Clutterbuck          6      0   4  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Thomas Hickey            Duncan Keith                                      37     0   3  2  
+ 2 Greg Pateryn             Jordie Benn                                       30     0   3  2  
+ 3 Nick Jensen              Nate Prosser                                      23     0   4  1  
+ 4 Thomas Hickey            Duncan Keith                                      10     0   3  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Patrice Bergeron         Max Pacioretty           Zach Parise              60     0   1  4  
+ 2 Frans Nielsen            Jon Marchessault         Paul Byron               40     0   1  4  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Duncan Keith             Corey Perry                                       60     0   1  4  
+ 2 Thomas Hickey            Greg Pateryn                                      40     0   1  4  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mark Letestu             Derek MacKenzie          60     1   4  0  
+ 2 Johan Larsson            Cal Clutterbuck          40     1   4  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Thomas Hickey            Jordie Benn              60     1   4  0  
+ 2 Nick Jensen              Greg Pateryn             40     1   4  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Mark Letestu                                      60     1   4  0  
+ 2 Johan Larsson                                     40     1   4  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Thomas Hickey            Jordie Benn              60     1   2  2  
+ 2 Nick Jensen              Greg Pateryn             40     1   4  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Frans Nielsen            Max Pacioretty           60     1   2  2  
+ 2 Patrice Bergeron         Zach Parise              40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Thomas Hickey            Jordie Benn              60     1   2  2  
+ 2 Greg Pateryn             Nick Jensen              40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Patrice Bergeron         Max Pacioretty           Zach Parise              Duncan Keith             Thomas Hickey            
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Frans Nielsen            Colton Sceviour          Cal Clutterbuck          Jordie Benn              Greg Pateryn             
+
+<b>Goaltenders</b>
+Starting : Cam Talbot               
+Backup : Keith Kinkaid            
+
+<b>Extra Forwards</b>
+Normal : Zach Parise, Corey Perry, Colton Sceviour - PP : Colton Sceviour, Paul Byron - PK : Colton Sceviour
+<b>Extra Defensemen</b>
+Normal : Duncan Keith, Nate Prosser, Jordie Benn - PP : Nate Prosser - PK : Nate Prosser, Jordie Benn
+<b>Penalty Shots</b>
+Patrice Bergeron, Max Pacioretty, Zach Parise, Colton Sceviour, Paul Byron
+
+<b>Scratches</b>
+Mike Reilly (Healthy), Nikita Soshnikov (Healthy), Brandon Davidson (Healthy)</pre></div>
+<h1 class="TeamLinesPro_DET"><a id="DetroitRedWings">Detroit Red Wings</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#DetroitRedWings">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#DetroitRedWings">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#DetroitRedWings">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#DetroitRedWings">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#DetroitRedWings">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#DetroitRedWings">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#DetroitRedWings">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#DetroitRedWings">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#DetroitRedWings">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#DetroitRedWings">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#DetroitRedWings">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#DetroitRedWings">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_DetroitRedWings');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_DetroitRedWings" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Connor McDavid           Patrik Laine             Brayden Point            40     1   0  4  
+ 2 Matt Duchene             Jared McCann             Kevin Labanc             30     1   0  4  
+ 3 Stefan Noesen            Jamie McGinn             Oliver Bjorkstrand       20     1   2  2  
+ 4 Connor McDavid           Stefan Noesen            Martin Frk               10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Marco Scandella          Jake McCabe                                       40     1   1  3  
+ 2 Johnny Oduya             Vince Dunn                                        30     1   2  2  
+ 3 Nick Schultz             Unknown Player                                    20     1   2  2  
+ 4 Matt Tennyson            Johnny Oduya                                      10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Connor McDavid           Patrik Laine             Brayden Point            60     0   0  5  
+ 2 Matt Duchene             Jared McCann             Kevin Labanc             40     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Johnny Oduya             Marco Scandella                                   60     0   2  3  
+ 2 Nick Schultz             Vince Dunn                                        40     0   2  3  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Connor McDavid           Brayden Point            60     1   3  1  
+ 2 Matt Duchene             Patrik Laine             40     1   3  1  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Jake McCabe              Johnny Oduya             60     1   3  1  
+ 2 Marco Scandella          Unknown Player           40     1   3  1  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Connor McDavid                                    60     1   4  0  
+ 2 Brayden Point                                     40     1   4  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Nick Schultz             Johnny Oduya             60     1   4  0  
+ 2 Marco Scandella          Unknown Player           40     1   4  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Connor McDavid           Brayden Point            60     1   2  2  
+ 2 Matt Duchene             Patrik Laine             40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Marco Scandella          Unknown Player           60     1   2  2  
+ 2 Johnny Oduya             Nick Schultz             40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Connor McDavid           Patrik Laine             Brayden Point            Jake McCabe              Marco Scandella          
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Connor McDavid           Matt Duchene             Brayden Point            Jake McCabe              Johnny Oduya             
+
+<b>Goaltenders</b>
+Starting : Antti Niemi              
+Backup : Mark Visentin            
+
+<b>Extra Forwards</b>
+Normal : Connor McDavid, Patrik Laine, Brayden Point - PP : Connor McDavid, Patrik Laine - PK : Brayden Point
+<b>Extra Defensemen</b>
+Normal : Nick Schultz, Marco Scandella, Johnny Oduya - PP : Marco Scandella - PK : Marco Scandella, Johnny Oduya
+<b>Penalty Shots</b>
+Connor McDavid, Brayden Point, Patrik Laine, Kevin Labanc, Matt Duchene
+
+<b>Scratches</b>
+Marc Staal (Broken Bone (Left Arm) Injury), Justin Holl (Healthy), Anton Lindholm (Left Leg Injury), Peter Cehlarik (Healthy), Sergei Bobrovsky (Suspend)</pre></div>
+<h1 class="TeamLinesPro_EDM"><a id="EdmontonOilers">Edmonton Oilers</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#EdmontonOilers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#EdmontonOilers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#EdmontonOilers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#EdmontonOilers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#EdmontonOilers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#EdmontonOilers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#EdmontonOilers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#EdmontonOilers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#EdmontonOilers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#EdmontonOilers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#EdmontonOilers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#EdmontonOilers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_EdmontonOilers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_EdmontonOilers" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Derek Stepan             Mikael Granlund          Blake Wheeler            40     1   1  3  
+ 2 Derick Brassard          Nick Foligno             Dustin Brown             30     1   1  3  
+ 3 Jean-Gabriel Pageau      Justin Abdelkader        Andrew Cogliano          20     1   2  2  
+ 4 Luke Glendening          Nick Schmaltz            Marcus Foligno           10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Ryan Suter               Mattias Ekholm                                    40     1   2  2  
+ 2 Jeff Petry               John Moore                                        30     1   2  2  
+ 3 Mike Matheson            Brandon Montour                                   20     1   2  2  
+ 4 Jeff Petry               John Moore                                        10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Derek Stepan             Mikael Granlund          Blake Wheeler            60     1   1  3  
+ 2 Derick Brassard          Nick Foligno             Dustin Brown             40     1   1  3  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Ryan Suter               Mattias Ekholm                                    60     0   1  4  
+ 2 Jeff Petry               Brandon Montour                                   40     0   1  4  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Luke Glendening          Andrew Cogliano          60     1   2  2  
+ 2 Jean-Gabriel Pageau      Dustin Brown             40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Ryan Suter               Mattias Ekholm           60     1   2  2  
+ 2 Jeff Petry               Mike Matheson            40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Luke Glendening                                   60     1   4  0  
+ 2 Jean-Gabriel Pageau                               40     1   4  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Ryan Suter               Mattias Ekholm           60     1   4  0  
+ 2 Jeff Petry               Mike Matheson            40     1   4  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Derick Brassard          Dustin Brown             60     1   2  2  
+ 2 Jean-Gabriel Pageau      Blake Wheeler            40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Mike Matheson            Brandon Montour          60     1   2  2  
+ 2 Jeff Petry               John Moore               40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Derek Stepan             Mikael Granlund          Blake Wheeler            Ryan Suter               Jeff Petry               
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Jean-Gabriel Pageau      Dustin Brown             Blake Wheeler            Ryan Suter               Mattias Ekholm           
+
+<b>Goaltenders</b>
+Starting : Connor Hellebuyck        
+Backup : John Gibson              
+
+<b>Extra Forwards</b>
+Normal : Dustin Brown, Nick Foligno, Derick Brassard - PP : Nick Schmaltz, Justin Abdelkader - PK : Blake Wheeler
+<b>Extra Defensemen</b>
+Normal : Mike Matheson, Jeff Petry, Ryan Suter - PP : John Moore - PK : Jeff Petry, John Moore
+<b>Penalty Shots</b>
+Blake Wheeler, Justin Abdelkader, Nick Schmaltz, Derek Stepan, Mikael Granlund
+
+<b>Scratches</b>
+Mattias Janmark (Healthy), Michael Del Zotto (Healthy), Tomas Nosek (Healthy)</pre></div>
+<h1 class="TeamLinesPro_FLA"><a id="FloridaPanthers">Florida Panthers</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#FloridaPanthers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#FloridaPanthers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#FloridaPanthers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#FloridaPanthers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#FloridaPanthers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#FloridaPanthers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#FloridaPanthers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#FloridaPanthers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#FloridaPanthers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#FloridaPanthers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#FloridaPanthers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#FloridaPanthers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_FloridaPanthers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_FloridaPanthers" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Tyler Seguin             Carl Soderberg           Marcus Johansson         35     1   2  2  
+ 2 Tyler Bozak              Jake Debrusk             Ryan Strome              30     1   2  2  
+ 3 Peter Holland            Lawson Crouse            Andreas Martinsen        20     1   2  2  
+ 4 CJ Smith                 Paul Carey               Curtis Lazar             15     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Brian Dumoulin           Noah Juulsen                                      33     1   2  2  
+ 2 Nathan Beaulieu          Carl Dahlstrom                                    33     1   2  2  
+ 3 Eric Gryba               Andy Welinski                                     25     1   2  2  
+ 4 Brian Dumoulin           Noah Juulsen                                      9      1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Tyler Seguin             Jake Debrusk             Marcus Johansson         50     0   0  5  
+ 2 Tyler Bozak              Carl Soderberg           Ryan Strome              50     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Brian Dumoulin           Nathan Beaulieu                                   50     1   1  3  
+ 2 Noah Juulsen             Carl Dahlstrom                                    50     1   1  3  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Peter Holland            Lawson Crouse            50     0   5  0  
+ 2 Andreas Martinsen        Curtis Lazar             50     0   5  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Brian Dumoulin           Carl Dahlstrom           50     0   5  0  
+ 2 Noah Juulsen             Nathan Beaulieu          50     0   5  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Peter Holland                                     50     0   5  0  
+ 2 Andreas Martinsen                                 50     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Brian Dumoulin           Carl Dahlstrom           50     0   5  0  
+ 2 Nathan Beaulieu          Noah Juulsen             50     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Tyler Seguin             Marcus Johansson         50     1   2  2  
+ 2 Tyler Bozak              Carl Soderberg           50     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Carl Dahlstrom           Nathan Beaulieu          50     1   2  2  
+ 2 Brian Dumoulin           Noah Juulsen             50     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Tyler Seguin             Jake Debrusk             Marcus Johansson         Nathan Beaulieu          Carl Dahlstrom           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Carl Soderberg           Peter Holland            Andreas Martinsen        Carl Dahlstrom           Brian Dumoulin           
+
+<b>Goaltenders</b>
+Starting : Anton Khudobin           
+Backup : Ryan Miller              
+
+<b>Extra Forwards</b>
+Normal : Tyler Seguin, Marcus Johansson, Carl Soderberg - PP : Peter Holland, CJ Smith - PK : Carl Soderberg
+<b>Extra Defensemen</b>
+Normal : Brian Dumoulin, Carl Dahlstrom, Noah Juulsen - PP : Brian Dumoulin - PK : Brian Dumoulin, Carl Dahlstrom
+<b>Penalty Shots</b>
+Tyler Seguin, Tyler Bozak, Jake Debrusk, Peter Holland, CJ Smith
+
+<b>Scratches</b>
+Ryan Murphy (Healthy), Tyler Wotherspoon (Healthy), David Rittich (Healthy)</pre></div>
+<h1 class="TeamLinesPro_LAK"><a id="LosAngelesKings">Los Angeles Kings</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#LosAngelesKings">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#LosAngelesKings">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#LosAngelesKings">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#LosAngelesKings">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#LosAngelesKings">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#LosAngelesKings">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#LosAngelesKings">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#LosAngelesKings">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#LosAngelesKings">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#LosAngelesKings">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#LosAngelesKings">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#LosAngelesKings">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_LosAngelesKings');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_LosAngelesKings" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Nathan MacKinnon         Alex Ovechkin            Mitch Marner             40     0   2  3  
+ 2 Ryan O'Reilly            Jonathan Huberdeau       Brock Boeser             30     0   2  3  
+ 3 Elias Lindholm           Brock Nelson             Miles Wood               20     1   2  2  
+ 4 Mason Appleton           Matt Cullen              Zack Kassian             10     1   3  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 P.K. Subban              Seth Jones                                        40     1   2  2  
+ 2 Nate Schmidt             Adam Pelech                                       30     1   3  1  
+ 3 Radko Gudas              Xavier Ouellet                                    20     1   4  0  
+ 4 P.K. Subban              Seth Jones                                        10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Nathan MacKinnon         Alex Ovechkin            Mitch Marner             60     0   0  5  
+ 2 Ryan O'Reilly            Jonathan Huberdeau       Brock Boeser             40     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 P.K. Subban              Seth Jones                                        60     0   2  3  
+ 2 Nate Schmidt             Adam Pelech                                       40     0   2  3  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Elias Lindholm           Zack Kassian             60     0   4  1  
+ 2 Ryan O'Reilly            Brock Nelson             40     0   4  1  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 P.K. Subban              Seth Jones               60     1   3  1  
+ 2 Adam Pelech              Radko Gudas              40     1   4  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Elias Lindholm                                    60     0   5  0  
+ 2 Ryan O'Reilly                                     40     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 P.K. Subban              Seth Jones               60     1   4  0  
+ 2 Adam Pelech              Radko Gudas              40     1   4  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Nathan MacKinnon         Alex Ovechkin            55     0   2  3  
+ 2 Ryan O'Reilly            Elias Lindholm           45     0   2  3  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 P.K. Subban              Seth Jones               60     1   2  2  
+ 2 Nate Schmidt             Adam Pelech              40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Nathan MacKinnon         Alex Ovechkin            Mitch Marner             P.K. Subban              Seth Jones               
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Ryan O'Reilly            Brock Nelson             Elias Lindholm           P.K. Subban              Seth Jones               
+
+<b>Goaltenders</b>
+Starting : Malcolm Subban           
+Backup : Richard Bachman          
+
+<b>Extra Forwards</b>
+Normal : Brock Boeser, Elias Lindholm, Alex Ovechkin - PP : Brock Boeser, Elias Lindholm - PK : Miles Wood
+<b>Extra Defensemen</b>
+Normal : Adam Pelech, Seth Jones, P.K. Subban - PP : Adam Pelech - PK : P.K. Subban, Seth Jones
+<b>Penalty Shots</b>
+Nathan MacKinnon, Brock Boeser, Brock Nelson, Ryan O'Reilly, Mitch Marner
+
+<b>Scratches</b>
+Tucker Poolman (Healthy), Duncan Siemens (Healthy), Devan Dubnyk (Healthy)</pre></div>
+<h1 class="TeamLinesPro_MIN"><a id="MinnesotaWild">Minnesota Wild</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#MinnesotaWild">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#MinnesotaWild">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#MinnesotaWild">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#MinnesotaWild">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#MinnesotaWild">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#MinnesotaWild">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#MinnesotaWild">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#MinnesotaWild">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#MinnesotaWild">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#MinnesotaWild">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#MinnesotaWild">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#MinnesotaWild">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_MinnesotaWild');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_MinnesotaWild" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Adam Henrique            Michael Grabner          Jakob Silfverberg        25     0   4  1  
+ 2 Ryan Nugent-Hopkins      Thomas Vanek             Jordan Eberle            25     0   3  2  
+ 3 Valtteri Filppula        Blake Coleman            Blake Comeau             25     0   4  1  
+ 4 Derek Ryan               Brandon Pirri            Nino Niederreiter        25     0   3  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Trevor Daley             Dan Girardi                                       30     0   4  1  
+ 2 Christian Djoos          John Carlson                                      30     0   4  1  
+ 3 Braydon Coburn           Unknown Player                                    30     0   4  1  
+ 4 Trevor Daley             John Carlson                                      10     0   4  1  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Ryan Nugent-Hopkins      Thomas Vanek             Jordan Eberle            50     0   0  5  
+ 2 Adam Henrique            Nino Niederreiter        Jakob Silfverberg        50     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Michael Grabner          Unknown Player                                    50     0   1  4  
+ 2 Trevor Daley             John Carlson                                      50     0   1  4  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Adam Henrique            Jakob Silfverberg        50     0   5  0  
+ 2 Valtteri Filppula        Blake Comeau             50     0   5  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Trevor Daley             Dan Girardi              50     1   4  0  
+ 2 Braydon Coburn           John Carlson             50     1   4  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Adam Henrique                                     50     0   5  0  
+ 2 Valtteri Filppula                                 50     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Trevor Daley             Dan Girardi              50     0   5  0  
+ 2 Braydon Coburn           John Carlson             50     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Ryan Nugent-Hopkins      Jordan Eberle            50     0   1  4  
+ 2 Derek Ryan               Nino Niederreiter        50     0   4  1  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Christian Djoos          John Carlson             50     0   4  1  
+ 2 Trevor Daley             Dan Girardi              50     0   4  1  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Ryan Nugent-Hopkins      Michael Grabner          Jordan Eberle            Trevor Daley             John Carlson             
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Valtteri Filppula        Blake Comeau             Jakob Silfverberg        Trevor Daley             John Carlson             
+
+<b>Goaltenders</b>
+Starting : Roberto Luongo           
+Backup : Anthony Stolarz          
+
+<b>Extra Forwards</b>
+Normal : Blake Comeau, Jakob Silfverberg, Ryan Nugent-Hopkins - PP : Derek Ryan, Valtteri Filppula - PK : Ryan Nugent-Hopkins
+<b>Extra Defensemen</b>
+Normal : Trevor Daley, John Carlson, Unknown Player - PP : Unknown Player - PK : Braydon Coburn, Trevor Daley
+<b>Penalty Shots</b>
+Ryan Nugent-Hopkins, Jakob Silfverberg, Thomas Vanek, Blake Comeau, Nino Niederreiter
+
+<b>Scratches</b>
+Mikhail Sergachev (Right Foot Injury), Brad Richardson (Healthy), Dennis Seidenberg (Broken Bone (Right Leg) Injury), Tyson Barrie (Right Hand Injury), Dillon Simpson (Healthy)
+Joe Cannata (Left Leg Injury)</pre></div>
+<h1 class="TeamLinesPro_MTL"><a id="MontrealCanadiens">Montreal Canadiens</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#MontrealCanadiens">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#MontrealCanadiens">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#MontrealCanadiens">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#MontrealCanadiens">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#MontrealCanadiens">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#MontrealCanadiens">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#MontrealCanadiens">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#MontrealCanadiens">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#MontrealCanadiens">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#MontrealCanadiens">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#MontrealCanadiens">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#MontrealCanadiens">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_MontrealCanadiens');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_MontrealCanadiens" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mark Scheifele           Artemi Panarin           Nikolaj Ehlers           35     1   2  2  
+ 2 Clayton Keller           Alex DeBrincat           Anthony Mantha           35     1   2  2  
+ 3 Jeff Carter              Brandon Tanev            Melker Karlsson          20     1   2  2  
+ 4 Unknown Player           Jonny Brodzinski         Daniel Sprong            10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Ivan Provorov            Aaron Ekblad                                      31     1   2  2  
+ 2 John Klingberg           Nikita Zadorov                                    31     1   2  2  
+ 3 Marc-Edouard Vlasic      Casey Nelson                                      28     1   2  2  
+ 4 Ivan Provorov            Aaron Ekblad                                      10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Mark Scheifele           Artemi Panarin           Nikolaj Ehlers           50     1   2  2  
+ 2 Clayton Keller           Alex DeBrincat           Anthony Mantha           50     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Ivan Provorov            Aaron Ekblad                                      50     1   2  2  
+ 2 Marc-Edouard Vlasic      John Klingberg                                    50     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Melker Karlsson          Brandon Tanev            60     1   2  2  
+ 2 Mark Scheifele           Unknown Player           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Ivan Provorov            Aaron Ekblad             60     1   2  2  
+ 2 John Klingberg           Nikita Zadorov           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Brandon Tanev                                     60     1   2  2  
+ 2 Melker Karlsson                                   40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Ivan Provorov            Aaron Ekblad             60     1   2  2  
+ 2 John Klingberg           Nikita Zadorov           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mark Scheifele           Artemi Panarin           50     1   2  2  
+ 2 Clayton Keller           Nikolaj Ehlers           50     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Ivan Provorov            Aaron Ekblad             50     1   2  2  
+ 2 John Klingberg           Nikita Zadorov           50     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Mark Scheifele           Artemi Panarin           Nikolaj Ehlers           Ivan Provorov            Aaron Ekblad             
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Jeff Carter              Brandon Tanev            Melker Karlsson          Ivan Provorov            Aaron Ekblad             
+
+<b>Goaltenders</b>
+Starting : Ben Bishop               
+Backup : Craig Anderson           
+
+<b>Extra Forwards</b>
+Normal : Brandon Tanev, Mark Scheifele, Artemi Panarin - PP : Jeff Carter, Brandon Tanev - PK : Jeff Carter
+<b>Extra Defensemen</b>
+Normal : Marc-Edouard Vlasic, Ivan Provorov, Aaron Ekblad - PP : Nikita Zadorov - PK : Marc-Edouard Vlasic, Casey Nelson
+<b>Penalty Shots</b>
+Artemi Panarin, Mark Scheifele, Jeff Carter, Alex DeBrincat, Melker Karlsson
+
+<b>Scratches</b>
+Vladislav Kamenev (Healthy), Andrew MacWilliam (Strained Left Elbow Injury)</pre></div>
+<h1 class="TeamLinesPro_NSH"><a id="NashvillePredators">Nashville Predators</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#NashvillePredators">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#NashvillePredators">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#NashvillePredators">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#NashvillePredators">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#NashvillePredators">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#NashvillePredators">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#NashvillePredators">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#NashvillePredators">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#NashvillePredators">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#NashvillePredators">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#NashvillePredators">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#NashvillePredators">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_NashvillePredators');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_NashvillePredators" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Logan Couture            Gabriel Landeskog        Sebastian Aho            40     0   0  5  
+ 2 Jordan Staal             Alex Killorn             Ryan Dzingel             30     0   0  5  
+ 3 Andreas Athanasiou       Jason Chimera            Lee Stempniak            20     0   0  5  
+ 4 Charles Hudon            Adrian Kempe             Nick Lappin              10     0   0  5  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Nick Holden              Oscar Klefbom                                     40     0   0  5  
+ 2 Chris Butler             Zach Redmond                                      30     0   0  5  
+ 3 T.J. Brennan             Unknown Player                                    20     0   0  5  
+ 4 Nick Holden              Oscar Klefbom                                     10     0   0  5  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Logan Couture            Gabriel Landeskog        Sebastian Aho            60     0   0  5  
+ 2 Andreas Athanasiou       Alex Killorn             Ryan Dzingel             40     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Nick Holden              Oscar Klefbom                                     60     0   0  5  
+ 2 Chris Butler             Zach Redmond                                      40     0   0  5  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Gabriel Landeskog        Logan Couture            60     0   0  5  
+ 2 Sebastian Aho            Alex Killorn             40     0   0  5  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Nick Holden              Oscar Klefbom            60     0   0  5  
+ 2 Chris Butler             Zach Redmond             40     0   0  5  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Gabriel Landeskog                                 60     0   0  5  
+ 2 Logan Couture                                     40     0   0  5  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Nick Holden              Oscar Klefbom            60     0   0  5  
+ 2 Chris Butler             Zach Redmond             40     0   0  5  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Gabriel Landeskog        Logan Couture            60     0   0  5  
+ 2 Alex Killorn             Andreas Athanasiou       40     0   0  5  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Nick Holden              Oscar Klefbom            60     0   0  5  
+ 2 Chris Butler             Zach Redmond             40     0   0  5  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Logan Couture            Gabriel Landeskog        Sebastian Aho            Nick Holden              Oscar Klefbom            
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Logan Couture            Gabriel Landeskog        Sebastian Aho            Nick Holden              Oscar Klefbom            
+
+<b>Goaltenders</b>
+Starting : Mike Condon              
+Backup : Carey Price              
+
+<b>Extra Forwards</b>
+Normal : Gabriel Landeskog, Andreas Athanasiou, Jason Chimera - PP : Logan Couture, Andreas Athanasiou - PK : Jason Chimera
+<b>Extra Defensemen</b>
+Normal : T.J. Brennan, Chris Butler, Zach Redmond - PP : T.J. Brennan - PK : Chris Butler, Zach Redmond
+<b>Penalty Shots</b>
+Gabriel Landeskog, Logan Couture, Sebastian Aho, Jason Chimera, Alex Killorn
+
+<b>Scratches</b>
+Matt Bartkowski (Healthy), Chris Summers (Healthy), Stefan Matteau (Healthy), Pheonix Copley (Healthy)</pre></div>
+<h1 class="TeamLinesPro_NJD"><a id="NewJerseyDevils">New Jersey Devils</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#NewJerseyDevils">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#NewJerseyDevils">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#NewJerseyDevils">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#NewJerseyDevils">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#NewJerseyDevils">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#NewJerseyDevils">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#NewJerseyDevils">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#NewJerseyDevils">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#NewJerseyDevils">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#NewJerseyDevils">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#NewJerseyDevils">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#NewJerseyDevils">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_NewJerseyDevils');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_NewJerseyDevils" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Ryan Getzlaf             William Karlsson         Patric Hornqvist         40     1   2  2  
+ 2 Riley Sheahan            Timo Meier               Jimmy Vesey              30     1   2  2  
+ 3 Brandon Dubinsky         Benoit Pouliot           Andrew Desjardins        20     1   2  2  
+ 4 Michael Raffl            Chris Kunitz             Ryan Getzlaf             10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Adam Larsson             Jay Bouwmeester                                   40     1   2  2  
+ 2 Darnell Nurse            Roman Polak                                       30     1   2  2  
+ 3 Chris Tanev              Christian Folin                                   20     1   2  2  
+ 4 Adam Larsson             Jay Bouwmeester                                   10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Ryan Getzlaf             William Karlsson         Patric Hornqvist         60     1   2  2  
+ 2 Riley Sheahan            Timo Meier               Jimmy Vesey              40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Adam Larsson             Jay Bouwmeester                                   60     1   2  2  
+ 2 Darnell Nurse            Roman Polak                                       40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Ryan Getzlaf             William Karlsson         60     1   2  2  
+ 2 Patric Hornqvist         Riley Sheahan            40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Adam Larsson             Jay Bouwmeester          60     1   2  2  
+ 2 Darnell Nurse            Roman Polak              40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Ryan Getzlaf                                      60     1   2  2  
+ 2 William Karlsson                                  40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Adam Larsson             Jay Bouwmeester          60     1   2  2  
+ 2 Darnell Nurse            Roman Polak              40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Ryan Getzlaf             William Karlsson         60     1   2  2  
+ 2 Patric Hornqvist         Riley Sheahan            40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Adam Larsson             Jay Bouwmeester          60     1   2  2  
+ 2 Darnell Nurse            Roman Polak              40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Ryan Getzlaf             William Karlsson         Patric Hornqvist         Adam Larsson             Jay Bouwmeester          
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Ryan Getzlaf             William Karlsson         Patric Hornqvist         Adam Larsson             Jay Bouwmeester          
+
+<b>Goaltenders</b>
+Starting : Robin Lehner             
+Backup : Garret Sparks            
+
+<b>Extra Forwards</b>
+Normal : Oscar Lindberg, Brandon Dubinsky, Benoit Pouliot - PP : Oscar Lindberg, Brandon Dubinsky - PK : Benoit Pouliot
+<b>Extra Defensemen</b>
+Normal : Chris Tanev, Christian Folin, Darnell Nurse - PP : Chris Tanev - PK : Christian Folin, Darnell Nurse
+<b>Penalty Shots</b>
+Ryan Getzlaf, William Karlsson, Patric Hornqvist, Riley Sheahan, Timo Meier
+
+<b>Scratches</b>
+Michal Kempny (Healthy), Scott Darling (Healthy)</pre></div>
+<h1 class="TeamLinesPro_NYI"><a id="NewYorkIslanders">New York Islanders</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#NewYorkIslanders">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#NewYorkIslanders">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#NewYorkIslanders">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#NewYorkIslanders">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#NewYorkIslanders">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#NewYorkIslanders">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#NewYorkIslanders">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#NewYorkIslanders">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#NewYorkIslanders">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#NewYorkIslanders">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#NewYorkIslanders">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#NewYorkIslanders">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_NewYorkIslanders');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_NewYorkIslanders" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Steven Stamkos           Jakub Voracek            Joe Pavelski             40     1   2  2  
+ 2 Mathew Barzal            Josh Bailey              Alexander Radulov        30     1   2  2  
+ 3 Jaden Schwartz           Yanni Gourde             Riley Nash               20     1   2  2  
+ 4 Alex Galchenyuk          Calle Jarnkrok           Matthew Nieto            10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Victor Hedman            Colton Parayko                                    40     1   2  2  
+ 2 Ryan Ellis               Dmitry Orlov                                      30     1   2  2  
+ 3 Mark Barberio            Alex Galchenyuk                                   20     1   2  2  
+ 4 Victor Hedman            Colton Parayko                                    10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Steven Stamkos           Jakub Voracek            Joe Pavelski             60     1   2  2  
+ 2 Mathew Barzal            Josh Bailey              Alexander Radulov        40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Victor Hedman            Colton Parayko                                    60     1   2  2  
+ 2 Ryan Ellis               Dmitry Orlov                                      40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Jaden Schwartz           Steven Stamkos           60     1   2  2  
+ 2 Joe Pavelski             Alexander Radulov        40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Victor Hedman            Colton Parayko           60     1   2  2  
+ 2 Ryan Ellis               Dmitry Orlov             40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Joe Pavelski                                      60     1   2  2  
+ 2 Steven Stamkos                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Victor Hedman            Colton Parayko           60     1   2  2  
+ 2 Ryan Ellis               Dmitry Orlov             40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Mathew Barzal            Steven Stamkos           60     1   2  2  
+ 2 Joe Pavelski             Alexander Radulov        40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Victor Hedman            Colton Parayko           60     1   2  2  
+ 2 Ryan Ellis               Dmitry Orlov             40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Steven Stamkos           Jakub Voracek            Joe Pavelski             Victor Hedman            Colton Parayko           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Steven Stamkos           Jakub Voracek            Joe Pavelski             Victor Hedman            Colton Parayko           
+
+<b>Goaltenders</b>
+Starting : Michael Hutchinson       
+Backup : Mike McKenna             
+
+<b>Extra Forwards</b>
+Normal : Josh Anderson, Jaden Schwartz, Yanni Gourde - PP : Josh Anderson, Jaden Schwartz - PK : Yanni Gourde
+<b>Extra Defensemen</b>
+Normal : Mark Barberio, Ryan Ellis, Dmitry Orlov - PP : Mark Barberio - PK : Ryan Ellis, Dmitry Orlov
+<b>Penalty Shots</b>
+Yanni Gourde, Steven Stamkos, Joe Pavelski, Alexander Radulov, Mathew Barzal
+
+<b>Scratches</b>
+Justin Falk (Healthy), Ben Chiarot (Healthy), Dylan DeMelo (Healthy), Marc-Andre Fleury (Exhaustion)</pre></div>
+<h1 class="TeamLinesPro_NYR"><a id="NewYorkRangers">New York Rangers</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#NewYorkRangers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#NewYorkRangers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#NewYorkRangers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#NewYorkRangers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#NewYorkRangers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#NewYorkRangers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#NewYorkRangers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#NewYorkRangers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#NewYorkRangers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#NewYorkRangers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#NewYorkRangers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#NewYorkRangers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_NewYorkRangers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_NewYorkRangers" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Claude Giroux            Jesper Bratt             Mark Stone               35     0   2  3  
+ 2 Erik Haula               Reilly Smith             Sam Reinhart             34     0   2  3  
+ 3 Chris Tierney            Unknown Player           Jesper Fast              26     0   3  2  
+ 4 Unknown Player           Unknown Player           Danton Heinen            5      1   4  0  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Roman Josi               Dan Hamhuis                                       35     1   3  1  
+ 2 Luke Schenn              Shea Weber                                        33     0   4  1  
+ 3 Kris Russell             Calvin de Haan                                    25     0   4  1  
+ 4 Erik Gustafsson          Dan Hamhuis                                       7      0   4  1  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Claude Giroux            Unknown Player           Mark Stone               60     0   0  5  
+ 2 Erik Haula               Reilly Smith             Sam Reinhart             40     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Roman Josi               Shea Weber                                        70     0   1  4  
+ 2 Dan Hamhuis              Erik Gustafsson                                   30     0   1  4  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Unknown Player           Jesper Fast              60     0   4  1  
+ 2 Chris Tierney            Reilly Smith             40     0   4  1  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Luke Schenn              Dan Hamhuis              60     0   4  1  
+ 2 Roman Josi               Calvin de Haan           40     0   4  1  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Jesper Fast                                       60     0   5  0  
+ 2 Unknown Player                                    40     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Roman Josi               Dan Hamhuis              60     0   5  0  
+ 2 Luke Schenn              Calvin de Haan           40     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Claude Giroux            Mark Stone               60     0   3  2  
+ 2 Erik Haula               Reilly Smith             40     0   3  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Roman Josi               Dan Hamhuis              60     0   4  1  
+ 2 Luke Schenn              Calvin de Haan           40     0   4  1  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Claude Giroux            Reilly Smith             Mark Stone               Roman Josi               Shea Weber               
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Claude Giroux            Reilly Smith             Mark Stone               Luke Schenn              Dan Hamhuis              
+
+<b>Goaltenders</b>
+Starting : Carter Hutton            
+Backup : Charlie Lindgren         
+
+<b>Extra Forwards</b>
+Normal : Mark Stone, Claude Giroux, Reilly Smith - PP : Danton Heinen, Jesper Bratt - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Kris Russell, Dan Hamhuis, Shea Weber - PP : Kris Russell - PK : Kris Russell, Shea Weber
+<b>Penalty Shots</b>
+Reilly Smith, Claude Giroux, Sam Reinhart, Roman Josi, Unknown Player
+
+<b>Scratches</b>
+Nicolas Deslauriers (Healthy), Kevin Roy (Healthy), Artem Anisimov (Healthy), Matt Hendricks (Healthy), Kevan Miller (Right Hip Injury)
+Chad Ruhwedel (Healthy), Calvin Pickard (Healthy)</pre></div>
+<h1 class="TeamLinesPro_OTT"><a id="OttawaSenators">Ottawa Senators</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#OttawaSenators">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#OttawaSenators">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#OttawaSenators">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#OttawaSenators">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#OttawaSenators">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#OttawaSenators">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#OttawaSenators">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#OttawaSenators">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#OttawaSenators">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#OttawaSenators">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#OttawaSenators">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#OttawaSenators">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_OttawaSenators');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_OttawaSenators" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Vincent Trocheck         David Pastrnak           Vladimir Tarasenko       35     0   1  4  
+ 2 Paul Stastny             James Neal               Bryan Rust               30     0   2  3  
+ 3 Pierre-Edouard Bellemare Brett Connolly           Connor Brown             25     1   3  1  
+ 4 Drew Stafford            Joakim Nordstrom         Ryan Reaves              10     0   4  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Erik Johnson             Jake Muzzin                                       40     0   3  2  
+ 2 Ryan McDonagh            Nick Leddy                                        30     0   3  2  
+ 3 Andrej Sustr             Jamie Oleksiak                                    20     1   2  2  
+ 4 Erik Johnson             Ryan McDonagh                                     10     0   3  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Vincent Trocheck         James Neal               Vladimir Tarasenko       60     0   1  4  
+ 2 Paul Stastny             David Pastrnak           Bryan Rust               40     0   1  4  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Ryan McDonagh            Jake Muzzin                                       60     0   1  4  
+ 2 Nick Leddy               Erik Johnson                                      40     0   2  3  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Vincent Trocheck         Connor Brown             60     1   3  1  
+ 2 Pierre-Edouard Bellemare Joakim Nordstrom         40     1   3  1  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Erik Johnson             Jake Muzzin              60     1   3  1  
+ 2 Ryan McDonagh            Jamie Oleksiak           40     1   3  1  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Vincent Trocheck                                  60     0   5  0  
+ 2 Pierre-Edouard Bellemare                          40     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Erik Johnson             Ryan McDonagh            60     0   5  0  
+ 2 Jake Muzzin              Jamie Oleksiak           40     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Vincent Trocheck         David Pastrnak           60     0   2  3  
+ 2 Paul Stastny             Vladimir Tarasenko       40     0   2  3  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Erik Johnson             Ryan McDonagh            60     1   2  2  
+ 2 Nick Leddy               Jake Muzzin              40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Vincent Trocheck         David Pastrnak           Vladimir Tarasenko       Ryan McDonagh            Jake Muzzin              
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Vincent Trocheck         Bryan Rust               Pierre-Edouard Bellemare Erik Johnson             Ryan McDonagh            
+
+<b>Goaltenders</b>
+Starting : Andrei Vasilevskiy       
+Backup : Philipp Grubauer         
+
+<b>Extra Forwards</b>
+Normal : Connor Brown, Pierre-Edouard Bellemare, David Pastrnak - PP : Connor Brown, Pierre-Edouard Bellemare - PK : Bryan Rust
+<b>Extra Defensemen</b>
+Normal : Jamie Oleksiak, Ryan McDonagh, Nick Leddy - PP : Jamie Oleksiak - PK : Erik Johnson, Nick Leddy
+<b>Penalty Shots</b>
+Vladimir Tarasenko, Vincent Trocheck, Nick Leddy, James Neal, David Pastrnak
+
+<b>Scratches</b>
+Alexander Petrovic (Healthy), Tim Heed (Healthy), Fredrik Claesson (Back Surgery Injury)</pre></div>
+<h1 class="TeamLinesPro_PHL"><a id="PhiladelphiaFlyers">Philadelphia Flyers</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#PhiladelphiaFlyers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#PhiladelphiaFlyers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#PhiladelphiaFlyers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#PhiladelphiaFlyers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#PhiladelphiaFlyers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#PhiladelphiaFlyers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#PhiladelphiaFlyers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#PhiladelphiaFlyers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#PhiladelphiaFlyers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#PhiladelphiaFlyers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#PhiladelphiaFlyers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#PhiladelphiaFlyers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_PhiladelphiaFlyers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_PhiladelphiaFlyers" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Max Domi                 Pierre-Luc Dubois        Nick Bjugstad            40     1   2  2  
+ 2 Brian Gibbons            Joel Eriksson Ek         Jussi Jokinen            30     1   2  2  
+ 3 Tyler Graovac            Buddy Robinson           Justin Kloos             20     1   2  2  
+ 4 Austin Czarnik           Matt Martin              Chase Balisy             10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Keith Yandle             Alexander Edler                                   40     1   2  2  
+ 2 Jonas Brodin             Neal Pionk                                        30     1   2  2  
+ 3 Jonathon Merrill         Matt Martin                                       20     1   2  2  
+ 4 Keith Yandle             Alexander Edler                                   10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Max Domi                 Pierre-Luc Dubois        Nick Bjugstad            60     1   2  2  
+ 2 Brian Gibbons            Joel Eriksson Ek         Jussi Jokinen            40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Keith Yandle             Alexander Edler                                   60     1   2  2  
+ 2 Jonas Brodin             Neal Pionk                                        40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Max Domi                 Nick Bjugstad            60     1   2  2  
+ 2 Pierre-Luc Dubois        Brian Gibbons            40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Keith Yandle             Alexander Edler          60     1   2  2  
+ 2 Jonas Brodin             Neal Pionk               40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Max Domi                                          60     1   2  2  
+ 2 Nick Bjugstad                                     40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Keith Yandle             Alexander Edler          60     1   2  2  
+ 2 Jonas Brodin             Neal Pionk               40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Max Domi                 Nick Bjugstad            60     1   2  2  
+ 2 Pierre-Luc Dubois        Brian Gibbons            40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Keith Yandle             Alexander Edler          60     1   2  2  
+ 2 Jonas Brodin             Neal Pionk               40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Max Domi                 Pierre-Luc Dubois        Nick Bjugstad            Keith Yandle             Alexander Edler          
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Max Domi                 Pierre-Luc Dubois        Nick Bjugstad            Keith Yandle             Alexander Edler          
+
+<b>Goaltenders</b>
+Starting : Jaroslav Halak           
+Backup : Alex Stalock             
+
+<b>Extra Forwards</b>
+Normal : Justin Kloos, Buddy Robinson, Nick Bjugstad - PP : Justin Kloos, Buddy Robinson - PK : Max Domi
+<b>Extra Defensemen</b>
+Normal : Jonathon Merrill, Jonas Brodin, Neal Pionk - PP : Jonathon Merrill - PK : Jonas Brodin, Neal Pionk
+<b>Penalty Shots</b>
+Max Domi, Nick Bjugstad, Pierre-Luc Dubois, Brian Gibbons, Joel Eriksson Ek
+
+<b>Scratches</b>
+Samuel Girard (Back Spasms Injury), Joseph Morrow (Healthy), Logan Shaw (Broken Bone (Right Ankle) Injury), Alex Lyon (Healthy)</pre></div>
+<h1 class="TeamLinesPro_PIT"><a id="PittsburghPenguins">Pittsburgh Penguins</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#PittsburghPenguins">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#PittsburghPenguins">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#PittsburghPenguins">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#PittsburghPenguins">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#PittsburghPenguins">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#PittsburghPenguins">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#PittsburghPenguins">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#PittsburghPenguins">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#PittsburghPenguins">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#PittsburghPenguins">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#PittsburghPenguins">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#PittsburghPenguins">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_PittsburghPenguins');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_PittsburghPenguins" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Joe Thornton             James van Riemsdyk       Vladimir Sobotka         40     1   2  2  
+ 2 Evan Rodrigues           Colin Wilson             Cody McLeod              30     1   2  2  
+ 3 Tyson Jost               Tomas Jurco              Matt Read                20     1   2  2  
+ 4 Chris Wagner             Kyle Clifford            Joe Thornton             10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Cam Fowler               Chris Wideman                                     40     1   2  2  
+ 2 Brooks Orpik             Dmitry Kulikov                                    30     1   2  2  
+ 3 Carl Gunnarsson          Trevor van Riemsdyk                               20     1   2  2  
+ 4 Cam Fowler               Brooks Orpik                                      10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Joe Thornton             James van Riemsdyk       Vladimir Sobotka         60     1   2  2  
+ 2 Evan Rodrigues           Tyson Jost               Chris Wagner             40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Cam Fowler               Carl Gunnarsson                                   60     1   2  2  
+ 2 Brooks Orpik             Dmitry Kulikov                                    40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Joe Thornton             James van Riemsdyk       60     1   2  2  
+ 2 Vladimir Sobotka         Evan Rodrigues           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Cam Fowler               Trevor van Riemsdyk      60     1   2  2  
+ 2 Brooks Orpik             Dmitry Kulikov           40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Joe Thornton                                      60     1   2  2  
+ 2 James van Riemsdyk                                40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Cam Fowler               Carl Gunnarsson          60     1   2  2  
+ 2 Brooks Orpik             Dmitry Kulikov           40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Joe Thornton             James van Riemsdyk       60     1   2  2  
+ 2 Vladimir Sobotka         Evan Rodrigues           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Cam Fowler               Chris Wideman            60     1   2  2  
+ 2 Brooks Orpik             Dmitry Kulikov           40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Joe Thornton             James van Riemsdyk       Vladimir Sobotka         Cam Fowler               Chris Wideman            
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Joe Thornton             James van Riemsdyk       Vladimir Sobotka         Cam Fowler               Chris Wideman            
+
+<b>Goaltenders</b>
+Starting : Anton Forsberg           
+Backup : Semyon Varlamov          
+
+<b>Extra Forwards</b>
+Normal : Joe Thornton, Tyson Jost, Chris Wagner - PP : Joe Thornton, Tyson Jost - PK : Chris Wagner
+<b>Extra Defensemen</b>
+Normal : Carl Gunnarsson, Trevor van Riemsdyk, Brooks Orpik - PP : Carl Gunnarsson - PK : Trevor van Riemsdyk, Brooks Orpik
+<b>Penalty Shots</b>
+Joe Thornton, James van Riemsdyk, Vladimir Sobotka, Evan Rodrigues, Tyson Jost
+
+<b>Scratches</b>
+Micheal Ferland (Lower Body Injury), Andrew Shaw (Torn Right Knee Ligaments Injury), Casey Bailey (Healthy), Spencer Abbott (Left Forearm Injury), Philip Samuelsson (Healthy)</pre></div>
+<h1 class="TeamLinesPro_SJS"><a id="SanJoseSharks">San Jose Sharks</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#SanJoseSharks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#SanJoseSharks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#SanJoseSharks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#SanJoseSharks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#SanJoseSharks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#SanJoseSharks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#SanJoseSharks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#SanJoseSharks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#SanJoseSharks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#SanJoseSharks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#SanJoseSharks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#SanJoseSharks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_SanJoseSharks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_SanJoseSharks" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Aleksander Barkov        Taylor Hall              Craig Smith              40     1   3  1  
+ 2 Evgeny Kuznetsov         Ondrej Kase              Phil Kessel              35     1   3  1  
+ 3 Ryan Spooner             Tyler Toffoli            Joel Armia               15     1   3  1  
+ 4 Aleksander Barkov        Andrew Ladd              Travis Konecny           10     1   3  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Kris Letang              Justin Braun                                      40     1   2  2  
+ 2 Jared Spurgeon           Steven Santini                                    35     1   2  2  
+ 3 T.J. Brodie              Gustav Forsling                                   20     1   2  2  
+ 4 Justin Schultz           Jared Spurgeon                                    5      1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Aleksander Barkov        Taylor Hall              Phil Kessel              80     0   0  5  
+ 2 Ryan Spooner             Tyler Toffoli            Craig Smith              20     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Kris Letang              Evgeny Kuznetsov                                  80     0   0  5  
+ 2 Jared Spurgeon           T.J. Brodie                                       20     0   0  5  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Joel Armia               Andrew Ladd              70     0   5  0  
+ 2 Aleksander Barkov        Joel Armia               30     0   5  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Steven Santini           Justin Braun             70     0   5  0  
+ 2 T.J. Brodie              Jared Spurgeon           30     0   5  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Joel Armia                                        65     0   5  0  
+ 2 Aleksander Barkov                                 35     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Steven Santini           Justin Braun             75     0   5  0  
+ 2 T.J. Brodie              Jared Spurgeon           25     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Aleksander Barkov        Taylor Hall              50     0   0  5  
+ 2 Evgeny Kuznetsov         Phil Kessel              50     0   0  5  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Kris Letang              Justin Braun             50     1   2  2  
+ 2 Jared Spurgeon           T.J. Brodie              50     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Aleksander Barkov        Taylor Hall              Phil Kessel              Kris Letang              Jared Spurgeon           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Aleksander Barkov        Andrew Ladd              Joel Armia               Justin Braun             Jared Spurgeon           
+
+<b>Goaltenders</b>
+Starting : Corey Crawford           
+Backup : Michal Neuvirth          
+
+<b>Extra Forwards</b>
+Normal : Ondrej Kase, Travis Konecny, Ryan Spooner - PP : Ondrej Kase, Andrew Ladd - PK : Tyler Toffoli
+<b>Extra Defensemen</b>
+Normal : Justin Schultz, Steven Santini, Gustav Forsling - PP : Justin Schultz - PK : Gustav Forsling, Kris Letang
+<b>Penalty Shots</b>
+Aleksander Barkov, Evgeny Kuznetsov, Ondrej Kase, Kris Letang, Phil Kessel
+
+<b>Scratches</b>
+Kyle Brodziak (Healthy), Darren Archibald (Healthy), Laurent Brossoit (Healthy)</pre></div>
+<h1 class="TeamLinesPro_STL"><a id="St.LouisBlues">St. Louis Blues</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#St.LouisBlues">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#St.LouisBlues">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#St.LouisBlues">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#St.LouisBlues">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#St.LouisBlues">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#St.LouisBlues">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#St.LouisBlues">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#St.LouisBlues">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#St.LouisBlues">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#St.LouisBlues">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#St.LouisBlues">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#St.LouisBlues">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_St.LouisBlues');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_St.LouisBlues" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Jonathan Drouin          Anthony Beauvillier      Jakub Vrana              40     1   2  2  
+ 2 Devante Smith-Pelly      Gabriel Bourque          Jason Pominville         30     1   2  2  
+ 3 Cedric Paquette          Tyler Ennis              Dale Weise               20     1   2  2  
+ 4 Jori Lehtera             Tanner Kero              Steve Bernier            10     1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Brendan Smith                                     40     1   2  2  
+ 2 Nick Seeler              Unknown Player                                    30     1   2  2  
+ 3 Alex Biega               Dalton Prout                                      20     1   2  2  
+ 4 Unknown Player           Brendan Smith                                     10     1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Jonathan Drouin          Anthony Beauvillier      Jason Pominville         60     1   2  2  
+ 2 Devante Smith-Pelly      Gabriel Bourque          Steve Bernier            40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Unknown Player           Brendan Smith                                     60     1   2  2  
+ 2 Alex Biega               Dalton Prout                                      40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Jonathan Drouin          Anthony Beauvillier      60     1   2  2  
+ 2 Jason Pominville         Devante Smith-Pelly      40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Brendan Smith            60     1   2  2  
+ 2 Alex Biega               Dalton Prout             40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Jonathan Drouin                                   60     1   2  2  
+ 2 Anthony Beauvillier                               40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Brendan Smith            60     1   2  2  
+ 2 Alex Biega               Dalton Prout             40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Jonathan Drouin          Anthony Beauvillier      60     1   2  2  
+ 2 Jason Pominville         Devante Smith-Pelly      40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Unknown Player           Brendan Smith            60     1   2  2  
+ 2 Alex Biega               Dalton Prout             40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Jonathan Drouin          Anthony Beauvillier      Jason Pominville         Unknown Player           Brendan Smith            
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Jonathan Drouin          Anthony Beauvillier      Jason Pominville         Unknown Player           Brendan Smith            
+
+<b>Goaltenders</b>
+Starting : Andrew Hammond           
+Backup : Louis Domingue           
+
+<b>Extra Forwards</b>
+Normal : Tyler Ennis, Cedric Paquette, Jori Lehtera - PP : Tyler Ennis, Cedric Paquette - PK : Jori Lehtera
+<b>Extra Defensemen</b>
+Normal : Nick Seeler, Unknown Player, Alex Biega - PP : Nick Seeler - PK : Unknown Player, Alex Biega
+<b>Penalty Shots</b>
+Jonathan Drouin, Anthony Beauvillier, Jason Pominville, Devante Smith-Pelly, Gabriel Bourque
+
+<b>Scratches</b>
+Jakob Chychrun (Healthy), Adam McQuaid (Healthy), David Savard (Healthy), Daniel Carr (Healthy), Chad Johnson (Healthy)</pre></div>
+<h1 class="TeamLinesPro_TBL"><a id="TampaBayLightning">Tampa Bay Lightning</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#TampaBayLightning">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#TampaBayLightning">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#TampaBayLightning">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#TampaBayLightning">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#TampaBayLightning">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#TampaBayLightning">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#TampaBayLightning">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#TampaBayLightning">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#TampaBayLightning">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#TampaBayLightning">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#TampaBayLightning">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#TampaBayLightning">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_TampaBayLightning');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_TampaBayLightning" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 John Tavares             Mike Hoffman             Lars Eller               40     0   2  3  
+ 2 Ryan Kesler              Alex Steen               Joel Ward                30     0   2  3  
+ 3 Brandon Sutter           Shawn Matthias           Magnus Paajarvi          16     1   3  1  
+ 4 Tyler Motte              Miikka Salomaki          Tom Kuhnhackl            14     3   2  0  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Esa Lindell              Brent Burns                                       40     0   5  0  
+ 2 Kevin Connauton          Jason Garrison                                    30     1   4  0  
+ 3 Niklas Kronwall          Seth Helgeson                                     20     0   5  0  
+ 4 Kevin Connauton          Jason Garrison                                    10     1   4  0  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 John Tavares             Lars Eller               Mike Hoffman             60     0   0  5  
+ 2 Ryan Kesler              Brandon Sutter           Alex Steen               40     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Esa Lindell              Brent Burns                                       60     0   1  4  
+ 2 Kevin Connauton          Niklas Kronwall                                   40     0   1  4  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Brandon Sutter           Tom Kuhnhackl            60     0   5  0  
+ 2 Ryan Kesler              Shawn Matthias           40     0   5  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Esa Lindell              Jason Garrison           60     0   5  0  
+ 2 Niklas Kronwall          Kevin Connauton          40     0   5  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Brandon Sutter                                    60     0   5  0  
+ 2 Ryan Kesler                                       40     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Esa Lindell              Jason Garrison           60     0   5  0  
+ 2 Niklas Kronwall          Kevin Connauton          40     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 John Tavares             Mike Hoffman             60     0   2  3  
+ 2 Lars Eller               Alex Steen               40     0   2  3  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Kevin Connauton          Jason Garrison           60     0   2  3  
+ 2 Esa Lindell              Niklas Kronwall          40     0   2  3  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   John Tavares             Alex Steen               Mike Hoffman             Esa Lindell              Brent Burns              
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Ryan Kesler              Shawn Matthias           Brandon Sutter           Esa Lindell              Jason Garrison           
+
+<b>Goaltenders</b>
+Starting : Unknown Goalie           
+Backup : Francois Brassard        
+
+<b>Extra Forwards</b>
+Normal : John Tavares, Mike Hoffman, Alex Steen - PP : Ryan Kesler, John Tavares - PK : Shawn Matthias
+<b>Extra Defensemen</b>
+Normal : Brent Burns, Esa Lindell, Niklas Kronwall - PP : Niklas Kronwall - PK : Jason Garrison, Niklas Kronwall
+<b>Penalty Shots</b>
+Alex Steen, Mike Hoffman, John Tavares, Lars Eller, Ryan Kesler
+
+<b>Scratches</b>
+Matt Moulson (Healthy), Erik Gudbranson (Healthy), Brian Elliott (Fatigue (too many games)), Matt Tomkins (Healthy), Scott Wedgewood (Healthy)</pre></div>
+<h1 class="TeamLinesPro_TOR"><a id="TorontoMapleLeafs">Toronto Maple Leafs</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#TorontoMapleLeafs">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#TorontoMapleLeafs">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#TorontoMapleLeafs">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#TorontoMapleLeafs">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#TorontoMapleLeafs">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#TorontoMapleLeafs">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#TorontoMapleLeafs">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#TorontoMapleLeafs">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#TorontoMapleLeafs">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#TorontoMapleLeafs">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#TorontoMapleLeafs">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#TorontoMapleLeafs">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_TorontoMapleLeafs');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_TorontoMapleLeafs" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Evgeni Malkin            Boone Jenner             Brayden Schenn           35     0   3  2  
+ 2 Tomas Hertl              Rick Nash                Wayne Simmonds           35     0   3  2  
+ 3 Christian Dvorak         Zach Aston-Reese         Brendan Gallagher        20     0   3  2  
+ 4 Casey Cizikas            Tomas Hertl              Tyler Pitlick            10     1   4  0  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Alex Pietrangelo         Zdeno Chara                                       40     0   3  2  
+ 2 Dougie Hamilton          Ben Lovejoy                                       30     0   4  1  
+ 3 Patrik Nemeth            Mark Borowiecki                                   25     0   4  1  
+ 4 Alex Pietrangelo         Shea Theodore                                     5      0   4  1  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Evgeni Malkin            Boone Jenner             Brayden Schenn           60     0   0  5  
+ 2 Tomas Hertl              Rick Nash                Wayne Simmonds           40     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Alex Pietrangelo         Dougie Hamilton                                   60     0   2  3  
+ 2 Zdeno Chara              Shea Theodore                                     40     0   2  3  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Casey Cizikas            Zach Aston-Reese         60     1   4  0  
+ 2 Boone Jenner             Tyler Pitlick            40     1   4  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Zdeno Chara              Ben Lovejoy              60     1   4  0  
+ 2 Alex Pietrangelo         Patrik Nemeth            40     1   4  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Casey Cizikas                                     60     1   4  0  
+ 2 Tyler Pitlick                                     40     1   4  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Zdeno Chara              Ben Lovejoy              60     1   4  0  
+ 2 Alex Pietrangelo         Patrik Nemeth            40     1   4  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Evgeni Malkin            Tomas Hertl              60     1   2  2  
+ 2 Brayden Schenn           Wayne Simmonds           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Alex Pietrangelo         Zdeno Chara              60     0   3  2  
+ 2 Dougie Hamilton          Ben Lovejoy              40     0   4  1  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Evgeni Malkin            Tomas Hertl              Brayden Schenn           Zdeno Chara              Alex Pietrangelo         
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Casey Cizikas            Boone Jenner             Tyler Pitlick            Zdeno Chara              Alex Pietrangelo         
+
+<b>Goaltenders</b>
+Starting : Darcy Kuemper            
+Backup : Frederik Andersen        
+
+<b>Extra Forwards</b>
+Normal : Evgeni Malkin, Tomas Hertl, Brendan Gallagher - PP : Evgeni Malkin, Brayden Schenn - PK : Casey Cizikas
+<b>Extra Defensemen</b>
+Normal : Dougie Hamilton, Ben Lovejoy, Patrik Nemeth - PP : Dougie Hamilton - PK : Zdeno Chara, Ben Lovejoy
+<b>Penalty Shots</b>
+Casey Cizikas, Evgeni Malkin, Rick Nash, Shea Theodore, Wayne Simmonds
+
+<b>Scratches</b>
+Noel Acciari (Healthy), Sean Kuraly (Healthy), Jordan Martinook (Healthy)</pre></div>
+<h1 class="TeamLinesPro_VAN"><a id="VancouverCanucks">Vancouver Canucks</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#VancouverCanucks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#VancouverCanucks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#VancouverCanucks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#VancouverCanucks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#VancouverCanucks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#VancouverCanucks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#VancouverCanucks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#VancouverCanucks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#VancouverCanucks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#VancouverCanucks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#VancouverCanucks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#VancouverCanucks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_VancouverCanucks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_VancouverCanucks" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Auston Matthews          Gustav Nyquist           Mikko Rantanen           33     0   1  4  
+ 2 Nick Bonino              Lukas Sedlak             Unknown Player           30     0   5  0  
+ 3 Nico Hischier            Kyle Connor              Patrick Maroon           30     1   2  2  
+ 4 Victor Rask              Brandon Saad             Chris Terry              7      1   2  2  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Jake Gardiner            Nikita Zaitsev                                    44     0   4  1  
+ 2 Brenden Dillon           Stephen Johns                                     33     1   4  0  
+ 3 Matt Irwin               Ben Harpur                                        23     1   4  0  
+ 4 Jake Gardiner            Brenden Dillon                                    0      0   2  3  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Auston Matthews          Gustav Nyquist           Mikko Rantanen           70     0   1  4  
+ 2 Nico Hischier            Kyle Connor              Brandon Saad             30     0   1  4  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Jake Gardiner            Brenden Dillon                                    65     0   1  4  
+ 2 Matt Irwin               Stephen Johns                                     35     0   1  4  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Nick Bonino              Unknown Player           70     1   4  0  
+ 2 Lukas Sedlak             Chris Terry              30     1   4  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Stephen Johns            Nikita Zaitsev           65     1   4  0  
+ 2 Ben Harpur               Brenden Dillon           35     1   4  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Nick Bonino                                       60     1   4  0  
+ 2 Unknown Player                                    40     1   4  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Stephen Johns            Nikita Zaitsev           65     0   5  0  
+ 2 Ben Harpur               Brenden Dillon           35     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Auston Matthews          Mikko Rantanen           60     0   2  3  
+ 2 Victor Rask              Kyle Connor              40     0   2  3  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Jake Gardiner            Nikita Zaitsev           60     0   4  1  
+ 2 Brenden Dillon           Ben Harpur               40     0   4  1  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Auston Matthews          Kyle Connor              Mikko Rantanen           Jake Gardiner            Brenden Dillon           
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Nick Bonino              Lukas Sedlak             Unknown Player           Stephen Johns            Nikita Zaitsev           
+
+<b>Goaltenders</b>
+Starting : Henrik Lundqvist         
+Backup : Aaron Dell               
+
+<b>Extra Forwards</b>
+Normal : Brandon Saad, Patrick Maroon, Nick Bonino - PP : Patrick Maroon, Brandon Saad - PK : Unknown Player
+<b>Extra Defensemen</b>
+Normal : Jake Gardiner, Nikita Zaitsev, Matt Irwin - PP : Nikita Zaitsev - PK : Jake Gardiner, Brenden Dillon
+<b>Penalty Shots</b>
+Nick Bonino, Auston Matthews, Chris Terry, Gustav Nyquist, Mikko Rantanen
+
+<b>Scratches</b>
+Brooks Laich (Left Knee Injury), Joakim Ryan (Healthy), Zack Smith (Strained Back Injury)</pre></div>
+<h1 class="TeamLinesPro_VGK"><a id="VegasGoldenKnights">Vegas Golden Knights</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#VegasGoldenKnights">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#VegasGoldenKnights">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#VegasGoldenKnights">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#VegasGoldenKnights">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#VegasGoldenKnights">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#VegasGoldenKnights">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#VegasGoldenKnights">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#VegasGoldenKnights">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#VegasGoldenKnights">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#VegasGoldenKnights">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#VegasGoldenKnights">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#VegasGoldenKnights">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_VegasGoldenKnights');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_VegasGoldenKnights" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Patrick Marleau          Tomas Tatar              David Backes             28     1   1  3  
+ 2 Nicklas Backstrom        Sam Gagner               Tanner Pearson           28     1   1  3  
+ 3 Colton Sissons           Eric Fehr                Troy Brouwer             22     1   3  1  
+ 4 Jason Spezza             Mike Cammalleri          Nic Dowd                 22     1   1  3  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Mark Giordano            Marc Methot                                       35     1   2  2  
+ 2 Johnny Boychuk           Travis Hamonic                                    33     1   2  2  
+ 3 Robert Bortuzzo          Ryan Murray                                       24     1   2  2  
+ 4 Johnny Boychuk           Travis Hamonic                                    8      1   2  2  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Nicklas Backstrom        Patrick Marleau          David Backes             60     0   0  5  
+ 2 Jason Spezza             Tomas Tatar              Tanner Pearson           40     0   0  5  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Mark Giordano            Ryan Murray                                       60     0   0  5  
+ 2 Johnny Boychuk           Travis Hamonic                                    40     0   0  5  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Colton Sissons           Troy Brouwer             70     0   5  0  
+ 2 Nicklas Backstrom        Eric Fehr                30     0   5  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Johnny Boychuk           Travis Hamonic           50     0   5  0  
+ 2 Marc Methot              Mark Giordano            50     0   5  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Colton Sissons                                    60     0   5  0  
+ 2 Troy Brouwer                                      40     0   5  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Johnny Boychuk           Travis Hamonic           50     0   5  0  
+ 2 Mark Giordano            Marc Methot              50     0   5  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Nicklas Backstrom        David Backes             55     1   2  2  
+ 2 Patrick Marleau          Tomas Tatar              45     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Mark Giordano            Marc Methot              50     1   2  2  
+ 2 Johnny Boychuk           Travis Hamonic           50     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Nicklas Backstrom        Patrick Marleau          David Backes             Mark Giordano            Ryan Murray              
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Colton Sissons           Eric Fehr                Troy Brouwer             Johnny Boychuk           Travis Hamonic           
+
+<b>Goaltenders</b>
+Starting : Jack Campbell            
+Backup : Cory Schneider           
+
+<b>Extra Forwards</b>
+Normal : Nicklas Backstrom, Patrick Marleau, David Backes - PP : Nicklas Backstrom, Patrick Marleau - PK : Eric Fehr
+<b>Extra Defensemen</b>
+Normal : Johnny Boychuk, Ryan Murray, Travis Hamonic - PP : Johnny Boychuk - PK : Johnny Boychuk, Ryan Murray
+<b>Penalty Shots</b>
+Mark Giordano, Sam Gagner, Mike Cammalleri, Nicklas Backstrom, Eric Fehr
+
+<b>Scratches</b>
+Marcus Sorensen (Healthy), David Schlemko (Sprained Left Ankle Injury), David Warsofsky (Healthy), Antti Raanta (Left Wrist Injury)</pre></div>
+<h1 class="TeamLinesPro_WSH"><a id="WashingtonCapitals">Washington Capitals</a></h1>
+<b>Lines are Incomplete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#WashingtonCapitals">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#WashingtonCapitals">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#WashingtonCapitals">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#WashingtonCapitals">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#WashingtonCapitals">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#WashingtonCapitals">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#WashingtonCapitals">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#WashingtonCapitals">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#WashingtonCapitals">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#WashingtonCapitals">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#WashingtonCapitals">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#WashingtonCapitals">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_WashingtonCapitals');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_WashingtonCapitals" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Jack Eichel              Patrik Berglund          T.J. Oshie               35     2   1  2  
+ 2 Ryan Johansen            Jamie Benn               Kyle Palmieri            35     2   1  2  
+ 3 Matthew Peca             Darren Helm              Justin Williams          20     2   2  1  
+ 4 Dominic Moore            Alex Iafallo             Chandler Stephenson      10     2   3  0  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Drew Doughty             Alec Martinez                                     40     2   2  1  
+ 2 Jacob Trouba             Derek Forbort                                     30     2   2  1  
+ 3 Unknown Player           Steven Kampfer                                    20     2   3  0  
+ 4 Drew Doughty             Jacob Trouba                                      10     2   2  1  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Jack Eichel              Jamie Benn               T.J. Oshie               60     1   1  3  
+ 2 Ryan Johansen            Patrik Berglund          Kyle Palmieri            40     1   1  3  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Drew Doughty             Jacob Trouba                                      60     2   1  2  
+ 2 Alec Martinez            Derek Forbort                                     40     2   1  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Matthew Peca             Darren Helm              60     1   4  0  
+ 2 Dominic Moore            Chandler Stephenson      40     1   4  0  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Alec Martinez            Unknown Player           60     2   3  0  
+ 2 Drew Doughty             Derek Forbort            40     2   3  0  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Patrik Berglund                                   60     1   4  0  
+ 2 Darren Helm                                       40     1   4  0  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Alec Martinez            Jacob Trouba             60     2   3  0  
+ 2 Drew Doughty             Derek Forbort            40     2   3  0  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Jack Eichel              Jamie Benn               60     2   1  2  
+ 2 Ryan Johansen            T.J. Oshie               40     2   1  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Drew Doughty             Alec Martinez            60     2   1  2  
+ 2 Jacob Trouba             Derek Forbort            40     2   1  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Jack Eichel              Jamie Benn               T.J. Oshie               Drew Doughty             Jacob Trouba             
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Jamie Benn               Patrik Berglund          Darren Helm              Drew Doughty             Alec Martinez            
+
+<b>Goaltenders</b>
+Starting : Jonathan Quick           
+Backup : Curtis McElhinney        
+
+<b>Extra Forwards</b>
+Normal : Kyle Palmieri, Matthew Peca, Darren Helm - PP : Ryan Johansen, Matthew Peca - PK : Matthew Peca
+<b>Extra Defensemen</b>
+Normal : Unknown Player, Alec Martinez, Steven Kampfer - PP : Unknown Player - PK : Drew Doughty, Alec Martinez
+<b>Penalty Shots</b>
+T.J. Oshie, Darren Helm, Jamie Benn, Ryan Johansen, Justin Williams
+
+<b>Scratches</b>
+Oscar Fantenberg (Healthy), Paul Ladue (Healthy), Mark Pysyk (Healthy)</pre></div>
+<h1 class="TeamLinesPro_WPG"><a id="WinnipegJets">Winnipeg Jets</a></h1>
+<b>Lines are Complete</b><br />
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#WinnipegJets">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#WinnipegJets">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#WinnipegJets">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#WinnipegJets">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#WinnipegJets">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#WinnipegJets">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#WinnipegJets">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#WinnipegJets">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#WinnipegJets">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#WinnipegJets">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#WinnipegJets">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#WinnipegJets">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_WinnipegJets');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_WinnipegJets" style="display: block;">
+<pre><b>5 vs 5 Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Eric Staal               Matthew Tkachuk          Mikkel Boedker           40     1   1  3  
+ 2 Jay Beagle               Joonas Donskoi           Kasperi Kapanen          30     1   2  2  
+ 3 Jonathan Toews           Scott Wilson             Chris Thorburn           20     1   3  1  
+ 4 John McCarthy            Markus Hannikainen       Mike Sislo               10     2   2  1  
+
+<b>5 vs 5 Defense 
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Sami Vatanen             Kevin Shattenkirk                                 40     1   1  3  
+ 2 Olli Maatta              Mike Green                                        30     1   2  2  
+ 3 Rob O'Gara               Kevin Bieksa                                      20     1   3  1  
+ 4 Sami Vatanen             Mike Green                                        10     2   2  1  
+
+<b>PowerPlay Forward 
+   Center                   Left Wing                Right Wing               Time % Phy DF OF </b>
+ 1 Kasperi Kapanen          Eric Staal               Mikkel Boedker           60     1   2  2  
+ 2 Jay Beagle               Matthew Tkachuk          Joonas Donskoi           40     1   2  2  
+
+<b>PowerPlay Defense
+   Defense                  Defense                                           Time % Phy DF OF </b>
+ 1 Sami Vatanen             Mike Green                                        60     1   2  2  
+ 2 Olli Maatta              Kevin Shattenkirk                                 40     1   2  2  
+
+<b>Penalty Kill 4 Players Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Eric Staal               Jay Beagle               60     1   2  2  
+ 2 Matthew Tkachuk          Mikkel Boedker           40     1   2  2  
+
+<b>Penalty Kill 4 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Sami Vatanen             Mike Green               60     1   2  2  
+ 2 Kevin Bieksa             Kevin Shattenkirk        40     1   2  2  
+
+<b>Penalty Kill - 3 Players Forward 
+   Forward                                           Time % Phy DF OF </b>
+ 1 Matthew Tkachuk                                   60     1   2  2  
+ 2 Mikkel Boedker                                    40     1   2  2  
+
+<b>Penalty Kill - 3 Players Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Sami Vatanen             Mike Green               60     1   2  2  
+ 2 Kevin Bieksa             Kevin Shattenkirk        40     1   2  2  
+
+<b>4 vs 4 Forward 
+   Center                   Wing                     Time % Phy DF OF </b>
+ 1 Jay Beagle               Kasperi Kapanen          60     1   2  2  
+ 2 Matthew Tkachuk          Mikkel Boedker           40     1   2  2  
+
+<b>4 vs 4 Defense
+   Defense                  Defense                  Time % Phy DF OF </b>
+ 1 Sami Vatanen             Mike Green               60     1   2  2  
+ 2 Kevin Bieksa             Kevin Shattenkirk        40     1   2  2  
+
+<b>Last Minutes Offensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Jay Beagle               Eric Staal               Mikkel Boedker           Sami Vatanen             Mike Green               
+
+<b>Last Minutes Defensive
+   Center                   Left Wing                Right Wing               Defense                  Defense                  </b>
+   Jay Beagle               Eric Staal               Mikkel Boedker           Sami Vatanen             Mike Green               
+
+<b>Goaltenders</b>
+Starting : Christopher Gibson       
+Backup : Matt Murray              
+
+<b>Extra Forwards</b>
+Normal : Kasperi Kapanen, Scott Wilson, Mikkel Boedker - PP : Kasperi Kapanen, Scott Wilson - PK : Mikkel Boedker
+<b>Extra Defensemen</b>
+Normal : Rob O'Gara, Sami Vatanen, Kevin Bieksa - PP : Rob O'Gara - PK : Mike Green, Kevin Bieksa
+<b>Penalty Shots</b>
+Eric Staal, Scott Wilson, Matthew Tkachuk, Mikkel Boedker, Jay Beagle
+
+<b>Scratches</b>
+Ales Hemsky (Strained Left Knee Injury), Brian Flynn (Healthy), Ben Street (Bruised Right Shoulder Injury), David Broll (Healthy), Juuse Saros (Healthy)</pre></div>
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

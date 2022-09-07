@@ -1,0 +1,587 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>OTHL - Farm Individual Leaders</title>
+<script type="text/javascript" src="OTHL-PRE.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.1.2.2" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<link href="OTHL-PRE.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL-PRE Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague" class="activemenu"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-PRE-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-PRE-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-PRE-Schedule.html">Schedule </a></td>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-PRE-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-PRE-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-PRE-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PRE-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PRE-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PRE-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PRE-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PRE-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PRE-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-PRE-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-PRE-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-PRE-TeamHistory.html">History</a></td>
+<td><a href="OTHL-PRE-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-PRE-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-PRE-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-PRE-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PRE-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PRE-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PRE-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PRE-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PRE-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PRE-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-PRE-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-PRE-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-PRE-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-PRE-TeamsAndGMInfo.html">Team/GM</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-PRE-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Ducks">ANH</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Coyotes">ARI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Bruins">BOS</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Sabres">BUF</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Hurricanes">CAR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Flames">CGY</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Blackhawks">CHI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#BlueJackets">CLB</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Avalanche">COL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Stars">DAL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#RedWings">DET</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Oilers">EDM</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Panthers">FLA</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Kings">LAK</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Wild">MIN</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Canadiens">MTL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Devils">NJD</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Predators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Islanders">NYI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Rangers">NYR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Senators">OTT</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Flyers">PHL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Penguins">PIT</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Sharks">SJS</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Blues">STL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Lightning">TBL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#MapleLeafs">TOR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Canucks">VAN</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#GoldenKnights">VGK</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Jets">WPG</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#Capitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Farm Individual Leaders</td><td class="STHSHeaderDate">Last Update - October 2, 2018 at 13:36</td></tr>
+</table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<b>Minimum Games Played: 1</b><br />
+<script type="text/javascript">$(function(){$("table").basictablesorter()});</script>
+<table class="STHSTableFullW">
+<tr><td colspan="3"><h2 class="STHSFarmIndividualLeader_Players">Players</h2></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Goals</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>G</th></tr></thead>
+<tr><td>1</td><td>Frank Vatrano (CHR)</td><td>16</td><td>28</td></tr>
+<tr><td>2</td><td>Chase De Leo (BEL)</td><td>16</td><td>26</td></tr>
+<tr><td>3</td><td>Nathan Walker (PRO)</td><td>16</td><td>26</td></tr>
+<tr><td>4</td><td>Anthony Peluso (MIL)</td><td>16</td><td>25</td></tr>
+<tr><td>5</td><td>Liam O'Brien (SYR)</td><td>16</td><td>23</td></tr>
+<tr><td>6</td><td>Seth Griffith (IOA)</td><td>16</td><td>23</td></tr>
+<tr><td>7</td><td>Justin Auger (PRO)</td><td>16</td><td>23</td></tr>
+<tr><td>8</td><td>Henrik Samuelsson (TOR)</td><td>16</td><td>22</td></tr>
+<tr><td>9</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>21</td></tr>
+<tr><td>10</td><td>Alexandre Grenier (SYR)</td><td>16</td><td>21</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Assists</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>A</th></tr></thead>
+<tr><td>1</td><td>Chase Balisy (LVP)</td><td>16</td><td>31</td></tr>
+<tr><td>2</td><td>Viktor Svedberg (LAV)</td><td>16</td><td>29</td></tr>
+<tr><td>3</td><td>Pontus Aberg (PRO)</td><td>16</td><td>26</td></tr>
+<tr><td>4</td><td>Chris Bigras (PRO)</td><td>16</td><td>25</td></tr>
+<tr><td>5</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>25</td></tr>
+<tr><td>6</td><td>Chris Porter (IOA)</td><td>16</td><td>24</td></tr>
+<tr><td>7</td><td>Alexandre Grenier (SYR)</td><td>16</td><td>24</td></tr>
+<tr><td>8</td><td>Phillip Di Giuseppe (CLE)</td><td>16</td><td>23</td></tr>
+<tr><td>9</td><td>Luke Johnson (SPR)</td><td>16</td><td>23</td></tr>
+<tr><td>10</td><td>Nikita Scherbak (CLE)</td><td>16</td><td>22</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Shots</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>SHT</th></tr></thead>
+<tr><td>1</td><td>Rocco Grimaldi (IOA)</td><td>16</td><td>145</td></tr>
+<tr><td>2</td><td>Chase De Leo (BEL)</td><td>16</td><td>130</td></tr>
+<tr><td>3</td><td>Nikita Scherbak (CLE)</td><td>16</td><td>124</td></tr>
+<tr><td>4</td><td>Christian Thomas (LAV)</td><td>16</td><td>124</td></tr>
+<tr><td>5</td><td>Nathan Walker (PRO)</td><td>16</td><td>116</td></tr>
+<tr><td>6</td><td>Henrik Samuelsson (TOR)</td><td>16</td><td>112</td></tr>
+<tr><td>7</td><td>Jake Virtanen (CLE)</td><td>16</td><td>108</td></tr>
+<tr><td>8</td><td>Travis Morin (IOA)</td><td>16</td><td>106</td></tr>
+<tr><td>9</td><td>Chris Porter (IOA)</td><td>16</td><td>104</td></tr>
+<tr><td>10</td><td>Stephen Gionta (TOR)</td><td>14</td><td>103</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Shots %</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>SHT %</th></tr></thead>
+<tr><td>1</td><td>Joakim Ryan (UTI)</td><td>1</td><td>66.67%</td></tr>
+<tr><td>2</td><td>Danick Martel (UTI)</td><td>1</td><td>50.00%</td></tr>
+<tr><td>3</td><td>Andy Andreoff (CHR)</td><td>7</td><td>46.15%</td></tr>
+<tr><td>4</td><td>Freddie Hamilton (SJB)</td><td>2</td><td>42.86%</td></tr>
+<tr><td>5</td><td>Brooks Laich (UTI)</td><td>1</td><td>33.33%</td></tr>
+<tr><td>6</td><td>Ben Harpur (UTI)</td><td>1</td><td>33.33%</td></tr>
+<tr><td>7</td><td>Brian Boyle (RCK)</td><td>2</td><td>33.33%</td></tr>
+<tr><td>8</td><td>Tage Thompson (UTI)</td><td>2</td><td>33.33%</td></tr>
+<tr><td>9</td><td>Trevor Murphy (ROC)</td><td>12</td><td>31.25%</td></tr>
+<tr><td>10</td><td>Brad Malone (STK)</td><td>6</td><td>31.03%</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Centers</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>PTS</th></tr></thead>
+<tr><td>1</td><td>Chase Balisy (LVP)</td><td>16</td><td>18-31-49</td></tr>
+<tr><td>2</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>21-25-46</td></tr>
+<tr><td>3</td><td>Frank Vatrano (CHR)</td><td>16</td><td>28-16-44</td></tr>
+<tr><td>4</td><td>Liam O'Brien (SYR)</td><td>16</td><td>23-21-44</td></tr>
+<tr><td>5</td><td>Chase De Leo (BEL)</td><td>16</td><td>26-9-35</td></tr>
+<tr><td>6</td><td>Jonny Brodzinski (LAV)</td><td>16</td><td>18-16-34</td></tr>
+<tr><td>7</td><td>Luke Johnson (SPR)</td><td>16</td><td>10-23-33</td></tr>
+<tr><td>8</td><td>Kalle Kossila (LAV)</td><td>16</td><td>15-17-32</td></tr>
+<tr><td>9</td><td>Phil Varone (TEX)</td><td>16</td><td>14-18-32</td></tr>
+<tr><td>10</td><td>Hunter Shinkaruk (CLE)</td><td>16</td><td>12-20-32</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Left Wings</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>PTS</th></tr></thead>
+<tr><td>1</td><td>Chase Balisy (LVP)</td><td>16</td><td>18-31-49</td></tr>
+<tr><td>2</td><td>Frank Vatrano (CHR)</td><td>16</td><td>28-16-44</td></tr>
+<tr><td>3</td><td>Liam O'Brien (SYR)</td><td>16</td><td>23-21-44</td></tr>
+<tr><td>4</td><td>Pontus Aberg (PRO)</td><td>16</td><td>15-26-41</td></tr>
+<tr><td>5</td><td>Nikita Scherbak (CLE)</td><td>16</td><td>17-22-39</td></tr>
+<tr><td>6</td><td>Jake Virtanen (CLE)</td><td>16</td><td>17-20-37</td></tr>
+<tr><td>7</td><td>Marcus Sorensen (TEX)</td><td>16</td><td>14-22-36</td></tr>
+<tr><td>8</td><td>Garrett Wilson (SPR)</td><td>16</td><td>16-19-35</td></tr>
+<tr><td>9</td><td>Ryan Lomberg (LAV)</td><td>16</td><td>13-21-34</td></tr>
+<tr><td>10</td><td>Phillip Di Giuseppe (CLE)</td><td>16</td><td>11-23-34</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Right Wings</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>PTS</th></tr></thead>
+<tr><td>1</td><td>Chase Balisy (LVP)</td><td>16</td><td>18-31-49</td></tr>
+<tr><td>2</td><td>Alexandre Grenier (SYR)</td><td>16</td><td>21-24-45</td></tr>
+<tr><td>3</td><td>Frank Vatrano (CHR)</td><td>16</td><td>28-16-44</td></tr>
+<tr><td>4</td><td>Pontus Aberg (PRO)</td><td>16</td><td>15-26-41</td></tr>
+<tr><td>5</td><td>Justin Auger (PRO)</td><td>16</td><td>23-17-40</td></tr>
+<tr><td>6</td><td>Nikita Scherbak (CLE)</td><td>16</td><td>17-22-39</td></tr>
+<tr><td>7</td><td>Jake Virtanen (CLE)</td><td>16</td><td>17-20-37</td></tr>
+<tr><td>8</td><td>Marcus Sorensen (TEX)</td><td>16</td><td>14-22-36</td></tr>
+<tr><td>9</td><td>Christian Thomas (LAV)</td><td>16</td><td>19-15-34</td></tr>
+<tr><td>10</td><td>Jonny Brodzinski (LAV)</td><td>16</td><td>18-16-34</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Defenseman</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>PTS</th></tr></thead>
+<tr><td>1</td><td>Chris Bigras (PRO)</td><td>16</td><td>6-25-31</td></tr>
+<tr><td>2</td><td>Viktor Svedberg (LAV)</td><td>16</td><td>0-29-29</td></tr>
+<tr><td>3</td><td>Thomas Chabot (TUC)</td><td>16</td><td>10-16-26</td></tr>
+<tr><td>4</td><td>Mark Alt (LVP)</td><td>16</td><td>4-22-26</td></tr>
+<tr><td>5</td><td>Eric Gryba (SPR)</td><td>16</td><td>4-17-21</td></tr>
+<tr><td>6</td><td>Michael Kapla (LAV)</td><td>16</td><td>2-19-21</td></tr>
+<tr><td>7</td><td>Alexandre Carrier (BEL)</td><td>16</td><td>7-13-20</td></tr>
+<tr><td>8</td><td>Stu Bickel (TOR)</td><td>14</td><td>5-15-20</td></tr>
+<tr><td>9</td><td>Travis Sanheim (CHI)</td><td>16</td><td>5-15-20</td></tr>
+<tr><td>10</td><td>Ryan Stanton (TOR)</td><td>14</td><td>3-15-18</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Points per 20 Minutes</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>P/20</th></tr></thead>
+<tr><td>1</td><td>Alexandre Grenier (SYR)</td><td>16</td><td>5.52</td></tr>
+<tr><td>2</td><td>Liam O'Brien (SYR)</td><td>16</td><td>5.39</td></tr>
+<tr><td>3</td><td>Justin Dowling (UTI)</td><td>2</td><td>4.22</td></tr>
+<tr><td>4</td><td>Ryan Carpenter (ROC)</td><td>4</td><td>3.84</td></tr>
+<tr><td>5</td><td>Gabriel Dumont (UTI)</td><td>2</td><td>3.57</td></tr>
+<tr><td>6</td><td>Chase Balisy (LVP)</td><td>16</td><td>3.29</td></tr>
+<tr><td>7</td><td>Carter Rowney (ROC)</td><td>4</td><td>3.28</td></tr>
+<tr><td>8</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>3.11</td></tr>
+<tr><td>9</td><td>Frank Vatrano (CHR)</td><td>16</td><td>2.99</td></tr>
+<tr><td>10</td><td>Marcus Sorensen (TEX)</td><td>16</td><td>2.92</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Face-Off %</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>FO %</th></tr></thead>
+<tr><td>1</td><td>Vladislav Kamenev (LAV)</td><td>3</td><td>88.31%</td></tr>
+<tr><td>2</td><td>Justin Dowling (UTI)</td><td>2</td><td>87.50%</td></tr>
+<tr><td>3</td><td>Brooks Laich (UTI)</td><td>1</td><td>84.62%</td></tr>
+<tr><td>4</td><td>Chase De Leo (BEL)</td><td>16</td><td>80.42%</td></tr>
+<tr><td>5</td><td>Liam O'Brien (SYR)</td><td>16</td><td>79.90%</td></tr>
+<tr><td>6</td><td>Scott Laughton (CHI)</td><td>11</td><td>79.28%</td></tr>
+<tr><td>7</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>78.90%</td></tr>
+<tr><td>8</td><td>Dominic Turgeon (CHI)</td><td>16</td><td>77.73%</td></tr>
+<tr><td>9</td><td>Stephen Gionta (TOR)</td><td>14</td><td>76.85%</td></tr>
+<tr><td>10</td><td>Luke Johnson (SPR)</td><td>16</td><td>76.40%</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Plus/Minus</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>+/-</th></tr></thead>
+<tr><td>1</td><td>Chase Balisy (LVP)</td><td>16</td><td>45</td></tr>
+<tr><td>2</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>44</td></tr>
+<tr><td>3</td><td>Eric Selleck (LVP)</td><td>16</td><td>43</td></tr>
+<tr><td>4</td><td>Nikita Scherbak (CLE)</td><td>16</td><td>38</td></tr>
+<tr><td>5</td><td>Jake Virtanen (CLE)</td><td>16</td><td>37</td></tr>
+<tr><td>6</td><td>Frank Vatrano (CHR)</td><td>16</td><td>35</td></tr>
+<tr><td>7</td><td>Liam O'Brien (SYR)</td><td>16</td><td>35</td></tr>
+<tr><td>8</td><td>Alexandre Grenier (SYR)</td><td>16</td><td>35</td></tr>
+<tr><td>9</td><td>T.J. Tynan (CLE)</td><td>16</td><td>32</td></tr>
+<tr><td>10</td><td>Luke Johnson (SPR)</td><td>16</td><td>29</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Penalty Minutes</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>PIM</th></tr></thead>
+<tr><td>1</td><td>Tyler Wotherspoon (STK)</td><td>16</td><td>49</td></tr>
+<tr><td>2</td><td>Anthony Peluso (MIL)</td><td>16</td><td>45</td></tr>
+<tr><td>3</td><td>Kurtis MacDermid (ROC)</td><td>12</td><td>38</td></tr>
+<tr><td>4</td><td>Kevin Czuczman (TUC)</td><td>16</td><td>35</td></tr>
+<tr><td>5</td><td>Jarred Tinordi (MAN)</td><td>16</td><td>33</td></tr>
+<tr><td>6</td><td>Thomas Chabot (TUC)</td><td>16</td><td>32</td></tr>
+<tr><td>7</td><td>Eric Selleck (LVP)</td><td>16</td><td>32</td></tr>
+<tr><td>8</td><td>Richard Clune (STK)</td><td>16</td><td>30</td></tr>
+<tr><td>9</td><td>Chris Bigras (PRO)</td><td>16</td><td>28</td></tr>
+<tr><td>10</td><td>John Hayden (BKR)</td><td>16</td><td>28</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Shots Blocked</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>SB</th></tr></thead>
+<tr><td>1</td><td>Thomas Chabot (TUC)</td><td>16</td><td>39</td></tr>
+<tr><td>2</td><td>Griffin Reinhart (TUC)</td><td>16</td><td>36</td></tr>
+<tr><td>3</td><td>Anthony Peluso (MIL)</td><td>16</td><td>27</td></tr>
+<tr><td>4</td><td>Cody Goloubef (TOR)</td><td>14</td><td>24</td></tr>
+<tr><td>5</td><td>Chris Bigras (PRO)</td><td>16</td><td>24</td></tr>
+<tr><td>6</td><td>Nathan Walker (PRO)</td><td>16</td><td>24</td></tr>
+<tr><td>7</td><td>Travis Morin (IOA)</td><td>16</td><td>23</td></tr>
+<tr><td>8</td><td>John Ramage (SPR)</td><td>16</td><td>23</td></tr>
+<tr><td>9</td><td>Dominic Turgeon (CHI)</td><td>16</td><td>21</td></tr>
+<tr><td>10</td><td>Ashton Sautner (CLE)</td><td>16</td><td>18</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Rookies</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>PTS</th></tr></thead>
+<tr><td>1</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>21-25-46</td></tr>
+<tr><td>2</td><td>Nikita Scherbak (CLE)</td><td>16</td><td>17-22-39</td></tr>
+<tr><td>3</td><td>Giovanni Fiore (CLE)</td><td>16</td><td>15-18-33</td></tr>
+<tr><td>4</td><td>Luke Johnson (SPR)</td><td>16</td><td>10-23-33</td></tr>
+<tr><td>5</td><td>Boo Nieves (CHI)</td><td>15</td><td>9-18-27</td></tr>
+<tr><td>6</td><td>Henrik Haapala (CLE)</td><td>16</td><td>11-15-26</td></tr>
+<tr><td>7</td><td>Thomas Chabot (TUC)</td><td>16</td><td>10-16-26</td></tr>
+<tr><td>8</td><td>Matthew Highmore (STK)</td><td>16</td><td>12-13-25</td></tr>
+<tr><td>9</td><td>Daniel Sprong (RCK)</td><td>11</td><td>14-9-23</td></tr>
+<tr><td>10</td><td>Trevor Smith (ROC)</td><td>12</td><td>13-10-23</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Hits</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>HIT</th></tr></thead>
+<tr><td>1</td><td>Griffin Reinhart (TUC)</td><td>16</td><td>97</td></tr>
+<tr><td>2</td><td>Eric Gryba (SPR)</td><td>16</td><td>86</td></tr>
+<tr><td>3</td><td>Chris Bigras (PRO)</td><td>16</td><td>73</td></tr>
+<tr><td>4</td><td>Justin Auger (PRO)</td><td>16</td><td>71</td></tr>
+<tr><td>5</td><td>Viktor Svedberg (LAV)</td><td>16</td><td>70</td></tr>
+<tr><td>6</td><td>Nathan Walker (PRO)</td><td>16</td><td>70</td></tr>
+<tr><td>7</td><td>John Ramage (SPR)</td><td>16</td><td>69</td></tr>
+<tr><td>8</td><td>Anthony Peluso (MIL)</td><td>16</td><td>68</td></tr>
+<tr><td>9</td><td>Tyler Wotherspoon (STK)</td><td>16</td><td>67</td></tr>
+<tr><td>10</td><td>Thomas Chabot (TUC)</td><td>16</td><td>66</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Power Play Goals</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>PP</th></tr></thead>
+<tr><td>1</td><td>Vinni Lettieri (STK)</td><td>16</td><td>4</td></tr>
+<tr><td>2</td><td>Justin Auger (PRO)</td><td>16</td><td>4</td></tr>
+<tr><td>3</td><td>Pontus Aberg (PRO)</td><td>16</td><td>4</td></tr>
+<tr><td>4</td><td>Brad Malone (STK)</td><td>6</td><td>3</td></tr>
+<tr><td>5</td><td>Noah Hanifin (BKR)</td><td>16</td><td>3</td></tr>
+<tr><td>6</td><td>Phillip Di Giuseppe (CLE)</td><td>16</td><td>3</td></tr>
+<tr><td>7</td><td>Thomas Chabot (TUC)</td><td>16</td><td>3</td></tr>
+<tr><td>8</td><td>Nick Lappin (BKR)</td><td>16</td><td>3</td></tr>
+<tr><td>9</td><td>Travis Sanheim (CHI)</td><td>16</td><td>3</td></tr>
+<tr><td>10</td><td>Dryden Hunt (CHI)</td><td>16</td><td>3</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Short Handed Goals</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>SH</th></tr></thead>
+<tr><td>1</td><td>Nick Lappin (BKR)</td><td>16</td><td>2</td></tr>
+<tr><td>2</td><td>Luke Johnson (SPR)</td><td>16</td><td>2</td></tr>
+<tr><td>3</td><td>Nick Cousins (RCK)</td><td>2</td><td>1</td></tr>
+<tr><td>4</td><td>Nick Schmaltz (BKR)</td><td>11</td><td>1</td></tr>
+<tr><td>5</td><td>Trevor Murphy (ROC)</td><td>12</td><td>1</td></tr>
+<tr><td>6</td><td>Stu Bickel (TOR)</td><td>14</td><td>1</td></tr>
+<tr><td>7</td><td>Boo Nieves (CHI)</td><td>15</td><td>1</td></tr>
+<tr><td>8</td><td>Jake Virtanen (CLE)</td><td>16</td><td>1</td></tr>
+<tr><td>9</td><td>Anthony Cirelli (BKR)</td><td>16</td><td>1</td></tr>
+<tr><td>10</td><td>Nikita Scherbak (CLE)</td><td>16</td><td>1</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Game Winning Goals</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>GW</th></tr></thead>
+<tr><td>1</td><td>Frank Vatrano (CHR)</td><td>16</td><td>6</td></tr>
+<tr><td>2</td><td>Henrik Samuelsson (TOR)</td><td>16</td><td>5</td></tr>
+<tr><td>3</td><td>Daniel Sprong (RCK)</td><td>11</td><td>4</td></tr>
+<tr><td>4</td><td>Phillip Di Giuseppe (CLE)</td><td>16</td><td>4</td></tr>
+<tr><td>5</td><td>Jonny Brodzinski (LAV)</td><td>16</td><td>4</td></tr>
+<tr><td>6</td><td>Giovanni Fiore (CLE)</td><td>16</td><td>4</td></tr>
+<tr><td>7</td><td>Garrett Wilson (SPR)</td><td>16</td><td>4</td></tr>
+<tr><td>8</td><td>Alexandre Grenier (SYR)</td><td>16</td><td>4</td></tr>
+<tr><td>9</td><td>Nathan Walker (PRO)</td><td>16</td><td>4</td></tr>
+<tr><td>10</td><td>Chase Balisy (LVP)</td><td>16</td><td>4</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Game Tying Goals</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>GT</th></tr></thead>
+<tr><td>1</td><td>Stephen Gionta (TOR)</td><td>14</td><td>3</td></tr>
+<tr><td>2</td><td>Liam O'Brien (SYR)</td><td>16</td><td>3</td></tr>
+<tr><td>3</td><td>Trevor Smith (ROC)</td><td>12</td><td>2</td></tr>
+<tr><td>4</td><td>Rocco Grimaldi (IOA)</td><td>16</td><td>2</td></tr>
+<tr><td>5</td><td>Justin Kloos (CHR)</td><td>7</td><td>1</td></tr>
+<tr><td>6</td><td>Joshua Ho-Sang (RCK)</td><td>14</td><td>1</td></tr>
+<tr><td>7</td><td>CJ Smith (SPR)</td><td>16</td><td>1</td></tr>
+<tr><td>8</td><td>Alexandre Carrier (BEL)</td><td>16</td><td>1</td></tr>
+<tr><td>9</td><td>Zac Dalpe (STK)</td><td>16</td><td>1</td></tr>
+<tr><td>10</td><td>Kyle Rau (STK)</td><td>16</td><td>1</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Empty Net Goals</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>ENG</th></tr></thead>
+<tr><td>1</td><td>Nick Schmaltz (BKR)</td><td>11</td><td>2</td></tr>
+<tr><td>2</td><td>Casey Nelson (LAV)</td><td>3</td><td>1</td></tr>
+<tr><td>3</td><td>Chris Porter (IOA)</td><td>16</td><td>1</td></tr>
+<tr><td>4</td><td>Marcus Pettersson (SDG)</td><td>16</td><td>1</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Minutes Played</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>MP</th></tr></thead>
+<tr><td>1</td><td>Nick Lappin (BKR)</td><td>16</td><td>385</td></tr>
+<tr><td>2</td><td>Noah Hanifin (BKR)</td><td>16</td><td>372</td></tr>
+<tr><td>3</td><td>Warren Foegele (SDG)</td><td>16</td><td>363</td></tr>
+<tr><td>4</td><td>Mirco Mueller (SDG)</td><td>16</td><td>356</td></tr>
+<tr><td>5</td><td>Nikita Scherbak (CLE)</td><td>16</td><td>353</td></tr>
+<tr><td>6</td><td>Jake Virtanen (CLE)</td><td>16</td><td>350</td></tr>
+<tr><td>7</td><td>Travis Morin (IOA)</td><td>16</td><td>350</td></tr>
+<tr><td>8</td><td>Thomas Chabot (TUC)</td><td>16</td><td>349</td></tr>
+<tr><td>9</td><td>Mike Reilly (BKR)</td><td>16</td><td>348</td></tr>
+<tr><td>10</td><td>Morgan Klimchuk (SDG)</td><td>16</td><td>347</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Hat Tricks</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>HT</th></tr></thead>
+<tr><td>1</td><td>Frank Vatrano (CHR)</td><td>16</td><td>5</td></tr>
+<tr><td>2</td><td>Chase De Leo (BEL)</td><td>16</td><td>4</td></tr>
+<tr><td>3</td><td>Alexandre Grenier (SYR)</td><td>16</td><td>4</td></tr>
+<tr><td>4</td><td>Nathan Walker (PRO)</td><td>16</td><td>4</td></tr>
+<tr><td>5</td><td>Seth Griffith (IOA)</td><td>16</td><td>4</td></tr>
+<tr><td>6</td><td>Nikita Scherbak (CLE)</td><td>16</td><td>3</td></tr>
+<tr><td>7</td><td>Henrik Samuelsson (TOR)</td><td>16</td><td>3</td></tr>
+<tr><td>8</td><td>Anthony Peluso (MIL)</td><td>16</td><td>3</td></tr>
+<tr><td>9</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>3</td></tr>
+<tr><td>10</td><td>Brad Malone (STK)</td><td>6</td><td>2</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Goal Scoring Streak</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>GS</th></tr></thead>
+<tr><td>1</td><td>Liam O'Brien (SYR)</td><td>16</td><td>10</td></tr>
+<tr><td>2</td><td>Dominic Turgeon (CHI)</td><td>16</td><td>8</td></tr>
+<tr><td>3</td><td>Kalle Kossila (LAV)</td><td>16</td><td>6</td></tr>
+<tr><td>4</td><td>CJ Smith (SPR)</td><td>16</td><td>5</td></tr>
+<tr><td>5</td><td>Dryden Hunt (CHI)</td><td>16</td><td>5</td></tr>
+<tr><td>6</td><td>Daniel Sprong (RCK)</td><td>11</td><td>3</td></tr>
+<tr><td>7</td><td>Chase De Leo (BEL)</td><td>16</td><td>3</td></tr>
+<tr><td>8</td><td>Dylan Strome (TUC)</td><td>16</td><td>3</td></tr>
+<tr><td>9</td><td>Hunter Shinkaruk (CLE)</td><td>16</td><td>3</td></tr>
+<tr><td>10</td><td>Brad Malone (STK)</td><td>6</td><td>2</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Point Scoring Streak</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>PS</th></tr></thead>
+<tr><td>1</td><td>Phil Varone (TEX)</td><td>16</td><td>16</td></tr>
+<tr><td>2</td><td>Chase Balisy (LVP)</td><td>16</td><td>15</td></tr>
+<tr><td>3</td><td>Zemgus Girgensons (ROC)</td><td>16</td><td>14</td></tr>
+<tr><td>4</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>14</td></tr>
+<tr><td>5</td><td>Marcus Sorensen (TEX)</td><td>16</td><td>13</td></tr>
+<tr><td>6</td><td>Liam O'Brien (SYR)</td><td>16</td><td>10</td></tr>
+<tr><td>7</td><td>Alexandre Grenier (SYR)</td><td>16</td><td>10</td></tr>
+<tr><td>8</td><td>Dominic Turgeon (CHI)</td><td>16</td><td>8</td></tr>
+<tr><td>9</td><td>Dryden Hunt (CHI)</td><td>16</td><td>8</td></tr>
+<tr><td>10</td><td>Michael Amadio (ROC)</td><td>12</td><td>7</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Hits Taken</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>HTT</th></tr></thead>
+<tr><td>1</td><td>Chase De Leo (BEL)</td><td>16</td><td>54</td></tr>
+<tr><td>2</td><td>Rocco Grimaldi (IOA)</td><td>16</td><td>44</td></tr>
+<tr><td>3</td><td>Stephen Gionta (TOR)</td><td>14</td><td>43</td></tr>
+<tr><td>4</td><td>Griffen Molino (RCK)</td><td>16</td><td>42</td></tr>
+<tr><td>5</td><td>Jonny Brodzinski (LAV)</td><td>16</td><td>42</td></tr>
+<tr><td>6</td><td>Alex Broadhurst (LVP)</td><td>16</td><td>41</td></tr>
+<tr><td>7</td><td>Henrik Samuelsson (TOR)</td><td>16</td><td>39</td></tr>
+<tr><td>8</td><td>Zemgus Girgensons (ROC)</td><td>16</td><td>39</td></tr>
+<tr><td>9</td><td>Nathan Walker (PRO)</td><td>16</td><td>39</td></tr>
+<tr><td>10</td><td>Anthony Cirelli (BKR)</td><td>16</td><td>38</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Penalty Shots</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>PSG </th></tr></thead>
+<tr><td>1</td><td>Nicholas Baptiste (CHR)</td><td>7</td><td>1</td></tr>
+<tr><td>2</td><td>Jack Roslovic (STK)</td><td>10</td><td>1</td></tr>
+<tr><td>3</td><td>Dylan Strome (TUC)</td><td>16</td><td>1</td></tr>
+<tr><td>4</td><td>Travis Morin (IOA)</td><td>16</td><td>1</td></tr>
+<tr><td>5</td><td>Phil Varone (TEX)</td><td>16</td><td>1</td></tr>
+<tr><td>6</td><td>Zemgus Girgensons (ROC)</td><td>16</td><td>1</td></tr>
+<tr><td>7</td><td>Rocco Grimaldi (IOA)</td><td>16</td><td>1</td></tr>
+<tr><td>8</td><td>Mitch Callahan (TUC)</td><td>16</td><td>1</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Give Away</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>GA  </th></tr></thead>
+<tr><td colspan="4" class="STHSCenter">No Result</td></tr></table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Take Away</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>TA   </th></tr></thead>
+<tr><td colspan="4" class="STHSCenter">No Result</td></tr></table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Total Fight</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>FT  </th></tr></thead>
+<tr><td>1</td><td>Anthony Peluso (MIL)</td><td>16</td><td>3</td></tr>
+<tr><td>2</td><td>Kurtis MacDermid (ROC)</td><td>12</td><td>2</td></tr>
+<tr><td>3</td><td>Brendan Lemieux (RCK)</td><td>14</td><td>2</td></tr>
+<tr><td>4</td><td>John Hayden (BKR)</td><td>16</td><td>2</td></tr>
+<tr><td>5</td><td>Griffin Reinhart (TUC)</td><td>16</td><td>2</td></tr>
+<tr><td>6</td><td>Daniel Sprong (RCK)</td><td>11</td><td>1</td></tr>
+<tr><td>7</td><td>John McCarthy (MAN)</td><td>14</td><td>1</td></tr>
+<tr><td>8</td><td>Cody Goloubef (TOR)</td><td>14</td><td>1</td></tr>
+<tr><td>9</td><td>Michael Kapla (LAV)</td><td>16</td><td>1</td></tr>
+<tr><td>10</td><td>Mark Fayne (RCK)</td><td>16</td><td>1</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Fight Won</span></th></tr>
+<tr><th>#</th><th>Player Name</th><th>GP</th><th>FW   </th></tr></thead>
+<tr><td>1</td><td>Kurtis MacDermid (ROC)</td><td>12</td><td>2</td></tr>
+<tr><td>2</td><td>Brendan Lemieux (RCK)</td><td>14</td><td>1</td></tr>
+<tr><td>3</td><td>John Hayden (BKR)</td><td>16</td><td>1</td></tr>
+<tr><td>4</td><td>Evan McEneny (CLE)</td><td>16</td><td>1</td></tr>
+<tr><td>5</td><td>Griffin Reinhart (TUC)</td><td>16</td><td>1</td></tr>
+<tr><td>6</td><td>Kevin Czuczman (TUC)</td><td>16</td><td>1</td></tr>
+</table></td></tr>
+<tr><td colspan="3"><h2 class="STHSFarmIndividualLeader_Goalies">Goalies </h2></td></tr><tr>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Save Percentage</span></th></tr>
+<tr><th>#</th><th>Goalie Name</th><th>GP</th><th>SAVE %</th></tr></thead>
+<tr><td>1</td><td>Maxime Lagace (UTI)</td><td>2</td><td>0.957</td></tr>
+<tr><td>2</td><td>Linus Ullmark (ROC)</td><td>4</td><td>0.955</td></tr>
+<tr><td>3</td><td>Jack Campbell (CHI)</td><td>2</td><td>0.938</td></tr>
+<tr><td>4</td><td>Cam Ward (LVP)</td><td>15</td><td>0.933</td></tr>
+<tr><td>5</td><td>Mike Condon (IOA)</td><td>3</td><td>0.931</td></tr>
+<tr><td>6</td><td>Collin Delia (SPR)</td><td>8</td><td>0.928</td></tr>
+<tr><td>7</td><td>Anthony Stolarz (IOA)</td><td>16</td><td>0.921</td></tr>
+<tr><td>8</td><td>Dustin Tokarski (RCK)</td><td>5</td><td>0.918</td></tr>
+<tr><td>9</td><td>Adin Hill (PRO)</td><td>16</td><td>0.916</td></tr>
+<tr><td>10</td><td>Alex Nedeljkovic (LAV)</td><td>16</td><td>0.911</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Goals Against Average</span></th></tr>
+<tr><th>#</th><th>Goalie Name</th><th>GP</th><th>GAA</th></tr></thead>
+<tr><td>1</td><td>Mike Condon (IOA)</td><td>3</td><td>0.67</td></tr>
+<tr><td>2</td><td>Linus Ullmark (ROC)</td><td>4</td><td>0.75</td></tr>
+<tr><td>3</td><td>Eddie Lack (UTI)</td><td>1</td><td>1.00</td></tr>
+<tr><td>4</td><td>Maxime Lagace (UTI)</td><td>2</td><td>1.00</td></tr>
+<tr><td>5</td><td>Joe Cannata (BKR)</td><td>8</td><td>1.48</td></tr>
+<tr><td>6</td><td>Thomas Greiss (ROC)</td><td>12</td><td>1.57</td></tr>
+<tr><td>7</td><td>Dustin Tokarski (RCK)</td><td>5</td><td>1.58</td></tr>
+<tr><td>8</td><td>Tristan Jarry (SDG)</td><td>16</td><td>1.66</td></tr>
+<tr><td>9</td><td>Collin Delia (SPR)</td><td>8</td><td>1.75</td></tr>
+<tr><td>10</td><td>Adam Wilcox (CLE)</td><td>16</td><td>1.75</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Minutes Played</span></th></tr>
+<tr><th>#</th><th>Goalie Name</th><th>GP</th><th>MP</th></tr></thead>
+<tr><td>1</td><td>Adam Wilcox (CLE)</td><td>16</td><td>961</td></tr>
+<tr><td>2</td><td>Anthony Stolarz (IOA)</td><td>16</td><td>953</td></tr>
+<tr><td>3</td><td>Joonas Korpisalo (MAN)</td><td>16</td><td>940</td></tr>
+<tr><td>4</td><td>Alex Nedeljkovic (LAV)</td><td>16</td><td>918</td></tr>
+<tr><td>5</td><td>Tristan Jarry (SDG)</td><td>16</td><td>904</td></tr>
+<tr><td>6</td><td>Cam Ward (LVP)</td><td>15</td><td>901</td></tr>
+<tr><td>7</td><td>Adin Hill (PRO)</td><td>16</td><td>872</td></tr>
+<tr><td>8</td><td>Oscar Dansk (STK)</td><td>14</td><td>849</td></tr>
+<tr><td>9</td><td>Thomas Greiss (ROC)</td><td>12</td><td>724</td></tr>
+<tr><td>10</td><td>Anders Nilsson (COL)</td><td>9</td><td>511</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Shots Faced</span></th></tr>
+<tr><th>#</th><th>Goalie Name</th><th>GP</th><th>SHT</th></tr></thead>
+<tr><td>1</td><td>Adin Hill (PRO)</td><td>16</td><td>438</td></tr>
+<tr><td>2</td><td>Cam Ward (LVP)</td><td>15</td><td>432</td></tr>
+<tr><td>3</td><td>Anthony Stolarz (IOA)</td><td>16</td><td>419</td></tr>
+<tr><td>4</td><td>Alex Nedeljkovic (LAV)</td><td>16</td><td>359</td></tr>
+<tr><td>5</td><td>Joonas Korpisalo (MAN)</td><td>16</td><td>344</td></tr>
+<tr><td>6</td><td>Oscar Dansk (STK)</td><td>14</td><td>315</td></tr>
+<tr><td>7</td><td>Adam Wilcox (CLE)</td><td>16</td><td>267</td></tr>
+<tr><td>8</td><td>Tristan Jarry (SDG)</td><td>16</td><td>241</td></tr>
+<tr><td>9</td><td>Anders Nilsson (COL)</td><td>9</td><td>187</td></tr>
+<tr><td>10</td><td>Thomas Greiss (ROC)</td><td>12</td><td>186</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Shutouts</span></th></tr>
+<tr><th>#</th><th>Goalie Name</th><th>GP</th><th>SO</th></tr></thead>
+<tr><td>1</td><td>Tristan Jarry (SDG)</td><td>16</td><td>4</td></tr>
+<tr><td>2</td><td>Linus Ullmark (ROC)</td><td>4</td><td>3</td></tr>
+<tr><td>3</td><td>Thomas Greiss (ROC)</td><td>12</td><td>3</td></tr>
+<tr><td>4</td><td>Adin Hill (PRO)</td><td>16</td><td>3</td></tr>
+<tr><td>5</td><td>Joe Cannata (BKR)</td><td>8</td><td>2</td></tr>
+<tr><td>6</td><td>Cam Ward (LVP)</td><td>15</td><td>2</td></tr>
+<tr><td>7</td><td>Alex Nedeljkovic (LAV)</td><td>16</td><td>2</td></tr>
+<tr><td>8</td><td>Adam Wilcox (CLE)</td><td>16</td><td>2</td></tr>
+<tr><td>9</td><td>Anthony Stolarz (IOA)</td><td>16</td><td>2</td></tr>
+<tr><td>10</td><td>Maxime Lagace (UTI)</td><td>2</td><td>1</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Wins</span></th></tr>
+<tr><th>#</th><th>Goalie Name</th><th>GP</th><th>W</th></tr></thead>
+<tr><td>1</td><td>Adam Wilcox (CLE)</td><td>16</td><td>16</td></tr>
+<tr><td>2</td><td>Cam Ward (LVP)</td><td>15</td><td>13</td></tr>
+<tr><td>3</td><td>Alex Nedeljkovic (LAV)</td><td>16</td><td>13</td></tr>
+<tr><td>4</td><td>Tristan Jarry (SDG)</td><td>16</td><td>13</td></tr>
+<tr><td>5</td><td>Anthony Stolarz (IOA)</td><td>16</td><td>13</td></tr>
+<tr><td>6</td><td>Thomas Greiss (ROC)</td><td>12</td><td>11</td></tr>
+<tr><td>7</td><td>Oscar Dansk (STK)</td><td>14</td><td>11</td></tr>
+<tr><td>8</td><td>Adin Hill (PRO)</td><td>16</td><td>11</td></tr>
+<tr><td>9</td><td>Joonas Korpisalo (MAN)</td><td>16</td><td>8</td></tr>
+<tr><td>10</td><td>Joe Cannata (BKR)</td><td>8</td><td>7</td></tr>
+</table></td></tr>
+<tr><td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Penalty Shots Percentage</span></th></tr>
+<tr><th>#</th><th>Goalie Name</th><td>PSA</td><th>PS SHT %</th></tr></thead>
+<tr><td>1</td><td>Thomas Greiss (ROC)</td><td>3</td><td>1.000</td></tr>
+<tr><td>2</td><td>Anthony Stolarz (IOA)</td><td>2</td><td>1.000</td></tr>
+<tr><td>3</td><td>Oscar Dansk (STK)</td><td>5</td><td>0.800</td></tr>
+<tr><td>4</td><td>Alex Nedeljkovic (LAV)</td><td>4</td><td>0.750</td></tr>
+<tr><td>5</td><td>Dustin Tokarski (RCK)</td><td>3</td><td>0.667</td></tr>
+<tr><td>6</td><td>Joe Cannata (BKR)</td><td>3</td><td>0.333</td></tr>
+</table></td><td class="STHSWP2"></td>
+<td class="STHSWP49"><table class="basictablesorter"><thead><tr><th colspan="4"><span class="STHSIndividualLeadersTitle">Losses</span></th></tr>
+<tr><th>#</th><th>Goalie Name</th><th>GP</th><th>L</th></tr></thead>
+<tr><td>1</td><td>Joonas Korpisalo (MAN)</td><td>16</td><td>8</td></tr>
+<tr><td>2</td><td>Adin Hill (PRO)</td><td>16</td><td>4</td></tr>
+<tr><td>3</td><td>Anders Nilsson (COL)</td><td>9</td><td>3</td></tr>
+<tr><td>4</td><td>Tristan Jarry (SDG)</td><td>16</td><td>3</td></tr>
+<tr><td>5</td><td>Anthony Stolarz (IOA)</td><td>16</td><td>3</td></tr>
+<tr><td>6</td><td>Zane McIntyre (BKR)</td><td>8</td><td>2</td></tr>
+<tr><td>7</td><td>Oscar Dansk (STK)</td><td>14</td><td>2</td></tr>
+<tr><td>8</td><td>Cam Ward (LVP)</td><td>15</td><td>2</td></tr>
+<tr><td>9</td><td>Alex Nedeljkovic (LAV)</td><td>16</td><td>2</td></tr>
+<tr><td>10</td><td>Chad Johnson (TOR)</td><td>1</td><td>1</td></tr>
+</table></td></tr>
+</table>
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+<div class="footer">Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

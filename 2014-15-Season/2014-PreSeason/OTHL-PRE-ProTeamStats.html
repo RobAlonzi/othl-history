@@ -1,0 +1,504 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>OTHL - Pro Team Stats</title>
+<script type="text/javascript" src="OTHL-PRE.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Decription" content="Drew Barclay - STHS - Version : 2.2.4.4" />
+</head><body>
+<h1>Pro Team Stats for OTHL</h1>
+<h4>Update -  Tuesday, October 14, 2014 at 23:51</h4>
+<h4>Simulating a Pre-Season</h4>
+<pre><b>
+                      --------------Overall----------- | ------------Home------------
+                                    OT    SO           |            OT    SO          
+Team                     GP  W  L  W  L  W  L  GF  GA  | GP  W  L  W  L  W  L  GF  GA  |   G   A   P   GP1 GP2 GP3 GP4 SHF  SP1  SP2  SP3  SP4  SHA  SHB 
+--------------------------------------------------------------------------------------------------------------------------------------------------------</b>
+Avalanche                14  7  6  0  0  0  1  42  41  |  7  1  5  0  0  0  1  17  30  |  42  77 119  12  16  14   0  344  119  116  108    4  405  115 
+Blackhawks               14  5  3  0  2  2  2  36  35  |  7  2  1  0  1  1  2  17  14  |  36  58  94   9  13  12   5  363  113  129  112   29  371   93 
+Blue Jackets             14  2 10  0  2  0  0  26  47  |  7  2  4  0  1  0  0  16  20  |  26  45  71  12   7   7   0  290   99   80  108    3  390  110 
+Blues                    14  7  5  2  0  0  0  41  31  |  7  3  3  1  0  0  0  19  17  |  41  76 117  13  13  13   2  349  107   94  146    2  340   90 
+Bruins                   14  3  8  0  1  0  2  32  55  |  7  1  4  0  0  0  2  16  30  |  32  61  93   7  12  13   3  333   92  110  128   13  428  135 
+Canadiens                14  7  5  0  0  1  1  37  37  |  7  4  1  0  0  1  1  17  15  |  37  64 101  11  15  10   2  363  122  122  116    7  386  119 
+Canucks                  14  5  8  0  0  1  0  35  45  |  7  4  2  0  0  1  0  22  16  |  35  58  93  12  12  10   1  371  137  119  115    3  348   98 
+Capitals                 14  5  8  0  0  1  0  33  37  |  7  3  4  0  0  0  0  16  19  |  33  54  87  12   9  11   1  316  108   84  120    7  376  112 
+Coyotes                  14  6  4  1  0  0  3  37  35  |  7  3  2  1  0  0  1  19  15  |  37  63 100   8  13  15   1  362  104  122  125   23  411  118 
+Devils                   14  7  5  0  0  0  2  43  45  |  7  2  3  0  0  0  2  17  25  |  43  72 115  15  14  14   0  333  115  115  100    8  389  110 
+Ducks                    14  7  7  0  0  0  0  36  29  |  7  4  3  0  0  0  0  18  13  |  36  66 102  12  10  14   0  400  128  153  119    0  314   86 
+Flames                   14  7  4  1  1  0  1  39  34  |  7  4  1  1  1  0  0  21  14  |  39  74 113  18  11   9   1  392  128  121  138    8  353  111 
+Flyers                   14  7  5  0  1  0  1  41  35  |  7  3  3  0  1  0  0  19  20  |  41  75 116  13  16  12   0  352  106  131  110    8  329   84 
+Hurricanes               14  8  3  0  1  1  1  37  25  |  7  4  2  0  1  0  0  17  12  |  37  66 103   8  13  15   2  420  139  135  144    8  296   76 
+Islanders                14  9  4  1  0  0  0  45  31  |  7  5  2  0  0  0  0  26  16  |  45  76 121  15  16  13   1  373  124  135  112    2  312   82 
+Jets                     14  3  7  0  1  1  2  34  44  |  7  0  5  0  0  1  1  14  25  |  34  53  87  16  12   5   4  379  130  127  114   24  431  111 
+Kings                    14  2  9  0  0  3  0  29  42  |  7  1  3  0  0  3  0  19  19  |  29  45  74   9  11   6   3  315  106  109   90   18  479  134 
+Lightning                14  7  2  2  0  1  2  50  37  |  7  4  1  1  0  0  1  25  20  |  50  86 136  17  15  15   6  401  136  131  127   18  356  121 
+Maple Leafs              14  5  5  2  0  2  0  39  38  |  7  4  3  0  0  0  0  17  20  |  39  65 104  11  10  14   5  372  117  128  118   15  382  115 
+Oilers                   14  4  6  0  3  0  1  32  41  |  7  4  2  0  1  0  0  14  12  |  32  60  92  13  12   7   0  394  128  132  130    7  362  104 
+Panthers                 14  7  6  0  0  1  0  43  37  |  7  4  3  0  0  0  0  23  18  |  43  72 115  12  13  17   2  413  143  147  122    4  355  104 
+Penguins                 14  2  9  1  0  2  0  34  44  |  7  1  4  0  0  2  0  17  19  |  34  60  94  13   8  10   3  299   79  112  104    9  353  119 
+Predators                14  4  7  1  0  0  2  32  52  |  7  2  4  0  0  0  1  14  29  |  32  54  86  10   8  13   1  320  114  101  100   13  411  118 
+Rangers                  14  8  4  2  0  0  0  40  35  |  7  4  2  1  0  0  0  20  20  |  40  70 110  17  12   9   2  381  117  117  145    2  319  113 
+Red Wings                14  5  6  0  2  1  0  36  35  |  7  2  3  0  2  0  0  18  20  |  36  60  96  14  14   7   2  367  120  124  116   13  365  128 
+Sabres                   14  6  5  0  1  1  1  49  43  |  7  3  2  0  1  0  1  23  21  |  49  87 136  15  17  16   2  410  137  150  120   12  395   95 
+Senators                 14  5  8  0  0  0  1  36  40  |  7  1  5  0  0  0  1  15  24  |  36  67 103  15  10  11   0  349  113  112  121    6  341   92 
+Sharks                   14  7  4  1  0  2  0  38  27  |  7  5  2  0  0  0  0  24  17  |  38  65 103  13  17   5   3  415  127  131  150   16  376  111 
+Stars                    14  7  2  1  1  3  0  50  35  |  7  5  0  1  1  0  0  27  17  |  50  87 137  20  12  14   4  493  158  171  157   17  358  103 
+Wild                     14  6  5  1  0  1  1  44  34  |  7  3  3  0  0  0  1  23  19  |  44  72 116  19   9  14   2  446  156  135  146   18  384  115 
+</pre>
+<pre><b>
+Team                    Pim  Hit  PPA  PPG   PP%  PKA  PKGA   PK%  PKGF  FO%DZ   FO%OZ   FO%NT   PZDF  PZOF  PZNT  PCDF  PCOF  PCNT  SO EG
+------------------------------------------------------------------------------------------------------------------------------------------</b>
+Avalanche              135  281   45   6  13.33%   52  11  78.85%    2  45.59%  52.86%  52.49%   352   316   177   100   215    89   2  1 
+Blackhawks             129  250   41   5  12.20%   56   2  96.43%    1  53.38%  52.67%  51.49%   323   359   182   103   251    94   1  0 
+Blue Jackets           139  278   35   1   2.86%   50   9  82.00%    1  53.32%  45.98%  53.42%   347   317   181   102   213    89   0  1 
+Blues                  124  256   51  12  23.53%   37   6  83.78%    0  51.73%  44.03%  50.95%   311   352   180   101   244    92   2  0 
+Bruins                 114  288   53  10  18.87%   49   8  83.67%    0  49.69%  48.13%  47.13%   357   309   185   107   209    90   0  2 
+Canadiens              130  274   64   7  10.94%   60  10  83.33%    0  49.12%  50.11%  48.13%   341   334   175   106   228    87   1  0 
+Canucks                147  271   57   5   8.77%   54   8  85.19%    0  56.38%  54.10%  54.98%   339   331   175   102   228    88   0  0 
+Capitals               129  275   47   8  17.02%   51   9  82.35%    0  49.20%  42.71%  46.82%   349   317   179   105   215    88   1  0 
+Coyotes                129  245   49   9  18.37%   55   7  87.27%    1  46.37%  54.84%  48.50%   356   324   178   103   221    88   1  0 
+Devils                 110  301   40   8  20.00%   48   7  85.42%    1  47.97%  50.75%  47.09%   337   331   182   104   229    90   1  0 
+Ducks                  122  279   57  11  19.30%   47   5  89.36%    0  52.12%  48.93%  51.79%   309   355   176   103   251    90   0  0 
+Flames                 169  309   59  11  18.64%   61  11  81.97%    0  50.00%  58.09%  48.72%   325   357   171   101   254    87   1  0 
+Flyers                 110  245   54   9  16.67%   42   4  90.48%    0  42.82%  47.46%  46.45%   331   335   180   108   232    90   2  1 
+Hurricanes             112  227   47   4   8.51%   41   3  92.68%    1  56.25%  51.06%  53.49%   317   358   176   102   255    89   1  0 
+Islanders              144  299   70  10  14.29%   50   4  92.00%    0  45.80%  46.59%  45.73%   320   350   173   102   247    87   1  0 
+Jets                   173  271   50   7  14.00%   64  10  84.38%    0  53.64%  43.25%  53.98%   355   319   183   110   215    86   0  0 
+Kings                  140  300   54   6  11.11%   60   8  86.67%    0  37.96%  37.95%  38.28%   379   303   174   108   204    81   0  0 
+Lightning              134  274   54  10  18.52%   56  10  82.14%    0  53.29%  52.27%  46.54%   336   343   178   103   239    89   0  1 
+Maple Leafs            211  318   72   9  12.50%   72  13  81.94%    0  48.80%  48.06%  55.45%   352   327   177   109   226    86   1  0 
+Oilers                 155  265   56   6  10.71%   60  11  81.67%    0  47.86%  56.71%  54.27%   323   359   174   101   253    88   2  1 
+Panthers               117  222   62  11  17.74%   51   6  88.24%    0  51.15%  53.75%  51.26%   308   362   175    99   254    91   1  1 
+Penguins               129  286   42   4   9.52%   54  10  81.48%    1  56.16%  54.77%  53.54%   342   326   183   104   220    91   1  1 
+Predators              129  307   57   7  12.28%   57  11  80.70%    0  46.84%  44.79%  41.38%   358   308   184   107   205    89   0  0 
+Rangers                116  262   53  10  18.87%   52   8  84.62%    0  54.34%  54.92%  53.30%   330   339   175   101   234    87   1  0 
+Red Wings              158  254   47   8  17.02%   51  10  80.39%    1  48.93%  51.77%  48.77%   336   339   175   102   236    86   2  0 
+Sabres                 163  303   41   8  19.51%   66   8  87.88%    1  56.91%  52.67%  53.33%   344   326   182   106   223    88   0  0 
+Senators               149  266   70  14  20.00%   58  12  79.31%    0  40.45%  43.71%  49.54%   317   351   178   101   244    92   1  0 
+Sharks                 169  276   71   7   9.86%   55   9  83.64%    1  50.10%  48.48%  47.78%   327   350   177   105   242    88   0  0 
+Stars                  105  271   54  14  25.93%   35   5  85.71%    0  53.41%  53.28%  59.28%   309   373   177   100   268    92   0  0 
+Wild                   161  304   46   8  17.39%   54  10  81.48%    0  54.12%  51.02%  46.30%   357   318   179   109   217    87   1  0 
+</pre>
+<table><tr><td valign="top"><h1>
+Goals For</h1><pre><b>
+Pos Teams                    Value</b>
+1   Stars                    3.57      
+2   Lightning                3.57      
+3   Sabres                   3.50      
+4   Islanders                3.21      
+5   Wild                     3.14      
+6   Panthers                 3.07      
+7   Devils                   3.07      
+8   Avalanche                3.00      
+9   Flyers                   2.93      
+10  Blues                    2.93      
+11  Rangers                  2.86      
+12  Maple Leafs              2.79      
+13  Flames                   2.79      
+14  Sharks                   2.71      
+15  Canadiens                2.64      
+16  Hurricanes               2.64      
+17  Coyotes                  2.64      
+18  Red Wings                2.57      
+19  Senators                 2.57      
+20  Blackhawks               2.57      
+21  Ducks                    2.57      
+22  Canucks                  2.50      
+23  Penguins                 2.43      
+24  Jets                     2.43      
+25  Capitals                 2.36      
+26  Predators                2.29      
+27  Oilers                   2.29      
+28  Bruins                   2.29      
+29  Kings                    2.07      
+30  Blue Jackets             1.86      
+       <b>League Average 2.73</b>
+</pre>
+</td><td valign="top"><h1>
+Goals Against</h1><pre><b>
+Pos Teams                    Value</b>
+1   Hurricanes               1.79      
+2   Sharks                   1.93      
+3   Ducks                    2.07      
+4   Blues                    2.21      
+5   Islanders                2.21      
+6   Flames                   2.43      
+7   Wild                     2.43      
+8   Flyers                   2.50      
+9   Coyotes                  2.50      
+10  Blackhawks               2.50      
+11  Stars                    2.50      
+12  Red Wings                2.50      
+13  Rangers                  2.50      
+14  Lightning                2.64      
+15  Panthers                 2.64      
+16  Canadiens                2.64      
+17  Capitals                 2.64      
+18  Maple Leafs              2.71      
+19  Senators                 2.86      
+20  Avalanche                2.93      
+21  Oilers                   2.93      
+22  Kings                    3.00      
+23  Sabres                   3.07      
+24  Jets                     3.14      
+25  Penguins                 3.14      
+26  Canucks                  3.21      
+27  Devils                   3.21      
+28  Blue Jackets             3.36      
+29  Predators                3.71      
+30  Bruins                   3.93      
+       <b>League Average 2.73</b>
+</pre>
+</td><td valign="top"><h1>
+Goals For / Against</h1><pre><b>
+Pos Teams                    Value</b>
+1   Hurricanes               148.00%      
+2   Islanders                145.16%      
+3   Stars                    142.86%      
+4   Sharks                   140.74%      
+5   Lightning                135.14%      
+6   Blues                    132.26%      
+7   Wild                     129.41%      
+8   Ducks                    124.14%      
+9   Flyers                   117.14%      
+10  Panthers                 116.22%      
+11  Flames                   114.71%      
+12  Rangers                  114.29%      
+13  Sabres                   113.95%      
+14  Coyotes                  105.71%      
+15  Red Wings                102.86%      
+16  Blackhawks               102.86%      
+17  Maple Leafs              102.63%      
+18  Avalanche                102.44%      
+19  Canadiens                100.00%      
+20  Devils                   95.56%      
+21  Senators                 90.00%      
+22  Capitals                 89.19%      
+23  Oilers                   78.05%      
+24  Canucks                  77.78%      
+25  Penguins                 77.27%      
+26  Jets                     77.27%      
+27  Kings                    69.05%      
+28  Predators                61.54%      
+29  Bruins                   58.18%      
+30  Blue Jackets             55.32%      
+</pre>
+</td></tr></table>
+<table><tr><td valign="top"><h1>
+PowerPlay %</h1><pre><b>
+Pos Teams                    Value</b>
+1   Stars                    25.93%      
+2   Blues                    23.53%      
+3   Senators                 20.00%      
+4   Devils                   20.00%      
+5   Sabres                   19.51%      
+6   Ducks                    19.30%      
+7   Rangers                  18.87%      
+8   Bruins                   18.87%      
+9   Flames                   18.64%      
+10  Lightning                18.52%      
+11  Coyotes                  18.37%      
+12  Panthers                 17.74%      
+13  Wild                     17.39%      
+14  Red Wings                17.02%      
+15  Capitals                 17.02%      
+16  Flyers                   16.67%      
+17  Islanders                14.29%      
+18  Jets                     14.00%      
+19  Avalanche                13.33%      
+20  Maple Leafs              12.50%      
+21  Predators                12.28%      
+22  Blackhawks               12.20%      
+23  Kings                    11.11%      
+24  Canadiens                10.94%      
+25  Oilers                   10.71%      
+26  Sharks                   9.86%      
+27  Penguins                 9.52%      
+28  Canucks                  8.77%      
+29  Hurricanes               8.51%      
+30  Blue Jackets             2.86%      
+       <b>League Average 15.33%</b>
+</pre>
+</td><td valign="top"><h1>
+Penalty Kill %</h1><pre><b>
+Pos Teams                    Value</b>
+1   Blackhawks               96.43%      
+2   Hurricanes               92.68%      
+3   Islanders                92.00%      
+4   Flyers                   90.48%      
+5   Ducks                    89.36%      
+6   Panthers                 88.24%      
+7   Sabres                   87.88%      
+8   Coyotes                  87.27%      
+9   Kings                    86.67%      
+10  Stars                    85.71%      
+11  Devils                   85.42%      
+12  Canucks                  85.19%      
+13  Rangers                  84.62%      
+14  Jets                     84.38%      
+15  Blues                    83.78%      
+16  Bruins                   83.67%      
+17  Sharks                   83.64%      
+18  Canadiens                83.33%      
+19  Capitals                 82.35%      
+20  Lightning                82.14%      
+21  Blue Jackets             82.00%      
+22  Flames                   81.97%      
+23  Maple Leafs              81.94%      
+24  Oilers                   81.67%      
+25  Wild                     81.48%      
+26  Penguins                 81.48%      
+27  Predators                80.70%      
+28  Red Wings                80.39%      
+29  Senators                 79.31%      
+30  Avalanche                78.85%      
+       <b>League Average 84.67%</b>
+</pre>
+</td><td valign="top"><h1>
+PP + PK</h1><pre><b>
+Pos Teams                    Value</b>
+1   Stars                    111.64%      
+2   Ducks                    108.66%      
+3   Blackhawks               108.62%      
+4   Sabres                   107.39%      
+5   Blues                    107.31%      
+6   Flyers                   107.14%      
+7   Islanders                106.29%      
+8   Panthers                 105.98%      
+9   Coyotes                  105.64%      
+10  Devils                   105.42%      
+11  Rangers                  103.48%      
+12  Bruins                   102.54%      
+13  Hurricanes               101.19%      
+14  Lightning                100.66%      
+15  Flames                   100.61%      
+16  Capitals                 99.37%      
+17  Senators                 99.31%      
+18  Wild                     98.87%      
+19  Jets                     98.38%      
+20  Kings                    97.78%      
+21  Red Wings                97.41%      
+22  Maple Leafs              94.44%      
+23  Canadiens                94.27%      
+24  Canucks                  93.96%      
+25  Sharks                   93.50%      
+26  Predators                92.98%      
+27  Oilers                   92.38%      
+28  Avalanche                92.18%      
+29  Penguins                 91.01%      
+30  Blue Jackets             84.86%      
+</pre>
+</td></tr></table>
+<table><tr><td valign="top"><h1>
+Shots For</h1><pre><b>
+Pos Teams                    Value</b>
+1   Stars                    35.21      
+2   Wild                     31.86      
+3   Hurricanes               30.00      
+4   Sharks                   29.64      
+5   Panthers                 29.50      
+6   Sabres                   29.29      
+7   Lightning                28.64      
+8   Ducks                    28.57      
+9   Oilers                   28.14      
+10  Flames                   28.00      
+11  Rangers                  27.21      
+12  Jets                     27.07      
+13  Islanders                26.64      
+14  Maple Leafs              26.57      
+15  Canucks                  26.50      
+16  Red Wings                26.21      
+17  Canadiens                25.93      
+18  Blackhawks               25.93      
+19  Coyotes                  25.86      
+20  Flyers                   25.14      
+21  Senators                 24.93      
+22  Blues                    24.93      
+23  Avalanche                24.57      
+24  Devils                   23.79      
+25  Bruins                   23.79      
+26  Predators                22.86      
+27  Capitals                 22.57      
+28  Kings                    22.50      
+29  Penguins                 21.36      
+30  Blue Jackets             20.71      
+       <b>League Average 26.46</b>
+</pre>
+</td><td valign="top"><h1>
+Shots Against</h1><pre><b>
+Pos Teams                    Value</b>
+1   Hurricanes               21.14      
+2   Islanders                22.29      
+3   Ducks                    22.43      
+4   Rangers                  22.79      
+5   Flyers                   23.50      
+6   Blues                    24.29      
+7   Senators                 24.36      
+8   Canucks                  24.86      
+9   Flames                   25.21      
+10  Penguins                 25.21      
+11  Panthers                 25.36      
+12  Lightning                25.43      
+13  Stars                    25.57      
+14  Oilers                   25.86      
+15  Red Wings                26.07      
+16  Blackhawks               26.50      
+17  Capitals                 26.86      
+18  Sharks                   26.86      
+19  Maple Leafs              27.29      
+20  Wild                     27.43      
+21  Canadiens                27.57      
+22  Devils                   27.79      
+23  Blue Jackets             27.86      
+24  Sabres                   28.21      
+25  Avalanche                28.93      
+26  Coyotes                  29.36      
+27  Predators                29.36      
+28  Bruins                   30.57      
+29  Jets                     30.79      
+30  Kings                    34.21      
+       <b>League Average 26.46</b>
+</pre>
+</td><td valign="top"><h1>
+Shots For / Against</h1><pre><b>
+Pos Teams                    Value</b>
+1   Hurricanes               141.89%      
+2   Stars                    137.71%      
+3   Ducks                    127.39%      
+4   Islanders                119.55%      
+5   Rangers                  119.44%      
+6   Panthers                 116.34%      
+7   Wild                     116.15%      
+8   Lightning                112.64%      
+9   Flames                   111.05%      
+10  Sharks                   110.37%      
+11  Oilers                   108.84%      
+12  Flyers                   106.99%      
+13  Canucks                  106.61%      
+14  Sabres                   103.80%      
+15  Blues                    102.65%      
+16  Senators                 102.35%      
+17  Red Wings                100.55%      
+18  Blackhawks               97.84%      
+19  Maple Leafs              97.38%      
+20  Canadiens                94.04%      
+21  Coyotes                  88.08%      
+22  Jets                     87.94%      
+23  Devils                   85.60%      
+24  Avalanche                84.94%      
+25  Penguins                 84.70%      
+26  Capitals                 84.04%      
+27  Predators                77.86%      
+28  Bruins                   77.80%      
+29  Blue Jackets             74.36%      
+30  Kings                    65.76%      
+</pre>
+</td></tr></table>
+<table><tr><td valign="top"><h1>
+Pim / GP</h1><pre><b>
+Pos Teams                    Value</b>
+1   Stars                    7.50      
+2   Devils                   7.86      
+3   Flyers                   7.86      
+4   Hurricanes               8.00      
+5   Bruins                   8.14      
+6   Rangers                  8.29      
+7   Panthers                 8.36      
+8   Ducks                    8.71      
+9   Blues                    8.86      
+10  Capitals                 9.21      
+11  Blackhawks               9.21      
+12  Coyotes                  9.21      
+13  Predators                9.21      
+14  Penguins                 9.21      
+15  Canadiens                9.29      
+16  Lightning                9.57      
+17  Avalanche                9.64      
+18  Blue Jackets             9.93      
+19  Kings                    10.00      
+20  Islanders                10.29      
+21  Canucks                  10.50      
+22  Senators                 10.64      
+23  Oilers                   11.07      
+24  Red Wings                11.29      
+25  Wild                     11.50      
+26  Sabres                   11.64      
+27  Flames                   12.07      
+28  Sharks                   12.07      
+29  Jets                     12.36      
+30  Maple Leafs              15.07      
+       <b>League Average 9.89</b>
+</pre>
+</td><td valign="top"><h1>
+Hits / GP</h1><pre><b>
+Pos Teams                    Value</b>
+1   Maple Leafs              22.71      
+2   Flames                   22.07      
+3   Predators                21.93      
+4   Wild                     21.71      
+5   Sabres                   21.64      
+6   Devils                   21.50      
+7   Kings                    21.43      
+8   Islanders                21.36      
+9   Bruins                   20.57      
+10  Penguins                 20.43      
+11  Avalanche                20.07      
+12  Ducks                    19.93      
+13  Blue Jackets             19.86      
+14  Sharks                   19.71      
+15  Capitals                 19.64      
+16  Lightning                19.57      
+17  Canadiens                19.57      
+18  Stars                    19.36      
+19  Jets                     19.36      
+20  Canucks                  19.36      
+21  Senators                 19.00      
+22  Oilers                   18.93      
+23  Rangers                  18.71      
+24  Blues                    18.29      
+25  Red Wings                18.14      
+26  Blackhawks               17.86      
+27  Flyers                   17.50      
+28  Coyotes                  17.50      
+29  Hurricanes               16.21      
+30  Panthers                 15.86      
+       <b>League Average 19.66</b>
+</pre>
+</td><td valign="top"><h1>
+Faceoff %</h1><pre><b>
+Pos Teams                    Value</b>
+1   Canucks                  55.17%      
+2   Penguins                 55.06%      
+3   Sabres                   54.54%      
+4   Stars                    54.45%      
+5   Rangers                  54.40%      
+6   Hurricanes               53.46%      
+7   Flames                   53.12%      
+8   Oilers                   52.85%      
+9   Blackhawks               52.75%      
+10  Panthers                 52.31%      
+11  Lightning                51.58%      
+12  Wild                     51.40%      
+13  Ducks                    50.69%      
+14  Blue Jackets             50.53%      
+15  Coyotes                  50.27%      
+16  Red Wings                50.09%      
+17  Maple Leafs              49.75%      
+18  Jets                     49.71%      
+19  Avalanche                49.69%      
+20  Canadiens                49.34%      
+21  Sharks                   49.02%      
+22  Devils                   48.81%      
+23  Bruins                   48.59%      
+24  Blues                    48.50%      
+25  Capitals                 46.28%      
+26  Islanders                46.13%      
+27  Flyers                   45.36%      
+28  Predators                44.92%      
+29  Senators                 43.55%      
+30  Kings                    38.01%      
+</pre>
+</td></tr></table>
+<br /><br /><br /><center><b>Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Drew Barclay -- Original Page <a href="http://validator.w3.org/check?uri=referer">W3C XHTML 1.0 Valid</a></b>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></center>
+</body></html>

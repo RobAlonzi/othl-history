@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeOutputXMLTodayGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro945</GameNumber>
+    <Link>OTHL-945.html</Link>
+    <VisitorTeamNumber>30</VisitorTeamNumber>
+    <VisitorTeam>Washington Capitals</VisitorTeam>
+    <VisitorTeamAbbre>WSH</VisitorTeamAbbre>
+    <VisitorTeamShots>30</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>71</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Darren Helm(7), Dominic Moore(8), Kyle Palmieri(17,18)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Jonathan Quick (WSH), 18 saves from 21 shots - (0.857), W, 26-19-5, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>4</HomeTeamNumber>
+    <HomeTeam>Buffalo Sabres</HomeTeam>
+    <HomeTeamAbbre>BUF</HomeTeamAbbre>
+    <HomeTeamShots>21</HomeTeamShots>
+    <HomeTeamShotsAttemp>38</HomeTeamShotsAttemp>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>J.T. Compher(15), Chris Kreider(14,15)</HomeTeamGoal>
+    <HomeTeamGoaler>Braden Holtby (BUF), 26 saves from 30 shots - (0.867), L, 27-19-2, 59:52 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro946</GameNumber>
+    <Link>OTHL-946.html</Link>
+    <VisitorTeamNumber>26</VisitorTeamNumber>
+    <VisitorTeam>San Jose Sharks</VisitorTeam>
+    <VisitorTeamAbbre>SJS</VisitorTeamAbbre>
+    <VisitorTeamShots>46</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>80</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>3</VisitorTeamScore>
+    <VisitorTeamGoal>Ryan Spooner(8,9), Aleksander Barkov(30)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Corey Crawford (SJS), 18 saves from 19 shots - (0.947), W, 25-20-6, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>9</HomeTeamNumber>
+    <HomeTeam>Columbus Blue Jackets</HomeTeam>
+    <HomeTeamAbbre>CLB</HomeTeamAbbre>
+    <HomeTeamShots>19</HomeTeamShots>
+    <HomeTeamShotsAttemp>50</HomeTeamShotsAttemp>
+    <HomeTeamScore>1</HomeTeamScore>
+    <HomeTeamGoal>Dion Phaneuf(4)</HomeTeamGoal>
+    <HomeTeamGoaler>James Reimer (CLB), 43 saves from 46 shots - (0.935), L, 6-9-1, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro947</GameNumber>
+    <Link>OTHL-947.html</Link>
+    <VisitorTeamNumber>6</VisitorTeamNumber>
+    <VisitorTeam>Carolina Hurricanes</VisitorTeam>
+    <VisitorTeamAbbre>CAR</VisitorTeamAbbre>
+    <VisitorTeamShots>28</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>58</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>0</VisitorTeamScore>
+    <VisitorTeamGoal />
+    <VisitorTeamGoaler>Jonathan Bernier (CAR), 33 saves from 35 shots - (0.943), L, 10-26-2, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>10</HomeTeamNumber>
+    <HomeTeam>Dallas Stars</HomeTeam>
+    <HomeTeamAbbre>DAL</HomeTeamAbbre>
+    <HomeTeamShots>35</HomeTeamShots>
+    <HomeTeamShotsAttemp>66</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Frans Nielsen(18), Max Pacioretty(27)</HomeTeamGoal>
+    <HomeTeamGoaler>Cam Talbot (DAL), 28 saves from 28 shots - (1.000), W, 33-15-4, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro948</GameNumber>
+    <Link>OTHL-948.html</Link>
+    <VisitorTeamNumber>1</VisitorTeamNumber>
+    <VisitorTeam>Anaheim Ducks</VisitorTeam>
+    <VisitorTeamAbbre>ANH</VisitorTeamAbbre>
+    <VisitorTeamShots>31</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>49</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Travis Zajac(12), Nazem Kadri(18), Sean Monahan(20,21)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Martin Jones (ANH), 25 saves from 30 shots - (0.833), OTL, 23-15-2, 60:22 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>12</HomeTeamNumber>
+    <HomeTeam>Edmonton Oilers</HomeTeam>
+    <HomeTeamAbbre>EDM</HomeTeamAbbre>
+    <HomeTeamShots>30</HomeTeamShots>
+    <HomeTeamShotsAttemp>52</HomeTeamShotsAttemp>
+    <HomeTeamScore>5</HomeTeamScore>
+    <HomeTeamGoal>Dustin Brown(17), Nick Foligno(19,20), Derek Stepan(19), Derick Brassard(11)</HomeTeamGoal>
+    <HomeTeamGoaler>Connor Hellebuyck (EDM), 27 saves from 31 shots - (0.871), W, 28-9-6, 60:32 minutes </HomeTeamGoaler>
+    <Note>End in Overtime</Note>
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro949</GameNumber>
+    <Link>OTHL-949.html</Link>
+    <VisitorTeamNumber>14</VisitorTeamNumber>
+    <VisitorTeam>Los Angeles Kings</VisitorTeam>
+    <VisitorTeamAbbre>LAK</VisitorTeamAbbre>
+    <VisitorTeamShots>29</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>52</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>P.K. Subban(12), Ryan O'Reilly(24)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Devan Dubnyk (LAK), 35 saves from 39 shots - (0.897), L, 27-20-2, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>13</HomeTeamNumber>
+    <HomeTeam>Florida Panthers</HomeTeam>
+    <HomeTeamAbbre>FLA</HomeTeamAbbre>
+    <HomeTeamShots>39</HomeTeamShots>
+    <HomeTeamShotsAttemp>79</HomeTeamShotsAttemp>
+    <HomeTeamScore>4</HomeTeamScore>
+    <HomeTeamGoal>Jake Debrusk(7), Tyler Seguin(34), Carl Soderberg(18), Ryan Strome(12)</HomeTeamGoal>
+    <HomeTeamGoaler>Anton Khudobin (FLA), 27 saves from 29 shots - (0.931), W, 6-7-1, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro950</GameNumber>
+    <Link>OTHL-950.html</Link>
+    <VisitorTeamNumber>8</VisitorTeamNumber>
+    <VisitorTeam>Colorado Avalanche</VisitorTeam>
+    <VisitorTeamAbbre>COL</VisitorTeamAbbre>
+    <VisitorTeamShots>26</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>48</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>3</VisitorTeamScore>
+    <VisitorTeamGoal>Patrick Kane(24), Ron Hainsey(4), Antoine Roussel(11)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Jake Allen (COL), 35 saves from 37 shots - (0.946), W, 26-25-5, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>17</HomeTeamNumber>
+    <HomeTeam>Nashville Predators</HomeTeam>
+    <HomeTeamAbbre>NSH</HomeTeamAbbre>
+    <HomeTeamShots>37</HomeTeamShots>
+    <HomeTeamShotsAttemp>76</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Adrian Kempe(4), Logan Couture(29)</HomeTeamGoal>
+    <HomeTeamGoaler>Carey Price (NSH), 23 saves from 26 shots - (0.885), L, 20-20-7, 59:03 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro951</GameNumber>
+    <Link>OTHL-951.html</Link>
+    <VisitorTeamNumber>18</VisitorTeamNumber>
+    <VisitorTeam>New Jersey Devils</VisitorTeam>
+    <VisitorTeamAbbre>NJD</VisitorTeamAbbre>
+    <VisitorTeamShots>27</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>47</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>3</VisitorTeamScore>
+    <VisitorTeamGoal>Ryan Getzlaf(19), Darnell Nurse(9), Riley Sheahan(12)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Robin Lehner (NJD), 29 saves from 34 shots - (0.853), L, 27-17-7, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>20</HomeTeamNumber>
+    <HomeTeam>New York Rangers</HomeTeam>
+    <HomeTeamAbbre>NYR</HomeTeamAbbre>
+    <HomeTeamShots>34</HomeTeamShots>
+    <HomeTeamShotsAttemp>58</HomeTeamShotsAttemp>
+    <HomeTeamScore>5</HomeTeamScore>
+    <HomeTeamGoal>Chris Tierney(19), Artem Anisimov(16), Reilly Smith(24), Jesper Fast(6), Sam Reinhart(17)</HomeTeamGoal>
+    <HomeTeamGoaler>Carter Hutton (NYR), 24 saves from 27 shots - (0.889), W, 19-10-6, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro952</GameNumber>
+    <Link>OTHL-952.html</Link>
+    <VisitorTeamNumber>24</VisitorTeamNumber>
+    <VisitorTeam>Pittsburgh Penguins</VisitorTeam>
+    <VisitorTeamAbbre>PIT</VisitorTeamAbbre>
+    <VisitorTeamShots>47</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>78</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>4</VisitorTeamScore>
+    <VisitorTeamGoal>Vladimir Sobotka(21,22), Dmitry Kulikov(2), Andy Greene(7)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Anton Forsberg (PIT), 16 saves from 17 shots - (0.941), W, 21-21-2, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>22</HomeTeamNumber>
+    <HomeTeam>Philadelphia Flyers</HomeTeam>
+    <HomeTeamAbbre>PHL</HomeTeamAbbre>
+    <HomeTeamShots>17</HomeTeamShots>
+    <HomeTeamShotsAttemp>30</HomeTeamShotsAttemp>
+    <HomeTeamScore>1</HomeTeamScore>
+    <HomeTeamGoal>Joel Eriksson Ek(12)</HomeTeamGoal>
+    <HomeTeamGoaler>Jaroslav Halak (PHL), 43 saves from 47 shots - (0.915), L, 19-34-9, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro953</GameNumber>
+    <Link>OTHL-953.html</Link>
+    <VisitorTeamNumber>3</VisitorTeamNumber>
+    <VisitorTeam>Boston Bruins</VisitorTeam>
+    <VisitorTeamAbbre>BOS</VisitorTeamAbbre>
+    <VisitorTeamShots>28</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>66</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>2</VisitorTeamScore>
+    <VisitorTeamGoal>Dustin Byfuglien(8), Sean Couturier(28)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Cam Ward (BOS), 27 saves from 31 shots - (0.871), L, 5-6-2, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>25</HomeTeamNumber>
+    <HomeTeam>St. Louis Blues</HomeTeam>
+    <HomeTeamAbbre>STL</HomeTeamAbbre>
+    <HomeTeamShots>31</HomeTeamShots>
+    <HomeTeamShotsAttemp>70</HomeTeamShotsAttemp>
+    <HomeTeamScore>4</HomeTeamScore>
+    <HomeTeamGoal>Steve Bernier(5), Jason Pominville(10), Pavel Zacha(8), Jonathan Drouin(7)</HomeTeamGoal>
+    <HomeTeamGoaler>Louis Domingue (STL), 26 saves from 28 shots - (0.929), W, 1-3-0, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro954</GameNumber>
+    <Link>OTHL-954.html</Link>
+    <VisitorTeamNumber>16</VisitorTeamNumber>
+    <VisitorTeam>Montreal Canadiens</VisitorTeam>
+    <VisitorTeamAbbre>MTL</VisitorTeamAbbre>
+    <VisitorTeamShots>27</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>50</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>5</VisitorTeamScore>
+    <VisitorTeamGoal>Ivan Provorov(10,11), Jeff Carter(23,24), Anthony Mantha(11)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Ben Bishop (MTL), 34 saves from 37 shots - (0.919), W, 16-26-6, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>28</HomeTeamNumber>
+    <HomeTeam>Toronto Maple Leafs</HomeTeam>
+    <HomeTeamAbbre>TOR</HomeTeamAbbre>
+    <HomeTeamShots>37</HomeTeamShots>
+    <HomeTeamShotsAttemp>79</HomeTeamShotsAttemp>
+    <HomeTeamScore>3</HomeTeamScore>
+    <HomeTeamGoal>Wayne Simmonds(24), Evgeni Malkin(15), Brendan Gallagher(11)</HomeTeamGoal>
+    <HomeTeamGoaler>Frederik Andersen (TOR), 22 saves from 27 shots - (0.815), L, 23-20-5, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+  <TypeOutputXMLTodayGame>
+    <GameNumber>Pro955</GameNumber>
+    <Link>OTHL-955.html</Link>
+    <VisitorTeamNumber>19</VisitorTeamNumber>
+    <VisitorTeam>New York Islanders</VisitorTeam>
+    <VisitorTeamAbbre>NYI</VisitorTeamAbbre>
+    <VisitorTeamShots>37</VisitorTeamShots>
+    <VisitorTeamShotsAttemp>59</VisitorTeamShotsAttemp>
+    <VisitorTeamScore>5</VisitorTeamScore>
+    <VisitorTeamGoal>Victor Hedman(14), Joe Pavelski(9), Jakub Voracek(13), Jaden Schwartz(14), Colton Parayko(12)</VisitorTeamGoal>
+    <VisitorTeamGoaler>Marc-Andre Fleury (NYI), 29 saves from 31 shots - (0.935), W, 34-17-2, 60:00 minutes </VisitorTeamGoaler>
+    <HomeTeamNumber>29</HomeTeamNumber>
+    <HomeTeam>Vancouver Canucks</HomeTeam>
+    <HomeTeamAbbre>VAN</HomeTeamAbbre>
+    <HomeTeamShots>31</HomeTeamShots>
+    <HomeTeamShotsAttemp>51</HomeTeamShotsAttemp>
+    <HomeTeamScore>2</HomeTeamScore>
+    <HomeTeamGoal>Auston Matthews(25), Stephen Johns(5)</HomeTeamGoal>
+    <HomeTeamGoaler>Henrik Lundqvist (VAN), 32 saves from 37 shots - (0.865), L, 24-22-3, 60:00 minutes </HomeTeamGoaler>
+    <Note />
+  </TypeOutputXMLTodayGame>
+</ArrayOfTypeOutputXMLTodayGame>

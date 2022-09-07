@@ -1,0 +1,121 @@
+Game Number,Day,Play,Visitor Team,Visitor Score,Home Team,Home Score,Overtime,ShootOut,Farm Play,Farm Visitor Team,Farm Visitor Score,Farm Home Team,Farm Home Score,Farm Overtime,Farm ShootOut
+1,1,True,Sharks,3,Ducks,8,False,False,True,Worcester,4,Iowa,3,False,False
+2,1,True,Capitals,6,Panthers,3,False,False,True,Hershey,4,Rochester,3,False,False
+3,1,True,Islanders,2,Rangers,3,True,False,True,Bridgeport,4,Hartford,5,False,False
+4,1,True,Hurricanes,3,Lightning,1,False,False,True,Albany,4,Norfolk,8,False,False
+5,1,True,Stars,4,Kings,3,False,False,True,Texas,3,Manchester,6,False,False
+6,1,True,Bruins,0,Sabres,6,False,False,True,Providence,3,Portland,4,True,False
+7,2,True,Red Wings,2,Predators,1,False,False,True,GrandRapid,6,Milwaukee,3,False,False
+8,2,True,Islanders,1,Flyers,5,False,False,True,Bridgeport,4,Philly,6,False,False
+9,2,True,Blackhawks,2,Blues,4,False,False,True,Rockford,8,Peoria,7,False,False
+10,2,True,Avalanche,8,Wild,6,False,False,True,Lake Erie,4,Houston,5,True,True
+11,2,True,Sabres,4,Canadiens,2,False,False,True,Portland,6,Hamilton,3,False,False
+12,3,True,Panthers,0,Thrashers,3,False,False,True,Rochester,2,Chicago,5,False,False
+13,3,True,Bruins,5,Maple Leafs,1,False,False,True,Providence,7,Toronto,6,False,False
+14,3,True,Blues,1,Blue Jackets,3,False,False,True,Peoria,8,Syracuse,1,False,False
+15,3,True,Avalanche,4,Flames,5,True,True,True,Lake Erie,6,Quad City,4,False,False
+16,3,True,Wild,5,Oilers,2,False,False,True,Houston,5,Springfield,4,False,False
+17,3,True,Ducks,5,Coyotes,4,True,True,True,Iowa,5,San Ant.,4,True,False
+18,3,True,Islanders,3,Penguins,4,True,True,True,Bridgeport,4,WB/Scrant.,0,False,False
+19,3,True,Sabres,4,Senators,2,False,False,True,Portland,7,Binghamton,6,False,False
+20,3,True,Flyers,1,Devils,2,False,False,True,Philly,5,Lowell,3,False,False
+21,4,True,Flames,1,Canucks,3,False,False,True,Quad City,4,Manitoba,6,False,False
+22,4,True,Sharks,2,Stars,1,False,False,True,Worcester,2,Texas,5,False,False
+23,4,True,Predators,7,Red Wings,2,False,False,True,Milwaukee,1,GrandRapid,6,False,False
+24,4,True,Blues,6,Blackhawks,2,False,False,True,Peoria,6,Rockford,2,False,False
+25,4,True,Lightning,3,Capitals,4,False,False,True,Norfolk,4,Hershey,3,False,False
+26,4,True,Thrashers,4,Hurricanes,0,False,False,True,Chicago,7,Albany,5,False,False
+27,4,True,Wild,2,Avalanche,5,False,False,True,Houston,7,Lake Erie,8,True,False
+28,4,True,Senators,3,Bruins,5,False,False,True,Binghamton,11,Providence,1,False,False
+29,4,True,Penguins,5,Islanders,1,False,False,True,WB/Scrant.,4,Bridgeport,7,False,False
+30,5,True,Ducks,4,Sharks,7,False,False,True,Iowa,6,Worcester,5,True,True
+31,5,True,Predators,1,Blue Jackets,6,False,False,True,Milwaukee,7,Syracuse,4,False,False
+32,5,True,Canucks,2,Oilers,4,False,False,True,Manitoba,4,Springfield,6,False,False
+33,5,True,Canadiens,1,Maple Leafs,3,False,False,True,Hamilton,2,Toronto,4,False,False
+34,5,True,Flyers,1,Rangers,2,False,False,True,Philly,7,Hartford,4,False,False
+35,5,True,Coyotes,2,Kings,4,False,False,True,San Ant.,2,Manchester,3,False,False
+36,5,True,Penguins,1,Devils,0,False,False,True,WB/Scrant.,4,Lowell,5,False,False
+37,5,True,Hurricanes,3,Panthers,4,True,True,True,Albany,5,Rochester,4,False,False
+38,5,True,Thrashers,2,Lightning,1,False,False,True,Chicago,2,Norfolk,4,False,False
+39,5,True,Blues,1,Red Wings,3,False,False,True,Peoria,8,GrandRapid,1,False,False
+40,6,True,Canucks,1,Flames,4,False,False,True,Manitoba,8,Quad City,3,False,False
+41,6,True,Bruins,2,Canadiens,4,False,False,True,Providence,4,Hamilton,1,False,False
+42,6,True,Thrashers,1,Capitals,3,False,False,True,Chicago,2,Hershey,3,False,False
+43,6,True,Maple Leafs,4,Senators,1,False,False,True,Toronto,1,Binghamton,9,False,False
+44,6,True,Red Wings,1,Blackhawks,2,False,False,True,GrandRapid,3,Rockford,7,False,False
+45,6,True,Coyotes,3,Stars,2,False,False,True,San Ant.,5,Texas,4,True,False
+46,6,True,Flyers,1,Penguins,2,True,True,True,Philly,5,WB/Scrant.,4,True,True
+47,6,True,Oilers,4,Avalanche,2,False,False,True,Springfield,3,Lake Erie,4,False,False
+48,6,True,Panthers,1,Hurricanes,2,False,False,True,Rochester,3,Albany,4,True,False
+49,7,True,Stars,4,Coyotes,3,False,False,True,Texas,2,San Ant.,6,False,False
+50,7,True,Oilers,3,Wild,2,False,False,True,Springfield,4,Houston,5,False,False
+51,7,True,Maple Leafs,4,Sabres,5,True,False,True,Toronto,4,Portland,8,False,False
+52,7,True,Kings,3,Ducks,1,False,False,True,Manchester,4,Iowa,7,False,False
+53,7,True,Blackhawks,4,Predators,7,False,False,True,Rockford,6,Milwaukee,5,False,False
+54,8,True,Oilers,1,Canucks,2,False,False,True,Springfield,4,Manitoba,6,False,False
+55,8,True,Coyotes,1,Sharks,8,False,False,True,San Ant.,3,Worcester,5,False,False
+56,8,True,Hurricanes,0,Thrashers,3,False,False,True,Albany,4,Chicago,5,False,False
+57,8,True,Predators,0,Blues,1,False,False,True,Milwaukee,3,Peoria,8,False,False
+58,8,True,Maple Leafs,2,Bruins,0,False,False,True,Toronto,2,Providence,7,False,False
+59,9,True,Devils,4,Flyers,3,True,True,True,Lowell,3,Philly,5,False,False
+60,9,True,Rangers,4,Islanders,1,False,False,True,Hartford,2,Bridgeport,3,True,True
+61,9,True,Red Wings,6,Blue Jackets,1,False,False,True,GrandRapid,5,Syracuse,4,True,False
+62,9,True,Bruins,2,Senators,4,False,False,True,Providence,6,Binghamton,8,False,False
+63,9,True,Wild,1,Flames,2,True,True,True,Houston,6,Quad City,7,False,False
+64,9,True,Hurricanes,5,Capitals,3,False,False,True,Albany,2,Hershey,5,False,False
+65,9,True,Sharks,5,Kings,1,False,False,True,Worcester,2,Manchester,7,False,False
+66,9,True,Panthers,3,Lightning,6,False,False,True,Rochester,4,Norfolk,8,False,False
+67,10,True,Maple Leafs,4,Canadiens,1,False,False,True,Toronto,4,Hamilton,6,False,False
+68,10,True,Penguins,5,Rangers,6,False,False,True,WB/Scrant.,6,Hartford,7,True,True
+69,10,True,Islanders,4,Devils,5,True,True,True,Bridgeport,7,Lowell,3,False,False
+70,10,True,Senators,3,Sabres,4,False,False,True,Binghamton,6,Portland,5,False,False
+71,10,True,Coyotes,2,Ducks,5,False,False,True,San Ant.,3,Iowa,8,False,False
+72,10,True,Flames,1,Avalanche,3,False,False,True,Quad City,6,Lake Erie,7,True,True
+73,10,True,Kings,4,Stars,3,False,False,True,Manchester,8,Texas,3,False,False
+74,10,True,Wild,2,Canucks,4,False,False,True,Houston,5,Manitoba,8,False,False
+75,10,True,Predators,5,Blackhawks,1,False,False,True,Milwaukee,4,Rockford,3,False,False
+76,10,True,Blue Jackets,4,Red Wings,3,True,True,True,Syracuse,3,GrandRapid,4,False,False
+77,10,True,Capitals,6,Thrashers,1,False,False,True,Hershey,7,Chicago,2,False,False
+78,11,True,Flames,4,Oilers,5,True,False,True,Quad City,4,Springfield,3,False,False
+79,11,True,Red Wings,3,Blues,5,False,False,True,GrandRapid,3,Peoria,6,False,False
+80,11,True,Rangers,1,Penguins,3,False,False,True,Hartford,2,WB/Scrant.,4,False,False
+81,11,True,Thrashers,3,Panthers,2,False,False,True,Chicago,1,Rochester,6,False,False
+82,11,True,Stars,0,Sharks,3,False,False,True,Texas,5,Worcester,2,False,False
+83,12,True,Penguins,4,Flyers,5,False,False,True,WB/Scrant.,4,Philly,6,False,False
+84,12,True,Flames,3,Wild,4,False,False,True,Quad City,6,Houston,7,False,False
+85,12,True,Lightning,3,Hurricanes,2,True,True,True,Norfolk,7,Albany,2,False,False
+86,12,True,Senators,2,Maple Leafs,3,True,False,True,Binghamton,6,Toronto,4,False,False
+87,12,True,Devils,2,Islanders,4,False,False,True,Lowell,4,Bridgeport,3,True,True
+88,12,True,Sharks,3,Coyotes,2,True,False,True,Worcester,2,San Ant.,3,False,False
+89,12,True,Blues,4,Predators,3,False,False,True,Peoria,3,Milwaukee,4,False,False
+90,12,True,Canadiens,2,Bruins,3,True,True,True,Hamilton,1,Providence,6,False,False
+91,12,True,Blackhawks,3,Blue Jackets,4,False,False,True,Rockford,5,Syracuse,4,False,False
+92,12,True,Canucks,2,Avalanche,4,False,False,True,Manitoba,3,Lake Erie,8,False,False
+93,12,True,Panthers,4,Capitals,3,False,False,True,Rochester,6,Hershey,3,False,False
+94,13,True,Ducks,4,Kings,1,False,False,True,Iowa,5,Manchester,3,False,False
+95,13,True,Rangers,7,Devils,6,False,False,True,Hartford,5,Lowell,2,False,False
+96,13,True,Senators,3,Canadiens,4,True,True,True,Binghamton,5,Hamilton,4,False,False
+97,13,True,Capitals,5,Lightning,3,False,False,True,Hershey,3,Norfolk,5,False,False
+98,14,True,Canadiens,3,Sabres,5,False,False,True,Hamilton,3,Portland,4,False,False
+99,14,True,Stars,2,Ducks,3,False,False,True,Texas,3,Iowa,1,False,False
+100,14,True,Rangers,3,Flyers,5,False,False,True,Hartford,4,Philly,6,False,False
+101,14,True,Avalanche,5,Oilers,4,True,True,True,Lake Erie,5,Springfield,6,True,False
+102,14,True,Blue Jackets,5,Blackhawks,1,False,False,True,Syracuse,4,Rockford,3,False,False
+103,15,True,Avalanche,5,Canucks,3,False,False,True,Lake Erie,5,Manitoba,4,True,False
+104,15,True,Devils,2,Rangers,1,False,False,True,Lowell,4,Hartford,3,False,False
+105,15,True,Capitals,1,Hurricanes,2,False,False,True,Hershey,4,Albany,2,False,False
+106,15,True,Kings,6,Coyotes,1,False,False,True,Manchester,5,San Ant.,4,False,False
+107,15,True,Flyers,3,Islanders,2,False,False,True,Philly,1,Bridgeport,7,False,False
+108,15,True,Ducks,5,Stars,3,False,False,True,Iowa,6,Texas,7,True,True
+109,15,True,Lightning,2,Panthers,7,False,False,True,Norfolk,2,Rochester,5,False,False
+110,15,True,Blue Jackets,6,Blues,3,False,False,True,Syracuse,5,Peoria,3,False,False
+111,15,True,Sabres,2,Maple Leafs,3,False,False,True,Portland,5,Toronto,8,False,False
+112,15,True,Oilers,2,Flames,3,False,False,True,Springfield,4,Quad City,5,False,False
+113,16,True,Lightning,3,Thrashers,2,False,False,True,Norfolk,4,Chicago,3,False,False
+114,16,True,Canadiens,3,Senators,2,True,True,True,Hamilton,8,Binghamton,9,True,True
+115,16,True,Canucks,4,Wild,1,False,False,True,Manitoba,4,Houston,7,False,False
+116,16,True,Devils,3,Penguins,4,False,False,True,Lowell,7,WB/Scrant.,4,False,False
+117,17,True,Blue Jackets,1,Predators,3,False,False,True,Syracuse,5,Milwaukee,3,False,False
+118,17,True,Sabres,3,Bruins,2,True,True,True,Portland,1,Providence,8,False,False
+119,17,True,Blackhawks,2,Red Wings,4,False,False,True,Rockford,3,GrandRapid,5,False,False
+120,17,True,Kings,2,Sharks,3,False,False,True,Manchester,6,Worcester,2,False,False

@@ -1,0 +1,1242 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>OTHL - Pro Team Schedule</title>
+<script type="text/javascript" src="OTHL.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.1.2.2" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<link href="OTHL.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam" class="activemenu"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-Schedule.html">Schedule </a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-TeamHistory.html">History</a></td>
+<td><a href="OTHL-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="OTHL-EntryDraft.html">Entry Draft</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html#Ducks">ANH</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Coyotes">ARI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Bruins">BOS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Sabres">BUF</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Hurricanes">CAR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Flames">CGY</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Blackhawks">CHI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BlueJackets">CLB</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Avalanche">COL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Stars">DAL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#RedWings">DET</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Oilers">EDM</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Panthers">FLA</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Kings">LAK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Wild">MIN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Canadiens">MTL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Devils">NJD</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Predators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-ProTeamRoster.html#Islanders">NYI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Rangers">NYR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Senators">OTT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Flyers">PHL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Penguins">PIT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Sharks">SJS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Blues">STL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Lightning">TBL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MapleLeafs">TOR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Canucks">VAN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#GoldenKnights">VGK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Jets">WPG</a></td>
+<td><a href="OTHL-ProTeamRoster.html#Capitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Pro Team Schedule</td><td class="STHSHeaderDate">Last Update - September 17, 2018 at 13:46</td></tr>
+<tr><td colspan="2" style="font-style: italic;">Simulating a Pre-Season</td></tr></table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<script type="text/javascript">$(function(){$("table").basictablesorter()});</script>
+<div class="STHSTopLink"><a id="STHSRosterTop"></a> <a href="#Avalanche">Avalanche</a> | <a href="#Blackhawks">Blackhawks</a> | <a href="#BlueJackets">Blue Jackets</a> | <a href="#Blues">Blues</a> | <a href="#Bruins">Bruins</a> | <a href="#Canadiens">Canadiens</a> | <a href="#Canucks">Canucks</a> | <a href="#Capitals">Capitals</a> | <a href="#Coyotes">Coyotes</a> | <a href="#Devils">Devils</a> | <a href="#Ducks">Ducks</a> | <a href="#Flames">Flames</a> | <a href="#Flyers">Flyers</a> | <a href="#GoldenKnights">Golden Knights</a> | <a href="#Hurricanes">Hurricanes</a> | <a href="#Islanders">Islanders</a> | <a href="#Jets">Jets</a> | <a href="#Kings">Kings</a> | <a href="#Lightning">Lightning</a> | <a href="#MapleLeafs">Maple Leafs</a> | <a href="#Oilers">Oilers</a> | <a href="#Panthers">Panthers</a> | <a href="#Penguins">Penguins</a> | <a href="#Predators">Predators</a> | <a href="#Rangers">Rangers</a> | <a href="#RedWings">Red Wings</a> | <a href="#Sabres">Sabres</a> | <a href="#Senators">Senators</a> | <a href="#Sharks">Sharks</a> | <a href="#Stars">Stars</a> | <a href="#Wild">Wild</a> | <a href="javascript:STHS_JS_CloseAll('');">Close All Team View</a> | <a href="javascript:STHS_JS_OpenAll('');">Open All Team View</a>
+</div>
+<h1 class="TeamSchedulePro_COL"><a id="Avalanche">Avalanche</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Avalanche">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Avalanche">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Avalanche">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Avalanche">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Avalanche">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Avalanche">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Avalanche">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Avalanche">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Avalanche">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Avalanche">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Avalanche">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Avalanche">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Avalanche');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Avalanche" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>2</td><td>15</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>29</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>4</td><td>45</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>59</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>76</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>8</td><td>88</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>99</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>118</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>136</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>147</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>168</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>179</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>193</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>209</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>223</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>242</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_CHI"><a id="Blackhawks">Blackhawks</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Blackhawks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Blackhawks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Blackhawks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Blackhawks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Blackhawks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Blackhawks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Blackhawks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Blackhawks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Blackhawks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Blackhawks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Blackhawks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Blackhawks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Blackhawks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Blackhawks" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>2</td><td>16</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>33</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>46</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>64</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>74</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>95</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>108</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>127</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>143</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>159</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>173</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>180</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>200</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>218</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>231</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>247</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_CLB"><a id="BlueJackets">Blue Jackets</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#BlueJackets">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#BlueJackets">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#BlueJackets">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#BlueJackets">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#BlueJackets">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#BlueJackets">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#BlueJackets">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#BlueJackets">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#BlueJackets">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#BlueJackets">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#BlueJackets">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#BlueJackets">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_BlueJackets');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_BlueJackets" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>10</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>17</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>44</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>54</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>69</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>89</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>9</td><td>97</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>111</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>135</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>156</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>162</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>175</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>185</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>207</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>21</td><td>226</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>238</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_STL"><a id="Blues">Blues</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Blues">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Blues">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Blues">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Blues">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Blues">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Blues">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Blues">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Blues">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Blues">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Blues">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Blues">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Blues">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Blues');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Blues" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>1</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>22</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>30</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>49</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>66</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>83</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>93</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>110</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>123</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>139</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>152</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>176</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>194</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>205</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>214</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>240</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_BOS"><a id="Bruins">Bruins</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Bruins">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Bruins">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Bruins">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Bruins">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Bruins">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Bruins">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Bruins">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Bruins">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Bruins">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Bruins">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Bruins">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Bruins">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Bruins');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Bruins" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>11</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>20</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>44</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>61</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>78</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>96</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>111</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>119</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>138</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>155</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>171</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>189</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>201</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>219</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>227</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>235</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_MTL"><a id="Canadiens">Canadiens</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Canadiens">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Canadiens">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Canadiens">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Canadiens">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Canadiens">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Canadiens">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Canadiens">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Canadiens">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Canadiens">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Canadiens">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Canadiens">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Canadiens">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Canadiens');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Canadiens" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>5</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>25</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>31</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>48</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>65</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>87</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>90</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>115</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>129</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>141</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>158</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>170</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>185</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>203</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>226</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>244</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_VAN"><a id="Canucks">Canucks</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Canucks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Canucks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Canucks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Canucks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Canucks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Canucks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Canucks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Canucks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Canucks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Canucks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Canucks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Canucks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Canucks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Canucks" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>4</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>22</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>33</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>58</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>74</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>94</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>104</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>122</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>137</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>152</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>168</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>179</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>197</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>215</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>229</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>248</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_WSH"><a id="Capitals">Capitals</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Capitals">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Capitals">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Capitals">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Capitals">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Capitals">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Capitals">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Capitals">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Capitals">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Capitals">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Capitals">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Capitals">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Capitals">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Capitals');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Capitals" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>11</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>26</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>43</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>52</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>70</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>87</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>100</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>113</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>131</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>142</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>153</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>174</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>190</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>201</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>232</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>244</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_ARI"><a id="Coyotes">Coyotes</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Coyotes">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Coyotes">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Coyotes">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Coyotes">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Coyotes">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Coyotes">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Coyotes">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Coyotes">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Coyotes">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Coyotes">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Coyotes">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Coyotes">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Coyotes');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Coyotes" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>9</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>27</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>35</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>57</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>73</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>8</td><td>85</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>98</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>10</td><td>110</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>127</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>146</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>163</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>193</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>205</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>218</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>230</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>242</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_NJD"><a id="Devils">Devils</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Devils">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Devils">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Devils">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Devils">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Devils">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Devils">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Devils">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Devils">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Devils">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Devils">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Devils">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Devils">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Devils');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Devils" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>14</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>19</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>42</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>56</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>65</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>80</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>102</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>115</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>128</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>144</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>150</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>177</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>189</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>213</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>221</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>235</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_ANH"><a id="Ducks">Ducks</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Ducks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Ducks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Ducks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Ducks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Ducks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Ducks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Ducks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Ducks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Ducks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Ducks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Ducks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Ducks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Ducks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Ducks" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>1</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>16</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>39</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>49</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>72</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>88</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>99</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>116</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>130</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>148</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>154</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>173</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>191</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>206</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>222</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>241</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_CGY"><a id="Flames">Flames</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Flames">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Flames">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Flames">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Flames">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Flames">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Flames">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Flames">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Flames">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Flames">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Flames">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Flames">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Flames">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Flames');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Flames" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>2</td><td>15</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>30</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>47</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>6</td><td>59</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>77</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>92</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>108</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>125</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>139</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>159</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>167</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>186</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>195</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>20</td><td>212</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>21</td><td>220</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>22</td><td>237</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_PHL"><a id="Flyers">Flyers</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Flyers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Flyers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Flyers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Flyers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Flyers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Flyers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Flyers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Flyers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Flyers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Flyers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Flyers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Flyers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Flyers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Flyers" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>5</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>31</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>36</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>51</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>67</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>86</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>101</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>117</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>133</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>160</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>171</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>184</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>196</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>219</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>224</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>234</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_VGK"><a id="GoldenKnights">Golden Knights</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#GoldenKnights">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#GoldenKnights">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#GoldenKnights">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#GoldenKnights">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#GoldenKnights">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#GoldenKnights">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#GoldenKnights">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#GoldenKnights">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#GoldenKnights">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#GoldenKnights">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#GoldenKnights">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#GoldenKnights">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_GoldenKnights');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_GoldenKnights" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>9</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>18</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>46</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>55</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>64</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>82</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>93</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>114</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>136</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>147</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>166</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>178</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>181</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>208</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>230</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>240</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_CAR"><a id="Hurricanes">Hurricanes</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Hurricanes">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Hurricanes">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Hurricanes">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Hurricanes">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Hurricanes">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Hurricanes">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Hurricanes">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Hurricanes">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Hurricanes">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Hurricanes">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Hurricanes">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Hurricanes">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Hurricanes');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Hurricanes" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>6</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>20</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>38</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>63</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>78</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>91</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>107</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>120</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>140</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>158</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>169</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>182</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>198</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>203</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>225</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>243</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_NYI"><a id="Islanders">Islanders</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Islanders">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Islanders">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Islanders">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Islanders">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Islanders">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Islanders">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Islanders">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Islanders">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Islanders">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Islanders">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Islanders">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Islanders">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Islanders');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Islanders" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>3</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>23</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>32</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>48</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>61</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>81</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>105</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>124</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>129</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>151</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>161</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>188</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>18</td><td>199</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>211</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>21</td><td>227</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>236</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_WPG"><a id="Jets">Jets</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Jets">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Jets">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Jets">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Jets">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Jets">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Jets">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Jets">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Jets">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Jets">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Jets">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Jets">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Jets">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Jets');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Jets" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>4</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>18</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>41</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>55</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>72</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>85</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>103</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>116</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>132</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>146</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>164</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>192</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>212</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>21</td><td>220</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>22</td><td>233</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>248</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_LAK"><a id="Kings">Kings</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Kings">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Kings">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Kings">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Kings">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Kings">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Kings">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Kings">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Kings">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Kings">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Kings">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Kings">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Kings">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Kings');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Kings" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>8</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>3</td><td>28</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>41</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>58</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>68</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>84</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>10</td><td>104</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>121</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>132</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>143</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>165</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>176</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>194</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>209</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>223</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>231</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_TBL"><a id="Lightning">Lightning</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Lightning">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Lightning">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Lightning">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Lightning">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Lightning">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Lightning">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Lightning">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Lightning">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Lightning">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Lightning">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Lightning">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Lightning">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Lightning');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Lightning" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>3</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>23</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>38</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>52</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>62</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>80</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>101</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>112</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>120</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>142</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>156</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>175</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>187</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>202</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>213</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>234</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_TOR"><a id="MapleLeafs">Maple Leafs</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#MapleLeafs">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#MapleLeafs">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#MapleLeafs">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#MapleLeafs">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#MapleLeafs">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#MapleLeafs">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#MapleLeafs">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#MapleLeafs">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#MapleLeafs">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#MapleLeafs">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#MapleLeafs">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#MapleLeafs">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_MapleLeafs');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_MapleLeafs" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>13</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>21</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>36</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>54</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>70</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>86</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>102</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>107</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>124</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>144</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>161</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>174</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>182</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>204</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>216</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>238</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_EDM"><a id="Oilers">Oilers</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Oilers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Oilers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Oilers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Oilers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Oilers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Oilers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Oilers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Oilers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Oilers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Oilers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Oilers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Oilers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Oilers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Oilers" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>7</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>29</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>4</td><td>37</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>60</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>76</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>9</td><td>95</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>109</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>123</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>130</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>148</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>157</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>180</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>192</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>214</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>233</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>246</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_FLA"><a id="Panthers">Panthers</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Panthers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Panthers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Panthers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Panthers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Panthers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Panthers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Panthers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Panthers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Panthers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Panthers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Panthers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Panthers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Panthers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Panthers" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>14</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>26</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>34</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>53</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>69</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>79</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>91</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>117</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>131</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>150</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>162</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>188</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>18</td><td>196</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>211</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>21</td><td>228</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>243</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_PIT"><a id="Penguins">Penguins</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Penguins">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Penguins">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Penguins">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Penguins">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Penguins">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Penguins">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Penguins">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Penguins">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Penguins">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Penguins">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Penguins">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Penguins">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Penguins');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Penguins" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>13</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>25</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>40</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>53</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>71</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>79</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>96</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>112</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>126</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>141</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>155</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>172</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>183</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>202</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>216</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>245</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_NSH"><a id="Predators">Predators</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Predators">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Predators">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Predators">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Predators">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Predators">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Predators">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Predators">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Predators">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Predators">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Predators">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Predators">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Predators">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Predators');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Predators" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>12</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>24</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>35</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>57</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>68</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>77</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>92</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>109</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>121</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>137</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>154</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>166</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>181</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>206</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>215</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>246</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_NYR"><a id="Rangers">Rangers</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Rangers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Rangers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Rangers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Rangers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Rangers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Rangers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Rangers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Rangers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Rangers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Rangers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Rangers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Rangers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Rangers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Rangers" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>2</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>21</td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>34</td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>62</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>75</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>90</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>106</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>119</td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>138</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Bruins">Bruins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>149</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>170</td><td><a href="OTHL-ProTeamRoster.html#Canadiens">Canadiens</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>187</td><td><a href="OTHL-ProTeamRoster.html#Lightning">Lightning</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>204</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#MapleLeafs">Maple Leafs</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>210</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>228</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Panthers">Panthers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>239</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_DET"><a id="RedWings">Red Wings</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#RedWings">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#RedWings">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#RedWings">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#RedWings">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#RedWings">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#RedWings">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#RedWings">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#RedWings">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#RedWings">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#RedWings">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#RedWings">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#RedWings">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_RedWings');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_RedWings" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>6</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>19</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>43</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>63</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>75</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>89</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>10</td><td>106</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>128</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>153</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>160</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>172</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>183</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>199</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>207</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>21</td><td>224</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>236</td><td><a href="OTHL-ProTeamRoster.html#RedWings">Red Wings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_BUF"><a id="Sabres">Sabres</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Sabres">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Sabres">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Sabres">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Sabres">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Sabres">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Sabres">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Sabres">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Sabres">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Sabres">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Sabres">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Sabres">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Sabres">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Sabres');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Sabres" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>2</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>32</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>42</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>51</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>67</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>97</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>105</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>126</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>135</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>149</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>169</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>190</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>198</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>221</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>232</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>245</td><td><a href="OTHL-ProTeamRoster.html#Sabres">Sabres</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_OTT"><a id="Senators">Senators</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Senators">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Senators">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Senators">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Senators">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Senators">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Senators">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Senators">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Senators">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Senators">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Senators">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Senators">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Senators">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Senators');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Senators" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>10</td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>17</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#BlueJackets">Blue Jackets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>40</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>56</td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>71</td><td><a href="OTHL-ProTeamRoster.html#Penguins">Penguins</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>81</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>100</td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>113</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Capitals">Capitals</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>133</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>140</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>151</td><td><a href="OTHL-ProTeamRoster.html#Islanders">Islanders</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>177</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Devils">Devils</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>184</td><td><a href="OTHL-ProTeamRoster.html#Flyers">Flyers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>210</td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>225</td><td><a href="OTHL-ProTeamRoster.html#Hurricanes">Hurricanes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>239</td><td><a href="OTHL-ProTeamRoster.html#Senators">Senators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Rangers">Rangers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_SJS"><a id="Sharks">Sharks</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Sharks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Sharks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Sharks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Sharks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Sharks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Sharks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Sharks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Sharks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Sharks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Sharks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Sharks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Sharks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Sharks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Sharks" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>12</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2</td><td>24</td><td><a href="OTHL-ProTeamRoster.html#Predators">Predators</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>45</td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>50</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6</td><td>66</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>83</td><td><a href="OTHL-ProTeamRoster.html#Blues">Blues</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>103</td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>118</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Avalanche">Avalanche</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>134</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>145</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>164</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Jets">Jets</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>167</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>186</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>200</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>20</td><td>217</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>23</td><td>247</td><td><a href="OTHL-ProTeamRoster.html#Blackhawks">Blackhawks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_DAL"><a id="Stars">Stars</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Stars">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Stars">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Stars">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Stars">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Stars">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Stars">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Stars">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Stars">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Stars">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Stars">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Stars">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Stars">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Stars');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Stars" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>7</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>28</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>39</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>50</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7</td><td>73</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>8</td><td>82</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>9</td><td>98</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>11</td><td>125</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>12</td><td>134</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>14</td><td>157</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>165</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>17</td><td>191</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>197</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>19</td><td>208</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>229</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>237</td><td><a href="OTHL-ProTeamRoster.html#Stars">Stars</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<h1 class="TeamSchedulePro_MIN"><a id="Wild">Wild</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#Wild">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#Wild">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#Wild">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#Wild">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#Wild">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#Wild">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#Wild">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#Wild">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#Wild">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#Wild">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#Wild">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#Wild">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_Wild');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_Wild" style="display: block;">
+<table class="basictablesorter"><thead><tr>
+<th class="STHSW35">Day</th><th class="STHSW35">Game</th><th class="STHSW200">Visitor Team</th><th class="STHSW35">Score</th><th class="STHSW200">Home Team</th><th class="STHSW35">Score</th><th class="STHSW35">ST</th><th class="STHSW35">OT</th><th class="STHSW35">SO</th><th class="STHSW35">RI</th><th class="STHSW200">Link</th></tr></thead>
+<tr><td>1</td><td>8</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>2</td><td>27</td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>37</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>47</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>6</td><td>60</td><td><a href="OTHL-ProTeamRoster.html#Oilers">Oilers</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>8</td><td>84</td><td><a href="OTHL-ProTeamRoster.html#Kings">Kings</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>9</td><td>94</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>10</td><td>114</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>11</td><td>122</td><td><a href="OTHL-ProTeamRoster.html#Canucks">Canucks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>13</td><td>145</td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>15</td><td>163</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Coyotes">Coyotes</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>16</td><td>178</td><td><a href="OTHL-ProTeamRoster.html#GoldenKnights">Golden Knights</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>195</td><td><a href="OTHL-ProTeamRoster.html#Flames">Flames</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td>R3<td></td></tr>
+<tr><td>20</td><td>217</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Sharks">Sharks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>21</td><td>222</td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>22</td><td>241</td><td><a href="OTHL-ProTeamRoster.html#Ducks">Ducks</a></td><td></td><td><a href="OTHL-ProTeamRoster.html#Wild">Wild</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+<div class="footer">Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

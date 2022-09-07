@@ -1,0 +1,726 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<script src="STHSMain.js"></script>
+<title>OTHL - Pro Team Stats</title>
+<script src="OTHL-PRE.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.1.6.6" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<style>
+@media screen and (min-width: 1380px) {
+.STHSTeamStat_Table2 thead th:nth-child(2){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(2){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(2){display:none;}}
+@media screen and (max-width: 1380px) {
+.STHSTeamStat_Table2 thead th:nth-child(1){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(1){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(1){display:none;}}
+@media screen and (max-width: 1200px) {
+.STHSWarning {display:block;}
+.STHSTeamStat_Table2 thead th:nth-last-child(3){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(3){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(3){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(4){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(4){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(4){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(5){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(5){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(5){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(6){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(6){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(6){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(7){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(7){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(7){display:none;}
+.STHSTeamStat_Table2 thead th:nth-last-child(8){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-last-child(8){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-last-child(8){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(4){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(4){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(4){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(5){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(5){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(5){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(6){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(6){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(6){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(7){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(7){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(7){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(8){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(8){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(8){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(9){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(9){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(9){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(10){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(10){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(10){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(11){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(11){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(11){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(12){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(12){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(12){display:none;}
+.STHSTeamStat_Table1 thead td:nth-last-child(2){display:none;}
+}
+@media screen and (max-width: 960px) {
+.STHSTeamStat_Table2 thead th:nth-child(3){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(3){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(3){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(4){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(4){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(4){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(5){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(5){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(5){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(6){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(6){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(6){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(8){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(8){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(8){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(9){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(9){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(9){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(10){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(10){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(10){display:none;}
+.STHSTeamStat_Table2 thead th:nth-child(11){display:none;}
+.STHSTeamStat_Table2 tbody td:nth-child(11){display:none;}
+.STHSTeamStat_Table2 tfoot td:nth-child(11){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(13){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(13){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(13){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(14){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(14){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(14){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(15){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(15){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(15){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(16){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(16){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(16){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(17){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(17){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(17){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(18){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(18){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(18){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(19){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(19){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(19){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(20){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(20){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(20){display:none;}
+.STHSTeamStat_Table1 thead th:nth-last-child(21){display:none;}
+.STHSTeamStat_Table1 tbody td:nth-last-child(21){display:none;}
+.STHSTeamStat_Table1 tfoot td:nth-last-child(21){display:none;}
+.STHSTeamStat_Table1 thead td:nth-last-child(3){display:none;}
+}
+}</style>
+<link href="OTHL-PRE.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL-PRE Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam" class="activemenu"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-PRE-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-PRE-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-PRE-Schedule.html">Schedule </a></td>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-PRE-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-PRE-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PRE-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PRE-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PRE-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PRE-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PRE-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PRE-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-PRE-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-PRE-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-PRE-TeamHistory.html">History</a></td>
+<td><a href="OTHL-PRE-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-PRE-FarmLeaders.html">Leader</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PRE-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PRE-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PRE-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PRE-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PRE-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PRE-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-PRE-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-PRE-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-PRE-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-PRE-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="OTHL-PRE-RerateDifference.html">RerateDifference</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-PRE-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html#AnaheimDucks">ANH</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#ArizonaCoyotes">ARI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#BostonBruins">BOS</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#BuffaloSabres">BUF</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#CarolinaHurricanes">CAR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#CalgaryFlames">CGY</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#ChicagoBlackhawks">CHI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#ColumbusBlueJackets">CLB</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#ColoradoAvalanche">COL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#DallasStars">DAL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#DetroitRedWings">DET</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#EdmontonOilers">EDM</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#FloridaPanthers">FLA</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#LosAngelesKings">LAK</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#MinnesotaWild">MIN</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#MontrealCanadiens">MTL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#NewJerseyDevils">NJD</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#NashvillePredators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-PRE-ProTeamRoster.html#NewYorkIslanders">NYI</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#NewYorkRangers">NYR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#OttawaSenators">OTT</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#PhiladelphiaFlyers">PHL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#PittsburghPenguins">PIT</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#SanJoseSharks">SJS</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#St.LouisBlues">STL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#TampaBayLightning">TBL</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#TorontoMapleLeafs">TOR</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#VancouverCanucks">VAN</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#VegasGoldenKnights">VGK</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#WinnipegJets">WPG</a></td>
+<td><a href="OTHL-PRE-ProTeamRoster.html#WashingtonCapitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Pro Team Stats</td><td class="STHSHeaderDate">Last Update - October 15, 2019 at 15:45</td></tr>
+</table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<script>$(function(){$("table").basictablesorter()});</script>
+<table class="basictablesorter STHSTeamStat_Table1"><thead><tr>
+<td></td><td colspan="9">Overall</td><td colspan="9">Home</td><td colspan="9">Visitor</td><td colspan="3"></td></tr><tr>
+<th class="STHSW200">Team</th><th class="STHSW25">GP</th><th class="STHSW25">W</th><th class="STHSW25">L</th><th class="STHSW25">OTW</th><th class="STHSW25">OTL</th><th class="STHSW25">SOW</th><th class="STHSW25">SOL</th><th class="STHSW25">GF</th><th class="STHSW25">GA</th><th class="STHSW25">GP</th><th class="STHSW25">W</th><th class="STHSW25">L</th><th class="STHSW25">OTW</th><th class="STHSW25">OTL</th><th class="STHSW25">SOW</th><th class="STHSW25">SOL</th><th class="STHSW25">GF</th><th class="STHSW25">GA</th><th class="STHSW25">GP</th><th class="STHSW25">W</th><th class="STHSW25">L</th><th class="STHSW25">OTW</th><th class="STHSW25">OTL</th><th class="STHSW25">SOW</th><th class="STHSW25">SOL</th><th class="STHSW25">GF</th><th class="STHSW25">GA</th><th class="STHSW25">G</th><th class="STHSW25">A</th><th class="STHSW25">P</th></tr></thead>
+<tr><td>Anaheim Ducks</td><td>14</td><td>3</td><td>7</td><td>0</td><td>1</td><td>2</td><td>1</td><td>37</td><td>46</td><td>7</td><td>2</td><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>16</td><td>22</td><td>7</td><td>1</td><td>3</td><td>0</td><td>1</td><td>2</td><td>0</td><td>21</td><td>24</td><td>37</td><td>64</td><td>101</td></tr>
+<tr><td>Arizona Coyotes</td><td>14</td><td>7</td><td>3</td><td>2</td><td>0</td><td>1</td><td>1</td><td>51</td><td>38</td><td>7</td><td>3</td><td>0</td><td>2</td><td>0</td><td>1</td><td>1</td><td>26</td><td>18</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>25</td><td>20</td><td>51</td><td>89</td><td>140</td></tr>
+<tr><td>Boston Bruins</td><td>14</td><td>7</td><td>4</td><td>1</td><td>0</td><td>1</td><td>1</td><td>42</td><td>37</td><td>7</td><td>2</td><td>2</td><td>1</td><td>0</td><td>1</td><td>1</td><td>20</td><td>21</td><td>7</td><td>5</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>22</td><td>16</td><td>42</td><td>77</td><td>119</td></tr>
+<tr><td>Buffalo Sabres</td><td>14</td><td>7</td><td>5</td><td>1</td><td>0</td><td>0</td><td>1</td><td>41</td><td>34</td><td>7</td><td>3</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>18</td><td>18</td><td>7</td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>23</td><td>16</td><td>41</td><td>69</td><td>110</td></tr>
+<tr><td>Calgary Flames</td><td>14</td><td>5</td><td>5</td><td>3</td><td>1</td><td>0</td><td>0</td><td>35</td><td>33</td><td>7</td><td>2</td><td>4</td><td>1</td><td>0</td><td>0</td><td>0</td><td>16</td><td>20</td><td>7</td><td>3</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td><td>19</td><td>13</td><td>35</td><td>63</td><td>98</td></tr>
+<tr><td>Carolina Hurricanes</td><td>14</td><td>2</td><td>8</td><td>1</td><td>1</td><td>1</td><td>1</td><td>30</td><td>41</td><td>7</td><td>1</td><td>4</td><td>1</td><td>1</td><td>0</td><td>0</td><td>11</td><td>15</td><td>7</td><td>1</td><td>4</td><td>0</td><td>0</td><td>1</td><td>1</td><td>19</td><td>26</td><td>30</td><td>52</td><td>82</td></tr>
+<tr><td>Chicago Blackhawks</td><td>14</td><td>6</td><td>7</td><td>0</td><td>0</td><td>1</td><td>0</td><td>46</td><td>44</td><td>7</td><td>3</td><td>3</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>20</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>23</td><td>24</td><td>46</td><td>79</td><td>125</td></tr>
+<tr><td>Colorado Avalanche</td><td>14</td><td>4</td><td>7</td><td>0</td><td>0</td><td>1</td><td>2</td><td>40</td><td>48</td><td>7</td><td>2</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td><td>23</td><td>7</td><td>2</td><td>2</td><td>0</td><td>0</td><td>1</td><td>2</td><td>24</td><td>25</td><td>40</td><td>71</td><td>111</td></tr>
+<tr><td>Columbus Blue Jackets</td><td>14</td><td>7</td><td>5</td><td>0</td><td>0</td><td>1</td><td>1</td><td>39</td><td>36</td><td>7</td><td>3</td><td>3</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>18</td><td>7</td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>21</td><td>18</td><td>39</td><td>66</td><td>105</td></tr>
+<tr><td>Dallas Stars</td><td>14</td><td>7</td><td>5</td><td>0</td><td>0</td><td>1</td><td>1</td><td>48</td><td>44</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>30</td><td>24</td><td>7</td><td>3</td><td>2</td><td>0</td><td>0</td><td>1</td><td>1</td><td>18</td><td>20</td><td>48</td><td>82</td><td>130</td></tr>
+<tr><td>Detroit Red Wings</td><td>14</td><td>9</td><td>2</td><td>0</td><td>1</td><td>0</td><td>2</td><td>47</td><td>31</td><td>7</td><td>4</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>21</td><td>19</td><td>7</td><td>5</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>26</td><td>12</td><td>47</td><td>80</td><td>127</td></tr>
+<tr><td>Edmonton Oilers</td><td>14</td><td>7</td><td>5</td><td>0</td><td>2</td><td>0</td><td>0</td><td>32</td><td>31</td><td>7</td><td>3</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>13</td><td>15</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>16</td><td>32</td><td>57</td><td>89</td></tr>
+<tr><td>Florida Panthers</td><td>14</td><td>2</td><td>7</td><td>1</td><td>1</td><td>2</td><td>1</td><td>31</td><td>43</td><td>7</td><td>2</td><td>4</td><td>1</td><td>0</td><td>0</td><td>0</td><td>16</td><td>19</td><td>7</td><td>0</td><td>3</td><td>0</td><td>1</td><td>2</td><td>1</td><td>15</td><td>24</td><td>31</td><td>54</td><td>85</td></tr>
+<tr><td>Los Angeles Kings</td><td>14</td><td>7</td><td>2</td><td>1</td><td>1</td><td>1</td><td>2</td><td>50</td><td>42</td><td>7</td><td>4</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>26</td><td>25</td><td>7</td><td>3</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>24</td><td>17</td><td>50</td><td>95</td><td>145</td></tr>
+<tr><td>Minnesota Wild</td><td>14</td><td>4</td><td>5</td><td>0</td><td>0</td><td>3</td><td>2</td><td>35</td><td>37</td><td>7</td><td>2</td><td>2</td><td>0</td><td>0</td><td>1</td><td>2</td><td>16</td><td>18</td><td>7</td><td>2</td><td>3</td><td>0</td><td>0</td><td>2</td><td>0</td><td>19</td><td>19</td><td>35</td><td>61</td><td>96</td></tr>
+<tr><td>Montreal Canadiens</td><td>14</td><td>7</td><td>4</td><td>0</td><td>1</td><td>2</td><td>0</td><td>43</td><td>36</td><td>7</td><td>3</td><td>2</td><td>0</td><td>1</td><td>1</td><td>0</td><td>20</td><td>18</td><td>7</td><td>4</td><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>18</td><td>43</td><td>75</td><td>118</td></tr>
+<tr><td>Nashville Predators</td><td>14</td><td>9</td><td>2</td><td>1</td><td>0</td><td>1</td><td>1</td><td>48</td><td>32</td><td>7</td><td>4</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>25</td><td>20</td><td>7</td><td>5</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>12</td><td>48</td><td>83</td><td>131</td></tr>
+<tr><td>New Jersey Devils</td><td>14</td><td>9</td><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>45</td><td>35</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>23</td><td>18</td><td>7</td><td>5</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>22</td><td>17</td><td>45</td><td>80</td><td>125</td></tr>
+<tr><td>New York Islanders</td><td>14</td><td>5</td><td>7</td><td>0</td><td>1</td><td>0</td><td>1</td><td>30</td><td>33</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>20</td><td>19</td><td>7</td><td>2</td><td>3</td><td>0</td><td>1</td><td>0</td><td>1</td><td>10</td><td>14</td><td>30</td><td>56</td><td>86</td></tr>
+<tr><td>New York Rangers</td><td>14</td><td>8</td><td>4</td><td>0</td><td>0</td><td>1</td><td>1</td><td>40</td><td>34</td><td>7</td><td>4</td><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>23</td><td>18</td><td>7</td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>17</td><td>16</td><td>40</td><td>73</td><td>113</td></tr>
+<tr><td>Ottawa Senators</td><td>14</td><td>5</td><td>4</td><td>2</td><td>0</td><td>1</td><td>2</td><td>38</td><td>38</td><td>7</td><td>3</td><td>2</td><td>0</td><td>0</td><td>1</td><td>1</td><td>19</td><td>17</td><td>7</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>1</td><td>19</td><td>21</td><td>38</td><td>66</td><td>104</td></tr>
+<tr><td>Philadelphia Flyers</td><td>14</td><td>5</td><td>6</td><td>0</td><td>0</td><td>2</td><td>1</td><td>35</td><td>32</td><td>7</td><td>2</td><td>2</td><td>0</td><td>0</td><td>2</td><td>1</td><td>20</td><td>18</td><td>7</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>15</td><td>14</td><td>35</td><td>60</td><td>95</td></tr>
+<tr><td>Pittsburgh Penguins</td><td>14</td><td>7</td><td>5</td><td>1</td><td>0</td><td>1</td><td>0</td><td>40</td><td>38</td><td>7</td><td>4</td><td>2</td><td>0</td><td>0</td><td>1</td><td>0</td><td>24</td><td>17</td><td>7</td><td>3</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>16</td><td>21</td><td>40</td><td>71</td><td>111</td></tr>
+<tr><td>San Jose Sharks</td><td>14</td><td>7</td><td>4</td><td>0</td><td>0</td><td>2</td><td>1</td><td>41</td><td>33</td><td>7</td><td>3</td><td>1</td><td>0</td><td>0</td><td>2</td><td>1</td><td>23</td><td>20</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>13</td><td>41</td><td>69</td><td>110</td></tr>
+<tr><td>St. Louis Blues</td><td>14</td><td>4</td><td>6</td><td>0</td><td>0</td><td>3</td><td>1</td><td>34</td><td>43</td><td>7</td><td>1</td><td>3</td><td>0</td><td>0</td><td>2</td><td>1</td><td>16</td><td>21</td><td>7</td><td>3</td><td>3</td><td>0</td><td>0</td><td>1</td><td>0</td><td>18</td><td>22</td><td>34</td><td>55</td><td>89</td></tr>
+<tr><td>Tampa Bay Lightning</td><td>14</td><td>1</td><td>9</td><td>0</td><td>2</td><td>1</td><td>1</td><td>36</td><td>58</td><td>7</td><td>1</td><td>4</td><td>0</td><td>0</td><td>1</td><td>1</td><td>19</td><td>29</td><td>7</td><td>0</td><td>5</td><td>0</td><td>2</td><td>0</td><td>0</td><td>17</td><td>29</td><td>36</td><td>60</td><td>96</td></tr>
+<tr><td>Toronto Maple Leafs</td><td>14</td><td>5</td><td>8</td><td>0</td><td>0</td><td>1</td><td>0</td><td>43</td><td>44</td><td>7</td><td>4</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>20</td><td>7</td><td>1</td><td>5</td><td>0</td><td>0</td><td>1</td><td>0</td><td>16</td><td>24</td><td>43</td><td>75</td><td>118</td></tr>
+<tr><td>Vancouver Canucks</td><td>14</td><td>2</td><td>7</td><td>1</td><td>0</td><td>1</td><td>3</td><td>44</td><td>55</td><td>7</td><td>2</td><td>3</td><td>1</td><td>0</td><td>0</td><td>1</td><td>21</td><td>24</td><td>7</td><td>0</td><td>4</td><td>0</td><td>0</td><td>1</td><td>2</td><td>23</td><td>31</td><td>44</td><td>79</td><td>123</td></tr>
+<tr><td>Vegas Golden Knights</td><td>14</td><td>2</td><td>7</td><td>0</td><td>2</td><td>2</td><td>1</td><td>27</td><td>39</td><td>7</td><td>2</td><td>4</td><td>0</td><td>0</td><td>1</td><td>0</td><td>14</td><td>18</td><td>7</td><td>0</td><td>3</td><td>0</td><td>2</td><td>1</td><td>1</td><td>13</td><td>21</td><td>27</td><td>44</td><td>71</td></tr>
+<tr><td>Washington Capitals</td><td>14</td><td>4</td><td>8</td><td>0</td><td>0</td><td>1</td><td>1</td><td>35</td><td>45</td><td>7</td><td>0</td><td>6</td><td>0</td><td>0</td><td>1</td><td>0</td><td>9</td><td>23</td><td>7</td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>26</td><td>22</td><td>35</td><td>62</td><td>97</td></tr>
+<tr><td>Winnipeg Jets</td><td>14</td><td>4</td><td>6</td><td>0</td><td>1</td><td>0</td><td>3</td><td>38</td><td>41</td><td>7</td><td>2</td><td>3</td><td>0</td><td>0</td><td>0</td><td>2</td><td>19</td><td>18</td><td>7</td><td>2</td><td>3</td><td>0</td><td>1</td><td>0</td><td>1</td><td>19</td><td>23</td><td>38</td><td>69</td><td>107</td></tr>
+</table>
+<table class="basictablesorter STHSTeamStat_Table2"><thead><tr>
+<th class="STHSW200">Team</th><th class="STHSW25">Team</th><th class="STHSW25">GP1</th><th class="STHSW25">GP2</th><th class="STHSW25">GP3</th><th class="STHSW25">GP4</th><th class="STHSW25">SHF</th><th class="STHSW25">SP1</th><th class="STHSW25">SP2</th><th class="STHSW25">SP3</th><th class="STHSW25">SP4</th><th class="STHSW25">SHA</th><th class="STHSW25">SHB</th><th class="STHSW25">Pim</th><th class="STHSW25">Hit</th><th class="STHSW25">PPA</th><th class="STHSW25">PPG</th><th class="STHSW35">PP%</th><th class="STHSW25">PKA</th><th class="STHSW25">PK GA</th><th class="STHSW35">PK%</th><th class="STHSW25">PK GF</th><th class="STHSW35">FO% DZ</th><th class="STHSW35">FO% OZ</th><th class="STHSW35">FO% NT</th><th class="STHSW25">PZ DF</th><th class="STHSW25">PZ OF</th><th class="STHSW25">PZ NT</th><th class="STHSW25">PC DF</th><th class="STHSW25">PC OF</th><th class="STHSW25">PC NT</th><th class="STHSW25">SO</th><th class="STHSW25">EG</th></tr></thead>
+<tr><td>Anaheim Ducks</td><td>ANH</td><td>14</td><td>9</td><td>12</td><td>4</td><td>457</td><td>167</td><td>133</td><td>151</td><td>21</td><td>464</td><td>132</td><td>136</td><td>261</td><td>61</td><td>12</td><td>19.67%</td><td>39</td><td>9</td><td>76.92%</td><td>0</td><td>53.09%</td><td>53.91%</td><td>51.08%</td><td>332</td><td>338</td><td>185</td><td>106</td><td>234</td><td>92</td><td>0</td><td>1</td></tr>
+<tr><td>Arizona Coyotes</td><td>ARI</td><td>13</td><td>24</td><td>11</td><td>3</td><td>488</td><td>133</td><td>174</td><td>174</td><td>11</td><td>449</td><td>131</td><td>95</td><td>277</td><td>45</td><td>8</td><td>17.78%</td><td>44</td><td>6</td><td>86.36%</td><td>2</td><td>51.84%</td><td>54.12%</td><td>44.34%</td><td>339</td><td>334</td><td>177</td><td>103</td><td>236</td><td>89</td><td>1</td><td>0</td></tr>
+<tr><td>Boston Bruins</td><td>BOS</td><td>17</td><td>11</td><td>12</td><td>2</td><td>469</td><td>145</td><td>149</td><td>171</td><td>9</td><td>430</td><td>127</td><td>212</td><td>347</td><td>46</td><td>8</td><td>17.39%</td><td>84</td><td>19</td><td>77.38%</td><td>0</td><td>53.85%</td><td>51.91%</td><td>47.98%</td><td>341</td><td>329</td><td>180</td><td>108</td><td>223</td><td>88</td><td>0</td><td>1</td></tr>
+<tr><td>Buffalo Sabres</td><td>BUF</td><td>17</td><td>13</td><td>10</td><td>1</td><td>498</td><td>152</td><td>160</td><td>183</td><td>6</td><td>440</td><td>119</td><td>107</td><td>301</td><td>53</td><td>12</td><td>22.64%</td><td>49</td><td>4</td><td>91.84%</td><td>0</td><td>49.71%</td><td>54.61%</td><td>55.10%</td><td>318</td><td>349</td><td>178</td><td>101</td><td>245</td><td>91</td><td>1</td><td>0</td></tr>
+<tr><td>Calgary Flames</td><td>CGY</td><td>11</td><td>9</td><td>12</td><td>3</td><td>496</td><td>163</td><td>161</td><td>164</td><td>8</td><td>405</td><td>112</td><td>137</td><td>294</td><td>45</td><td>7</td><td>15.56%</td><td>54</td><td>3</td><td>94.44%</td><td>0</td><td>52.47%</td><td>53.38%</td><td>52.24%</td><td>324</td><td>349</td><td>175</td><td>99</td><td>246</td><td>88</td><td>0</td><td>0</td></tr>
+<tr><td>Carolina Hurricanes</td><td>CAR</td><td>9</td><td>8</td><td>11</td><td>2</td><td>399</td><td>115</td><td>140</td><td>138</td><td>15</td><td>512</td><td>166</td><td>134</td><td>272</td><td>40</td><td>6</td><td>15.00%</td><td>56</td><td>12</td><td>78.57%</td><td>1</td><td>47.78%</td><td>47.87%</td><td>43.32%</td><td>377</td><td>297</td><td>180</td><td>108</td><td>200</td><td>84</td><td>0</td><td>0</td></tr>
+<tr><td>Chicago Blackhawks</td><td>CHI</td><td>20</td><td>10</td><td>15</td><td>1</td><td>445</td><td>167</td><td>140</td><td>134</td><td>7</td><td>492</td><td>127</td><td>143</td><td>307</td><td>42</td><td>12</td><td>28.57%</td><td>62</td><td>10</td><td>83.87%</td><td>1</td><td>52.07%</td><td>52.27%</td><td>50.00%</td><td>315</td><td>351</td><td>179</td><td>97</td><td>245</td><td>92</td><td>0</td><td>0</td></tr>
+<tr><td>Colorado Avalanche</td><td>COL</td><td>13</td><td>13</td><td>13</td><td>3</td><td>418</td><td>136</td><td>146</td><td>132</td><td>17</td><td>439</td><td>146</td><td>111</td><td>271</td><td>47</td><td>9</td><td>19.15%</td><td>44</td><td>10</td><td>77.27%</td><td>1</td><td>45.59%</td><td>47.51%</td><td>47.35%</td><td>343</td><td>327</td><td>185</td><td>106</td><td>227</td><td>91</td><td>0</td><td>0</td></tr>
+<tr><td>Columbus Blue Jackets</td><td>CLB</td><td>14</td><td>13</td><td>11</td><td>3</td><td>430</td><td>154</td><td>123</td><td>149</td><td>15</td><td>436</td><td>127</td><td>92</td><td>306</td><td>51</td><td>7</td><td>13.73%</td><td>45</td><td>7</td><td>84.44%</td><td>0</td><td>43.46%</td><td>45.90%</td><td>46.95%</td><td>340</td><td>331</td><td>179</td><td>103</td><td>230</td><td>88</td><td>0</td><td>0</td></tr>
+<tr><td>Dallas Stars</td><td>DAL</td><td>19</td><td>12</td><td>16</td><td>3</td><td>513</td><td>211</td><td>149</td><td>151</td><td>11</td><td>445</td><td>114</td><td>114</td><td>264</td><td>46</td><td>10</td><td>21.74%</td><td>45</td><td>6</td><td>86.67%</td><td>0</td><td>54.15%</td><td>56.27%</td><td>53.39%</td><td>333</td><td>340</td><td>177</td><td>100</td><td>238</td><td>88</td><td>0</td><td>0</td></tr>
+<tr><td>Detroit Red Wings</td><td>DET</td><td>19</td><td>12</td><td>16</td><td>1</td><td>466</td><td>158</td><td>130</td><td>173</td><td>12</td><td>453</td><td>139</td><td>103</td><td>277</td><td>58</td><td>8</td><td>13.79%</td><td>36</td><td>5</td><td>86.11%</td><td>1</td><td>47.96%</td><td>49.20%</td><td>44.19%</td><td>321</td><td>352</td><td>181</td><td>102</td><td>248</td><td>91</td><td>1</td><td>0</td></tr>
+<tr><td>Edmonton Oilers</td><td>EDM</td><td>10</td><td>12</td><td>10</td><td>0</td><td>423</td><td>154</td><td>132</td><td>137</td><td>0</td><td>451</td><td>132</td><td>134</td><td>288</td><td>42</td><td>6</td><td>14.29%</td><td>52</td><td>6</td><td>88.46%</td><td>0</td><td>48.06%</td><td>48.05%</td><td>48.31%</td><td>334</td><td>334</td><td>176</td><td>102</td><td>235</td><td>87</td><td>1</td><td>0</td></tr>
+<tr><td>Florida Panthers</td><td>FLA</td><td>12</td><td>5</td><td>11</td><td>4</td><td>409</td><td>155</td><td>125</td><td>113</td><td>25</td><td>438</td><td>123</td><td>134</td><td>299</td><td>44</td><td>6</td><td>13.64%</td><td>38</td><td>4</td><td>89.47%</td><td>0</td><td>47.41%</td><td>49.48%</td><td>43.48%</td><td>339</td><td>337</td><td>180</td><td>104</td><td>233</td><td>89</td><td>1</td><td>0</td></tr>
+<tr><td>Los Angeles Kings</td><td>LAK</td><td>18</td><td>17</td><td>13</td><td>4</td><td>480</td><td>156</td><td>158</td><td>152</td><td>22</td><td>447</td><td>131</td><td>139</td><td>272</td><td>57</td><td>9</td><td>15.79%</td><td>50</td><td>3</td><td>94.00%</td><td>0</td><td>44.31%</td><td>48.22%</td><td>40.85%</td><td>332</td><td>339</td><td>184</td><td>104</td><td>235</td><td>92</td><td>1</td><td>1</td></tr>
+<tr><td>Minnesota Wild</td><td>MIN</td><td>11</td><td>13</td><td>8</td><td>9</td><td>443</td><td>134</td><td>156</td><td>145</td><td>34</td><td>447</td><td>147</td><td>93</td><td>335</td><td>54</td><td>10</td><td>18.52%</td><td>41</td><td>5</td><td>87.80%</td><td>0</td><td>49.04%</td><td>50.61%</td><td>53.77%</td><td>336</td><td>348</td><td>181</td><td>102</td><td>243</td><td>94</td><td>1</td><td>0</td></tr>
+<tr><td>Montreal Canadiens</td><td>MTL</td><td>9</td><td>14</td><td>18</td><td>2</td><td>484</td><td>158</td><td>171</td><td>147</td><td>13</td><td>444</td><td>135</td><td>177</td><td>312</td><td>65</td><td>8</td><td>12.31%</td><td>48</td><td>5</td><td>89.58%</td><td>1</td><td>48.82%</td><td>49.91%</td><td>50.50%</td><td>331</td><td>344</td><td>176</td><td>105</td><td>238</td><td>89</td><td>0</td><td>1</td></tr>
+<tr><td>Nashville Predators</td><td>NSH</td><td>23</td><td>12</td><td>11</td><td>3</td><td>507</td><td>170</td><td>151</td><td>174</td><td>23</td><td>413</td><td>146</td><td>80</td><td>254</td><td>58</td><td>11</td><td>18.97%</td><td>38</td><td>5</td><td>86.84%</td><td>1</td><td>53.63%</td><td>50.00%</td><td>51.67%</td><td>330</td><td>337</td><td>184</td><td>108</td><td>234</td><td>92</td><td>0</td><td>1</td></tr>
+<tr><td>New Jersey Devils</td><td>NJD</td><td>20</td><td>14</td><td>11</td><td>0</td><td>452</td><td>161</td><td>135</td><td>154</td><td>6</td><td>411</td><td>117</td><td>118</td><td>286</td><td>50</td><td>11</td><td>22.00%</td><td>58</td><td>11</td><td>81.03%</td><td>0</td><td>53.04%</td><td>59.02%</td><td>55.81%</td><td>323</td><td>341</td><td>181</td><td>105</td><td>235</td><td>91</td><td>0</td><td>0</td></tr>
+<tr><td>New York Islanders</td><td>NYI</td><td>13</td><td>9</td><td>8</td><td>0</td><td>436</td><td>152</td><td>145</td><td>137</td><td>5</td><td>394</td><td>119</td><td>101</td><td>249</td><td>42</td><td>6</td><td>14.29%</td><td>45</td><td>5</td><td>88.89%</td><td>0</td><td>47.55%</td><td>46.25%</td><td>43.22%</td><td>325</td><td>347</td><td>177</td><td>98</td><td>244</td><td>89</td><td>2</td><td>1</td></tr>
+<tr><td>New York Rangers</td><td>NYR</td><td>16</td><td>14</td><td>9</td><td>1</td><td>460</td><td>149</td><td>148</td><td>157</td><td>13</td><td>374</td><td>111</td><td>77</td><td>252</td><td>53</td><td>9</td><td>16.98%</td><td>30</td><td>3</td><td>90.00%</td><td>0</td><td>54.72%</td><td>52.88%</td><td>54.03%</td><td>312</td><td>360</td><td>178</td><td>99</td><td>259</td><td>91</td><td>1</td><td>0</td></tr>
+<tr><td>Ottawa Senators</td><td>OTT</td><td>11</td><td>14</td><td>10</td><td>4</td><td>401</td><td>132</td><td>125</td><td>133</td><td>22</td><td>466</td><td>160</td><td>121</td><td>319</td><td>59</td><td>10</td><td>16.95%</td><td>55</td><td>8</td><td>85.45%</td><td>0</td><td>44.76%</td><td>44.87%</td><td>51.96%</td><td>348</td><td>330</td><td>182</td><td>107</td><td>224</td><td>92</td><td>1</td><td>0</td></tr>
+<tr><td>Philadelphia Flyers</td><td>PHL</td><td>10</td><td>10</td><td>13</td><td>2</td><td>419</td><td>135</td><td>125</td><td>156</td><td>13</td><td>438</td><td>138</td><td>148</td><td>305</td><td>61</td><td>10</td><td>16.39%</td><td>51</td><td>8</td><td>84.31%</td><td>0</td><td>50.62%</td><td>51.02%</td><td>55.88%</td><td>331</td><td>341</td><td>183</td><td>103</td><td>233</td><td>94</td><td>3</td><td>1</td></tr>
+<tr><td>Pittsburgh Penguins</td><td>PIT</td><td>15</td><td>12</td><td>11</td><td>2</td><td>431</td><td>143</td><td>144</td><td>141</td><td>7</td><td>452</td><td>145</td><td>132</td><td>330</td><td>40</td><td>7</td><td>17.50%</td><td>56</td><td>10</td><td>82.14%</td><td>0</td><td>45.61%</td><td>43.83%</td><td>49.04%</td><td>341</td><td>325</td><td>180</td><td>103</td><td>219</td><td>89</td><td>1</td><td>0</td></tr>
+<tr><td>San Jose Sharks</td><td>SJS</td><td>17</td><td>10</td><td>12</td><td>3</td><td>441</td><td>170</td><td>131</td><td>138</td><td>10</td><td>480</td><td>150</td><td>205</td><td>294</td><td>45</td><td>5</td><td>11.11%</td><td>63</td><td>9</td><td>85.71%</td><td>0</td><td>46.46%</td><td>54.87%</td><td>57.22%</td><td>347</td><td>328</td><td>180</td><td>105</td><td>223</td><td>89</td><td>4</td><td>0</td></tr>
+<tr><td>St. Louis Blues</td><td>STL</td><td>9</td><td>12</td><td>10</td><td>7</td><td>437</td><td>150</td><td>157</td><td>121</td><td>28</td><td>483</td><td>137</td><td>142</td><td>306</td><td>43</td><td>5</td><td>11.63%</td><td>51</td><td>14</td><td>72.55%</td><td>0</td><td>40.40%</td><td>41.68%</td><td>36.84%</td><td>358</td><td>322</td><td>180</td><td>106</td><td>219</td><td>86</td><td>0</td><td>0</td></tr>
+<tr><td>Tampa Bay Lightning</td><td>TBL</td><td>12</td><td>10</td><td>13</td><td>1</td><td>445</td><td>155</td><td>149</td><td>135</td><td>10</td><td>458</td><td>131</td><td>136</td><td>324</td><td>38</td><td>6</td><td>15.79%</td><td>55</td><td>11</td><td>80.00%</td><td>2</td><td>52.59%</td><td>51.78%</td><td>57.42%</td><td>350</td><td>318</td><td>183</td><td>108</td><td>214</td><td>88</td><td>0</td><td>1</td></tr>
+<tr><td>Toronto Maple Leafs</td><td>TOR</td><td>22</td><td>7</td><td>13</td><td>2</td><td>440</td><td>165</td><td>127</td><td>145</td><td>5</td><td>483</td><td>130</td><td>200</td><td>353</td><td>65</td><td>10</td><td>15.38%</td><td>63</td><td>12</td><td>80.95%</td><td>0</td><td>50.57%</td><td>51.76%</td><td>49.78%</td><td>340</td><td>329</td><td>177</td><td>104</td><td>222</td><td>88</td><td>0</td><td>1</td></tr>
+<tr><td>Vancouver Canucks</td><td>VAN</td><td>17</td><td>13</td><td>12</td><td>4</td><td>505</td><td>166</td><td>160</td><td>162</td><td>35</td><td>452</td><td>121</td><td>100</td><td>285</td><td>52</td><td>5</td><td>9.62%</td><td>39</td><td>16</td><td>58.97%</td><td>0</td><td>49.79%</td><td>51.93%</td><td>57.25%</td><td>332</td><td>352</td><td>178</td><td>98</td><td>252</td><td>89</td><td>0</td><td>0</td></tr>
+<tr><td>Vegas Golden Knights</td><td>VGK</td><td>8</td><td>12</td><td>5</td><td>3</td><td>372</td><td>140</td><td>109</td><td>120</td><td>13</td><td>514</td><td>139</td><td>98</td><td>314</td><td>38</td><td>7</td><td>18.42%</td><td>44</td><td>7</td><td>84.09%</td><td>0</td><td>43.20%</td><td>46.25%</td><td>49.00%</td><td>355</td><td>321</td><td>184</td><td>102</td><td>215</td><td>90</td><td>0</td><td>0</td></tr>
+<tr><td>Washington Capitals</td><td>WSH</td><td>17</td><td>9</td><td>8</td><td>3</td><td>427</td><td>135</td><td>126</td><td>160</td><td>16</td><td>437</td><td>146</td><td>136</td><td>289</td><td>60</td><td>11</td><td>18.33%</td><td>56</td><td>11</td><td>80.36%</td><td>0</td><td>52.35%</td><td>57.68%</td><td>51.66%</td><td>333</td><td>340</td><td>177</td><td>104</td><td>238</td><td>89</td><td>0</td><td>1</td></tr>
+<tr><td>Winnipeg Jets</td><td>WPG</td><td>17</td><td>15</td><td>6</td><td>3</td><td>415</td><td>128</td><td>135</td><td>146</td><td>21</td><td>459</td><td>162</td><td>105</td><td>297</td><td>37</td><td>3</td><td>8.11%</td><td>46</td><td>10</td><td>78.26%</td><td>0</td><td>53.49%</td><td>52.26%</td><td>56.50%</td><td>340</td><td>332</td><td>184</td><td>103</td><td>228</td><td>90</td><td>2</td><td>1</td></tr>
+</table>
+<table><tr><td class="STHSAlignTop"><h1 class="STHSProStats_GoalsFor">
+Goals For</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 2.81</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Arizona Coyotes</td><td>3.64</td></tr>
+<tr><td>2</td><td>Los Angeles Kings</td><td>3.57</td></tr>
+<tr><td>3</td><td>Nashville Predators</td><td>3.43</td></tr>
+<tr><td>4</td><td>Dallas Stars</td><td>3.43</td></tr>
+<tr><td>5</td><td>Detroit Red Wings</td><td>3.36</td></tr>
+<tr><td>6</td><td>Chicago Blackhawks</td><td>3.29</td></tr>
+<tr><td>7</td><td>New Jersey Devils</td><td>3.21</td></tr>
+<tr><td>8</td><td>Vancouver Canucks</td><td>3.14</td></tr>
+<tr><td>9</td><td>Toronto Maple Leafs</td><td>3.07</td></tr>
+<tr><td>10</td><td>Montreal Canadiens</td><td>3.07</td></tr>
+<tr><td>11</td><td>Boston Bruins</td><td>3.00</td></tr>
+<tr><td>12</td><td>San Jose Sharks</td><td>2.93</td></tr>
+<tr><td>13</td><td>Buffalo Sabres</td><td>2.93</td></tr>
+<tr><td>14</td><td>New York Rangers</td><td>2.86</td></tr>
+<tr><td>15</td><td>Colorado Avalanche</td><td>2.86</td></tr>
+<tr><td>16</td><td>Pittsburgh Penguins</td><td>2.86</td></tr>
+<tr><td>17</td><td>Columbus Blue Jackets</td><td>2.79</td></tr>
+<tr><td>18</td><td>Winnipeg Jets</td><td>2.71</td></tr>
+<tr><td>19</td><td>Ottawa Senators</td><td>2.71</td></tr>
+<tr><td>20</td><td>Anaheim Ducks</td><td>2.64</td></tr>
+<tr><td>21</td><td>Tampa Bay Lightning</td><td>2.57</td></tr>
+<tr><td>22</td><td>Philadelphia Flyers</td><td>2.50</td></tr>
+<tr><td>23</td><td>Washington Capitals</td><td>2.50</td></tr>
+<tr><td>24</td><td>Calgary Flames</td><td>2.50</td></tr>
+<tr><td>25</td><td>Minnesota Wild</td><td>2.50</td></tr>
+<tr><td>26</td><td>St. Louis Blues</td><td>2.43</td></tr>
+<tr><td>27</td><td>Edmonton Oilers</td><td>2.29</td></tr>
+<tr><td>28</td><td>Florida Panthers</td><td>2.21</td></tr>
+<tr><td>29</td><td>New York Islanders</td><td>2.14</td></tr>
+<tr><td>30</td><td>Carolina Hurricanes</td><td>2.14</td></tr>
+<tr><td>31</td><td>Vegas Golden Knights</td><td>1.93</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSProStats_GoalsAgainst">
+Goals Against</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 2.81</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Detroit Red Wings</td><td>2.21</td></tr>
+<tr><td>2</td><td>Edmonton Oilers</td><td>2.21</td></tr>
+<tr><td>3</td><td>Nashville Predators</td><td>2.29</td></tr>
+<tr><td>4</td><td>Philadelphia Flyers</td><td>2.29</td></tr>
+<tr><td>5</td><td>Calgary Flames</td><td>2.36</td></tr>
+<tr><td>6</td><td>New York Islanders</td><td>2.36</td></tr>
+<tr><td>7</td><td>San Jose Sharks</td><td>2.36</td></tr>
+<tr><td>8</td><td>Buffalo Sabres</td><td>2.43</td></tr>
+<tr><td>9</td><td>New York Rangers</td><td>2.43</td></tr>
+<tr><td>10</td><td>New Jersey Devils</td><td>2.50</td></tr>
+<tr><td>11</td><td>Columbus Blue Jackets</td><td>2.57</td></tr>
+<tr><td>12</td><td>Montreal Canadiens</td><td>2.57</td></tr>
+<tr><td>13</td><td>Boston Bruins</td><td>2.64</td></tr>
+<tr><td>14</td><td>Minnesota Wild</td><td>2.64</td></tr>
+<tr><td>15</td><td>Pittsburgh Penguins</td><td>2.71</td></tr>
+<tr><td>16</td><td>Ottawa Senators</td><td>2.71</td></tr>
+<tr><td>17</td><td>Arizona Coyotes</td><td>2.71</td></tr>
+<tr><td>18</td><td>Vegas Golden Knights</td><td>2.79</td></tr>
+<tr><td>19</td><td>Carolina Hurricanes</td><td>2.93</td></tr>
+<tr><td>20</td><td>Winnipeg Jets</td><td>2.93</td></tr>
+<tr><td>21</td><td>Los Angeles Kings</td><td>3.00</td></tr>
+<tr><td>22</td><td>Florida Panthers</td><td>3.07</td></tr>
+<tr><td>23</td><td>St. Louis Blues</td><td>3.07</td></tr>
+<tr><td>24</td><td>Chicago Blackhawks</td><td>3.14</td></tr>
+<tr><td>25</td><td>Dallas Stars</td><td>3.14</td></tr>
+<tr><td>26</td><td>Toronto Maple Leafs</td><td>3.14</td></tr>
+<tr><td>27</td><td>Washington Capitals</td><td>3.21</td></tr>
+<tr><td>28</td><td>Anaheim Ducks</td><td>3.29</td></tr>
+<tr><td>29</td><td>Colorado Avalanche</td><td>3.43</td></tr>
+<tr><td>30</td><td>Vancouver Canucks</td><td>3.93</td></tr>
+<tr><td>31</td><td>Tampa Bay Lightning</td><td>4.14</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSProStats_GoalsForAgainst">
+Goals For / Against</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tbody><tr><td>1</td><td>Detroit Red Wings</td><td>151.61%</td></tr>
+<tr><td>2</td><td>Nashville Predators</td><td>150.00%</td></tr>
+<tr><td>3</td><td>Arizona Coyotes</td><td>134.21%</td></tr>
+<tr><td>4</td><td>New Jersey Devils</td><td>128.57%</td></tr>
+<tr><td>5</td><td>San Jose Sharks</td><td>124.24%</td></tr>
+<tr><td>6</td><td>Buffalo Sabres</td><td>120.59%</td></tr>
+<tr><td>7</td><td>Montreal Canadiens</td><td>119.44%</td></tr>
+<tr><td>8</td><td>Los Angeles Kings</td><td>119.05%</td></tr>
+<tr><td>9</td><td>New York Rangers</td><td>117.65%</td></tr>
+<tr><td>10</td><td>Boston Bruins</td><td>113.51%</td></tr>
+<tr><td>11</td><td>Philadelphia Flyers</td><td>109.38%</td></tr>
+<tr><td>12</td><td>Dallas Stars</td><td>109.09%</td></tr>
+<tr><td>13</td><td>Columbus Blue Jackets</td><td>108.33%</td></tr>
+<tr><td>14</td><td>Calgary Flames</td><td>106.06%</td></tr>
+<tr><td>15</td><td>Pittsburgh Penguins</td><td>105.26%</td></tr>
+<tr><td>16</td><td>Chicago Blackhawks</td><td>104.55%</td></tr>
+<tr><td>17</td><td>Edmonton Oilers</td><td>103.23%</td></tr>
+<tr><td>18</td><td>Ottawa Senators</td><td>100.00%</td></tr>
+<tr><td>19</td><td>Toronto Maple Leafs</td><td>97.73%</td></tr>
+<tr><td>20</td><td>Minnesota Wild</td><td>94.59%</td></tr>
+<tr><td>21</td><td>Winnipeg Jets</td><td>92.68%</td></tr>
+<tr><td>22</td><td>New York Islanders</td><td>90.91%</td></tr>
+<tr><td>23</td><td>Colorado Avalanche</td><td>83.33%</td></tr>
+<tr><td>24</td><td>Anaheim Ducks</td><td>80.43%</td></tr>
+<tr><td>25</td><td>Vancouver Canucks</td><td>80.00%</td></tr>
+<tr><td>26</td><td>St. Louis Blues</td><td>79.07%</td></tr>
+<tr><td>27</td><td>Washington Capitals</td><td>77.78%</td></tr>
+<tr><td>28</td><td>Carolina Hurricanes</td><td>73.17%</td></tr>
+<tr><td>29</td><td>Florida Panthers</td><td>72.09%</td></tr>
+<tr><td>30</td><td>Vegas Golden Knights</td><td>69.23%</td></tr>
+<tr><td>31</td><td>Tampa Bay Lightning</td><td>62.07%</td></tr>
+</tbody></table>
+</td></tr></table>
+<table><tr><td class="STHSAlignTop"><h1 class="STHSProStats_PowerPlay">
+PowerPlay %</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 16.53%</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Chicago Blackhawks</td><td>28.57%</td></tr>
+<tr><td>2</td><td>Buffalo Sabres</td><td>22.64%</td></tr>
+<tr><td>3</td><td>New Jersey Devils</td><td>22.00%</td></tr>
+<tr><td>4</td><td>Dallas Stars</td><td>21.74%</td></tr>
+<tr><td>5</td><td>Anaheim Ducks</td><td>19.67%</td></tr>
+<tr><td>6</td><td>Colorado Avalanche</td><td>19.15%</td></tr>
+<tr><td>7</td><td>Nashville Predators</td><td>18.97%</td></tr>
+<tr><td>8</td><td>Minnesota Wild</td><td>18.52%</td></tr>
+<tr><td>9</td><td>Vegas Golden Knights</td><td>18.42%</td></tr>
+<tr><td>10</td><td>Washington Capitals</td><td>18.33%</td></tr>
+<tr><td>11</td><td>Arizona Coyotes</td><td>17.78%</td></tr>
+<tr><td>12</td><td>Pittsburgh Penguins</td><td>17.50%</td></tr>
+<tr><td>13</td><td>Boston Bruins</td><td>17.39%</td></tr>
+<tr><td>14</td><td>New York Rangers</td><td>16.98%</td></tr>
+<tr><td>15</td><td>Ottawa Senators</td><td>16.95%</td></tr>
+<tr><td>16</td><td>Philadelphia Flyers</td><td>16.39%</td></tr>
+<tr><td>17</td><td>Tampa Bay Lightning</td><td>15.79%</td></tr>
+<tr><td>18</td><td>Los Angeles Kings</td><td>15.79%</td></tr>
+<tr><td>19</td><td>Calgary Flames</td><td>15.56%</td></tr>
+<tr><td>20</td><td>Toronto Maple Leafs</td><td>15.38%</td></tr>
+<tr><td>21</td><td>Carolina Hurricanes</td><td>15.00%</td></tr>
+<tr><td>22</td><td>New York Islanders</td><td>14.29%</td></tr>
+<tr><td>23</td><td>Edmonton Oilers</td><td>14.29%</td></tr>
+<tr><td>24</td><td>Detroit Red Wings</td><td>13.79%</td></tr>
+<tr><td>25</td><td>Columbus Blue Jackets</td><td>13.73%</td></tr>
+<tr><td>26</td><td>Florida Panthers</td><td>13.64%</td></tr>
+<tr><td>27</td><td>Montreal Canadiens</td><td>12.31%</td></tr>
+<tr><td>28</td><td>St. Louis Blues</td><td>11.63%</td></tr>
+<tr><td>29</td><td>San Jose Sharks</td><td>11.11%</td></tr>
+<tr><td>30</td><td>Vancouver Canucks</td><td>9.62%</td></tr>
+<tr><td>31</td><td>Winnipeg Jets</td><td>8.11%</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSProStats_PenaltyKill">
+Penalty Kill %</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 83.47%</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Calgary Flames</td><td>94.44%</td></tr>
+<tr><td>2</td><td>Los Angeles Kings</td><td>94.00%</td></tr>
+<tr><td>3</td><td>Buffalo Sabres</td><td>91.84%</td></tr>
+<tr><td>4</td><td>New York Rangers</td><td>90.00%</td></tr>
+<tr><td>5</td><td>Montreal Canadiens</td><td>89.58%</td></tr>
+<tr><td>6</td><td>Florida Panthers</td><td>89.47%</td></tr>
+<tr><td>7</td><td>New York Islanders</td><td>88.89%</td></tr>
+<tr><td>8</td><td>Edmonton Oilers</td><td>88.46%</td></tr>
+<tr><td>9</td><td>Minnesota Wild</td><td>87.80%</td></tr>
+<tr><td>10</td><td>Nashville Predators</td><td>86.84%</td></tr>
+<tr><td>11</td><td>Dallas Stars</td><td>86.67%</td></tr>
+<tr><td>12</td><td>Arizona Coyotes</td><td>86.36%</td></tr>
+<tr><td>13</td><td>Detroit Red Wings</td><td>86.11%</td></tr>
+<tr><td>14</td><td>San Jose Sharks</td><td>85.71%</td></tr>
+<tr><td>15</td><td>Ottawa Senators</td><td>85.45%</td></tr>
+<tr><td>16</td><td>Columbus Blue Jackets</td><td>84.44%</td></tr>
+<tr><td>17</td><td>Philadelphia Flyers</td><td>84.31%</td></tr>
+<tr><td>18</td><td>Vegas Golden Knights</td><td>84.09%</td></tr>
+<tr><td>19</td><td>Chicago Blackhawks</td><td>83.87%</td></tr>
+<tr><td>20</td><td>Pittsburgh Penguins</td><td>82.14%</td></tr>
+<tr><td>21</td><td>New Jersey Devils</td><td>81.03%</td></tr>
+<tr><td>22</td><td>Toronto Maple Leafs</td><td>80.95%</td></tr>
+<tr><td>23</td><td>Washington Capitals</td><td>80.36%</td></tr>
+<tr><td>24</td><td>Tampa Bay Lightning</td><td>80.00%</td></tr>
+<tr><td>25</td><td>Carolina Hurricanes</td><td>78.57%</td></tr>
+<tr><td>26</td><td>Winnipeg Jets</td><td>78.26%</td></tr>
+<tr><td>27</td><td>Boston Bruins</td><td>77.38%</td></tr>
+<tr><td>28</td><td>Colorado Avalanche</td><td>77.27%</td></tr>
+<tr><td>29</td><td>Anaheim Ducks</td><td>76.92%</td></tr>
+<tr><td>30</td><td>St. Louis Blues</td><td>72.55%</td></tr>
+<tr><td>31</td><td>Vancouver Canucks</td><td>58.97%</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSProStats_PPPK">
+PP + PK</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tbody><tr><td>1</td><td>Buffalo Sabres</td><td>114.48%</td></tr>
+<tr><td>2</td><td>Chicago Blackhawks</td><td>112.44%</td></tr>
+<tr><td>3</td><td>Calgary Flames</td><td>110.00%</td></tr>
+<tr><td>4</td><td>Los Angeles Kings</td><td>109.79%</td></tr>
+<tr><td>5</td><td>Dallas Stars</td><td>108.41%</td></tr>
+<tr><td>6</td><td>New York Rangers</td><td>106.98%</td></tr>
+<tr><td>7</td><td>Minnesota Wild</td><td>106.32%</td></tr>
+<tr><td>8</td><td>Nashville Predators</td><td>105.81%</td></tr>
+<tr><td>9</td><td>Arizona Coyotes</td><td>104.14%</td></tr>
+<tr><td>10</td><td>New York Islanders</td><td>103.17%</td></tr>
+<tr><td>11</td><td>Florida Panthers</td><td>103.11%</td></tr>
+<tr><td>12</td><td>New Jersey Devils</td><td>103.03%</td></tr>
+<tr><td>13</td><td>Edmonton Oilers</td><td>102.75%</td></tr>
+<tr><td>14</td><td>Vegas Golden Knights</td><td>102.51%</td></tr>
+<tr><td>15</td><td>Ottawa Senators</td><td>102.40%</td></tr>
+<tr><td>16</td><td>Montreal Canadiens</td><td>101.89%</td></tr>
+<tr><td>17</td><td>Philadelphia Flyers</td><td>100.71%</td></tr>
+<tr><td>18</td><td>Detroit Red Wings</td><td>99.90%</td></tr>
+<tr><td>19</td><td>Pittsburgh Penguins</td><td>99.64%</td></tr>
+<tr><td>20</td><td>Washington Capitals</td><td>98.69%</td></tr>
+<tr><td>21</td><td>Columbus Blue Jackets</td><td>98.17%</td></tr>
+<tr><td>22</td><td>San Jose Sharks</td><td>96.83%</td></tr>
+<tr><td>23</td><td>Anaheim Ducks</td><td>96.60%</td></tr>
+<tr><td>24</td><td>Colorado Avalanche</td><td>96.42%</td></tr>
+<tr><td>25</td><td>Toronto Maple Leafs</td><td>96.34%</td></tr>
+<tr><td>26</td><td>Tampa Bay Lightning</td><td>95.79%</td></tr>
+<tr><td>27</td><td>Boston Bruins</td><td>94.77%</td></tr>
+<tr><td>28</td><td>Carolina Hurricanes</td><td>93.57%</td></tr>
+<tr><td>29</td><td>Winnipeg Jets</td><td>86.37%</td></tr>
+<tr><td>30</td><td>St. Louis Blues</td><td>84.18%</td></tr>
+<tr><td>31</td><td>Vancouver Canucks</td><td>68.59%</td></tr>
+</tbody></table>
+</td></tr></table>
+<table><tr><td class="STHSAlignTop"><h1 class="STHSProStats_ShotsFor">
+Shots For</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 32.04</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Dallas Stars</td><td>36.64</td></tr>
+<tr><td>2</td><td>Nashville Predators</td><td>36.21</td></tr>
+<tr><td>3</td><td>Vancouver Canucks</td><td>36.07</td></tr>
+<tr><td>4</td><td>Buffalo Sabres</td><td>35.57</td></tr>
+<tr><td>5</td><td>Calgary Flames</td><td>35.43</td></tr>
+<tr><td>6</td><td>Arizona Coyotes</td><td>34.86</td></tr>
+<tr><td>7</td><td>Montreal Canadiens</td><td>34.57</td></tr>
+<tr><td>8</td><td>Los Angeles Kings</td><td>34.29</td></tr>
+<tr><td>9</td><td>Boston Bruins</td><td>33.50</td></tr>
+<tr><td>10</td><td>Detroit Red Wings</td><td>33.29</td></tr>
+<tr><td>11</td><td>New York Rangers</td><td>32.86</td></tr>
+<tr><td>12</td><td>Anaheim Ducks</td><td>32.64</td></tr>
+<tr><td>13</td><td>New Jersey Devils</td><td>32.29</td></tr>
+<tr><td>14</td><td>Tampa Bay Lightning</td><td>31.79</td></tr>
+<tr><td>15</td><td>Chicago Blackhawks</td><td>31.79</td></tr>
+<tr><td>16</td><td>Minnesota Wild</td><td>31.64</td></tr>
+<tr><td>17</td><td>San Jose Sharks</td><td>31.50</td></tr>
+<tr><td>18</td><td>Toronto Maple Leafs</td><td>31.43</td></tr>
+<tr><td>19</td><td>St. Louis Blues</td><td>31.21</td></tr>
+<tr><td>20</td><td>New York Islanders</td><td>31.14</td></tr>
+<tr><td>21</td><td>Pittsburgh Penguins</td><td>30.79</td></tr>
+<tr><td>22</td><td>Columbus Blue Jackets</td><td>30.71</td></tr>
+<tr><td>23</td><td>Washington Capitals</td><td>30.50</td></tr>
+<tr><td>24</td><td>Edmonton Oilers</td><td>30.21</td></tr>
+<tr><td>25</td><td>Philadelphia Flyers</td><td>29.93</td></tr>
+<tr><td>26</td><td>Colorado Avalanche</td><td>29.86</td></tr>
+<tr><td>27</td><td>Winnipeg Jets</td><td>29.64</td></tr>
+<tr><td>28</td><td>Florida Panthers</td><td>29.21</td></tr>
+<tr><td>29</td><td>Ottawa Senators</td><td>28.64</td></tr>
+<tr><td>30</td><td>Carolina Hurricanes</td><td>28.50</td></tr>
+<tr><td>31</td><td>Vegas Golden Knights</td><td>26.57</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSProStats_ShotsAgainst">
+Shots Against</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 32.04</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>New York Rangers</td><td>26.71</td></tr>
+<tr><td>2</td><td>New York Islanders</td><td>28.14</td></tr>
+<tr><td>3</td><td>Calgary Flames</td><td>28.93</td></tr>
+<tr><td>4</td><td>New Jersey Devils</td><td>29.36</td></tr>
+<tr><td>5</td><td>Nashville Predators</td><td>29.50</td></tr>
+<tr><td>6</td><td>Boston Bruins</td><td>30.71</td></tr>
+<tr><td>7</td><td>Columbus Blue Jackets</td><td>31.14</td></tr>
+<tr><td>8</td><td>Washington Capitals</td><td>31.21</td></tr>
+<tr><td>9</td><td>Florida Panthers</td><td>31.29</td></tr>
+<tr><td>10</td><td>Philadelphia Flyers</td><td>31.29</td></tr>
+<tr><td>11</td><td>Colorado Avalanche</td><td>31.36</td></tr>
+<tr><td>12</td><td>Buffalo Sabres</td><td>31.43</td></tr>
+<tr><td>13</td><td>Montreal Canadiens</td><td>31.71</td></tr>
+<tr><td>14</td><td>Dallas Stars</td><td>31.79</td></tr>
+<tr><td>15</td><td>Minnesota Wild</td><td>31.93</td></tr>
+<tr><td>16</td><td>Los Angeles Kings</td><td>31.93</td></tr>
+<tr><td>17</td><td>Arizona Coyotes</td><td>32.07</td></tr>
+<tr><td>18</td><td>Edmonton Oilers</td><td>32.21</td></tr>
+<tr><td>19</td><td>Pittsburgh Penguins</td><td>32.29</td></tr>
+<tr><td>20</td><td>Vancouver Canucks</td><td>32.29</td></tr>
+<tr><td>21</td><td>Detroit Red Wings</td><td>32.36</td></tr>
+<tr><td>22</td><td>Tampa Bay Lightning</td><td>32.71</td></tr>
+<tr><td>23</td><td>Winnipeg Jets</td><td>32.79</td></tr>
+<tr><td>24</td><td>Anaheim Ducks</td><td>33.14</td></tr>
+<tr><td>25</td><td>Ottawa Senators</td><td>33.29</td></tr>
+<tr><td>26</td><td>San Jose Sharks</td><td>34.29</td></tr>
+<tr><td>27</td><td>St. Louis Blues</td><td>34.50</td></tr>
+<tr><td>28</td><td>Toronto Maple Leafs</td><td>34.50</td></tr>
+<tr><td>29</td><td>Chicago Blackhawks</td><td>35.14</td></tr>
+<tr><td>30</td><td>Carolina Hurricanes</td><td>36.57</td></tr>
+<tr><td>31</td><td>Vegas Golden Knights</td><td>36.71</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSProStats_ShotsForAgainst">
+Shots For / Against</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tbody><tr><td>1</td><td>New York Rangers</td><td>122.99%</td></tr>
+<tr><td>2</td><td>Nashville Predators</td><td>122.76%</td></tr>
+<tr><td>3</td><td>Calgary Flames</td><td>122.47%</td></tr>
+<tr><td>4</td><td>Dallas Stars</td><td>115.28%</td></tr>
+<tr><td>5</td><td>Buffalo Sabres</td><td>113.18%</td></tr>
+<tr><td>6</td><td>Vancouver Canucks</td><td>111.73%</td></tr>
+<tr><td>7</td><td>New York Islanders</td><td>110.66%</td></tr>
+<tr><td>8</td><td>New Jersey Devils</td><td>109.98%</td></tr>
+<tr><td>9</td><td>Boston Bruins</td><td>109.07%</td></tr>
+<tr><td>10</td><td>Montreal Canadiens</td><td>109.01%</td></tr>
+<tr><td>11</td><td>Arizona Coyotes</td><td>108.69%</td></tr>
+<tr><td>12</td><td>Los Angeles Kings</td><td>107.38%</td></tr>
+<tr><td>13</td><td>Detroit Red Wings</td><td>102.87%</td></tr>
+<tr><td>14</td><td>Minnesota Wild</td><td>99.11%</td></tr>
+<tr><td>15</td><td>Columbus Blue Jackets</td><td>98.62%</td></tr>
+<tr><td>16</td><td>Anaheim Ducks</td><td>98.49%</td></tr>
+<tr><td>17</td><td>Washington Capitals</td><td>97.71%</td></tr>
+<tr><td>18</td><td>Tampa Bay Lightning</td><td>97.16%</td></tr>
+<tr><td>19</td><td>Philadelphia Flyers</td><td>95.66%</td></tr>
+<tr><td>20</td><td>Pittsburgh Penguins</td><td>95.35%</td></tr>
+<tr><td>21</td><td>Colorado Avalanche</td><td>95.22%</td></tr>
+<tr><td>22</td><td>Edmonton Oilers</td><td>93.79%</td></tr>
+<tr><td>23</td><td>Florida Panthers</td><td>93.38%</td></tr>
+<tr><td>24</td><td>San Jose Sharks</td><td>91.88%</td></tr>
+<tr><td>25</td><td>Toronto Maple Leafs</td><td>91.10%</td></tr>
+<tr><td>26</td><td>St. Louis Blues</td><td>90.48%</td></tr>
+<tr><td>27</td><td>Chicago Blackhawks</td><td>90.45%</td></tr>
+<tr><td>28</td><td>Winnipeg Jets</td><td>90.41%</td></tr>
+<tr><td>29</td><td>Ottawa Senators</td><td>86.05%</td></tr>
+<tr><td>30</td><td>Carolina Hurricanes</td><td>77.93%</td></tr>
+<tr><td>31</td><td>Vegas Golden Knights</td><td>72.37%</td></tr>
+</tbody></table>
+</td></tr></table>
+<table><tr><td class="STHSAlignTop"><h1 class="STHSProStats_PIMGP">
+Pim / GP</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 9.12</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>New York Rangers</td><td>5.50</td></tr>
+<tr><td>2</td><td>Nashville Predators</td><td>5.71</td></tr>
+<tr><td>3</td><td>Columbus Blue Jackets</td><td>6.57</td></tr>
+<tr><td>4</td><td>Minnesota Wild</td><td>6.64</td></tr>
+<tr><td>5</td><td>Arizona Coyotes</td><td>6.79</td></tr>
+<tr><td>6</td><td>Vegas Golden Knights</td><td>7.00</td></tr>
+<tr><td>7</td><td>Vancouver Canucks</td><td>7.14</td></tr>
+<tr><td>8</td><td>New York Islanders</td><td>7.21</td></tr>
+<tr><td>9</td><td>Detroit Red Wings</td><td>7.36</td></tr>
+<tr><td>10</td><td>Winnipeg Jets</td><td>7.50</td></tr>
+<tr><td>11</td><td>Buffalo Sabres</td><td>7.64</td></tr>
+<tr><td>12</td><td>Colorado Avalanche</td><td>7.93</td></tr>
+<tr><td>13</td><td>Dallas Stars</td><td>8.14</td></tr>
+<tr><td>14</td><td>New Jersey Devils</td><td>8.43</td></tr>
+<tr><td>15</td><td>Ottawa Senators</td><td>8.64</td></tr>
+<tr><td>16</td><td>Pittsburgh Penguins</td><td>9.43</td></tr>
+<tr><td>17</td><td>Carolina Hurricanes</td><td>9.57</td></tr>
+<tr><td>18</td><td>Edmonton Oilers</td><td>9.57</td></tr>
+<tr><td>19</td><td>Florida Panthers</td><td>9.57</td></tr>
+<tr><td>20</td><td>Anaheim Ducks</td><td>9.71</td></tr>
+<tr><td>21</td><td>Tampa Bay Lightning</td><td>9.71</td></tr>
+<tr><td>22</td><td>Washington Capitals</td><td>9.71</td></tr>
+<tr><td>23</td><td>Calgary Flames</td><td>9.79</td></tr>
+<tr><td>24</td><td>Los Angeles Kings</td><td>9.93</td></tr>
+<tr><td>25</td><td>St. Louis Blues</td><td>10.14</td></tr>
+<tr><td>26</td><td>Chicago Blackhawks</td><td>10.21</td></tr>
+<tr><td>27</td><td>Philadelphia Flyers</td><td>10.57</td></tr>
+<tr><td>28</td><td>Montreal Canadiens</td><td>12.64</td></tr>
+<tr><td>29</td><td>Toronto Maple Leafs</td><td>14.29</td></tr>
+<tr><td>30</td><td>San Jose Sharks</td><td>14.64</td></tr>
+<tr><td>31</td><td>Boston Bruins</td><td>15.14</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSProStats_HitsGP">
+Hits / GP</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tfoot><tr><td colspan="3" class="STHSCenter"><b>League Average 21.06</b></td></tr></tfoot>
+<tbody><tr><td>1</td><td>Toronto Maple Leafs</td><td>25.21</td></tr>
+<tr><td>2</td><td>Boston Bruins</td><td>24.79</td></tr>
+<tr><td>3</td><td>Minnesota Wild</td><td>23.93</td></tr>
+<tr><td>4</td><td>Pittsburgh Penguins</td><td>23.57</td></tr>
+<tr><td>5</td><td>Tampa Bay Lightning</td><td>23.14</td></tr>
+<tr><td>6</td><td>Ottawa Senators</td><td>22.79</td></tr>
+<tr><td>7</td><td>Vegas Golden Knights</td><td>22.43</td></tr>
+<tr><td>8</td><td>Montreal Canadiens</td><td>22.29</td></tr>
+<tr><td>9</td><td>Chicago Blackhawks</td><td>21.93</td></tr>
+<tr><td>10</td><td>St. Louis Blues</td><td>21.86</td></tr>
+<tr><td>11</td><td>Columbus Blue Jackets</td><td>21.86</td></tr>
+<tr><td>12</td><td>Philadelphia Flyers</td><td>21.79</td></tr>
+<tr><td>13</td><td>Buffalo Sabres</td><td>21.50</td></tr>
+<tr><td>14</td><td>Florida Panthers</td><td>21.36</td></tr>
+<tr><td>15</td><td>Winnipeg Jets</td><td>21.21</td></tr>
+<tr><td>16</td><td>Calgary Flames</td><td>21.00</td></tr>
+<tr><td>17</td><td>San Jose Sharks</td><td>21.00</td></tr>
+<tr><td>18</td><td>Washington Capitals</td><td>20.64</td></tr>
+<tr><td>19</td><td>Edmonton Oilers</td><td>20.57</td></tr>
+<tr><td>20</td><td>New Jersey Devils</td><td>20.43</td></tr>
+<tr><td>21</td><td>Vancouver Canucks</td><td>20.36</td></tr>
+<tr><td>22</td><td>Detroit Red Wings</td><td>19.79</td></tr>
+<tr><td>23</td><td>Arizona Coyotes</td><td>19.79</td></tr>
+<tr><td>24</td><td>Los Angeles Kings</td><td>19.43</td></tr>
+<tr><td>25</td><td>Carolina Hurricanes</td><td>19.43</td></tr>
+<tr><td>26</td><td>Colorado Avalanche</td><td>19.36</td></tr>
+<tr><td>27</td><td>Dallas Stars</td><td>18.86</td></tr>
+<tr><td>28</td><td>Anaheim Ducks</td><td>18.64</td></tr>
+<tr><td>29</td><td>Nashville Predators</td><td>18.14</td></tr>
+<tr><td>30</td><td>New York Rangers</td><td>18.00</td></tr>
+<tr><td>31</td><td>New York Islanders</td><td>17.79</td></tr>
+</tbody></table>
+</td><td class="STHSAlignTop"><h1 class="STHSProStats_Faceoff">
+Faceoff %</h1><table class="basictablesorter"><thead><tr><th class="STHSW45"><b>Pos</b></th><th class="STHSW200"><b>Teams</b></th><th class="STHSW75"><b>Value</b></th></tr></thead>
+<tbody><tr><td>1</td><td>New Jersey Devils</td><td>56.07%</td></tr>
+<tr><td>2</td><td>Dallas Stars</td><td>54.94%</td></tr>
+<tr><td>3</td><td>Washington Capitals</td><td>54.40%</td></tr>
+<tr><td>4</td><td>New York Rangers</td><td>53.78%</td></tr>
+<tr><td>5</td><td>Winnipeg Jets</td><td>53.57%</td></tr>
+<tr><td>6</td><td>Tampa Bay Lightning</td><td>53.11%</td></tr>
+<tr><td>7</td><td>Anaheim Ducks</td><td>53.05%</td></tr>
+<tr><td>8</td><td>Calgary Flames</td><td>52.84%</td></tr>
+<tr><td>9</td><td>Buffalo Sabres</td><td>52.71%</td></tr>
+<tr><td>10</td><td>Vancouver Canucks</td><td>52.19%</td></tr>
+<tr><td>11</td><td>Boston Bruins</td><td>52.07%</td></tr>
+<tr><td>12</td><td>Chicago Blackhawks</td><td>51.76%</td></tr>
+<tr><td>13</td><td>Nashville Predators</td><td>51.73%</td></tr>
+<tr><td>14</td><td>Philadelphia Flyers</td><td>51.70%</td></tr>
+<tr><td>15</td><td>San Jose Sharks</td><td>51.58%</td></tr>
+<tr><td>16</td><td>Arizona Coyotes</td><td>51.44%</td></tr>
+<tr><td>17</td><td>Toronto Maple Leafs</td><td>50.91%</td></tr>
+<tr><td>18</td><td>Minnesota Wild</td><td>50.49%</td></tr>
+<tr><td>19</td><td>Montreal Canadiens</td><td>49.56%</td></tr>
+<tr><td>20</td><td>Edmonton Oilers</td><td>48.10%</td></tr>
+<tr><td>21</td><td>Detroit Red Wings</td><td>47.80%</td></tr>
+<tr><td>22</td><td>Florida Panthers</td><td>47.57%</td></tr>
+<tr><td>23</td><td>Carolina Hurricanes</td><td>46.99%</td></tr>
+<tr><td>24</td><td>Colorado Avalanche</td><td>46.69%</td></tr>
+<tr><td>25</td><td>New York Islanders</td><td>46.21%</td></tr>
+<tr><td>26</td><td>Ottawa Senators</td><td>46.03%</td></tr>
+<tr><td>27</td><td>Pittsburgh Penguins</td><td>45.51%</td></tr>
+<tr><td>28</td><td>Vegas Golden Knights</td><td>45.33%</td></tr>
+<tr><td>29</td><td>Los Angeles Kings</td><td>45.32%</td></tr>
+<tr><td>30</td><td>Columbus Blue Jackets</td><td>45.11%</td></tr>
+<tr><td>31</td><td>St. Louis Blues</td><td>40.29%</td></tr>
+</tbody></table>
+</td></tr></table>
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

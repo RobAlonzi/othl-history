@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>OTHL - Pro Leaders</title>
+<script type="text/javascript" src="OTHL-PLF.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="Decription" content="Tyler Bell - STHS - Version : 2.3.1.1" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+@media screen and (max-width: 992px) {
+.STHSW10 {display:none;}
+.STHSRoster_GoaliesTable tbody td:nth-child(2){display:none;}
+.STHSRoster_GoaliesTable thead th:nth-child(2){display:none;}
+}
+@media screen and (max-width: 1200px) {
+.STHSWarning {display:block;}
+table.basictablesorter tbody td:nth-last-child(1){display:none;}
+table.basictablesorter thead th:nth-last-child(1){display:none;}
+table.basictablesorter tbody td:nth-last-child(2){display:none;}
+table.basictablesorter thead th:nth-last-child(2){display:none;}
+table.basictablesorter tbody td:nth-last-child(3){display:none;}
+table.basictablesorter thead th:nth-last-child(3){display:none;}
+table.basictablesorter tbody td:nth-last-child(4){display:none;}
+table.basictablesorter thead th:nth-last-child(4){display:none;}
+table.basictablesorter tbody td:nth-last-child(5){display:none;}
+table.basictablesorter thead th:nth-last-child(5){display:none;}
+table.basictablesorter tbody td:nth-last-child(6){display:none;}
+table.basictablesorter thead th:nth-last-child(6){display:none;}
+}</style>
+<link href="OTHL-PLF.css" rel="stylesheet" type="text/css" />
+</head><body>
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL-PLF Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague" class="activemenu"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Record</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF.stc">STHS Client League File</a></td>
+<td><a href="OTHL-PLF-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-PLF-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-PLF-Schedule.html">Schedule </a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-PLF-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-PLF-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-PLF-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PLF-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PLF-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PLF-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PLF-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PLF-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PLF-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-PLF-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-PLF-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-PLF-TeamHistory.html">History</a></td>
+<td><a href="OTHL-PLF-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-PLF-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-PLF-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-PLF-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-PLF-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-PLF-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-PLF-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-PLF-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-PLF-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-PLF-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-PLF-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-PLF-Waivers.html">Waivers</a></td>
+<td><a href="OTHL-PLF-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-PLF-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-PLF-TeamsAndGMInfo.html">Team/GM</a></td>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-PLF-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Ducks">ANH</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Coyotes">ARI</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Bruins">BOS</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Sabres">BUF</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Hurricanes">CAR</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Flames">CGY</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Blackhawks">CHI</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#BlueJackets">CLB</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Avalanche">COL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Stars">DAL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#RedWings">DET</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Oilers">EDM</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Panthers">FLA</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Kings">LAK</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Wild">MIN</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Canadiens">MTL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Devils">NJD</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Predators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Islanders">NYI</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Rangers">NYR</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Senators">OTT</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Flyers">PHL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Penguins">PIT</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Sharks">SJS</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Blues">STL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Lightning">TBL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#MapleLeafs">TOR</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Canucks">VAN</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Jets">WPG</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Capitals">WSH</a></td>
+<td colspan="6" class="STHSW1"></td></tr></table></div>
+</div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Pro Leaders</td><td class="STHSHeaderDate">Last Update - April 27, 2016 at 20:19</td></tr>
+</table><div class="STHSWarning">Your screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<script type="text/javascript">$(function(){$("table").basictablesorter()});$(function (){$("table").stickyTableHeaders();});</script>
+<table class="basictablesorter STHSScoring_PlayersTable1"><thead><tr><th class="STHSW25">#</th><th class="STHSW200">Player Name</th><th class="STHSW10">F</th><th class="STHSW10">D</th><th class="STHSW25">GP</th><th class="STHSW25">G</th><th class="STHSW25">A</th><th class="STHSW25">P</th><th class="STHSW25">+/-</th><th class="STHSW25">PIM</th><th class="STHSW25">PM5</th><th class="STHSW25">HIT</th><th class="STHSW25">HTT</th><th class="STHSW25">SHT</th><th class="STHSW25">OSB</th><th class="STHSW25">OSM</th><th class="STHSW55">SHT %</th><th class="STHSW25">SB</th><th class="STHSW35">MP</th><th class="STHSW35">AMG</th><th class="STHSW25">PPG</th><th class="STHSW25">PPA</th><th class="STHSW25">PPP</th><th class="STHSW25">PPS</th><th class="STHSW25">PPM</th><th class="STHSW25">PKG</th><th class="STHSW25">PKA</th><th class="STHSW25">PKP</th><th class="STHSW25">PKS</th><th class="STHSW25">PKM</th></tr></thead>
+<tr><td>1</td><td>Tyler Bozak (COL)</td><td>X</td><td></td><td>4</td><td>2</td><td>7</td><td><b>9</b></td><td>1</td><td>0</td><td>0</td><td>5</td><td>5</td><td>12</td><td>0</td><td>0</td><td>16.67%</td><td>0</td><td>81</td><td>20.22</td><td>1</td><td>1</td><td>2</td><td>4</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>3</td></tr>
+<tr><td>2</td><td>Alexander Ovechkin (PIT)</td><td>X</td><td></td><td>4</td><td>4</td><td>3</td><td><b>7</b></td><td>5</td><td>4</td><td>0</td><td>9</td><td>5</td><td>22</td><td>0</td><td>0</td><td>18.18%</td><td>0</td><td>88</td><td>22.00</td><td>0</td><td>1</td><td>1</td><td>5</td><td>16</td><td>0</td><td>0</td><td>0</td><td>0</td><td>12</td></tr>
+<tr><td>3</td><td>Nicklas Backstrom (PIT)</td><td>X</td><td></td><td>4</td><td>3</td><td>4</td><td><b>7</b></td><td>5</td><td>0</td><td>0</td><td>3</td><td>11</td><td>12</td><td>0</td><td>0</td><td>25.00%</td><td>0</td><td>92</td><td>23.13</td><td>1</td><td>0</td><td>1</td><td>3</td><td>16</td><td>0</td><td>0</td><td>0</td><td>0</td><td>17</td></tr>
+<tr><td>4</td><td>Patrick Kane (COL)</td><td>X</td><td></td><td>4</td><td>2</td><td>5</td><td><b>7</b></td><td>1</td><td>2</td><td>0</td><td>2</td><td>7</td><td>19</td><td>0</td><td>0</td><td>10.53%</td><td>0</td><td>77</td><td>19.26</td><td>0</td><td>2</td><td>2</td><td>3</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>5</td><td>Kris Russell (NSH)</td><td></td><td>X</td><td>4</td><td>1</td><td>6</td><td><b>7</b></td><td>5</td><td>2</td><td>0</td><td>2</td><td>8</td><td>1</td><td>0</td><td>0</td><td>100.00%</td><td>9</td><td>73</td><td>18.16</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td></tr>
+<tr><td>6</td><td>Wayne Simmonds (TOR)</td><td>X</td><td></td><td>4</td><td>4</td><td>2</td><td><b>6</b></td><td>-1</td><td>6</td><td>0</td><td>8</td><td>4</td><td>14</td><td>0</td><td>0</td><td>28.57%</td><td>0</td><td>80</td><td>19.89</td><td>0</td><td>0</td><td>0</td><td>1</td><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td></tr>
+<tr><td>7</td><td>Andrew Ladd (TBL)</td><td>X</td><td></td><td>4</td><td>3</td><td>3</td><td><b>6</b></td><td>3</td><td>0</td><td>0</td><td>5</td><td>7</td><td>16</td><td>0</td><td>0</td><td>18.75%</td><td>0</td><td>84</td><td>20.94</td><td>0</td><td>0</td><td>0</td><td>1</td><td>14</td><td>0</td><td>1</td><td>1</td><td>2</td><td>15</td></tr>
+<tr><td>8</td><td>Corey Perry (EDM)</td><td>X</td><td></td><td>4</td><td>3</td><td>3</td><td><b>6</b></td><td>5</td><td>2</td><td>0</td><td>2</td><td>4</td><td>12</td><td>0</td><td>0</td><td>25.00%</td><td>0</td><td>77</td><td>19.25</td><td>0</td><td>0</td><td>0</td><td>3</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>9</td><td>Nick Foligno (EDM)</td><td>X</td><td></td><td>4</td><td>3</td><td>3</td><td><b>6</b></td><td>5</td><td>0</td><td>0</td><td>5</td><td>6</td><td>23</td><td>0</td><td>0</td><td>13.04%</td><td>2</td><td>87</td><td>21.63</td><td>1</td><td>0</td><td>1</td><td>4</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td></tr>
+<tr><td>10</td><td>Mike Ribeiro (BUF)</td><td>X</td><td></td><td>4</td><td>3</td><td>3</td><td><b>6</b></td><td>3</td><td>0</td><td>0</td><td>5</td><td>10</td><td>10</td><td>0</td><td>0</td><td>30.00%</td><td>1</td><td>91</td><td>22.65</td><td>0</td><td>0</td><td>0</td><td>1</td><td>7</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>11</td><td>Andy Greene (EDM)</td><td></td><td>X</td><td>4</td><td>2</td><td>4</td><td><b>6</b></td><td>6</td><td>4</td><td>0</td><td>4</td><td>1</td><td>7</td><td>0</td><td>0</td><td>28.57%</td><td>4</td><td>87</td><td>21.65</td><td>0</td><td>0</td><td>0</td><td>2</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>8</td></tr>
+<tr><td>12</td><td>Evgeni Malkin (TOR)</td><td>X</td><td></td><td>4</td><td>2</td><td>4</td><td><b>6</b></td><td>-1</td><td>0</td><td>0</td><td>1</td><td>7</td><td>18</td><td>0</td><td>0</td><td>11.11%</td><td>1</td><td>82</td><td>20.40</td><td>0</td><td>0</td><td>0</td><td>0</td><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td></tr>
+<tr><td>13</td><td>Joe Pavelski (DAL)</td><td>X</td><td></td><td>4</td><td>5</td><td>0</td><td><b>5</b></td><td>-1</td><td>0</td><td>0</td><td>4</td><td>18</td><td>30</td><td>0</td><td>0</td><td>16.67%</td><td>2</td><td>109</td><td>27.33</td><td>0</td><td>0</td><td>0</td><td>6</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>12</td></tr>
+<tr><td>14</td><td>Nick Bonino (SJS)</td><td>X</td><td></td><td>4</td><td>3</td><td>2</td><td><b>5</b></td><td>2</td><td>0</td><td>0</td><td>2</td><td>4</td><td>11</td><td>0</td><td>0</td><td>27.27%</td><td>0</td><td>81</td><td>20.28</td><td>1</td><td>1</td><td>2</td><td>2</td><td>8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td></tr>
+<tr><td>15</td><td>Mats Zuccarello (WSH)</td><td>X</td><td></td><td>4</td><td>3</td><td>2</td><td><b>5</b></td><td>5</td><td>4</td><td>0</td><td>5</td><td>9</td><td>13</td><td>0</td><td>0</td><td>23.08%</td><td>0</td><td>78</td><td>19.50</td><td>0</td><td>0</td><td>0</td><td>2</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>16</td><td>Patrick Sharp (NJD)</td><td>X</td><td></td><td>4</td><td>3</td><td>2</td><td><b>5</b></td><td>2</td><td>4</td><td>0</td><td>8</td><td>6</td><td>12</td><td>0</td><td>0</td><td>25.00%</td><td>0</td><td>82</td><td>20.39</td><td>1</td><td>0</td><td>1</td><td>3</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>17</td><td>Patrick Marleau (EDM)</td><td>X</td><td></td><td>4</td><td>2</td><td>3</td><td><b>5</b></td><td>5</td><td>0</td><td>0</td><td>4</td><td>5</td><td>14</td><td>0</td><td>0</td><td>14.29%</td><td>0</td><td>78</td><td>19.51</td><td>0</td><td>1</td><td>1</td><td>1</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>18</td><td>Carl Soderberg (BOS)</td><td>X</td><td></td><td>4</td><td>2</td><td>3</td><td><b>5</b></td><td>4</td><td>0</td><td>0</td><td>4</td><td>3</td><td>9</td><td>0</td><td>0</td><td>22.22%</td><td>0</td><td>57</td><td>14.29</td><td>0</td><td>1</td><td>1</td><td>4</td><td>17</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>19</td><td>Jonathan Toews (FLA)</td><td>X</td><td></td><td>4</td><td>1</td><td>4</td><td><b>5</b></td><td>2</td><td>2</td><td>0</td><td>5</td><td>12</td><td>20</td><td>0</td><td>0</td><td>5.00%</td><td>1</td><td>106</td><td>26.50</td><td>0</td><td>2</td><td>2</td><td>6</td><td>20</td><td>0</td><td>0</td><td>0</td><td>2</td><td>23</td></tr>
+<tr><td>20</td><td>Jarome Iginla (BOS)</td><td>X</td><td></td><td>4</td><td>1</td><td>4</td><td><b>5</b></td><td>2</td><td>2</td><td>0</td><td>6</td><td>13</td><td>18</td><td>0</td><td>0</td><td>5.56%</td><td>1</td><td>88</td><td>21.93</td><td>0</td><td>2</td><td>2</td><td>2</td><td>21</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>21</td><td>Ryan Johansen (BOS)</td><td>X</td><td></td><td>4</td><td>1</td><td>4</td><td><b>5</b></td><td>0</td><td>0</td><td>0</td><td>6</td><td>10</td><td>11</td><td>0</td><td>0</td><td>9.09%</td><td>2</td><td>79</td><td>19.82</td><td>1</td><td>3</td><td>4</td><td>4</td><td>19</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>22</td><td>Ryan Kesler (TBL)</td><td>X</td><td></td><td>4</td><td>1</td><td>4</td><td><b>5</b></td><td>3</td><td>2</td><td>0</td><td>4</td><td>8</td><td>14</td><td>0</td><td>0</td><td>7.14%</td><td>2</td><td>84</td><td>20.93</td><td>0</td><td>0</td><td>0</td><td>4</td><td>14</td><td>0</td><td>1</td><td>1</td><td>1</td><td>15</td></tr>
+<tr><td>23</td><td>Evgeny Kuznetsov (R) (WSH)</td><td>X</td><td></td><td>4</td><td>1</td><td>4</td><td><b>5</b></td><td>5</td><td>0</td><td>0</td><td>7</td><td>4</td><td>5</td><td>0</td><td>0</td><td>20.00%</td><td>1</td><td>78</td><td>19.45</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>24</td><td>Ryan Getzlaf (NJD)</td><td>X</td><td></td><td>4</td><td>0</td><td>5</td><td><b>5</b></td><td>2</td><td>0</td><td>0</td><td>6</td><td>5</td><td>14</td><td>0</td><td>0</td><td>0.00%</td><td>0</td><td>84</td><td>21.11</td><td>0</td><td>1</td><td>1</td><td>3</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td></tr>
+<tr><td>25</td><td>John Tavares (TBL)</td><td>X</td><td></td><td>4</td><td>0</td><td>5</td><td><b>5</b></td><td>1</td><td>0</td><td>0</td><td>4</td><td>11</td><td>16</td><td>0</td><td>0</td><td>0.00%</td><td>0</td><td>86</td><td>21.49</td><td>0</td><td>1</td><td>1</td><td>1</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>26</td><td>Radim Vrbata (NSH)</td><td>X</td><td></td><td>4</td><td>3</td><td>1</td><td><b>4</b></td><td>-2</td><td>0</td><td>0</td><td>2</td><td>6</td><td>10</td><td>0</td><td>0</td><td>30.00%</td><td>1</td><td>80</td><td>19.90</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>27</td><td>Patric Hornqvist (CHI)</td><td>X</td><td></td><td>4</td><td>3</td><td>1</td><td><b>4</b></td><td>1</td><td>0</td><td>0</td><td>1</td><td>10</td><td>15</td><td>0</td><td>0</td><td>20.00%</td><td>1</td><td>74</td><td>18.38</td><td>0</td><td>0</td><td>0</td><td>4</td><td>17</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>28</td><td>Milan Lucic (MIN)</td><td>X</td><td></td><td>4</td><td>3</td><td>1</td><td><b>4</b></td><td>4</td><td>2</td><td>0</td><td>12</td><td>4</td><td>11</td><td>0</td><td>0</td><td>27.27%</td><td>0</td><td>55</td><td>13.83</td><td>0</td><td>0</td><td>0</td><td>2</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>29</td><td>Zach Parise (DAL)</td><td>X</td><td></td><td>4</td><td>3</td><td>1</td><td><b>4</b></td><td>2</td><td>0</td><td>0</td><td>9</td><td>6</td><td>15</td><td>0</td><td>0</td><td>20.00%</td><td>0</td><td>82</td><td>20.48</td><td>0</td><td>0</td><td>0</td><td>2</td><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>30</td><td>Jeff Carter (TBL)</td><td>X</td><td></td><td>4</td><td>3</td><td>1</td><td><b>4</b></td><td>1</td><td>0</td><td>0</td><td>6</td><td>6</td><td>14</td><td>0</td><td>0</td><td>21.43%</td><td>0</td><td>84</td><td>21.10</td><td>1</td><td>0</td><td>1</td><td>4</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>31</td><td>James van Riemsdyk (FLA)</td><td>X</td><td></td><td>4</td><td>3</td><td>1</td><td><b>4</b></td><td>2</td><td>4</td><td>0</td><td>3</td><td>10</td><td>16</td><td>0</td><td>0</td><td>18.75%</td><td>0</td><td>98</td><td>24.40</td><td>1</td><td>0</td><td>1</td><td>5</td><td>20</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16</td></tr>
+<tr><td>32</td><td>Logan Couture (NSH)</td><td>X</td><td></td><td>4</td><td>3</td><td>1</td><td><b>4</b></td><td>0</td><td>0</td><td>0</td><td>7</td><td>14</td><td>15</td><td>0</td><td>0</td><td>20.00%</td><td>1</td><td>100</td><td>25.03</td><td>2</td><td>0</td><td>2</td><td>3</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td></tr>
+<tr><td>33</td><td>Artemi Panarin (R) (NJD)</td><td>X</td><td></td><td>4</td><td>2</td><td>2</td><td><b>4</b></td><td>0</td><td>2</td><td>0</td><td>5</td><td>1</td><td>9</td><td>0</td><td>0</td><td>22.22%</td><td>1</td><td>76</td><td>18.98</td><td>0</td><td>1</td><td>1</td><td>2</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td></tr>
+<tr><td>34</td><td>Steven Stamkos (MIN)</td><td>X</td><td></td><td>4</td><td>2</td><td>2</td><td><b>4</b></td><td>4</td><td>0</td><td>0</td><td>1</td><td>9</td><td>16</td><td>0</td><td>0</td><td>12.50%</td><td>1</td><td>58</td><td>14.45</td><td>0</td><td>0</td><td>0</td><td>3</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>35</td><td>Jannik Hansen (WSH)</td><td>X</td><td></td><td>4</td><td>2</td><td>2</td><td><b>4</b></td><td>2</td><td>2</td><td>0</td><td>10</td><td>6</td><td>6</td><td>0</td><td>0</td><td>33.33%</td><td>0</td><td>48</td><td>11.99</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td></tr>
+<tr><td>36</td><td>Alex Tanguay (COL)</td><td>X</td><td></td><td>4</td><td>2</td><td>2</td><td><b>4</b></td><td>1</td><td>8</td><td>0</td><td>7</td><td>4</td><td>14</td><td>0</td><td>0</td><td>14.29%</td><td>1</td><td>75</td><td>18.68</td><td>0</td><td>0</td><td>0</td><td>3</td><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>37</td><td>Sidney Crosby (BUF)</td><td>X</td><td></td><td>3</td><td>1</td><td>3</td><td><b>4</b></td><td>2</td><td>2</td><td>0</td><td>3</td><td>4</td><td>14</td><td>0</td><td>0</td><td>7.14%</td><td>1</td><td>55</td><td>18.24</td><td>0</td><td>0</td><td>0</td><td>4</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>38</td><td>Andrej Sekera (BOS)</td><td></td><td>X</td><td>4</td><td>1</td><td>3</td><td><b>4</b></td><td>3</td><td>2</td><td>0</td><td>7</td><td>9</td><td>6</td><td>0</td><td>0</td><td>16.67%</td><td>6</td><td>107</td><td>26.82</td><td>1</td><td>1</td><td>2</td><td>6</td><td>22</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td></tr>
+<tr><td>39</td><td>Ryan Nugent-Hopkins (MIN)</td><td>X</td><td></td><td>4</td><td>1</td><td>3</td><td><b>4</b></td><td>2</td><td>0</td><td>0</td><td>3</td><td>6</td><td>9</td><td>0</td><td>0</td><td>11.11%</td><td>0</td><td>61</td><td>15.13</td><td>0</td><td>0</td><td>0</td><td>1</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>40</td><td>Kyle Okposo (TBL)</td><td>X</td><td></td><td>4</td><td>1</td><td>3</td><td><b>4</b></td><td>2</td><td>0</td><td>0</td><td>1</td><td>6</td><td>5</td><td>0</td><td>0</td><td>20.00%</td><td>0</td><td>69</td><td>17.27</td><td>0</td><td>0</td><td>0</td><td>2</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>41</td><td>T.J. Brodie (SJS)</td><td></td><td>X</td><td>4</td><td>1</td><td>3</td><td><b>4</b></td><td>1</td><td>2</td><td>0</td><td>4</td><td>3</td><td>3</td><td>0</td><td>0</td><td>33.33%</td><td>5</td><td>92</td><td>23.07</td><td>0</td><td>1</td><td>1</td><td>1</td><td>10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>10</td></tr>
+<tr><td>42</td><td>Jordie Benn (DAL)</td><td></td><td>X</td><td>4</td><td>1</td><td>3</td><td><b>4</b></td><td>2</td><td>6</td><td>0</td><td>13</td><td>2</td><td>5</td><td>0</td><td>0</td><td>20.00%</td><td>4</td><td>82</td><td>20.41</td><td>0</td><td>0</td><td>0</td><td>1</td><td>11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td></tr>
+<tr><td>43</td><td>T.J. Oshie (SJS)</td><td>X</td><td></td><td>4</td><td>1</td><td>3</td><td><b>4</b></td><td>1</td><td>0</td><td>0</td><td>8</td><td>8</td><td>16</td><td>0</td><td>0</td><td>6.25%</td><td>2</td><td>81</td><td>20.21</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>44</td><td>Oliver Ekman-Larsson (NJD)</td><td></td><td>X</td><td>4</td><td>1</td><td>3</td><td><b>4</b></td><td>1</td><td>2</td><td>0</td><td>9</td><td>4</td><td>5</td><td>0</td><td>0</td><td>20.00%</td><td>4</td><td>101</td><td>25.27</td><td>0</td><td>1</td><td>1</td><td>4</td><td>13</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13</td></tr>
+<tr><td>45</td><td>Tyler Johnson (PIT)</td><td>X</td><td></td><td>4</td><td>1</td><td>3</td><td><b>4</b></td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td><td>17</td><td>0</td><td>0</td><td>5.88%</td><td>0</td><td>63</td><td>15.71</td><td>0</td><td>0</td><td>0</td><td>5</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td></tr>
+<tr><td>46</td><td>James Neal (CHI)</td><td>X</td><td></td><td>4</td><td>3</td><td>0</td><td><b>3</b></td><td>2</td><td>4</td><td>0</td><td>4</td><td>2</td><td>12</td><td>0</td><td>0</td><td>25.00%</td><td>1</td><td>73</td><td>18.18</td><td>0</td><td>0</td><td>0</td><td>3</td><td>18</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>47</td><td>Troy Brouwer (SJS)</td><td>X</td><td></td><td>4</td><td>3</td><td>0</td><td><b>3</b></td><td>-2</td><td>4</td><td>0</td><td>10</td><td>3</td><td>9</td><td>0</td><td>0</td><td>33.33%</td><td>2</td><td>77</td><td>19.18</td><td>1</td><td>0</td><td>1</td><td>2</td><td>8</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>48</td><td>Alexander Steen (NSH)</td><td>X</td><td></td><td>4</td><td>2</td><td>1</td><td><b>3</b></td><td>2</td><td>2</td><td>0</td><td>3</td><td>8</td><td>19</td><td>0</td><td>0</td><td>10.53%</td><td>0</td><td>85</td><td>21.18</td><td>0</td><td>0</td><td>0</td><td>2</td><td>9</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td></tr>
+<tr><td>49</td><td>Rick Nash (COL)</td><td>X</td><td></td><td>4</td><td>2</td><td>1</td><td><b>3</b></td><td>-1</td><td>0</td><td>0</td><td>3</td><td>7</td><td>16</td><td>0</td><td>0</td><td>12.50%</td><td>1</td><td>89</td><td>22.15</td><td>1</td><td>0</td><td>1</td><td>3</td><td>13</td><td>0</td><td>0</td><td>0</td><td>1</td><td>21</td></tr>
+<tr><td>50</td><td>Scott Hartnell (WSH)</td><td>X</td><td></td><td>4</td><td>2</td><td>1</td><td><b>3</b></td><td>-4</td><td>0</td><td>0</td><td>10</td><td>9</td><td>11</td><td>0</td><td>0</td><td>18.18%</td><td>1</td><td>96</td><td>23.97</td><td>1</td><td>0</td><td>1</td><td>3</td><td>11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>11</td></tr>
+</table><table class="basictablesorter STHSScoring_GoaliesTable"><thead><tr><th class="STHSW25">#</th><th class="STHSW200">Goalie Name</th><th class="STHSW25">GP</th><th class="STHSW25">W</th><th class="STHSW25">L</th><th class="STHSW25">OTL</th><th class="STHSW50">PCT</th><th class="STHSW50">GAA</th><th class="STHSW50">MP</th><th class="STHSW25">PIM</th><th class="STHSW25">SO</th><th class="STHSW25">GA</th><th class="STHSW45">SA</th><th class="STHSW45">SAR</th><th class="STHSW25">A</th><th class="STHSW25">EG</th><th class="STHSW50">PS %</th><th class="STHSW25">PSA</th><th class="STHSW25">ST</th><th class="STHSW25">BG</th></tr></thead>
+<tr><td>1</td><td>James Reimer (ANH)</td><td>2</td><td>1</td><td>0</td><td>0</td><td><b>0.966</b></td><td>0.72</td><td>83</td><td>0</td><td>0</td><td>1</td><td>29</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>1</td><td>3</td></tr>
+<tr><td>2</td><td>Michal Neuvirth (WSH)</td><td>2</td><td>0</td><td>0</td><td>1</td><td><b>0.949</b></td><td>1.57</td><td>114</td><td>2</td><td>0</td><td>3</td><td>59</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>1</td><td>3</td></tr>
+<tr><td>3</td><td>Roberto Luongo (FLA)</td><td>2</td><td>1</td><td>1</td><td>0</td><td><b>0.940</b></td><td>1.78</td><td>135</td><td>0</td><td>0</td><td>4</td><td>67</td><td>0</td><td>0</td><td>1</td><td>0.000</td><td>0</td><td>2</td><td>0</td></tr>
+<tr><td>4</td><td>Antti Niemi (MIN)</td><td>3</td><td>2</td><td>0</td><td>1</td><td><b>0.933</b></td><td>1.99</td><td>181</td><td>2</td><td>0</td><td>6</td><td>90</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>3</td><td>1</td></tr>
+<tr><td>5</td><td>Curtis McElhinney (MIN)</td><td>1</td><td>1</td><td>0</td><td>0</td><td><b>0.882</b></td><td>2.00</td><td>60</td><td>0</td><td>0</td><td>2</td><td>17</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>1</td><td>3</td></tr>
+<tr><td>6</td><td>Mike Smith (BOS)</td><td>4</td><td>3</td><td>0</td><td>1</td><td><b>0.914</b></td><td>2.11</td><td>256</td><td>0</td><td>0</td><td>9</td><td>105</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>4</td><td>0</td></tr>
+<tr><td>7</td><td>Brian Elliott (TBL)</td><td>4</td><td>2</td><td>2</td><td>0</td><td><b>0.912</b></td><td>2.52</td><td>238</td><td>0</td><td>1</td><td>10</td><td>113</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>4</td><td>0</td></tr>
+<tr><td>8</td><td>Carey Price (NSH)</td><td>4</td><td>3</td><td>1</td><td>0</td><td><b>0.916</b></td><td>2.62</td><td>252</td><td>0</td><td>0</td><td>11</td><td>131</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>4</td><td>0</td></tr>
+<tr><td>9</td><td>Ben Bishop (COL)</td><td>4</td><td>2</td><td>1</td><td>1</td><td><b>0.904</b></td><td>2.63</td><td>250</td><td>0</td><td>0</td><td>11</td><td>114</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>4</td><td>0</td></tr>
+<tr><td>10</td><td>Frederik Andersen (BUF)</td><td>4</td><td>2</td><td>2</td><td>0</td><td><b>0.894</b></td><td>2.67</td><td>270</td><td>0</td><td>0</td><td>12</td><td>113</td><td>0</td><td>0</td><td>0</td><td>0.000</td><td>0</td><td>4</td><td>0</td></tr>
+</table>
+<br /><br /><br /><a href="#" class="scrollup">Scroll</a><div class="footer">Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

@@ -1,0 +1,1977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeLeaguePlayerGoalerRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TypeLeaguePlayerGoalerRecord>
+    <intPlayerMostIceTimeIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Brent Seabrook</string>
+        <string>Dion Phaneuf</string>
+        <string>Francois Beauchemin</string>
+        <string>Alexander Edler</string>
+        <string>Kimmo Timonen</string>
+        <string>Matthew Greene</string>
+        <string>Carl Gunnarsson</string>
+        <string>Dan Hamhuis</string>
+        <string>Eric Brewer</string>
+        <string>Steve Eminger</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Flames</string>
+        <string>Rangers</string>
+        <string>Coyotes</string>
+        <string>Bruins</string>
+        <string>Blues</string>
+        <string>Jets</string>
+        <string>Rangers</string>
+        <string>Lightning</string>
+        <string>Canucks</string>
+        <string>Coyotes</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>2116</short>
+        <short>2089</short>
+        <short>2062</short>
+        <short>2061</short>
+        <short>2057</short>
+        <short>2056</short>
+        <short>2052</short>
+        <short>2043</short>
+        <short>2041</short>
+        <short>2028</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>640</short>
+        <short>781</short>
+        <short>634</short>
+        <short>142</short>
+        <short>903</short>
+        <short>103</short>
+        <short>699</short>
+        <short>1041</short>
+        <short>517</short>
+        <short>334</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostIceTimeIn1Game>
+    <intPlayerMostIceTimeIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Francois Beauchemin</string>
+        <string>Jay Bouwmeester</string>
+        <string>Toni Lydman</string>
+        <string>Paul Martin</string>
+        <string>Ryan Whitney</string>
+        <string>Ryan Suter</string>
+        <string>Marc Staal</string>
+        <string>Kimmo Timonen</string>
+        <string>Scott Hannan</string>
+        <string>Luke Schenn</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Coyotes</string>
+        <string>Flyers</string>
+        <string>Bruins</string>
+        <string>Hurricanes</string>
+        <string>Jets</string>
+        <string>Panthers</string>
+        <string>Rangers</string>
+        <string>Blues</string>
+        <string>Avalanche</string>
+        <string>Avalanche</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>2373</short>
+        <short>2271</short>
+        <short>2263</short>
+        <short>2235</short>
+        <short>2231</short>
+        <short>2225</short>
+        <short>2197</short>
+        <short>2196</short>
+        <short>2192</short>
+        <short>2175</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostIceTimeIn1Year>
+    <intPlayerMostGoalsIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Jarome Iginla</string>
+        <string>Jason Arnott</string>
+        <string>Joe Sakic</string>
+        <string>Paul Kariya</string>
+        <string>Patrick Eaves</string>
+        <string>Phil Kessel</string>
+        <string>Vincent Lecavalier</string>
+        <string>Corey Perry</string>
+        <string>Ville Leino</string>
+        <string>Milan Lucic</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Blackhawks</string>
+        <string>Coyotes</string>
+        <string>Blackhawks</string>
+        <string>Oilers</string>
+        <string>Devils</string>
+        <string>Red Wings</string>
+        <string>Kings</string>
+        <string>Oilers</string>
+        <string>Capitals</string>
+        <string>Flames</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>5</short>
+        <short>5</short>
+        <short>4</short>
+        <short>4</short>
+        <short>4</short>
+        <short>4</short>
+        <short>4</short>
+        <short>4</short>
+        <short>4</short>
+        <short>3</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>381</short>
+        <short>555</short>
+        <short>133</short>
+        <short>376</short>
+        <short>945</short>
+        <short>58</short>
+        <short>344</short>
+        <short>963</short>
+        <short>1154</short>
+        <short>21</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostGoalsIn1Game>
+    <intPlayerMostGoalsIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Mike Cammalleri</string>
+        <string>Alexander Ovechkin</string>
+        <string>Jarome Iginla</string>
+        <string>Eric Staal</string>
+        <string>Corey Perry</string>
+        <string>Rick Nash</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Kings</string>
+        <string>Blackhawks</string>
+        <string>Blackhawks</string>
+        <string>Oilers</string>
+        <string>Oilers</string>
+        <string>Sharks</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2011</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>55</short>
+        <short>54</short>
+        <short>53</short>
+        <short>49</short>
+        <short>49</short>
+        <short>48</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>6</intNumber>
+    </intPlayerMostGoalsIn1Year>
+    <intPlayerMostAssistsIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Brian Rafalski</string>
+        <string>Doug Weight</string>
+        <string>Jeff Carter</string>
+        <string>Jay Bouwmeester</string>
+        <string>Nicklas Lidstrom</string>
+        <string>Joe Pavelski</string>
+        <string>Jussi Jokinen</string>
+        <string>Mike Richards</string>
+        <string>Ryan Kesler</string>
+        <string>Scott Gomez</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Coyotes</string>
+        <string>Red Wings</string>
+        <string>Penguins</string>
+        <string>Penguins</string>
+        <string>Sharks</string>
+        <string>Red Wings</string>
+        <string>Canucks</string>
+        <string>Maple Leafs</string>
+        <string>Islanders</string>
+        <string>Canadiens</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2010</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>7</short>
+        <short>5</short>
+        <short>5</short>
+        <short>5</short>
+        <short>5</short>
+        <short>5</short>
+        <short>5</short>
+        <short>4</short>
+        <short>4</short>
+        <short>4</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>555</short>
+        <short>225</short>
+        <short>546</short>
+        <short>383</short>
+        <short>494</short>
+        <short>58</short>
+        <short>310</short>
+        <short>2</short>
+        <short>38</short>
+        <short>245</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostAssistsIn1Game>
+    <intPlayerMostAssistsIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Marc Savard</string>
+        <string>Mike Ribeiro</string>
+        <string>Sidney Crosby</string>
+        <string>David Krejci</string>
+        <string>Scott Niedermayer</string>
+        <string>Peter Mueller</string>
+        <string>Brian Rafalski</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Kings</string>
+        <string>Flames</string>
+        <string>Sabres</string>
+        <string>Penguins</string>
+        <string>Thrashers</string>
+        <string>Blackhawks</string>
+        <string>Coyotes</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>76</short>
+        <short>72</short>
+        <short>69</short>
+        <short>67</short>
+        <short>65</short>
+        <short>64</short>
+        <short>64</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>7</intNumber>
+    </intPlayerMostAssistsIn1Year>
+    <intPlayerMostPointsIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Brian Rafalski</string>
+        <string>Evgeni Malkin</string>
+        <string>Jarome Iginla</string>
+        <string>Jason Arnott</string>
+        <string>Tomas Plekanec</string>
+        <string>Jussi Jokinen</string>
+        <string>Jamie Benn</string>
+        <string>Mike Richards</string>
+        <string>Joe Pavelski</string>
+        <string>Patrick Kane</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Coyotes</string>
+        <string>Maple Leafs</string>
+        <string>Blackhawks</string>
+        <string>Coyotes</string>
+        <string>Blues</string>
+        <string>Canucks</string>
+        <string>Flames</string>
+        <string>Maple Leafs</string>
+        <string>Red Wings</string>
+        <string>Avalanche</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>7</short>
+        <short>7</short>
+        <short>6</short>
+        <short>6</short>
+        <short>6</short>
+        <short>6</short>
+        <short>6</short>
+        <short>5</short>
+        <short>5</short>
+        <short>5</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>555</short>
+        <short>105</short>
+        <short>381</short>
+        <short>555</short>
+        <short>1139</short>
+        <short>310</short>
+        <short>493</short>
+        <short>2</short>
+        <short>58</short>
+        <short>123</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostPointsIn1Game>
+    <intPlayerMostPointsIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Marc Savard</string>
+        <string>Sidney Crosby</string>
+        <string>Jeff Carter</string>
+        <string>Zach Parise</string>
+        <string>Mike Cammalleri</string>
+        <string>Jarome Iginla</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Kings</string>
+        <string>Sabres</string>
+        <string>Penguins</string>
+        <string>Senators</string>
+        <string>Kings</string>
+        <string>Blackhawks</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2011</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>122</short>
+        <short>112</short>
+        <short>109</short>
+        <short>108</short>
+        <short>107</short>
+        <short>105</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>6</intNumber>
+    </intPlayerMostPointsIn1Year>
+    <intPlayerMostShotsIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Unknown Player</string>
+        <string>Unknown Player</string>
+        <string>Jarome Iginla</string>
+        <string>Alexei Kovalev</string>
+        <string>Matt Cullen</string>
+        <string>Henrik Sedin</string>
+        <string>Phil Kessel</string>
+        <string>Vincent Lecavalier</string>
+        <string>David Krejci</string>
+        <string>Anze Kopitar</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Penguins</string>
+        <string>Red Wings</string>
+        <string>Blackhawks</string>
+        <string>Oilers</string>
+        <string>Canadiens</string>
+        <string>Jets</string>
+        <string>Red Wings</string>
+        <string>Kings</string>
+        <string>Senators</string>
+        <string>Flyers</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2010</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>23</short>
+        <short>18</short>
+        <short>15</short>
+        <short>14</short>
+        <short>13</short>
+        <short>13</short>
+        <short>12</short>
+        <short>12</short>
+        <short>12</short>
+        <short>12</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>543</short>
+        <short>543</short>
+        <short>381</short>
+        <short>402</short>
+        <short>251</short>
+        <short>376</short>
+        <short>58</short>
+        <short>641</short>
+        <short>694</short>
+        <short>1001</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostShotsIn1Game>
+    <intPlayerMostShotsIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Rick Nash</string>
+        <string>Corey Perry</string>
+        <string>Henrik Zetterberg</string>
+        <string>Steven Stamkos</string>
+        <string>Alexander Semin</string>
+        <string>Alexander Ovechkin</string>
+        <string>Jarome Iginla</string>
+        <string>Ray Whitney</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Sharks</string>
+        <string>Oilers</string>
+        <string>Thrashers</string>
+        <string>Wild</string>
+        <string>Bruins</string>
+        <string>Panthers</string>
+        <string>Blackhawks</string>
+        <string>Panthers</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2011</short>
+        <short>2008</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>397</short>
+        <short>385</short>
+        <short>382</short>
+        <short>382</short>
+        <short>382</short>
+        <short>381</short>
+        <short>371</short>
+        <short>361</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>8</intNumber>
+    </intPlayerMostShotsIn1Year>
+    <intPlayerMostShotsBlockIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Unknown Player</string>
+        <string>Keith Ballard</string>
+        <string>Marc Staal</string>
+        <string>Brooks Orpik</string>
+        <string>Brent Sopel</string>
+        <string>Mark Giordano</string>
+        <string>Alexander Edler</string>
+        <string>Nicklas Lidstrom</string>
+        <string>Lubomir Visnovsky</string>
+        <string>Tom Poti</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Red Wings</string>
+        <string>Lightning</string>
+        <string>Maple Leafs</string>
+        <string>Coyotes</string>
+        <string>Blackhawks</string>
+        <string>Sabres</string>
+        <string>Bruins</string>
+        <string>Sharks</string>
+        <string>Ducks</string>
+        <string>Hurricanes</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>12</short>
+        <short>10</short>
+        <short>9</short>
+        <short>8</short>
+        <short>8</short>
+        <short>8</short>
+        <short>7</short>
+        <short>7</short>
+        <short>7</short>
+        <short>7</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>543</short>
+        <short>476</short>
+        <short>657</short>
+        <short>1154</short>
+        <short>1145</short>
+        <short>47</short>
+        <short>60</short>
+        <short>582</short>
+        <short>663</short>
+        <short>1098</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostShotsBlockIn1Game>
+    <intPlayerMostShotsBlockIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Jay Bouwmeester</string>
+        <string>Greg Zanon</string>
+        <string>Zdeno Chara</string>
+        <string>Chris Phillips</string>
+        <string>Mark Eaton</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Penguins</string>
+        <string>Thrashers</string>
+        <string>Devils</string>
+        <string>Predators</string>
+        <string>Flames</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2010</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>149</short>
+        <short>141</short>
+        <short>140</short>
+        <short>139</short>
+        <short>136</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intPlayerMostShotsBlockIn1Year>
+    <intPlayerMostPlusMinusIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Joni Pitkanen</string>
+        <string>Jeff Carter</string>
+        <string>Alexander Semin</string>
+        <string>Shane Doan</string>
+        <string>Jeff Carter</string>
+        <string>Ray Whitney</string>
+        <string>Joe Pavelski</string>
+        <string>Milan Jurcina</string>
+        <string>Jussi Jokinen</string>
+        <string>Eric Brewer</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Penguins</string>
+        <string>Penguins</string>
+        <string>Penguins</string>
+        <string>Penguins</string>
+        <string>Penguins</string>
+        <string>Red Wings</string>
+        <string>Red Wings</string>
+        <string>Canucks</string>
+        <string>Canucks</string>
+        <string>Canucks</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>6</short>
+        <short>6</short>
+        <short>6</short>
+        <short>6</short>
+        <short>6</short>
+        <short>5</short>
+        <short>5</short>
+        <short>5</short>
+        <short>5</short>
+        <short>5</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>546</short>
+        <short>546</short>
+        <short>383</short>
+        <short>383</short>
+        <short>383</short>
+        <short>58</short>
+        <short>58</short>
+        <short>310</short>
+        <short>310</short>
+        <short>310</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostPlusMinusIn1Game>
+    <intPlayerMostPlusMinusIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Alexander Ovechkin</string>
+        <string>Joe Sakic</string>
+        <string>Duncan Keith</string>
+        <string>Tom Poti</string>
+        <string>Ilya Kovalchuk</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Blackhawks</string>
+        <string>Blackhawks</string>
+        <string>Blackhawks</string>
+        <string>Blackhawks</string>
+        <string>Sharks</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>61</short>
+        <short>57</short>
+        <short>50</short>
+        <short>49</short>
+        <short>43</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intPlayerMostPlusMinusIn1Year>
+    <intPlayerWorsePlusMinusIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Unknown Player</string>
+        <string>Bryan Berard</string>
+        <string>Daniel Brière</string>
+        <string>Sean O'Donnell</string>
+        <string>Tuomo Ruutu</string>
+        <string>Jonathon Blum</string>
+        <string>Brad Richards</string>
+        <string>David Perron</string>
+        <string>Steven Stamkos</string>
+        <string>Tim Gleason</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Penguins</string>
+        <string>Coyotes</string>
+        <string>Kings</string>
+        <string>Kings</string>
+        <string>Kings</string>
+        <string>Wild</string>
+        <string>Rangers</string>
+        <string>Canadiens</string>
+        <string>Wild</string>
+        <string>Wild</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>-10</short>
+        <short>-6</short>
+        <short>-6</short>
+        <short>-6</short>
+        <short>-6</short>
+        <short>-5</short>
+        <short>-5</short>
+        <short>-4</short>
+        <short>-4</short>
+        <short>-4</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>543</short>
+        <short>1154</short>
+        <short>566</short>
+        <short>566</short>
+        <short>566</short>
+        <short>384</short>
+        <short>1038</short>
+        <short>23</short>
+        <short>27</short>
+        <short>58</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerWorsePlusMinusIn1Game>
+    <intPlayerWorsePlusMinusIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Bryan Berard</string>
+        <string>Craig Rivet</string>
+        <string>Brian Pothier</string>
+        <string>Steve Montador</string>
+        <string>Chris Chelios</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Coyotes</string>
+        <string>Red Wings</string>
+        <string>Bruins</string>
+        <string>Wild</string>
+        <string>Blackhawks</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>-46</short>
+        <short>-41</short>
+        <short>-38</short>
+        <short>-36</short>
+        <short>-36</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intPlayerWorsePlusMinusIn1Year>
+    <intPlayerMostPimIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Ryan Malone</string>
+        <string>Tim Gleason</string>
+        <string>Sean Bergenheim</string>
+        <string>Ryane Clowe</string>
+        <string>Jarome Iginla</string>
+        <string>Mattias Ohlund</string>
+        <string>Eric Brewer</string>
+        <string>Chris Neil</string>
+        <string>Brian Boyle</string>
+        <string>Sean ODonnell</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Ducks</string>
+        <string>Wild</string>
+        <string>Panthers</string>
+        <string>Coyotes</string>
+        <string>Jets</string>
+        <string>Rangers</string>
+        <string>Canucks</string>
+        <string>Kings</string>
+        <string>Avalanche</string>
+        <string>Hurricanes</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>34</short>
+        <short>34</short>
+        <short>32</short>
+        <short>31</short>
+        <short>29</short>
+        <short>29</short>
+        <short>29</short>
+        <short>29</short>
+        <short>29</short>
+        <short>29</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>357</short>
+        <short>384</short>
+        <short>1193</short>
+        <short>450</short>
+        <short>198</short>
+        <short>249</short>
+        <short>412</short>
+        <short>539</short>
+        <short>715</short>
+        <short>1038</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostPimIn1Game>
+    <intPlayerMostPimIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Dion Phaneuf</string>
+        <string>Ryane Clowe</string>
+        <string>Mike Komisarek</string>
+        <string>Mike Komisarek</string>
+        <string>Chris Neil</string>
+        <string>David Backes</string>
+        <string>Mike Commodore</string>
+        <string>Shane O'Brien</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Ducks</string>
+        <string>Coyotes</string>
+        <string>Red Wings</string>
+        <string>Penguins</string>
+        <string>Kings</string>
+        <string>Blackhawks</string>
+        <string>Capitals</string>
+        <string>Kings</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2011</short>
+        <short>2010</short>
+        <short>2009</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>348</short>
+        <short>301</short>
+        <short>248</short>
+        <short>247</short>
+        <short>245</short>
+        <short>242</short>
+        <short>238</short>
+        <short>237</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>8</intNumber>
+    </intPlayerMostPimIn1Year>
+    <intPlayerMostHitsIn1Game>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Unknown Player</string>
+        <string>Unknown Player</string>
+        <string>Matt Smaby</string>
+        <string>Jeff Finger</string>
+        <string>Mike Komisarek</string>
+        <string>Ryane Clowe</string>
+        <string>Dennis Seidenberg</string>
+        <string>Christian Ehrhoff</string>
+        <string>Ryan Kesler</string>
+        <string>Tim Gleason</string>
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Red Wings</string>
+        <string>Penguins</string>
+        <string>Capitals</string>
+        <string>Blackhawks</string>
+        <string>Canadiens</string>
+        <string>Coyotes</string>
+        <string>Flyers</string>
+        <string>Lightning</string>
+        <string>Islanders</string>
+        <string>Wild</string>
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2010</short>
+        <short>2010</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+        <short>2011</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>22</short>
+        <short>19</short>
+        <short>13</short>
+        <short>12</short>
+        <short>12</short>
+        <short>9</short>
+        <short>9</short>
+        <short>9</short>
+        <short>9</short>
+        <short>8</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>543</short>
+        <short>543</short>
+        <short>869</short>
+        <short>270</short>
+        <short>701</short>
+        <short>31</short>
+        <short>100</short>
+        <short>545</short>
+        <short>788</short>
+        <short>58</short>
+      </ScheduleGame>
+      <intNumber>10</intNumber>
+    </intPlayerMostHitsIn1Game>
+    <intPlayerMostHitsIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Mike Fisher</string>
+        <string>Rob Davison</string>
+        <string>Brenden Morrow</string>
+        <string>Milan Lucic</string>
+        <string>Daniel Carcillo</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Devils</string>
+        <string>Capitals</string>
+        <string>Thrashers</string>
+        <string>Wild</string>
+        <string>Senators</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>268</short>
+        <short>261</short>
+        <short>259</short>
+        <short>253</short>
+        <short>250</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intPlayerMostHitsIn1Year>
+    <intPlayerMostEmptyNetGoalIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Jason Spezza</string>
+        <string>Martin Havlat</string>
+        <string>Jeff Carter</string>
+        <string>Alexandre Burrows</string>
+        <string>Brad Boyes</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Hurricanes</string>
+        <string>Sharks</string>
+        <string>Penguins</string>
+        <string>Lightning</string>
+        <string>Flyers</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>2</short>
+        <short>2</short>
+        <short>2</short>
+        <short>2</short>
+        <short>2</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intPlayerMostEmptyNetGoalIn1Year>
+    <intPlayerMostHatTrickIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Jarome Iginla</string>
+        <string>Steven Stamkos</string>
+        <string>Radim Vrbata</string>
+        <string>Patrick Marleau</string>
+        <string>Vincent Lecavalier</string>
+        <string>Dany Heatley</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Blackhawks</string>
+        <string>Wild</string>
+        <string>Avalanche</string>
+        <string>Hurricanes</string>
+        <string>Kings</string>
+        <string>Thrashers</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>2010</short>
+        <short>2011</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>4</short>
+        <short>4</short>
+        <short>3</short>
+        <short>3</short>
+        <short>3</short>
+        <short>2</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>6</intNumber>
+    </intPlayerMostHatTrickIn1Year>
+    <intPlayerBestFaceOffIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Vincent Lecavalier</string>
+        <string>Rod Brind'Amour</string>
+        <string>Mats Sundin</string>
+        <string>Samuel Pahlsson</string>
+        <string>Rod Brind'Amour</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Predators</string>
+        <string>Sharks</string>
+        <string>Rangers</string>
+        <string>Thrashers</string>
+        <string>Sharks</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>611</short>
+        <short>604</short>
+        <short>602</short>
+        <short>600</short>
+        <short>600</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intPlayerBestFaceOffIn1Year>
+    <intGoalerShutoutsIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Ilja Bryzgalov</string>
+        <string>Evgeni Nabokov</string>
+        <string>Tomas Vokoun</string>
+        <string>Tim Thomas</string>
+        <string>Ilja Bryzgalov</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Thrashers</string>
+        <string>Sharks</string>
+        <string>Blackhawks</string>
+        <string>Hurricanes</string>
+        <string>Oilers</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>11</short>
+        <short>9</short>
+        <short>8</short>
+        <short>7</short>
+        <short>7</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intGoalerShutoutsIn1Year>
+    <intGoalerAveSaveIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>0</intNumber>
+    </intGoalerAveSaveIn1Year>
+    <intGoalerGamePerGoalIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>0</intNumber>
+    </intGoalerGamePerGoalIn1Year>
+    <intGoalerShotsReceivedIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Jean-Sébastien Giguère</string>
+        <string>Marc-André Fleury</string>
+        <string>Marty Turco</string>
+        <string>Antti Niemi</string>
+        <string>Ilja Bryzgalov</string>
+        <string>Cam Ward</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Flames</string>
+        <string>Maple Leafs</string>
+        <string>Capitals</string>
+        <string>Coyotes</string>
+        <string>Oilers</string>
+        <string>Penguins</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2010</short>
+        <short>2009</short>
+        <short>2011</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>2201</short>
+        <short>2155</short>
+        <short>2152</short>
+        <short>2139</short>
+        <short>2113</short>
+        <short>2089</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>6</intNumber>
+    </intGoalerShotsReceivedIn1Year>
+    <intGoalerWinIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Cam Ward</string>
+        <string>Tim Thomas</string>
+        <string>Ryan Miller</string>
+        <string>Ilja Bryzgalov</string>
+        <string>Ryan Miller</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Penguins</string>
+        <string>Hurricanes</string>
+        <string>Sabres</string>
+        <string>Thrashers</string>
+        <string>Sabres</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2008</short>
+        <short>2008</short>
+        <short>2009</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>53</short>
+        <short>52</short>
+        <short>51</short>
+        <short>49</short>
+        <short>48</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intGoalerWinIn1Year>
+    <intGoalerLostIn1Year>
+      <PlayerName>
+        <string xsi:nil="true" />
+        <string>Jean-Sébastien Giguère</string>
+        <string>José Théodore</string>
+        <string>Jaroslav Halak</string>
+        <string>Marc-André Fleury</string>
+        <string>Dwayne Roloson</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerName>
+      <PlayerTeam>
+        <string xsi:nil="true" />
+        <string>Flames</string>
+        <string>Rangers</string>
+        <string>Kings</string>
+        <string>Maple Leafs</string>
+        <string>Coyotes</string>
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+        <string xsi:nil="true" />
+      </PlayerTeam>
+      <Year>
+        <short>0</short>
+        <short>2009</short>
+        <short>2009</short>
+        <short>2010</short>
+        <short>2010</short>
+        <short>2008</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </Year>
+      <VValue>
+        <short>0</short>
+        <short>42</short>
+        <short>39</short>
+        <short>39</short>
+        <short>39</short>
+        <short>38</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </VValue>
+      <ScheduleGame>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+        <short>0</short>
+      </ScheduleGame>
+      <intNumber>5</intNumber>
+    </intGoalerLostIn1Year>
+  </TypeLeaguePlayerGoalerRecord>
+</ArrayOfTypeLeaguePlayerGoalerRecord>

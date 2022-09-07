@@ -1,0 +1,934 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<script src="STHSMain.js"></script>
+<title>OTHL - Team Prospects</title>
+<script src="OTHL.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Decription" content="Tyler Bell - STHS - Version : 3.1.6.6" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<link href="OTHL.css" rel="stylesheet" type="text/css" />
+<link href="STHSMain-CSSOverwrite.css" rel="stylesheet" type="text/css" />
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam" class="activemenu"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Records</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL.stc">STHS Client League File</a></td>
+<td><a href="http://sths.simont.info/DownloadLatestClient.php">Latest STHS Client</a></td>
+<td><a href="OTHL-TodayGames.html">Today's Games</a></td>
+<td><a href="OTHL-TodayTransactions.html">Today's Transactions</a></td>
+<td><a href="OTHL-Schedule.html">Schedule </a></td>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProStanding.html">Standing</a></td>
+<td><a href="OTHL-ProLeaders.html">Leader</a></td>
+<td><a href="OTHL-ProIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-ProPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-ProTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-ProTeamLines.html">Lines</a></td>
+<td><a href="OTHL-ProTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-ProTeamStats.html">Stats</a></td>
+<td><a href="OTHL-ProTeamStatsVS.html">StatsVS</a></td>
+<td><a href="OTHL-TeamFinance.html">Finance</a></td>
+<td><a href="OTHL-TeamProspects.html">Future</a></td>
+<td><a href="OTHL-TeamHistory.html">History</a></td>
+<td><a href="OTHL-TeamInjurySuspension.html">Injury/Suspension</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-FarmStanding.html">Standing</a></td>
+<td><a href="OTHL-FarmLeaders.html">Leader</a></td>
+<td><a href="OTHL-FarmIndividualLeaders.html">Individual Leaders</a></td>
+<td><a href="OTHL-FarmPowerRanking.html">Power Ranking</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html">Roster</a></td>
+<td><a href="OTHL-FarmTeamScoring.html">Scoring</a></td>
+<td><a href="OTHL-ProTeamPlayersInfo.html">PlayersInfo</a></td>
+<td><a href="OTHL-FarmTeamLines.html">Lines</a></td>
+<td><a href="OTHL-FarmTeamSchedule.html">Schedule</a></td>
+<td><a href="OTHL-FarmTeamStats.html">Stats</a></td>
+<td><a href="OTHL-FarmTeamStatsVS.html">StatsVS</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-Coaches.html">Coaches</a></td>
+<td><a href="OTHL-Transactions.html">Transactions</a></td>
+<td><a href="OTHL-Waivers.html">Waivers</a></td>
+<td><a href="OTHL-Unassigned.html">Unassigned</a></td>
+<td><a href="OTHL-FreeAgents.html">FreeAgents</a></td>
+<td><a href="OTHL-TeamsAndGMInfo.html">Team/GM</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-LeagueRecords.html">League Records</a></td>
+<td><a href="OTHL-TeamRecords.html">Team Records</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-ProTeamRoster.html#AnaheimDucks">ANH</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ArizonaCoyotes">ARI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BostonBruins">BOS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#BuffaloSabres">BUF</a></td>
+<td><a href="OTHL-ProTeamRoster.html#CarolinaHurricanes">CAR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#CalgaryFlames">CGY</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ChicagoBlackhawks">CHI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ColumbusBlueJackets">CLB</a></td>
+<td><a href="OTHL-ProTeamRoster.html#ColoradoAvalanche">COL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#DallasStars">DAL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#DetroitRedWings">DET</a></td>
+<td><a href="OTHL-ProTeamRoster.html#EdmontonOilers">EDM</a></td>
+<td><a href="OTHL-ProTeamRoster.html#FloridaPanthers">FLA</a></td>
+<td><a href="OTHL-ProTeamRoster.html#LosAngelesKings">LAK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MinnesotaWild">MIN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#MontrealCanadiens">MTL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#NewJerseyDevils">NJD</a></td>
+<td><a href="OTHL-ProTeamRoster.html#NashvillePredators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-ProTeamRoster.html#NewYorkIslanders">NYI</a></td>
+<td><a href="OTHL-ProTeamRoster.html#NewYorkRangers">NYR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#OttawaSenators">OTT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#PhiladelphiaFlyers">PHL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#PittsburghPenguins">PIT</a></td>
+<td><a href="OTHL-ProTeamRoster.html#SanJoseSharks">SJS</a></td>
+<td><a href="OTHL-ProTeamRoster.html#St.LouisBlues">STL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#TampaBayLightning">TBL</a></td>
+<td><a href="OTHL-ProTeamRoster.html#TorontoMapleLeafs">TOR</a></td>
+<td><a href="OTHL-ProTeamRoster.html#VancouverCanucks">VAN</a></td>
+<td><a href="OTHL-ProTeamRoster.html#VegasGoldenKnights">VGK</a></td>
+<td><a href="OTHL-ProTeamRoster.html#WinnipegJets">WPG</a></td>
+<td><a href="OTHL-ProTeamRoster.html#WashingtonCapitals">WSH</a></td>
+<td colspan="5" class="STHSW1"></td></tr></table>
+</div></div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Team Prospects</td><td class="STHSHeaderDate">Last Update - June 8, 2019 at 15:27</td></tr>
+</table><div class="STHSWarning">Your browser screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<div class="STHSTopLink"><a id="STHSRosterTop"></a> <a href="#AnaheimDucks">Anaheim Ducks</a> | <a href="#ArizonaCoyotes">Arizona Coyotes</a> | <a href="#BostonBruins">Boston Bruins</a> | <a href="#BuffaloSabres">Buffalo Sabres</a> | <a href="#CalgaryFlames">Calgary Flames</a> | <a href="#CarolinaHurricanes">Carolina Hurricanes</a> | <a href="#ChicagoBlackhawks">Chicago Blackhawks</a> | <a href="#ColoradoAvalanche">Colorado Avalanche</a> | <a href="#ColumbusBlueJackets">Columbus Blue Jackets</a> | <a href="#DallasStars">Dallas Stars</a> | <a href="#DetroitRedWings">Detroit Red Wings</a> | <a href="#EdmontonOilers">Edmonton Oilers</a> | <a href="#FloridaPanthers">Florida Panthers</a> | <a href="#LosAngelesKings">Los Angeles Kings</a> | <a href="#MinnesotaWild">Minnesota Wild</a> | <a href="#MontrealCanadiens">Montreal Canadiens</a> | <a href="#NashvillePredators">Nashville Predators</a> | <a href="#NewJerseyDevils">New Jersey Devils</a> | <a href="#NewYorkIslanders">New York Islanders</a> | <a href="#NewYorkRangers">New York Rangers</a> | <a href="#OttawaSenators">Ottawa Senators</a> | <a href="#PhiladelphiaFlyers">Philadelphia Flyers</a> | <a href="#PittsburghPenguins">Pittsburgh Penguins</a> | <a href="#SanJoseSharks">San Jose Sharks</a> | <a href="#St.LouisBlues">St. Louis Blues</a> | <a href="#TampaBayLightning">Tampa Bay Lightning</a> | <a href="#TorontoMapleLeafs">Toronto Maple Leafs</a> | <a href="#VancouverCanucks">Vancouver Canucks</a> | <a href="#VegasGoldenKnights">Vegas Golden Knights</a> | <a href="#WashingtonCapitals">Washington Capitals</a> | <a href="#WinnipegJets">Winnipeg Jets</a> | <a href="javascript:STHS_JS_CloseAll('');">Close All Team View</a> | <a href="javascript:STHS_JS_OpenAll('');">Open All Team View</a>
+</div>
+<h1 class="TeamProspects_ANH"><a id="AnaheimDucks">Anaheim Ducks</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#AnaheimDucks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#AnaheimDucks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#AnaheimDucks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#AnaheimDucks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#AnaheimDucks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#AnaheimDucks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#AnaheimDucks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#AnaheimDucks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#AnaheimDucks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#AnaheimDucks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#AnaheimDucks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#AnaheimDucks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_AnaheimDucks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_AnaheimDucks" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 48</h3>
+Adam Ruzicka(Y:2017-O:93), Aleksi Saarela(Y:2015-O:83), Alexander Volkov(Y:2017-O:48), Alexei Lipanov(Y:2017-O:62), Andrew Nielsen(Y:2015-O:95), Angus Crookshank(Y:2018-O:134), Anthony Salinitri(Y:2016-O:189), Brandon Hickey(Y:2014-O:58), Callum Booth(Y:2015-O:75), Cam Dineen(Y:2016-O:67), Cameron Hughes(Y:2015-O:170), Cliff Pu(Y:2016-O:68), Cole Cassels(Y:2013-O:89), Dillon Dube(Y:2016-O:47), Dylan Samberg(Y:2017-O:41), Eetu Tuulola(Y:2016-O:99), German Rubtsov(Y:2016-O:21), Givani Smith(Y:2016-O:71), Grant Mismash(Y:2017-O:56), Grigori Denisenko(Y:2018-O:17), Jesse Gabrielle(Y:2015-O:106), Johnathan MacLeod(Y:2014-O:67), Jordan Kyrou(Y:2016-O:45), Josh Wesley(Y:2014-O:103), Julius Nattinen(Y:2015-O:71), Juuso Valimaki(Y:2017-O:13), K'Andre Miller(Y:2018-O:24), Keith Petruzzelli(Y:2017-O:74), Kevin Stenlund(Y:2015-O:94), Kieffer Bellows(Y:2016-O:20), Linus Hogberg(Y:2016-O:133), Luke Green(Y:2016-O:69), Martin Kaut(Y:2018-O:19), Martin Pospisil(Y:2018-O:108), Mason McDonald(Y:2014-O:35), Mattias Emilio Pettersen(Y:2018-O:145), Max Gildon(Y:2017-O:76), Mikhail Berdin(Y:2016-O:113), Mitchell Stephens(Y:2015-O:42), Noah Cates(Y:2017-O:118), Noah Dobson(Y:2018-O:12), Ryan MacInnis(Y:2014-O:45), Trent Frederic(Y:2016-O:35), Troy Terry(Y:2015-O:136), Tyler Parsons(Y:2016-O:46), Vasily Glotov(Y:2016-O:178), Wade Allison(Y:2016-O:55), Zach Senyshyn(Y:2015-O:21)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>CLB 1, NYR 1, BOS 1<br />
+<b>Year 2020: </b>ANH 1, OTT 1, ANH 2, BUF 2, CLB 3, NSH 5, ANH 7<br />
+<b>Year 2021: </b>ANH 1, ANH 2, ANH 3, BOS 4, ANH 4, ANH 5, ANH 7<br />
+<b>Year 2022: </b>ANH 1, ANH 2, ANH 3, ANH 4, ANH 5, ANH 6, ANH 7<br />
+<b>Year 2023: </b>ANH 1, ANH 2, ANH 3, ANH 4, ANH 5, ANH 6, ANH 7<br />
+</div>
+<h1 class="TeamProspects_ARI"><a id="ArizonaCoyotes">Arizona Coyotes</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#ArizonaCoyotes">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#ArizonaCoyotes">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#ArizonaCoyotes">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#ArizonaCoyotes">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#ArizonaCoyotes">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#ArizonaCoyotes">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#ArizonaCoyotes">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#ArizonaCoyotes">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#ArizonaCoyotes">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#ArizonaCoyotes">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#ArizonaCoyotes">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#ArizonaCoyotes">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_ArizonaCoyotes');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_ArizonaCoyotes" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 27</h3>
+Dean Stewart(Y:2016-O:198), Dominik Masin(Y:2014-O:46), Eamon McAdam(Y:2013-O:83), Erik Kallgren(Y:2015-O:163), Ethan Bear(Y:2015-O:113), Filip Chytil(Y:2017-O:18), Filip Larsson(Y:2016-O:191), Filip Westerlund(Y:2017-O:49), Ivan Prosvetov(Y:2018-O:154), Jacob Peterson(Y:2017-O:149), Joey Keane(Y:2018-O:107), Jonathan Dugan(Y:2017-O:152), Kaapo Kahkonen(Y:2014-O:80), Kirill Kaprizov(Y:2015-O:121), Linus Soderstrom(Y:2014-O:107), Maksim Sushko(Y:2017-O:140), Matthew Hellickson(Y:2017-O:216), Nico Gross(Y:2018-O:92), Patrik Siikanen(Y:2018-O:207), Peter Diliberatore(Y:2018-O:191), Philippe Desrosiers(Y:2013-O:68), Roope Laavainen(Y:2017-O:142), Scott Kosmachuk(Y:2012-O:44), Sean Durzi(Y:2018-O:61), Tanner Richard(Y:2012-O:99), Trenton Bourque(Y:2017-O:204), Yaroslav Kosov(Y:2011-O:143)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>ARI 1, ARI 4, BOS 5, ARI 5, BOS 6, NSH 7, ANH 7<br />
+<b>Year 2020: </b>ARI 1, ARI 2, ARI 5, MTL 5, ARI 6<br />
+<b>Year 2021: </b>ARI 1, ARI 2, ARI 3, ARI 4, ARI 5, ARI 6, ARI 7, MTL 7<br />
+<b>Year 2022: </b>ARI 1, ARI 2, ARI 3, ARI 4, ARI 5, ARI 6, ARI 7<br />
+<b>Year 2023: </b>ARI 1, ARI 2, ARI 3, ARI 4, ARI 5, ARI 6, ARI 7<br />
+</div>
+<h1 class="TeamProspects_BOS"><a id="BostonBruins">Boston Bruins</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#BostonBruins">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#BostonBruins">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#BostonBruins">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#BostonBruins">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#BostonBruins">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#BostonBruins">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#BostonBruins">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#BostonBruins">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#BostonBruins">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#BostonBruins">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#BostonBruins">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#BostonBruins">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_BostonBruins');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_BostonBruins" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 40</h3>
+Adam Werner(Y:2016-O:177), Anthony Angello(Y:2014-O:173), Antti Palojarvi(Y:2017-O:206), Axel Jonsson-Fjallby(Y:2016-O:160), Brandon Saigeon(Y:2018-O:128), Calvin Thurkauf(Y:2016-O:195), Cameron Clarke(Y:2016-O:175), Colton White(Y:2015-O:130), Connor Dewar(Y:2018-O:113), Devante Stephens(Y:2015-O:132), Dmitriy Zaitsev(Y:2016-O:202), Erik Walli-Walterholm(Y:2017-O:181), Gabriel Fontaine(Y:2016-O:193), Giorgio Estephan(Y:2015-O:141), Ivan Nalimov(Y:2014-O:150), Jacob Golden(Y:2017-O:177), Jacob Middleton(Y:2014-O:170), Jared Moe(Y:2018-O:187), Jens Looke(Y:2015-O:85), Jesper Lindgren(Y:2015-O:87), Jesper Sellgren(Y:2018-O:176), Joel Hofer(Y:2018-O:88), Magnus Chrona(Y:2018-O:172), Manuel Wiederer(Y:2016-O:151), Markus Nurmi(Y:2016-O:161), Matthew Cairns(Y:2016-O:95), Nikolaj Krag Christensen(Y:2016-O:201), Olof Lindbom(Y:2018-O:52), Otto Koivula(Y:2016-O:105), Philip Nyberg(Y:2016-O:171), Robbie Stucker(Y:2017-O:200), Ryan Collins(Y:2014-O:64), Ryan McGregor(Y:2017-O:201), Semyon Der-Arguchintsev(Y:2018-O:83), Semyon Kizimov(Y:2018-O:216), Shawn Boudrias(Y:2018-O:168), Todd Burgess(Y:2016-O:129), Tyler Moy(Y:2015-O:193), Victor Berglund(Y:2017-O:182), William Worge-Kreu(Y:2018-O:177)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>NJD 4<br />
+<b>Year 2020: </b><br />
+<b>Year 2021: </b>BOS 1, NYR 3, BOS 3, BOS 5, BOS 7<br />
+<b>Year 2022: </b>BOS 1, BOS 2, BOS 3, BOS 4, BOS 5, BOS 6, BOS 7<br />
+<b>Year 2023: </b>BOS 1, BOS 2, BOS 3, BOS 4, BOS 5, BOS 6<br />
+</div>
+<h1 class="TeamProspects_BUF"><a id="BuffaloSabres">Buffalo Sabres</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#BuffaloSabres">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#BuffaloSabres">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#BuffaloSabres">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#BuffaloSabres">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#BuffaloSabres">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#BuffaloSabres">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#BuffaloSabres">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#BuffaloSabres">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#BuffaloSabres">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#BuffaloSabres">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#BuffaloSabres">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#BuffaloSabres">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_BuffaloSabres');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_BuffaloSabres" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 21</h3>
+Anthony Florentino(Y:2013-O:105), Eric Florchuk(Y:2018-O:184), Ilya Samsonov(Y:2015-O:16), Ivan Chekhovich(Y:2017-O:108), Jacob Friend(Y:2016-O:210), Jocktan Chainey(Y:2017-O:155), Jonas Johansson(Y:2014-O:49), Josiah Didier(Y:2011-O:107), Justus Annunen(Y:2018-O:85), Keegan Kolesar(Y:2015-O:109), Logan Cockerill(Y:2017-O:153), Michael Eyssimont(Y:2016-O:141), Michael Spacek(Y:2015-O:131), Mitchell Gibson(Y:2018-O:171), Nick Sorensen(Y:2013-O:47), Nikolay Prokhorkin(Y:2012-O:78), Ryan Fitzgerald(Y:2013-O:87), Samuel Fejes(Y:2012-O:171), Sean Malone(Y:2013-O:156), Tim Soderlund(Y:2017-O:137), Will Reilly(Y:2017-O:217)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>CHI 3, NYR 4, OTT 5, MIN 5, BUF 5, EDM 5, FLA 5, PIT 5, NYR 5, MIN 6, BUF 6, BUF 7, NYR 7<br />
+<b>Year 2020: </b>CAR 3, BUF 3, CAR 4, BUF 4, BUF 5, OTT 5, BUF 6, NYR 6, OTT 6, BUF 7, CAR 7<br />
+<b>Year 2021: </b>BUF 1, BUF 2, BUF 3, BUF 4, BUF 5, MTL 5, BUF 6, BUF 7<br />
+<b>Year 2022: </b>BUF 1, BUF 2, BUF 3, BUF 4, BUF 5, BUF 6, BUF 7<br />
+<b>Year 2023: </b>BUF 1, BUF 2, BUF 3, BUF 4, BUF 5, BUF 6, BUF 7<br />
+</div>
+<h1 class="TeamProspects_CGY"><a id="CalgaryFlames">Calgary Flames</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#CalgaryFlames">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#CalgaryFlames">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#CalgaryFlames">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#CalgaryFlames">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#CalgaryFlames">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#CalgaryFlames">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#CalgaryFlames">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#CalgaryFlames">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#CalgaryFlames">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#CalgaryFlames">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#CalgaryFlames">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#CalgaryFlames">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_CalgaryFlames');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_CalgaryFlames" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 35</h3>
+Alex Dostie(Y:2016-O:146), Alex Green(Y:2018-O:150), Benjamin Gallacher(Y:2010-O:127), Benton Maass(Y:2017-O:191), Christoffer Ehn(Y:2014-O:133), Colin Blackwell(Y:2011-O:195), Damian Giroux(Y:2018-O:149), David Gustafsson(Y:2018-O:56), Devon Toews(Y:2014-O:134), Eetu Makiniemi(Y:2017-O:134), Evan Cormier(Y:2016-O:142), Jacob Cederholm(Y:2016-O:134), Jake Bean(Y:2016-O:17), Jake Pivonka(Y:2018-O:119), Jason Robertson(Y:2017-O:37), Jordan Harris(Y:2018-O:101), Kevin Bahl(Y:2018-O:57), Kody Clark(Y:2018-O:48), Liam Coughlin(Y:2014-O:159), Lukas Dostal(Y:2018-O:80), Mario Ferraro(Y:2017-O:60), Martins Dzierkals(Y:2015-O:100), Nick Merkley(Y:2015-O:18), Oskari Laaksonen(Y:2017-O:121), Otto Kivenmaki(Y:2018-O:203), Patrick Kudla(Y:2016-O:194), Rasmus Asplund(Y:2016-O:36), Ryan Jones(Y:2016-O:186), Ryan Merkley(Y:2018-O:26), Samuel Morin(Y:2013-O:14), Shane Eiserman(Y:2014-O:123), Tyrell Goulbourne(Y:2013-O:116), Ukko-Pekka Luukkonen(Y:2017-O:45), Vitaly Abramov(Y:2016-O:44), Vladimir Bobylev(Y:2016-O:116)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>MIN 2, STL 2, CHI 2, PHL 2, MIN 3, CGY 4, SJS 4, VAN 6, NJD 6, SJS 6, CGY 7, MTL 7<br />
+<b>Year 2020: </b>CGY 1, CGY 2, SJS 2, CGY 3, OTT 4, CGY 5, NJD 6, VAN 6, CGY 6, STL 6, EDM 7, BOS 7, ARI 7<br />
+<b>Year 2021: </b>CGY 1, NYR 2, CGY 2, CGY 4, CGY 5, NYR 6, CGY 7<br />
+<b>Year 2022: </b>CGY 1, CGY 2, CGY 3, CGY 4, CGY 5, CGY 6, CGY 7<br />
+<b>Year 2023: </b>CGY 1, CGY 2, CGY 3, CGY 4, CGY 5, CGY 6, CGY 7<br />
+</div>
+<h1 class="TeamProspects_CAR"><a id="CarolinaHurricanes">Carolina Hurricanes</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#CarolinaHurricanes">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#CarolinaHurricanes">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#CarolinaHurricanes">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#CarolinaHurricanes">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#CarolinaHurricanes">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#CarolinaHurricanes">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#CarolinaHurricanes">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#CarolinaHurricanes">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#CarolinaHurricanes">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#CarolinaHurricanes">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#CarolinaHurricanes">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#CarolinaHurricanes">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_CarolinaHurricanes');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_CarolinaHurricanes" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 49</h3>
+Alec Regula(Y:2018-O:75), Alexander Alexeyev(Y:2018-O:37), Alexander Khovanov(Y:2018-O:68), Allan McShane(Y:2018-O:78), Ben Jones(Y:2017-O:214), Bode Wilde(Y:2018-O:36), Casey Mittelstadt(Y:2017-O:12), Cayden Primeau(Y:2017-O:127), Chad Krys(Y:2016-O:65), Connor Corcoran(Y:2018-O:151), Danila Zhuravlyov(Y:2018-O:122), D'Artagnan Joly(Y:2017-O:128), Dennis Busby(Y:2018-O:152), Dmitry Sokolov(Y:2016-O:86), Dominik Bokk(Y:2018-O:23), Filip Kral(Y:2018-O:110), Giovanni Vallati(Y:2018-O:123), Jack Adams(Y:2017-O:165), Jack Badini(Y:2017-O:119), Jake Wise(Y:2018-O:54), Jeremy Roy(Y:2015-O:33), Jonathan Dahlen(Y:2016-O:56), Jonny Tychonick(Y:2018-O:53), Kirill Maksimov(Y:2017-O:123), Marcus Westfalt(Y:2018-O:161), Markus Phillips(Y:2017-O:96), Matej Pekar(Y:2018-O:82), Mattias Samuelsson(Y:2018-O:40), Michael Anderson(Y:2017-O:116), Nick Suzuki(Y:2017-O:14), Nikolai Kovalenko(Y:2018-O:139), Pavel Koltygin(Y:2017-O:124), Philipp Kurashev(Y:2018-O:79), Rasmus Sandin(Y:2018-O:31), Rem Pitlick(Y:2016-O:78), Riley Sutter(Y:2018-O:99), Ruslan Iskhakov(Y:2018-O:49), Ryan McLeod(Y:2018-O:33), Sasha Chmelevski(Y:2017-O:117), Sebastian Repo(Y:2017-O:122), Stelio Mattheos(Y:2017-O:78), Ty Emberson(Y:2018-O:91), Tyler Steenbergen(Y:2017-O:105), Tyler Weiss(Y:2018-O:126), Wyatte Wylie(Y:2018-O:153), Xavier Bernard(Y:2018-O:100), Yegor Korshkov(Y:2016-O:40), Yegor Rykov(Y:2016-O:172), Yegor Sharangovich(Y:2018-O:140)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>CAR 1, PHL 1, ARI 2, FLA 2, PHL 3<br />
+<b>Year 2020: </b>CAR 1, MTL 3, ARI 3, PHL 4, ARI 4, CHI 4, CAR 5, NJD 5, STL 5, BOS 5, NYR 7<br />
+<b>Year 2021: </b>CAR 1, CAR 2, OTT 2, CAR 3, OTT 3, CAR 4, CAR 5, CAR 6, SJS 6, CAR 7<br />
+<b>Year 2022: </b>CAR 1, CAR 2, CAR 3, CAR 4, CAR 5, CAR 6, CAR 7<br />
+<b>Year 2023: </b>CAR 1, CAR 2, CAR 3, CAR 4, CAR 5, CAR 6, CAR 7<br />
+</div>
+<h1 class="TeamProspects_CHI"><a id="ChicagoBlackhawks">Chicago Blackhawks</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#ChicagoBlackhawks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#ChicagoBlackhawks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#ChicagoBlackhawks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#ChicagoBlackhawks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#ChicagoBlackhawks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#ChicagoBlackhawks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#ChicagoBlackhawks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#ChicagoBlackhawks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#ChicagoBlackhawks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#ChicagoBlackhawks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#ChicagoBlackhawks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#ChicagoBlackhawks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_ChicagoBlackhawks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_ChicagoBlackhawks" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 27</h3>
+Aleksi Makela(Y:2013-O:206), Alex Kannok-Leipert(Y:2018-O:169), Andrei Popov, Artur Kayumov(Y:2016-O:57), Brett McKenzie(Y:2016-O:179), Colton Point(Y:2016-O:103), Cristiano Digiacinto(Y:2014-O:187), Dustyn McFaul(Y:2018-O:170), Fredrik Olofsson(Y:2014-O:117), Gus Young(Y:2009-O:194), Gustav Olhaver(Y:2015-O:184), Hugh McGing(Y:2018-O:165), Igor Shesterkin(Y:2014-O:105), Jack Drury(Y:2018-O:44), Jake Leschyshyn(Y:2017-O:57), Jesper Boqvist(Y:2017-O:40), Linus Karlsson(Y:2018-O:84), Logan Brown(Y:2016-O:11), Matthew Strome(Y:2017-O:71), Mitch Vande Sompel(Y:2015-O:64), Nikita Filatov, Riley Hughes(Y:2018-O:208), Samuel Kurker(Y:2012-O:62), Skyler McKenzie(Y:2017-O:192), Steven Shipley(Y:2010-O:100), Ville Pokka(Y:2012-O:42), Wyatt Kalynuk(Y:2017-O:213)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>CHI 1, CGY 1, NYI 2, PHL 4, MTL 4, OTT 4, STL 4, ARI 6, LAK 6, PHL 6, CHI 7, CAR 7, NJD 7<br />
+<b>Year 2020: </b>CHI 1, CHI 2, CHI 3, ANH 4, CHI 5, CHI 6, CAR 6, CHI 7<br />
+<b>Year 2021: </b>CHI 1, CHI 2, CHI 3, CHI 4, CHI 5, CHI 6, ANH 6, CHI 7<br />
+<b>Year 2022: </b>CHI 1, CHI 2, CHI 3, CHI 4, CHI 5, CHI 6, CHI 7<br />
+<b>Year 2023: </b>CHI 1, CHI 2, CHI 3, CHI 4, CHI 5, CHI 6, CHI 7, BOS 7<br />
+</div>
+<h1 class="TeamProspects_COL"><a id="ColoradoAvalanche">Colorado Avalanche</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#ColoradoAvalanche">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#ColoradoAvalanche">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#ColoradoAvalanche">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#ColoradoAvalanche">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#ColoradoAvalanche">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#ColoradoAvalanche">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#ColoradoAvalanche">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#ColoradoAvalanche">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#ColoradoAvalanche">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#ColoradoAvalanche">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#ColoradoAvalanche">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#ColoradoAvalanche">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_ColoradoAvalanche');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_ColoradoAvalanche" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 48</h3>
+Alban Eriksson(Y:2018-O:50), Alfons Malmstrom(Y:2016-O:143), Andreas Englund(Y:2014-O:42), Andrew O'Brien(Y:2012-O:165), Ben Thomas(Y:2014-O:98), Blake Pietila(Y:2011-O:138), Brendan Woods(Y:2012-O:145), Brett Davis(Y:2017-O:176), Brett Stapley(Y:2018-O:202), Brian Hart(Y:2012-O:52), Carson Soucy(Y:2013-O:164), Chris Calnan(Y:2012-O:76), Connor Chatham(Y:2014-O:72), Damien Riat(Y:2016-O:173), Daniel Altshuller(Y:2012-O:102), Daniel Pribyl(Y:2011-O:161), David Tendeck(Y:2018-O:182), Dmitri Semykin(Y:2018-O:112), Dominik Lakatos(Y:2017-O:171), Evgeny Svechnikov(Y:2015-O:14), Garrett Noonan(Y:2011-O:119), Jack Lafontaine(Y:2016-O:88), Jake Kucharski(Y:2018-O:213), James Greenway(Y:2016-O:85), Jonas Siegenthaler(Y:2015-O:70), Joshua Jacobs(Y:2014-O:59), Julien Pelletier(Y:2014-O:132), Kurtis Gabriel(Y:2013-O:90), Liam Hawel(Y:2017-O:145), Logan Stanley(Y:2016-O:14), Luke Loheit(Y:2018-O:205), MacKenzie Entwistle(Y:2017-O:83), Marco Roy(Y:2013-O:50), Martin Ouellette(Y:2010-O:181), Matej Stransky(Y:2011-O:168), Maxim Letunov(Y:2014-O:68), Merrick Madsen(Y:2013-O:174), Miska Kukkonen(Y:2018-O:174), Nate Schnarr(Y:2017-O:91), Nathan Bastian(Y:2016-O:53), Oskar Back(Y:2018-O:81), Reid Duke(Y:2014-O:142), Samuel Montembeault(Y:2015-O:41), Santeri Virtanen(Y:2017-O:98), Sergey Zborovskiy(Y:2015-O:114), Tyler Benson(Y:2016-O:33), Vincent Desharnais(Y:2016-O:203), Will Borgen(Y:2015-O:134)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>COL 1, COL 2, TOR 2, COL 3, OTT 3, COL 5, DAL 5, COL 6, COL 7, PHL 7<br />
+<b>Year 2020: </b>COL 1, NYR 1, COL 2, COL 3, COL 4, NYR 5, COL 5, DAL 5, COL 6, COL 7<br />
+<b>Year 2021: </b>COL 1, COL 2, COL 3, COL 4, COL 5, COL 6, COL 7<br />
+<b>Year 2022: </b>COL 1, COL 2, COL 3, COL 4, COL 5, COL 6, COL 7<br />
+<b>Year 2023: </b>COL 1, COL 2, COL 3, COL 4, COL 5, COL 6, COL 7<br />
+</div>
+<h1 class="TeamProspects_CLB"><a id="ColumbusBlueJackets">Columbus Blue Jackets</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#ColumbusBlueJackets">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#ColumbusBlueJackets">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#ColumbusBlueJackets">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#ColumbusBlueJackets">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#ColumbusBlueJackets">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#ColumbusBlueJackets">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#ColumbusBlueJackets">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#ColumbusBlueJackets">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#ColumbusBlueJackets">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#ColumbusBlueJackets">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#ColumbusBlueJackets">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#ColumbusBlueJackets">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_ColumbusBlueJackets');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_ColumbusBlueJackets" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 39</h3>
+Aaron Irving(Y:2014-O:127), Artur Gavrus(Y:2012-O:133), Artyom Manukyan(Y:2018-O:179), Brandon Baddock(Y:2014-O:165), Brian Cooper(Y:2012-O:155), Chase Perry(Y:2014-O:113), Conner Bleackley(Y:2014-O:17), Dane Birks(Y:2013-O:155), Daniil Tarasov(Y:2017-O:58), Dmitri Zhukenov(Y:2015-O:96), Dylan Blujus(Y:2012-O:58), Elias Pettersson(Y:2017-O:9), Felix Girard(Y:2013-O:110), Henrik Tommernes(Y:2011-O:174), Jakub Skarek(Y:2018-O:77), Joel Lowry(Y:2011-O:114), Jonah Gadjovich(Y:2017-O:44), Justin Kirkland(Y:2014-O:61), Kale Howarth(Y:2017-O:103), Kelly Summers(Y:2014-O:153), Kole Lind(Y:2017-O:30), Lars Volden(Y:2011-O:129), Lukas Jasek(Y:2015-O:139), Mason Geertsen(Y:2013-O:77), Michael Prapavessis(Y:2014-O:119), Nicolas Aube-Kubel(Y:2014-O:47), Parker Foo(Y:2017-O:107), Quinn Hughes(Y:2018-O:6), Radel Fazleev(Y:2014-O:175), Rourke Chartier(Y:2014-O:118), Sam Steel(Y:2016-O:39), Sami Niku(Y:2015-O:173), Seth Barton(Y:2018-O:72), Thatcher Demko(Y:2014-O:29), Troy Bourke(Y:2012-O:65), Tyler Madden(Y:2018-O:66), Wiley Sherman(Y:2013-O:179), William Lockwood(Y:2016-O:70), Zachary Lauzon(Y:2017-O:50)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>BUF 1, CLB 2, CLB 3, CLB 4, LAK 4, CHI 5, NYR 6, OTT 6, TBL 7<br />
+<b>Year 2020: </b>CLB 1, CLB 2, MIN 3, WSH 3, NYR 3, CLB 4, MTL 4, NYR 4, CLB 5, CLB 6, CLB 7<br />
+<b>Year 2021: </b>CLB 1, OTT 1, CLB 2, CLB 3, CLB 4, CLB 5, CLB 6, CLB 7<br />
+<b>Year 2022: </b>CLB 1, CLB 2, CLB 3, CLB 4, CLB 5, CLB 6, CLB 7<br />
+<b>Year 2023: </b>CLB 1, CLB 2, CLB 3, CLB 4, CLB 5, CLB 6, CLB 7<br />
+</div>
+<h1 class="TeamProspects_DAL"><a id="DallasStars">Dallas Stars</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#DallasStars">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#DallasStars">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#DallasStars">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#DallasStars">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#DallasStars">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#DallasStars">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#DallasStars">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#DallasStars">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#DallasStars">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#DallasStars">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#DallasStars">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#DallasStars">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_DallasStars');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_DallasStars" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 31</h3>
+Alex Lepkowski(Y:2011-O:149), Anton Zlobin(Y:2012-O:91), Benoit-Olivier Groulx(Y:2018-O:46), Brent Pedersen(Y:2013-O:113), Cal Foote(Y:2017-O:22), Corey Cowick(Y:2009-O:192), Danny Biega(Y:2010-O:86), Gabriel Fortier(Y:2018-O:58), Gleason Fournier(Y:2009-O:92), Isac Lundestrom(Y:2018-O:27), Jack Becker(Y:2015-O:209), Jamie Phillips(Y:2012-O:205), Jase Weslosky, Jerome Gauthier-Leduc(Y:2010-O:97), Jonathan Racine(Y:2011-O:103), Kelsey Tessier, Kyle Burroughs(Y:2013-O:207), Mac Bennett(Y:2009-O:84), Magnus Nygren(Y:2011-O:133), Mark Shoemaker(Y:2016-O:197), Matia Marcantuoni(Y:2012-O:73), Matt Bradley(Y:2015-O:159), Matt Mahalak(Y:2011-O:160), Nick Petersen(Y:2009-O:143), Nicolas Deschamps, Olivier Archambault(Y:2011-O:100), Olivier Roy(Y:2009-O:65), Rob Flick(Y:2010-O:150), Ryan Poehling(Y:2017-O:27), Teemu Eronen(Y:2011-O:193), Thomas Larkin(Y:2009-O:153)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>DAL 1, DAL 2, STL 7<br />
+<b>Year 2020: </b>DAL 1, DAL 2, DAL 3<br />
+<b>Year 2021: </b>DAL 1, DAL 2, DAL 3, DAL 4, DAL 5, DAL 6, DAL 7<br />
+<b>Year 2022: </b>DAL 1, DAL 2, DAL 3, DAL 4, DAL 5, DAL 6, DAL 7<br />
+<b>Year 2023: </b>DAL 1, DAL 2, DAL 3, DAL 4, DAL 5, DAL 6, DAL 7<br />
+</div>
+<h1 class="TeamProspects_DET"><a id="DetroitRedWings">Detroit Red Wings</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#DetroitRedWings">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#DetroitRedWings">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#DetroitRedWings">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#DetroitRedWings">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#DetroitRedWings">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#DetroitRedWings">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#DetroitRedWings">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#DetroitRedWings">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#DetroitRedWings">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#DetroitRedWings">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#DetroitRedWings">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#DetroitRedWings">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_DetroitRedWings');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_DetroitRedWings" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 50</h3>
+Andrew Mangiapane(Y:2015-O:101), Anthony Richard(Y:2015-O:110), Austin Wagner(Y:2015-O:79), Ben Mirageas(Y:2017-O:114), Brad Morrison(Y:2015-O:89), Brett Murray(Y:2016-O:124), Bulat Shafigullin(Y:2018-O:74), Cale Fleury(Y:2017-O:69), Chaz Reddekopp(Y:2015-O:168), Christian Krygier(Y:2018-O:204), Cole Krygier(Y:2018-O:206), Collin Adams(Y:2016-O:183), Connor Clifton(Y:2013-O:187), David Cotton(Y:2015-O:135), Dylan Ferguson(Y:2017-O:131), Erik Foley(Y:2015-O:65), Evan Barratt(Y:2017-O:100), Evan Fitzpatrick(Y:2016-O:64), Filip Ahl(Y:2015-O:88), Filip Gustavsson(Y:2016-O:43), Graham McPhee(Y:2016-O:131), Isaac Ratcliffe(Y:2017-O:32), Jack Dougherty(Y:2014-O:38), Jack Sadek(Y:2015-O:187), Jacob Paquette(Y:2017-O:151), Jake Bischoff(Y:2012-O:196), Jake Paterson(Y:2012-O:122), Jan Kostalek(Y:2013-O:103), Joni Ikonen(Y:2017-O:46), Jordan Sambrook(Y:2016-O:94), Jordan Stallard(Y:2016-O:117), Joshua Mahura(Y:2016-O:79), Kristoffer Gunnarsson(Y:2017-O:193), Lias Andersson(Y:2017-O:10), Libor Hajek(Y:2016-O:34), Luke Henman(Y:2018-O:105), Marcus Hogberg(Y:2013-O:84), Mathieu Joseph(Y:2015-O:118), Miroslav Svoboda(Y:2015-O:207), Nicolas Mattinen(Y:2016-O:132), Noah Gregor(Y:2016-O:81), Owen Tippett(Y:2017-O:7), Reece Willcox(Y:2012-O:166), Robin Kovacs(Y:2015-O:51), Roy Radke(Y:2015-O:162), Sam Brittain(Y:2010-O:123), Theodor Blueger(Y:2012-O:71), Travis Barron(Y:2016-O:152), Ty Ronning(Y:2016-O:154), Urho Vaakanainen(Y:2017-O:20)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>DET 1, DET 2, DET 3, DET 4, DET 5, DET 6, EDM 7, DET 7, OTT 7<br />
+<b>Year 2020: </b>DET 1, DET 2, DET 3, DET 4, DET 5, DET 6, DET 7<br />
+<b>Year 2021: </b>DET 1, DET 2, DET 3, DET 4, DET 5, DET 6, DET 7<br />
+<b>Year 2022: </b>DET 1, DET 2, DET 3, DET 4, DET 5, DET 6, DET 7<br />
+<b>Year 2023: </b>DET 1, DET 2, DET 3, DET 4, DET 5, DET 6, DET 7<br />
+</div>
+<h1 class="TeamProspects_EDM"><a id="EdmontonOilers">Edmonton Oilers</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#EdmontonOilers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#EdmontonOilers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#EdmontonOilers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#EdmontonOilers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#EdmontonOilers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#EdmontonOilers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#EdmontonOilers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#EdmontonOilers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#EdmontonOilers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#EdmontonOilers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#EdmontonOilers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#EdmontonOilers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_EdmontonOilers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_EdmontonOilers" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 29</h3>
+Adam Gaudette(Y:2015-O:148), Adam Huska(Y:2015-O:128), Christopher Brown(Y:2014-O:169), David Hrenak(Y:2018-O:143), Dennis Gilbert(Y:2015-O:104), Elvis Merzlikins(Y:2014-O:78), Jakob Ragnarsson(Y:2018-O:90), Jeremy Lauzon(Y:2015-O:63), Johan Sodergran(Y:2018-O:158), John St. Ivany(Y:2018-O:131), Joseph Anderson(Y:2016-O:62), Josh Norris(Y:2017-O:21), Karel Vejmelka(Y:2015-O:158), Kasper Kotkansalo(Y:2017-O:84), Linus Olund(Y:2017-O:150), Luke Kunin(Y:2016-O:16), Marian Studenic(Y:2017-O:143), Maxwell Willman(Y:2014-O:139), Michael DiPietro(Y:2017-O:52), Mike Callahan(Y:2018-O:164), Oskar Steen(Y:2016-O:166), Paul Cotter(Y:2018-O:127), Pavel Shen(Y:2018-O:214), Reilly Walsh(Y:2017-O:94), Rhett Gardner(Y:2016-O:136), Ryan Zuhlsdorf(Y:2015-O:167), Samuel Ersson(Y:2018-O:141), Scott Reedy(Y:2017-O:88), Ty Dellandrea(Y:2018-O:16)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>EDM 1, WSH 2, EDM 2, CAR 2, CGY 2, LAK 3, CAR 5, LAK 5, EDM 6, ANH 6<br />
+<b>Year 2020: </b>EDM 1, EDM 2, EDM 3, EDM 4, DAL 4, EDM 5, PHL 5, EDM 6, DAL 6, DAL 7<br />
+<b>Year 2021: </b>EDM 1, EDM 2, EDM 3, EDM 4, EDM 5, EDM 6, EDM 7<br />
+<b>Year 2022: </b>EDM 1, EDM 2, EDM 3, EDM 4, EDM 5, EDM 6, EDM 7<br />
+<b>Year 2023: </b>EDM 1, EDM 2, EDM 3, EDM 4, EDM 5, EDM 6, EDM 7<br />
+</div>
+<h1 class="TeamProspects_FLA"><a id="FloridaPanthers">Florida Panthers</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#FloridaPanthers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#FloridaPanthers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#FloridaPanthers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#FloridaPanthers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#FloridaPanthers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#FloridaPanthers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#FloridaPanthers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#FloridaPanthers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#FloridaPanthers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#FloridaPanthers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#FloridaPanthers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#FloridaPanthers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_FloridaPanthers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_FloridaPanthers" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 30</h3>
+A.J. Jenks, Alexander Delnov(Y:2012-O:93), Alexander Nylander(Y:2016-O:6), Casey Fitzgerald(Y:2016-O:104), Chris Wilkie(Y:2015-O:138), Christopher Clapperton(Y:2013-O:115), Cooper Marody(Y:2015-O:146), Daniel Vladar(Y:2015-O:72), David Pope(Y:2013-O:121), Erik Brannstrom(Y:2017-O:16), Fabian Zetterlund(Y:2017-O:63), Filip Helt(Y:2016-O:204), Garrett Meurs(Y:2011-O:139), Hardy Haman-Aktell(Y:2016-O:144), Ilya Sorokin(Y:2014-O:63), Ivan Lodnia(Y:2017-O:82), Jake Oettinger(Y:2017-O:15), Joren van Pottelberghe(Y:2015-O:105), Josh Anderson(Y:2016-O:84), Karch Bachman(Y:2015-O:169), Martin Necas(Y:2017-O:17), Michael Dal Colle(Y:2014-O:5), Miguel Fidler(Y:2014-O:156), Mike Williamson(Y:2013-O:205), Parker Wotherspoon(Y:2015-O:93), Sergei Boikov(Y:2015-O:174), Stephen Desrocher(Y:2015-O:123), Vladimir Ruzicka, Yakov Trenin(Y:2015-O:56), Ziyat Paygin(Y:2015-O:144)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>SJS 2, CHI 4, WSH 4<br />
+<b>Year 2020: </b>FLA 1, FLA 2, FLA 3, FLA 4<br />
+<b>Year 2021: </b>FLA 1, FLA 2, FLA 3, FLA 4, FLA 5<br />
+<b>Year 2022: </b>FLA 1, FLA 2, FLA 3, FLA 4, FLA 5, FLA 6, FLA 7<br />
+<b>Year 2023: </b>FLA 1, FLA 2, FLA 3, FLA 4, FLA 5, FLA 6<br />
+</div>
+<h1 class="TeamProspects_LAK"><a id="LosAngelesKings">Los Angeles Kings</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#LosAngelesKings">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#LosAngelesKings">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#LosAngelesKings">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#LosAngelesKings">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#LosAngelesKings">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#LosAngelesKings">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#LosAngelesKings">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#LosAngelesKings">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#LosAngelesKings">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#LosAngelesKings">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#LosAngelesKings">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#LosAngelesKings">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_LosAngelesKings');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_LosAngelesKings" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 39</h3>
+Adam Comrie, Adam Gilmour(Y:2012-O:92), Adam Janosik(Y:2010-O:101), Alexis Pepin(Y:2014-O:88), Antoine Bibeau(Y:2013-O:126), Arvid Holm(Y:2017-O:170), Benjamin Marshall(Y:2010-O:143), Carter Verhaeghe(Y:2013-O:76), Christian Wolanin(Y:2015-O:152), Daniel Catenacci(Y:2011-O:68), Dmytro Timashov(Y:2015-O:81), Eemeli Rasanen(Y:2017-O:59), Evan Smith(Y:2015-O:198), Fabrice Herzog(Y:2013-O:122), Fedor Gordeev(Y:2017-O:163), Gabriel Beaupre(Y:2011-O:158), J.C. Lipon(Y:2013-O:93), Jack Gorniak(Y:2018-O:148), Jake Kupsky(Y:2015-O:205), John Nyberg(Y:2014-O:164), John Persson(Y:2011-O:144), Joonas Lehtivuori, Jordan Hollett(Y:2017-O:167), Josiah Slavin(Y:2018-O:201), Kenny Ryan(Y:2009-O:58), Marc McNulty(Y:2013-O:138), Mikhail Maltsev(Y:2016-O:112), Nicolas Roy(Y:2015-O:91), Nikolai Chebykin(Y:2016-O:159), Noah Carroll(Y:2016-O:196), Nolan Vesey(Y:2014-O:146), Peter Ceresnak(Y:2011-O:184), Pierre Engvall(Y:2014-O:151), Ryan Kujawinski(Y:2013-O:66), Ryan Mantha(Y:2014-O:115), Ryan O'Connell(Y:2017-O:173), Timothy Liljegren(Y:2017-O:8), Tyler Biggs(Y:2011-O:23), Tyler Bird(Y:2014-O:121)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>LAK 1, OTT 1, LAK 2, FLA 3, BUF 4, PIT 7, LAK 7<br />
+<b>Year 2020: </b>LAK 1, LAK 2, LAK 3, LAK 4, SJS 4, BOS 4, LAK 5, LAK 6, LAK 7<br />
+<b>Year 2021: </b>LAK 1, LAK 2, LAK 3, LAK 4, LAK 5, LAK 6, LAK 7<br />
+<b>Year 2022: </b>LAK 1, LAK 2, LAK 3, LAK 4, LAK 5, LAK 6, LAK 7<br />
+<b>Year 2023: </b>LAK 1, LAK 2, LAK 3, LAK 4, LAK 5, LAK 6, LAK 7<br />
+</div>
+<h1 class="TeamProspects_MIN"><a id="MinnesotaWild">Minnesota Wild</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#MinnesotaWild">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#MinnesotaWild">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#MinnesotaWild">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#MinnesotaWild">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#MinnesotaWild">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#MinnesotaWild">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#MinnesotaWild">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#MinnesotaWild">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#MinnesotaWild">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#MinnesotaWild">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#MinnesotaWild">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#MinnesotaWild">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_MinnesotaWild');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_MinnesotaWild" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 39</h3>
+Aaron Haydon(Y:2014-O:147), Adam Brooks(Y:2016-O:83), Adam Fox(Y:2016-O:58), Beau Starrett(Y:2014-O:100), Brycen Martin(Y:2014-O:76), Casey Staum(Y:2016-O:181), Curtis Hall(Y:2018-O:103), Dmitri Samorukov(Y:2017-O:99), Dmitry Zavgorodniy(Y:2018-O:93), Filip Hallander(Y:2018-O:51), Gage Ausmus(Y:2013-O:137), Geoffrey Schemitsch(Y:2010-O:115), Gustav Possler(Y:2013-O:111), Hudson Fasching(Y:2013-O:86), Jachym Kondelik(Y:2018-O:129), Jacob Ingham(Y:2018-O:167), Jacob Olofsson(Y:2018-O:34), Jake Ryczek(Y:2016-O:158), Jake Walman(Y:2014-O:83), Jayce Hawryluk(Y:2014-O:34), Jonathan Gruden(Y:2018-O:87), Jordan Binnington(Y:2011-O:72), Jordan Fransoo(Y:2011-O:199), Julien Nantel(Y:2014-O:166), Kyle Platzer(Y:2013-O:131), Kyle Wood(Y:2014-O:91), Mathias From(Y:2016-O:135), Mikael Wikstrand(Y:2012-O:184), Niklas Nordgren(Y:2018-O:62), Ostap Safin(Y:2017-O:85), Quentin Shore(Y:2013-O:146), Riley Barber(Y:2012-O:152), Sam Carrick(Y:2010-O:151), Shane Gersich(Y:2014-O:148), Slava Demin(Y:2018-O:86), Teemu Kivihalme(Y:2013-O:135), Thomas di Pauli(Y:2012-O:136), Victor Olofsson(Y:2014-O:161), Xavier Bouchard(Y:2018-O:147)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>CAR 3, MIN 4, CGY 5, DAL 6<br />
+<b>Year 2020: </b>MIN 1, MIN 2, PHL 3, MIN 4, MIN 5, MIN 6, VGK 6, MIN 7<br />
+<b>Year 2021: </b>MIN 1, MIN 2, MIN 3, CGY 3, MIN 4, MIN 5, MIN 6, CGY 6, MIN 7<br />
+<b>Year 2022: </b>MIN 1, MIN 2, MIN 3, MIN 4, MIN 5, MIN 6, MIN 7<br />
+<b>Year 2023: </b>MIN 1, MIN 2, MIN 3, MIN 4, MIN 5, MIN 6, MIN 7<br />
+</div>
+<h1 class="TeamProspects_MTL"><a id="MontrealCanadiens">Montreal Canadiens</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#MontrealCanadiens">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#MontrealCanadiens">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#MontrealCanadiens">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#MontrealCanadiens">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#MontrealCanadiens">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#MontrealCanadiens">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#MontrealCanadiens">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#MontrealCanadiens">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#MontrealCanadiens">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#MontrealCanadiens">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#MontrealCanadiens">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#MontrealCanadiens">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_MontrealCanadiens');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_MontrealCanadiens" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 14</h3>
+Adam Tambellini(Y:2013-O:62), Alex Schoenborn(Y:2014-O:94), Austen Brassard(Y:2011-O:115), Cameron Crotty(Y:2017-O:101), Carter Hart(Y:2016-O:41), Chase Priskie(Y:2016-O:128), Connor Hobbs(Y:2015-O:183), Eric Roy(Y:2013-O:102), Felix Sandstrom(Y:2015-O:40), Henrik Borgstrom(Y:2016-O:29), Lucas Johansen(Y:2016-O:27), Matthew Phillips(Y:2016-O:97), Patrick Harper(Y:2016-O:126), Tyler Soy(Y:2016-O:127)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>NYR 3, WPG 3<br />
+<b>Year 2020: </b><br />
+<b>Year 2021: </b>MTL 1, MTL 2, MTL 3, MTL 4, MTL 6, PHL 7<br />
+<b>Year 2022: </b>MTL 1, MTL 2, MTL 3, MTL 4, MTL 5, MTL 6, PHL 6, PHL 7, MTL 7<br />
+<b>Year 2023: </b>MTL 1, MTL 2, MTL 3, MTL 4, MTL 5, MTL 6, MTL 7<br />
+</div>
+<h1 class="TeamProspects_NSH"><a id="NashvillePredators">Nashville Predators</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#NashvillePredators">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#NashvillePredators">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#NashvillePredators">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#NashvillePredators">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#NashvillePredators">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#NashvillePredators">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#NashvillePredators">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#NashvillePredators">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#NashvillePredators">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#NashvillePredators">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#NashvillePredators">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#NashvillePredators">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_NashvillePredators');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_NashvillePredators" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 32</h3>
+Aaron Harstad(Y:2011-O:209), Adam Musil(Y:2015-O:102), Anton Andersson(Y:2017-O:208), Blake Heinrich(Y:2013-O:185), Brandon Gignac(Y:2016-O:89), Brandon Hagel(Y:2016-O:149), Brayden Chizen(Y:2016-O:209), Chris Martenet(Y:2015-O:99), Connor Bunnaman(Y:2016-O:109), David Drake(Y:2013-O:192), Dennis Cholowski(Y:2016-O:22), Dennis Robertson(Y:2011-O:185), Deven Sideroff(Y:2015-O:80), Dominik Kubalik(Y:2013-O:189), Erik Cernak(Y:2015-O:57), Hayden Hawkey(Y:2014-O:174), Jason Kasdorf(Y:2011-O:166), Jean-Christophe Beaudin(Y:2015-O:90), Jeremiah Addison(Y:2015-O:165), Jesper Pettersson(Y:2014-O:204), Joseph Woll(Y:2016-O:59), Julius Bergman(Y:2014-O:43), Luke Opilka(Y:2015-O:107), MacKenze Stewart(Y:2014-O:208), Maximilian Pajpach(Y:2014-O:200), Morgan Frost(Y:2017-O:28), Noel Hoefenmayer(Y:2017-O:110), Terrance Amorosa(Y:2013-O:159), Tyler Vesel(Y:2014-O:178), Zac Larraza(Y:2011-O:196), Zachary Bouthillier(Y:2018-O:210), Zachary Pochiro(Y:2013-O:132)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>NSH 1, ANH 1, TOR 1, NSH 2, BUF 3, SJS 3, NSH 4, ANH 4, VAN 5, NSH 6, WPG 7, ARI 7<br />
+<b>Year 2020: </b>NSH 1, NSH 2, NSH 3, OTT 3, NSH 4, NSH 6, NSH 7, MTL 7<br />
+<b>Year 2021: </b>NSH 1, NSH 2, NSH 3, NSH 4, NSH 5, NSH 6, NSH 7<br />
+<b>Year 2022: </b>NSH 1, NSH 2, NSH 3, NSH 4, NSH 5, NSH 6, NSH 7<br />
+<b>Year 2023: </b>NSH 1, NSH 2, NSH 3, NSH 4, NSH 5, NSH 6, NSH 7<br />
+</div>
+<h1 class="TeamProspects_NJD"><a id="NewJerseyDevils">New Jersey Devils</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#NewJerseyDevils">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#NewJerseyDevils">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#NewJerseyDevils">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#NewJerseyDevils">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#NewJerseyDevils">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#NewJerseyDevils">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#NewJerseyDevils">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#NewJerseyDevils">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#NewJerseyDevils">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#NewJerseyDevils">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#NewJerseyDevils">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#NewJerseyDevils">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_NewJerseyDevils');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_NewJerseyDevils" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 29</h3>
+Adam Ginning(Y:2018-O:45), Antoine Morand(Y:2017-O:65), Ben Thomson(Y:2012-O:110), Blake Speers(Y:2015-O:74), Brent Gates(Y:2015-O:124), Christopher Paquette(Y:2016-O:145), Connor Hall(Y:2016-O:75), Filip Sveningsson(Y:2017-O:174), Hunter Drew(Y:2018-O:188), Igor Shvyrev(Y:2017-O:112), Jake Massie(Y:2015-O:191), Jakob Stukel(Y:2016-O:170), Jan Jenik(Y:2018-O:67), Jay O'Brien(Y:2018-O:30), Joe Wegwerth(Y:2014-O:112), Kirill Marchenko(Y:2018-O:55), Leon Gawanke(Y:2017-O:144), Linus Lindstrand Kronholm(Y:2018-O:138), Lucas Carlsson(Y:2016-O:140), Mark Friedman(Y:2014-O:75), Nathan Noel(Y:2016-O:80), Niko Mikkola(Y:2015-O:155), Riley Bruce(Y:2015-O:210), Ryan Lohin(Y:2016-O:200), Ryan O'Reilly(Y:2018-O:116), Ryan Shea(Y:2015-O:154), Thomas Schemitsch(Y:2015-O:77), Tom Nilsson(Y:2011-O:92), Tomas Vomacka(Y:2017-O:154)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>NJD 1, MTL 1, NJD 2, NJD 3, ANH 3, DAL 3, FLA 4<br />
+<b>Year 2020: </b>NJD 1, NJD 2, NJD 3, NJD 4, NJD 7<br />
+<b>Year 2021: </b>NJD 1, NJD 2, NJD 3, NJD 4, NJD 5, NJD 6, NJD 7<br />
+<b>Year 2022: </b>NJD 1, NJD 2, NJD 3, NJD 4, NJD 5, NJD 6, NJD 7<br />
+<b>Year 2023: </b>NJD 1, NJD 2, NJD 3, NJD 4, NJD 5, NJD 6, NJD 7<br />
+</div>
+<h1 class="TeamProspects_NYI"><a id="NewYorkIslanders">New York Islanders</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#NewYorkIslanders">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#NewYorkIslanders">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#NewYorkIslanders">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#NewYorkIslanders">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#NewYorkIslanders">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#NewYorkIslanders">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#NewYorkIslanders">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#NewYorkIslanders">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#NewYorkIslanders">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#NewYorkIslanders">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#NewYorkIslanders">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#NewYorkIslanders">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_NewYorkIslanders');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_NewYorkIslanders" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 45</h3>
+Alexandre Mallet(Y:2012-O:77), Anatoli Golyshev(Y:2016-O:66), Anthony Louis(Y:2013-O:200), Austin Levi(Y:2010-O:107), Austin Wuthrich(Y:2012-O:128), Brandon Halverson(Y:2014-O:55), Brian Ferlin(Y:2011-O:135), Cale Makar(Y:2017-O:5), Colin Smith(Y:2012-O:181), Conor Garland(Y:2015-O:73), Daniel Bernhardt(Y:2015-O:98), David Westlund(Y:2014-O:192), Evan Bouchard(Y:2018-O:10), Evan Cowley(Y:2013-O:112), Hudson Elynuik(Y:2016-O:87), Ivan Morozov(Y:2018-O:60), Jackson Perbix(Y:2018-O:142), Jacob Bryson(Y:2017-O:133), Jared McIsaac(Y:2018-O:35), Jasper Weatherby(Y:2018-O:120), Jordan Greenway(Y:2015-O:52), Keaton Thompson(Y:2013-O:98), Kirill Ustimenko(Y:2017-O:113), Kris Oldham(Y:2015-O:178), Louis Belpedio(Y:2014-O:111), Ludvig Rensfeldt(Y:2010-O:42), Ludwig Bystrom(Y:2012-O:36), Mac Hollowell(Y:2018-O:125), Martin Fehervary(Y:2018-O:65), Michael Kesselring(Y:2018-O:173), Michael Paliotta(Y:2011-O:73), Nikolas Koberstein(Y:2014-O:145), Paul Bittner(Y:2015-O:27), Rasmus Bengtsson(Y:2011-O:56), Rinat Valiev(Y:2014-O:74), Rushan Rafikov(Y:2013-O:145), Ryan Graves(Y:2013-O:106), Ryan Pilon(Y:2015-O:108), Sebastian Aho(Y:2017-O:68), Tyler Ganly(Y:2013-O:139), Veeti Vainio(Y:2015-O:111), Vladislav Kara(Y:2017-O:160), William Bitten(Y:2016-O:48), Yan Pavel Laplante(Y:2013-O:74), Zach Nastasiuk(Y:2013-O:49)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>NYI 1, NYR 2, NYI 3, NYI 4, NYI 5, CGY 6, NYI 6, NYI 7<br />
+<b>Year 2020: </b>NYI 1, BOS 1, NYI 2, CAR 2, NYI 3, NYI 4, NYI 5, ANH 5, NYI 6, NYI 7<br />
+<b>Year 2021: </b>NYI 1, NYI 2, NYI 3, NYI 4, NYI 5, NYI 6, NYI 7<br />
+<b>Year 2022: </b>NYI 1, NYI 2, NYI 3, NYI 4, NYI 5, NYI 6, NYI 7<br />
+<b>Year 2023: </b>NYI 1, NYI 2, NYI 3, NYI 4, NYI 5, NYI 6, NYI 7<br />
+</div>
+<h1 class="TeamProspects_NYR"><a id="NewYorkRangers">New York Rangers</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#NewYorkRangers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#NewYorkRangers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#NewYorkRangers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#NewYorkRangers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#NewYorkRangers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#NewYorkRangers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#NewYorkRangers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#NewYorkRangers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#NewYorkRangers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#NewYorkRangers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#NewYorkRangers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#NewYorkRangers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_NewYorkRangers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_NewYorkRangers" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 28</h3>
+Aapeli Rasanen(Y:2016-O:115), Anthony Brodeur(Y:2013-O:193), Anthony Camara(Y:2011-O:98), Ben Sexton(Y:2009-O:203), Bokondji Imama(Y:2015-O:197), Bradley Ross(Y:2010-O:33), Colin White(Y:2015-O:26), Dillon Heatherington(Y:2013-O:58), Francis Perron(Y:2014-O:131), Garret Ross(Y:2012-O:169), Garrett Metcalf(Y:2015-O:175), Joachim Blichfeld(Y:2016-O:188), Joey Dudek(Y:2014-O:168), John Marino(Y:2015-O:153), Joshua Brown(Y:2013-O:167), Louis-Marc Aubry(Y:2010-O:84), Luke Stevens(Y:2015-O:151), Matt Schmalz(Y:2015-O:185), Mattias Elfstrom(Y:2016-O:155), Nicholas Caamano(Y:2016-O:125), Patrick Sanvido(Y:2014-O:209), Robin Norell(Y:2013-O:152), Ryan Donato(Y:2014-O:54), Sondre Olden(Y:2010-O:59), Steven Spinner(Y:2014-O:189), Tanner Laczynski(Y:2016-O:139), Vaclav Karabacek(Y:2014-O:56), Vladislav Yeryomenko(Y:2018-O:144)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b><br />
+<b>Year 2020: </b><br />
+<b>Year 2021: </b>NYR 7<br />
+<b>Year 2022: </b>NYR 1, NYR 2, NYR 3, NYR 4, NYR 5, NYR 6, NYR 7<br />
+<b>Year 2023: </b>NYR 1, NYR 2, NYR 3, NYR 4, NYR 5, NYR 6, NYR 7<br />
+</div>
+<h1 class="TeamProspects_OTT"><a id="OttawaSenators">Ottawa Senators</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#OttawaSenators">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#OttawaSenators">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#OttawaSenators">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#OttawaSenators">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#OttawaSenators">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#OttawaSenators">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#OttawaSenators">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#OttawaSenators">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#OttawaSenators">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#OttawaSenators">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#OttawaSenators">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#OttawaSenators">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_OttawaSenators');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_OttawaSenators" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 32</h3>
+Alexander Kadeikin(Y:2014-O:124), Benjamin Finkelstein(Y:2016-O:208), Blaine Byron(Y:2013-O:196), Blake Siebenaler(Y:2014-O:93), Brandon Gormley(Y:2010-O:16), Cole Candella(Y:2016-O:102), Daniel Audette(Y:2014-O:108), Daniel Walcott(Y:2014-O:184), David Quenneville(Y:2016-O:121), Dysin Mayo(Y:2014-O:99), Gilles Senn(Y:2017-O:161), Graham Knott(Y:2015-O:68), Grant Besse(Y:2013-O:118), Henri Ikonen(Y:2013-O:120), Jack Kopacka(Y:2016-O:91), Jakov Novak(Y:2018-O:196), Jeremy Gregoire(Y:2013-O:136), Jonas Rondbjerg(Y:2017-O:72), Jonathan Ang(Y:2016-O:96), Keegan Iverson(Y:2014-O:69), Martin Reway(Y:2013-O:109), Matt Spencer(Y:2015-O:58), Michael Bunting(Y:2014-O:86), Miles Gendron(Y:2014-O:92), Nick Moutrey(Y:2013-O:80), Niklas Hansson(Y:2013-O:82), Pascal Laberge(Y:2016-O:30), Patrick Holway(Y:2015-O:172), Reece Scarlett(Y:2011-O:173), Scott Walford(Y:2017-O:79), Spencer Watson(Y:2014-O:101), Vojtech Budik(Y:2016-O:162)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>VAN 7<br />
+<b>Year 2020: </b>WSH 4<br />
+<b>Year 2021: </b>OTT 4, NYR 4, OTT 5, OTT 6<br />
+<b>Year 2022: </b>OTT 1, OTT 2, OTT 3, OTT 4, OTT 5, OTT 6, OTT 7<br />
+<b>Year 2023: </b>OTT 1, OTT 2, OTT 3, OTT 4, OTT 5, OTT 6, OTT 7<br />
+</div>
+<h1 class="TeamProspects_PHL"><a id="PhiladelphiaFlyers">Philadelphia Flyers</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#PhiladelphiaFlyers">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#PhiladelphiaFlyers">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#PhiladelphiaFlyers">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#PhiladelphiaFlyers">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#PhiladelphiaFlyers">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#PhiladelphiaFlyers">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#PhiladelphiaFlyers">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#PhiladelphiaFlyers">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#PhiladelphiaFlyers">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#PhiladelphiaFlyers">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#PhiladelphiaFlyers">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#PhiladelphiaFlyers">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_PhiladelphiaFlyers');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_PhiladelphiaFlyers" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 42</h3>
+Alexis Gravel(Y:2018-O:130), Andong Song(Y:2015-O:195), Andrew Peeke(Y:2016-O:28), Barrett Hayton(Y:2018-O:9), Brandon Duhaime(Y:2016-O:122), Brett Seney(Y:2015-O:188), Cameron Morrison(Y:2016-O:37), Carson Meyer(Y:2017-O:194), Denis Smirnov(Y:2017-O:120), Dylan Sadowy(Y:2014-O:81), Emil Bemstrom(Y:2017-O:109), Filip Zadina(Y:2018-O:5), Jermaine Loewen(Y:2018-O:195), Jesperi Kotkaniemi(Y:2018-O:4), Jett Woo(Y:2018-O:32), Joseph Masonius(Y:2016-O:182), Kailer Yamamoto(Y:2017-O:19), Keegan Kanzig(Y:2013-O:65), Kristian Roykas-Marthinsen(Y:2017-O:195), Lauri Pajuniemi(Y:2018-O:137), Liam Kirk(Y:2018-O:76), Linus Arnesson(Y:2013-O:72), Linus Weissbach(Y:2017-O:162), Mason Shaw(Y:2017-O:77), Maxime Comtois(Y:2017-O:38), Milos Roman(Y:2018-O:96), Nathan Clurman(Y:2016-O:156), Nick Swaney(Y:2017-O:172), Nolan Stevens(Y:2016-O:130), Olle Eriksson-Ek(Y:2017-O:130), Olle Lycksell(Y:2017-O:159), Radim Salda(Y:2018-O:190), Rasmus Dahlin(Y:2018-O:1), Ross Colton(Y:2016-O:106), Sam Hentges(Y:2018-O:198), Scott Perunovich(Y:2018-O:43), Serron Noel(Y:2018-O:18), Spencer Stastney(Y:2018-O:136), Tim Berni(Y:2018-O:175), Trey Fix-Wolansky(Y:2018-O:189), Tyler Wall(Y:2016-O:164), Zach Fischer(Y:2017-O:168)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>TOR 5, NSH 5, CHI 6, WSH 6, CLB 6, CLB 7<br />
+<b>Year 2020: </b>PHL 1, TOR 5, PHL 6, FLA 6, VAN 7, OTT 7, FLA 7<br />
+<b>Year 2021: </b>PHL 1, PHL 2, PHL 3, PHL 4, PHL 5, PHL 6, FLA 6, TOR 7, FLA 7<br />
+<b>Year 2022: </b>PHL 1, PHL 2, PHL 3, PHL 4, PHL 5<br />
+<b>Year 2023: </b>PHL 1, PHL 2, PHL 3, PHL 4, PHL 5, PHL 6, PHL 7, FLA 7<br />
+</div>
+<h1 class="TeamProspects_PIT"><a id="PittsburghPenguins">Pittsburgh Penguins</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#PittsburghPenguins">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#PittsburghPenguins">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#PittsburghPenguins">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#PittsburghPenguins">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#PittsburghPenguins">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#PittsburghPenguins">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#PittsburghPenguins">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#PittsburghPenguins">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#PittsburghPenguins">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#PittsburghPenguins">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#PittsburghPenguins">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#PittsburghPenguins">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_PittsburghPenguins');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_PittsburghPenguins" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 33</h3>
+Aarne Talvitte(Y:2017-O:166), Adam Mascherin(Y:2016-O:24), Brady Gilmour(Y:2017-O:197), Brady Tkachuk(Y:2018-O:3), Calle Sjalin(Y:2017-O:175), Chris Leblanc(Y:2013-O:199), Cole Fonstad(Y:2018-O:89), Cole Fraser(Y:2017-O:135), Colton Hargrove(Y:2012-O:202), Croix Evingson(Y:2017-O:215), Dakota Joshua(Y:2014-O:154), Dante Fabbro(Y:2016-O:19), Gabriel Gagne(Y:2015-O:54), Ian Mitchell(Y:2017-O:54), Jacob Jackson(Y:2013-O:197), Janne Juvonen(Y:2013-O:194), Jared Fiegl(Y:2014-O:201), Joe Veleno(Y:2018-O:15), Jonatan Berggren(Y:2018-O:22), Kevin Bouchard(Y:2014-O:198), Kevin Elgestal(Y:2014-O:205), Luke Martin(Y:2017-O:42), Malte Setkov(Y:2017-O:129), Matej Tomek(Y:2015-O:82), Michael Rasmussen(Y:2017-O:11), Mitchell Dempsey(Y:2013-O:202), Morgan Barron(Y:2017-O:185), Nikita Popugaev(Y:2017-O:73), Pontus Holmberg(Y:2018-O:157), Roland McKeown(Y:2014-O:37), Skyler Brind'Amour(Y:2017-O:169), Thomas Novak(Y:2015-O:34), Tyler Inamoto(Y:2017-O:104)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>PIT 1, PIT 2, MTL 2, PIT 3, PIT 6<br />
+<b>Year 2020: </b>PIT 1, MTL 1, PIT 2, OTT 2, MTL 2, PIT 3, PIT 4, PIT 5, PIT 6, PIT 7<br />
+<b>Year 2021: </b>PIT 1, PIT 2, PIT 3, PIT 4, PIT 5, PIT 6, PIT 7<br />
+<b>Year 2022: </b>PIT 1, PIT 2, PIT 3, PIT 4, PIT 5, PIT 6, PIT 7<br />
+<b>Year 2023: </b>PIT 1, PIT 2, PIT 3, PIT 4, PIT 5, PIT 6, PIT 7<br />
+</div>
+<h1 class="TeamProspects_SJS"><a id="SanJoseSharks">San Jose Sharks</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#SanJoseSharks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#SanJoseSharks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#SanJoseSharks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#SanJoseSharks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#SanJoseSharks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#SanJoseSharks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#SanJoseSharks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#SanJoseSharks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#SanJoseSharks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#SanJoseSharks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#SanJoseSharks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#SanJoseSharks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_SanJoseSharks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_SanJoseSharks" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 33</h3>
+Adam Helewka(Y:2015-O:143), Andrei Svetlakov(Y:2017-O:146), Arvid Henrikson(Y:2016-O:205), Austin Osmanski(Y:2016-O:207), Austin Wong(Y:2018-O:193), Blake McLaughlin(Y:2018-O:69), Bryce Misley(Y:2017-O:141), Colby Williams(Y:2015-O:196), Connor Hurley(Y:2013-O:43), David Farrance(Y:2017-O:80), Edgars Kulda(Y:2014-O:136), Eric Comrie(Y:2013-O:48), Eric Cornel(Y:2014-O:44), Filip Berglund(Y:2016-O:120), Ivan Chukarov(Y:2015-O:200), Jack Glover(Y:2014-O:57), Joey LaLeggia(Y:2012-O:120), John Leonard(Y:2018-O:181), Karlis Cukste(Y:2015-O:166), Kevin Mandolese(Y:2018-O:162), Kristian Vesalainen(Y:2017-O:24), Luc Snuggerud(Y:2014-O:122), Maksim Zhukov(Y:2017-O:90), Mike Robinson(Y:2015-O:129), Mitchell Mattson(Y:2016-O:118), Oliver Wahlstrom(Y:2018-O:8), Patrick Shea(Y:2015-O:203), Patrik Westerholm(Y:2011-O:170), Robert Thomas(Y:2017-O:23), Sam Dove-McFalls(Y:2015-O:142), Stuart Skinner(Y:2017-O:87), Tarmo Reunanen(Y:2016-O:110), Timothy Gettinger(Y:2016-O:137)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>SJS 1, WSH 3, SJS 5, MTL 6, STL 6, SJS 7<br />
+<b>Year 2020: </b>SJS 1, ANH 3, SJS 3, SJS 7<br />
+<b>Year 2021: </b>SJS 1, SJS 2, SJS 3, SJS 4, SJS 5, SJS 7<br />
+<b>Year 2022: </b>SJS 1, SJS 2, SJS 3, SJS 4, SJS 5, SJS 6, SJS 7<br />
+<b>Year 2023: </b>SJS 1, SJS 2, SJS 3, SJS 4, SJS 5, SJS 6, SJS 7<br />
+</div>
+<h1 class="TeamProspects_STL"><a id="St.LouisBlues">St. Louis Blues</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#St.LouisBlues">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#St.LouisBlues">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#St.LouisBlues">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#St.LouisBlues">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#St.LouisBlues">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#St.LouisBlues">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#St.LouisBlues">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#St.LouisBlues">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#St.LouisBlues">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#St.LouisBlues">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#St.LouisBlues">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#St.LouisBlues">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_St.LouisBlues');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_St.LouisBlues" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 20</h3>
+Adam Boqvist(Y:2018-O:7), Daniel Bukac(Y:2017-O:202), Denis Guryanov(Y:2015-O:17), Dillon Donnelly(Y:2011-O:207), Dominik Uher(Y:2011-O:152), Jack Ramsey(Y:2014-O:195), Jacob Bernard-Docker(Y:2018-O:38), Jakub Zboril(Y:2015-O:20), Jesper Eliasson(Y:2018-O:106), Julien Gauthier(Y:2016-O:23), Lukas Vejdemo(Y:2015-O:86), Mathias Laferriere(Y:2018-O:146), Matteo Gennaro(Y:2015-O:206), Milan Kloucek(Y:2018-O:215), Niclas Almari(Y:2016-O:190), Nicolas Beaudin(Y:2018-O:21), Nils Lundkvist(Y:2018-O:28), Peter Thome(Y:2016-O:163), Petteri Lindbohm(Y:2012-O:183), Saku Maenalanen(Y:2013-O:123)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>STL 1, BUF 2, ANH 2, STL 5, MTL 5, ANH 5, CAR 6, VGK 7<br />
+<b>Year 2020: </b>STL 1, BUF 1, STL 2, PHL 2, STL 3, STL 4, SJS 5, SJS 6, STL 7<br />
+<b>Year 2021: </b>NYR 1, STL 1, STL 2, STL 3, STL 4, NYR 5, STL 5, BOS 6, STL 6, STL 7<br />
+<b>Year 2022: </b>STL 1, STL 2, STL 3, STL 4, STL 5, STL 6, STL 7<br />
+<b>Year 2023: </b>STL 1, STL 2, STL 3, STL 4, STL 5, STL 6, STL 7<br />
+</div>
+<h1 class="TeamProspects_TBL"><a id="TampaBayLightning">Tampa Bay Lightning</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#TampaBayLightning">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#TampaBayLightning">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#TampaBayLightning">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#TampaBayLightning">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#TampaBayLightning">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#TampaBayLightning">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#TampaBayLightning">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#TampaBayLightning">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#TampaBayLightning">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#TampaBayLightning">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#TampaBayLightning">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#TampaBayLightning">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_TampaBayLightning');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_TampaBayLightning" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 40</h3>
+Adam Marsh(Y:2015-O:150), Alexander Romanov(Y:2018-O:42), Alexei Toropchenko(Y:2017-O:106), Andrei Altybarmakyan(Y:2017-O:75), Anton Rodin(Y:2009-O:37), Austin Poganski(Y:2014-O:73), Axel Holmström(Y:2014-O:87), Chase Pearson(Y:2015-O:120), Cole Koepke(Y:2018-O:166), David Bernhardt(Y:2016-O:150), Glenn Gawdin(Y:2015-O:84), Jakob Stenqvist(Y:2016-O:187), Jakub Galvas(Y:2017-O:179), James Melindy(Y:2012-O:96), Jan Drozg(Y:2017-O:148), Janne Kuokkanen(Y:2016-O:60), Jesse Ylonen(Y:2018-O:41), Josh Ess(Y:2017-O:210), Marcel Noebels(Y:2011-O:117), Marcus Karlberg(Y:2018-O:104), Matthew Villalta(Y:2017-O:86), Michael Brodzinski(Y:2013-O:141), Mikael Hakkarainen(Y:2018-O:135), Nick Ebert(Y:2012-O:84), Nikita Korostelev(Y:2015-O:78), Nikita Pavlychev(Y:2015-O:180), Noah Rod(Y:2014-O:60), Otto Somppi(Y:2016-O:108), Patrick Cehlin(Y:2010-O:88), Patrick McNally(Y:2010-O:85), Pavel Karnaukhov(Y:2015-O:127), Petr Kvaca(Y:2017-O:136), Radovan Bondra(Y:2015-O:115), Robin Salo(Y:2017-O:61), Sampo Ranta(Y:2018-O:73), Shamil Shmakov(Y:2018-O:197), Vitali Kravtsov(Y:2018-O:11), William Lagesson(Y:2014-O:90), Wouter Peeters(Y:2016-O:74), Yegor Zaitsev(Y:2017-O:209)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>TBL 1, TBL 2, TBL 3, TBL 4, TBL 5, TBL 6<br />
+<b>Year 2020: </b>TBL 1, TBL 2, TBL 3, TBL 4, TBL 5, TBL 6, TBL 7<br />
+<b>Year 2021: </b>TBL 1, TBL 2, TBL 3, TBL 4, TBL 5, TBL 6, TBL 7<br />
+<b>Year 2022: </b>TBL 1, TBL 2, TBL 3, TBL 4, TBL 5, TBL 6, TBL 7<br />
+<b>Year 2023: </b>TBL 1, TBL 2, TBL 3, TBL 4, TBL 5, TBL 6, TBL 7<br />
+</div>
+<h1 class="TeamProspects_TOR"><a id="TorontoMapleLeafs">Toronto Maple Leafs</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#TorontoMapleLeafs">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#TorontoMapleLeafs">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#TorontoMapleLeafs">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#TorontoMapleLeafs">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#TorontoMapleLeafs">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#TorontoMapleLeafs">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#TorontoMapleLeafs">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#TorontoMapleLeafs">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#TorontoMapleLeafs">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#TorontoMapleLeafs">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#TorontoMapleLeafs">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#TorontoMapleLeafs">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_TorontoMapleLeafs');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_TorontoMapleLeafs" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 40</h3>
+Akira Schmid(Y:2018-O:133), Brandon Crawley(Y:2017-O:158), Brendan De Jong(Y:2017-O:187), Brendan Warren(Y:2015-O:126), Brett Howden(Y:2016-O:18), Cedric Pare(Y:2017-O:203), Cody Glass(Y:2017-O:4), Conor Timmins(Y:2017-O:34), Curtis Douglas(Y:2018-O:115), Dylan Wells(Y:2016-O:148), Emil Johansson(Y:2014-O:167), Jack McBain(Y:2018-O:59), Jack Rathbone(Y:2017-O:132), Jack Studnicka(Y:2017-O:67), Jake Marchment(Y:2014-O:177), Jeremy Bracco(Y:2015-O:39), Jeremy Davies(Y:2016-O:168), Jeremy Swayman(Y:2017-O:138), Jiri Patera(Y:2017-O:183), Joe Cecconi(Y:2015-O:177), Jonathan Davidsson(Y:2017-O:196), Jonathan Walker(Y:2016-O:157), Keaton Middleton(Y:2016-O:138), Konstantin Volkov(Y:2016-O:176), Liam Gorman(Y:2018-O:192), Marcus Davidsson(Y:2017-O:47), Matt Brassard(Y:2017-O:211), Nick Campoli(Y:2017-O:186), Nick Leivermann(Y:2017-O:207), Oleg Sosunov(Y:2016-O:165), Olivier Rodrigue(Y:2018-O:71), Samuel Walker(Y:2017-O:212), Santtu Kinnunen(Y:2018-O:209), Sean Day(Y:2016-O:73), Sebastian Walfridsson(Y:2017-O:180), Simon Kjellberg(Y:2018-O:185), Spencer Smallman(Y:2015-O:149), Stepan Falkovsky(Y:2016-O:169), Steven Lorentz(Y:2015-O:201), Tate Olson(Y:2015-O:161)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>STL 3, MTL 3, TOR 3, TOR 4, PHL 5, NJD 5, TOR 6, FLA 6, DAL 7, TOR 7, MIN 7, FLA 7<br />
+<b>Year 2020: </b>TOR 1, TOR 2, TOR 3, TOR 4, FLA 5, TOR 6, PHL 7, TOR 7<br />
+<b>Year 2021: </b>TOR 1, TOR 2, BOS 2, TOR 3, TOR 4, TOR 5, TOR 6, OTT 7<br />
+<b>Year 2022: </b>TOR 1, TOR 2, TOR 3, TOR 4, TOR 5, TOR 6, TOR 7<br />
+<b>Year 2023: </b>TOR 1, TOR 2, TOR 3, TOR 4, TOR 5, TOR 6, TOR 7<br />
+</div>
+<h1 class="TeamProspects_VAN"><a id="VancouverCanucks">Vancouver Canucks</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#VancouverCanucks">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#VancouverCanucks">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#VancouverCanucks">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#VancouverCanucks">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#VancouverCanucks">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#VancouverCanucks">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#VancouverCanucks">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#VancouverCanucks">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#VancouverCanucks">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#VancouverCanucks">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#VancouverCanucks">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#VancouverCanucks">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_VancouverCanucks');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_VancouverCanucks" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 50</h3>
+Alex Formenton(Y:2017-O:55), Boris Katchouk(Y:2016-O:51), Brian Pinho(Y:2013-O:181), C.J. Suess(Y:2014-O:155), Carl Neill(Y:2015-O:189), Clayton Phillips(Y:2017-O:125), Clifford Watson(Y:2012-O:203), Cole Ully(Y:2013-O:127), Declan Chisholm(Y:2018-O:156), Dennis Yan(Y:2015-O:60), Emil Galimov(Y:2013-O:204), Emil Molin(Y:2011-O:116), Frederic Allard(Y:2016-O:77), Gabriel Carlsson(Y:2015-O:38), Garrett Pilon(Y:2016-O:114), Gustav Bouramman(Y:2015-O:147), Igor Bobkov(Y:2009-O:63), Jacob McGrew(Y:2017-O:184), Jakub Lauko(Y:2018-O:63), Joel Daccord(Y:2015-O:182), Joel Farabee(Y:2018-O:14), John Dahlstrom(Y:2015-O:204), John McCarron(Y:2012-O:180), Jonathan Kovacevic(Y:2017-O:70), Kyle Schempp(Y:2014-O:186), Liam Dunda(Y:2015-O:176), Linus Nassen(Y:2016-O:98), Mackenzie MacEachern(Y:2012-O:79), Mario Lucia(Y:2011-O:45), Max Gortz(Y:2012-O:170), Maxim Shalunov(Y:2011-O:122), Michael Downing(Y:2013-O:96), Michael Karow(Y:2017-O:156), Michael McLeod(Y:2016-O:12), Michael Pezzetta(Y:2016-O:192), Mikhail Vorobyov(Y:2015-O:116), Mitchell Hoelscher(Y:2018-O:178), Nathan Smith(Y:2018-O:109), Nick Pastujov(Y:2016-O:174), Pavel Kraskovsky(Y:2014-O:128), Reid McNeill(Y:2010-O:198), Riley Tufte(Y:2016-O:26), Rudolfs Balcers(Y:2015-O:157), Sam Lafferty(Y:2014-O:137), Santeri Saari(Y:2013-O:169), Tanner Kaspick(Y:2016-O:147), Troy Josephs(Y:2013-O:209), Tyler Nanne(Y:2014-O:185), Zachary Emond(Y:2018-O:186), Zachary Leslie(Y:2013-O:190)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>VAN 1, VAN 3, BOS 3, COL 4, DAL 4, VGK 6, WPG 6<br />
+<b>Year 2020: </b>VAN 1, VAN 2, VAN 3, CGY 4, VAN 4, VAN 5, ANH 6<br />
+<b>Year 2021: </b>VAN 1, VAN 2, VAN 3, VAN 4, VAN 5, VAN 6, VAN 7<br />
+<b>Year 2022: </b>VAN 1, VAN 2, VAN 3, VAN 4, VAN 5, VAN 6, VAN 7<br />
+<b>Year 2023: </b>VAN 1, VAN 2, VAN 3, VAN 4, VAN 5, VAN 6, VAN 7<br />
+</div>
+<h1 class="TeamProspects_VGK"><a id="VegasGoldenKnights">Vegas Golden Knights</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#VegasGoldenKnights">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#VegasGoldenKnights">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#VegasGoldenKnights">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#VegasGoldenKnights">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#VegasGoldenKnights">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#VegasGoldenKnights">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#VegasGoldenKnights">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#VegasGoldenKnights">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#VegasGoldenKnights">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#VegasGoldenKnights">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#VegasGoldenKnights">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#VegasGoldenKnights">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_VegasGoldenKnights');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_VegasGoldenKnights" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 42</h3>
+Aleksi Heponiemi(Y:2017-O:43), Andrei Svechnikov(Y:2018-O:2), Arnaud Durandeau(Y:2017-O:164), Axel Andersson(Y:2018-O:64), Brandon Kruse(Y:2018-O:155), Caleb Jones(Y:2015-O:122), Calen Addison(Y:2018-O:47), Cam Hillis(Y:2018-O:70), Cole Guttman(Y:2017-O:178), Cole Hults(Y:2017-O:188), David Noel(Y:2017-O:139), Dawson Barteaux(Y:2018-O:163), Demetrios Koumontzis(Y:2018-O:117), Drake Batherson(Y:2017-O:126), Filip Johansson(Y:2018-O:39), Gavin Hain(Y:2018-O:183), Gustav Lindstrom(Y:2017-O:51), Henri Jokiharju(Y:2017-O:33), Hugo Fagerblom(Y:2014-O:190), Jake Evans(Y:2014-O:176), Jordan Kooy(Y:2018-O:211), Josh Brook(Y:2017-O:64), Justin Almeida(Y:2018-O:124), Justin Schutz(Y:2018-O:180), Kyle Olson(Y:2017-O:115), Lane Zablocki(Y:2017-O:81), Lenni Killinen(Y:2018-O:132), Liam Foudy(Y:2018-O:25), Logan Hutsko(Y:2018-O:102), Matthew Thiessen(Y:2018-O:194), Morgan Geekie(Y:2017-O:66), Nick Henry(Y:2017-O:95), Nicklaus Perbix(Y:2017-O:198), Philip Kemp(Y:2017-O:199), Pierre-Olivier Joseph(Y:2017-O:31), Riley Stotts(Y:2018-O:95), Samuel Houde(Y:2018-O:160), Shane Bowers(Y:2017-O:35), Tobias Geisser(Y:2017-O:157), Ty Taylor(Y:2018-O:212), Tyler Tucker(Y:2018-O:200), Zachary Gallant(Y:2017-O:89)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>VGK 1, VGK 2, VGK 3, ARI 3, NSH 3, EDM 3, VGK 4, VAN 4, CAR 4, BOS 4, EDM 4, PIT 4, VGK 5<br />
+<b>Year 2020: </b>VGK 1, VGK 2, VGK 3, VGK 4, VGK 5, VGK 7<br />
+<b>Year 2021: </b>VGK 1, VGK 2, VGK 3, VGK 4, VGK 5, VGK 6, VGK 7<br />
+<b>Year 2022: </b>VGK 1, VGK 2, VGK 3, VGK 4, VGK 5, VGK 6, VGK 7<br />
+<b>Year 2023: </b>VGK 1, VGK 2, VGK 3, VGK 4, VGK 5, VGK 6, VGK 7<br />
+</div>
+<h1 class="TeamProspects_WSH"><a id="WashingtonCapitals">Washington Capitals</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#WashingtonCapitals">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#WashingtonCapitals">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#WashingtonCapitals">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#WashingtonCapitals">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#WashingtonCapitals">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#WashingtonCapitals">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#WashingtonCapitals">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#WashingtonCapitals">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#WashingtonCapitals">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#WashingtonCapitals">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#WashingtonCapitals">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#WashingtonCapitals">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_WashingtonCapitals');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_WashingtonCapitals" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 25</h3>
+A.J. Greer(Y:2015-O:61), Aidan Dudas(Y:2018-O:98), Alexander Dergachyov(Y:2015-O:55), Andrei Mironov(Y:2015-O:92), Blade Jenkins(Y:2018-O:114), Calvin Petersen(Y:2013-O:134), Cameron Darcy(Y:2014-O:179), Carl Grundstrom(Y:2016-O:52), Dmitri Kugryshev, Drake Rymsha(Y:2017-O:92), Dylan Gambrell(Y:2016-O:50), Frederik Tiffels(Y:2015-O:171), Gabriel Vilardi(Y:2017-O:6), Jacob Larsson(Y:2015-O:32), Jacob Moverare(Y:2016-O:90), Jaret Anderson-Dolan(Y:2017-O:39), Kale Clague(Y:2016-O:38), Klim Kostin(Y:2017-O:26), Kyle Capobianco(Y:2015-O:69), Mattias Lindstrom(Y:2009-O:91), Nicolas Meloche(Y:2015-O:49), Nikita Gusev(Y:2012-O:109), Reilly Webb(Y:2017-O:190), Riley Damiani(Y:2018-O:118), Ville Husso(Y:2014-O:79)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>WSH 1, MIN 1, OTT 2, BOS 2, VAN 2, CGY 3, WSH 5, CLB 5, WSH 7<br />
+<b>Year 2020: </b>WSH 1, WSH 2, NYR 2, BOS 2, BOS 3, WSH 5, WSH 6, WSH 7<br />
+<b>Year 2021: </b>WSH 1, WSH 2, WSH 3, WSH 4, WSH 5, WSH 6, WSH 7<br />
+<b>Year 2022: </b>WSH 1, WSH 2, WSH 3, WSH 4, WSH 5, WSH 6, WSH 7<br />
+<b>Year 2023: </b>WSH 1, WSH 2, WSH 3, WSH 4, WSH 5, WSH 6, WSH 7<br />
+</div>
+<h1 class="TeamProspects_WPG"><a id="WinnipegJets">Winnipeg Jets</a></h1>
+<div class="STHSTeamLink">
+[ <a href="OTHL-ProTeamRoster.html#WinnipegJets">Pro Team Roster</a> ]
+[ <a href="OTHL-ProTeamScoring.html#WinnipegJets">Pro Team Scoring</a> ]
+[ <a href="OTHL-TeamFinance.html#WinnipegJets">Team Finance</a> ]
+[ <a href="OTHL-ProTeamPlayersInfo.html#WinnipegJets">Pro Team PlayersInfo</a> ]
+[ <a href="OTHL-ProTeamLines.html#WinnipegJets">Pro Team Lines</a> ]
+[ <a href="OTHL-TeamProspects.html#WinnipegJets">Team Prospects</a> ]
+[ <a href="OTHL-ProTeamSchedule.html#WinnipegJets">Pro Team Schedule</a> ]
+[ <a href="OTHL-ProTeamStats.html#WinnipegJets">Pro Team Stats</a> ]
+[ <a href="OTHL-ProTeamStatsVS.html#WinnipegJets">Pro Team Stats VS</a> ]
+[ <a href="OTHL-TeamInjurySuspension.html#WinnipegJets">Team Injury Suspension</a> ]
+[ <a href="OTHL-TeamHistory.html#WinnipegJets">Team History</a> ]
+[ <a href="OTHL-TeamRecords.html#WinnipegJets">Team Records</a> ]
+ [ <a href="#STHSRosterTop"><b>Page Top</b></a> ]
+[ <a href="javascript:STHS_JS_ToggleTeam('STHS_JS_Team_WinnipegJets');"><b>Close / Open Team View</b></a> ]
+</div><div id="STHS_JS_Team_WinnipegJets" style="display: block;">
+<h3 class="STHSTeamProspect_Prospect">Prospects - 53</h3>
+Adam Smith(Y:2016-O:206), Akil Thomas(Y:2018-O:29), Ales Stezka(Y:2015-O:117), Alex Lintuniemi(Y:2014-O:71), Alexandre Texier(Y:2017-O:53), Beck Malenstyn(Y:2016-O:185), Brett Pollock(Y:2014-O:50), Carsen Twarynski(Y:2016-O:93), Clark Bishop(Y:2014-O:130), Connor Ingram(Y:2016-O:101), David Kase(Y:2015-O:133), Eetu Luostarinen(Y:2017-O:36), Eetu Pakkila(Y:2018-O:199), Fredrik Karlstrom(Y:2016-O:107), Guillaume Brisebois(Y:2015-O:66), Jansen Harkins(Y:2015-O:36), Jarret Tyszka(Y:2017-O:102), Jeremy Helvig(Y:2016-O:153), John Quenneville(Y:2014-O:32), Joni Tuulola(Y:2015-O:164), Joona Koppanen(Y:2016-O:167), Joonas Lyytinen(Y:2014-O:140), Juho Lammikko(Y:2014-O:82), Kasper Bjorkqvist(Y:2016-O:72), Linus Lindstrom(Y:2016-O:82), Lukas Elvenes(Y:2017-O:97), Markus Niemelainen(Y:2016-O:63), Markus Ruusu(Y:2015-O:156), Matheson Iacopelli(Y:2014-O:97), Matt Filipe(Y:2016-O:76), Max Jones(Y:2016-O:31), Max Zimmer(Y:2016-O:123), Miro Heiskanen(Y:2017-O:3), Nick Boka(Y:2015-O:186), Nicolas Hague(Y:2017-O:29), Olli Juolevi(Y:2016-O:9), Patrik Virta(Y:2017-O:189), Petrus Palmu(Y:2017-O:147), Rasmus Kupari(Y:2018-O:13), Roman Durny(Y:2018-O:94), Roope Hintz(Y:2015-O:59), Ryan Gropp(Y:2015-O:53), Ryan Lindgren(Y:2016-O:61), Simon Bourque(Y:2015-O:145), Simon Johansson(Y:2018-O:121), Taylor Raddysh(Y:2016-O:54), Toni Utunen(Y:2018-O:111), Ty Smith(Y:2018-O:20), Veini Vehvilainen(Y:2018-O:97), Victor Brattstrom(Y:2018-O:159), Vili Saarijarvi(Y:2015-O:76), Ville Rasanen(Y:2017-O:205), Vladislav Gavrikov(Y:2015-O:125)<br />
+<h3 class="STHSTeamProspect_DraftPick">Draft Picks</h3>
+<b>Year 2019: </b>WPG 1, FLA 1, WPG 2, WPG 4, WPG 5, BOS 7<br />
+<b>Year 2020: </b>WPG 1, WPG 2, WPG 3, WPG 4, WPG 5, WPG 6, BOS 6, MTL 6, WPG 7, CGY 7<br />
+<b>Year 2021: </b>WPG 1, WPG 2, WPG 3, WPG 4, WPG 5, WPG 6, WPG 7<br />
+<b>Year 2022: </b>WPG 1, WPG 2, WPG 3, WPG 4, WPG 5, WPG 6, WPG 7<br />
+<b>Year 2023: </b>WPG 1, WPG 2, WPG 3, WPG 4, WPG 5, WPG 6, WPG 7<br />
+</div>
+<br /><br /><br /><a href="#" class="scrollup">Back to the Top</a><div class="footer">
+Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>

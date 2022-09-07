@@ -1,0 +1,55 @@
+﻿table.basictablesorter { font-family:arial; background-color: rgb(222, 222, 222); margin:10px 0pt 15px; font-size: 8pt; width: 100%; text-align: left; border-spacing: 0px;}
+table.basictablesorter thead tr th, table.tablesorter tfoot tr th { background-color: rgb(222, 222, 222); text-align:center; font-size: 8pt; padding: 4px 12px 4px 0px;}
+table.basictablesorter thead tr td {background-color: rgb(222, 222, 222); text-align:center; font-size: 8pt;font-weight: bold; padding: 4px 12px 4px 0px;border-style:solid; border-width:1px; border-color:#a1a1a1;}
+table.basictablesorter thead tr .header {background-image: url("data:image/gif;base64,R0lGODlhFQAJAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAkAAAIXjI+AywnaYnhUMoqt3gZXPmVg94yJVQAAOw=="); background-repeat: no-repeat; background-position: center right; cursor: pointer; border-style:solid; border-width:1px; border-color:#a1a1a1;}
+table.basictablesorter thead tr .headerSortUp {background-image: url("data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjI8Bya2wnINUMopZAQA7");}
+table.basictablesorter thead tr .headerSortDown {background-image: url("data:image/gif;base64,R0lGODlhFQAEAIAAACMtMP///yH5BAEAAAEALAAAAAAVAAQAAAINjB+gC+jP2ptn0WskLQA7");}
+table.basictablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp { background-color: #8dbdd8;}
+table.basictablesorter tbody tr:nth-child(odd) {background-color: rgb(255, 255, 255);}
+table.basictablesorter tbody tr:nth-child(even) {background-color: rgb(239, 239, 239);}
+table.basictablesorter tbody > tr:hover > td {background: rgb(222, 222, 222);}
+table.basictablesorter tbody td {padding: 4px; vertical-align: top; border-style:solid; border-width:1px; border-color:#a1a1a1; min-width:20px;}
+table.basictablesorter tfoot  { border-style:solid; border-width:1px; border-color:#a1a1a1; border-top-style:double; border-top-width:4px; border-top-color:#a1a1a1;}
+table.basictablesorter tfoot td {padding: 4px; background-color: #FFF; vertical-align: top; border-style:solid; border-width:1px; border-color:#a1a1a1; min-width:20px;}
+.tabsmenu{width:100%;display:inline;}
+.tabmenu-links:after{display:block;clear:both;content:'';}
+.tabmenu-links li{margin:0px 5px;float:left;list-style:none;}
+.tabmenu-links a{padding:3px 15px;display:inline-block;border-radius:3px 3px 0px 0px;font-size:16px;font-weight:600;color:#4c4c4c;transition:all linear 0.15s;}
+.tabmenu-links a:hover{text-decoration:none;color:#000000;}
+.MenuSTHS {border-spacing: 0px;}
+table.MenuSTHS a{padding:3px 15px;display:inline-block;border-radius:3px 3px 0px 0px;font-size:16px;font-weight:600;color:#4c4c4c;transition:all linear 0.15s;}
+table.MenuSTHS a:hover{text-decoration:none;color:#000000;}
+.tabmenu-content{padding:1px;border-radius:1px;box-shadow:-1px 1px 1px rgba(0,0,0,0.15);background:#fff;}
+.tabmenu{display:none;}
+.tabmenu.active{display:block;}
+.tabsmain{width:100%;display:inline-block;}
+.tabmain-links:after{display:block;clear:both;content:'';}
+.tabmain-links li{margin:0px 5px;float:left;list-style:none;}
+.tabmain-links a{padding:0px 25px;display:inline-block;border-radius:3px 3px 0px 0px;color:#dedede;font-size:16px;font-weight:600;color:#4c4c4c;transition:all linear 0.15s;}
+.tabmain-links a:hover{text-decoration:none;color:#000000;}
+li.activemain a,li.activemain a:hover{text-decoration:none}
+.tabmain-content{border-radius:1px;box-shadow:-1px 1px 1px rgba(0,0,0,0.15);background:#fff;}
+.tabmain{display:none;}
+.tabmain.active{display:block;}
+.scrollup{ width:40px; height:40px; opacity:0.3; position:fixed; bottom:50px; right:25px; display:none; text-indent:-9999px; background: url('images/icon_top.png') no-repeat;}
+@media screen and (max-width: 1160px) {
+.tabmenu-links a{padding:2px 5px;font-size:15px;}
+table.MenuSTHS a{padding:2px 5px;font-size:15px;}
+.STHSTopLink{font-size:12px;}
+.STHSTeamLink{font-size:12px;}
+}
+@media screen and (max-width: 920px) {
+.tabmenu-links a{padding:1px 2px;font-size:14px;}
+table.MenuSTHS a{padding:1px 4px;font-size:14px;}
+.STHSTopLink{font-size:10px;}
+.STHSTeamLink{font-size:10px;}
+}
+@media screen and (max-width: 820px) {
+.tabmenu-links a{padding:0px 1px;font-size:12px;}
+table.MenuSTHS a{padding:0px 3px;font-size:12px;}
+.STHSTopLink{font-size:8px;}
+.STHSTopLink{font-size:8px;}
+.FooterW3C {display:none;}}
+@media screen and (max-width: 720px) {#STHSMenu-Record {display:none;}}
+@media screen and (max-width: 660px) {#STHSMenu-DirectLink{display:none;}}
+.STHSWarning{display:none;color:#FF0000; font-weight: bold;padding:1px 1px 1px 5px;text-align:center;}

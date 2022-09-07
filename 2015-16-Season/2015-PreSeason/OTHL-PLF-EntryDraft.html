@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>OTHL - Entry Draft</title>
+<script type="text/javascript" src="OTHL-PLF.js"></script>
+<meta name="author" content="Simon Tremblay, sths.simont.info" />
+<meta charset="utf-8" />
+<meta name="Decription" content="Tyler Bell - STHS - Version : 2.3.1.1" />
+<link href="STHSMain.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+@media screen and (max-width: 992px) {
+.STHSW10 {display:none;}
+.STHSRoster_GoaliesTable tbody td:nth-child(2){display:none;}
+.STHSRoster_GoaliesTable thead th:nth-child(2){display:none;}
+}
+@media screen and (max-width: 1200px) {
+.STHSWarning {display:block;}
+table.basictablesorter tbody td:nth-last-child(1){display:none;}
+table.basictablesorter thead th:nth-last-child(1){display:none;}
+table.basictablesorter tbody td:nth-last-child(2){display:none;}
+table.basictablesorter thead th:nth-last-child(2){display:none;}
+table.basictablesorter tbody td:nth-last-child(3){display:none;}
+table.basictablesorter thead th:nth-last-child(3){display:none;}
+table.basictablesorter tbody td:nth-last-child(4){display:none;}
+table.basictablesorter thead th:nth-last-child(4){display:none;}
+table.basictablesorter tbody td:nth-last-child(5){display:none;}
+table.basictablesorter thead th:nth-last-child(5){display:none;}
+table.basictablesorter tbody td:nth-last-child(6){display:none;}
+table.basictablesorter thead th:nth-last-child(6){display:none;}
+}</style>
+<link href="OTHL-PLF.css" rel="stylesheet" type="text/css" />
+</head><body>
+<div class="tabsmenu standard"><ul class="tabmenu-links">
+<li><a class="tabmenuhome" href="./index.html">OTHL-PLF Home</a></li>
+<li id="STHSMenu-Main"><a href="#tabmenu1">Main</a></li>
+<li id="STHSMenu-ProLeague"><a href="#tabmenu2">Pro League</a></li>
+<li id="STHSMenu-ProTeam"><a href="#tabmenu3">Pro Team</a></li>
+<li id="STHSMenu-FarmLeague"><a href="#tabmenu4">Farm League</a></li>
+<li id="STHSMenu-FarmTeam"><a href="#tabmenu5">Farm Team</a></li>
+<li id="STHSMenu-League" class="activemenu"><a href="#tabmenu6">League</a></li>
+<li id="STHSMenu-Record"><a href="#tabmenu7">Record</a></li>
+<li id="STHSMenu-DirectLink"><a href="#tabmenu8">Team's Direct Link</a></li>
+</ul><div class="tab-contentmenu">
+<div class="tabmenu" id="tabmenu1">
+<table class="MenuSTHS"><tr>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu2">
+<table class="MenuSTHS"><tr>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu3">
+<table class="MenuSTHS"><tr>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu4">
+<table class="MenuSTHS"><tr>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu5">
+<table class="MenuSTHS"><tr>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu active" id="tabmenu6">
+<table class="MenuSTHS"><tr>
+<td><a href="RSSFeed.xml">RSS Feed</a></td>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu7">
+<table class="MenuSTHS"><tr>
+<td class="STHSW1"></td></tr></table></div>
+<div class="tabmenu" id="tabmenu8">
+<table class="MenuSTHS"><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Ducks">ANH</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Coyotes">ARI</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Bruins">BOS</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Sabres">BUF</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Hurricanes">CAR</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Flames">CGY</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Blackhawks">CHI</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#BlueJackets">CLB</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Avalanche">COL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Stars">DAL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#RedWings">DET</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Oilers">EDM</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Panthers">FLA</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Kings">LAK</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Wild">MIN</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Canadiens">MTL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Devils">NJD</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Predators">NSH</a></td>
+</tr><tr>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Islanders">NYI</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Rangers">NYR</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Senators">OTT</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Flyers">PHL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Penguins">PIT</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Sharks">SJS</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Blues">STL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Lightning">TBL</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#MapleLeafs">TOR</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Canucks">VAN</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Jets">WPG</a></td>
+<td><a href="OTHL-PLF-ProTeamRoster.html#Capitals">WSH</a></td>
+<td colspan="6" class="STHSW1"></td></tr></table></div>
+</div></div><br />
+<table class="STHSTableFullW"><tr><td class="STHSHeaderTitle">Entry Draft</td><td class="STHSHeaderDate">Last Update - April 27, 2016 at 20:19</td></tr>
+</table><div class="STHSWarning">Your screen resolution is too small for this page. Some information are hidden to keep the page readable.<br /></div>
+<table class="STHSEntryDraft_MainTable">
+<thead><tr><th class="STHSEntryDraft_Rank">Rank #</th><th class="STHSEntryDraft_Team">Team</th><th class="STHSEntryDraft_Pick">Pick</th></tr></thead><tbody>
+<tr><td colspan="3" class="STHSCenter"><b>Round #1</b></td></tr>
+<tr><td>1</td><td>Capitals</td><td>Connor McDavid</td></tr>
+<tr><td>2</td><td>Kings</td><td>Jack Eichel</td></tr>
+<tr><td>3</td><td>Coyotes</td><td>Mitch Marner</td></tr>
+<tr><td>4</td><td>Canadiens</td><td>Dylan Strome</td></tr>
+<tr><td>5</td><td>Rangers</td><td>Ivan Provorov</td></tr>
+<tr><td>6</td><td>Jets</td><td>Noah Hanifin</td></tr>
+<tr><td>7</td><td>Canucks</td><td>Zach Werenski</td></tr>
+<tr><td>8</td><td>Islanders</td><td>Mikko Rantanen</td></tr>
+<tr><td>9</td><td>Coyotes (Penguins)</td><td>Pavel Zacha</td></tr>
+<tr><td>10</td><td>Coyotes (Bruins)</td><td>Matt Barzal</td></tr>
+<tr><td>11</td><td>Blue Jackets (Devils)</td><td>Timo Meier</td></tr>
+<tr><td>12</td><td>Capitals (Flames)</td><td>Kyle Connor</td></tr>
+<tr><td>13</td><td>Red Wings</td><td>Lawson Crouse</td></tr>
+<tr><td>14</td><td>Avalanche</td><td>Evgeny Svechnikov</td></tr>
+<tr><td>15</td><td>Flyers</td><td>Joel Eriksson Ek</td></tr>
+<tr><td>16</td><td>Sabres</td><td>Ilya Samsonov</td></tr>
+<tr><td>17</td><td>Wild</td><td>Denis Guryanov</td></tr>
+<tr><td>18</td><td>Canadiens (Blue Jackets)</td><td>Nick Merkley</td></tr>
+<tr><td>19</td><td>Sharks</td><td>Travis Konecny</td></tr>
+<tr><td>20</td><td>Capitals (Predators)</td><td>Jakub Zboril</td></tr>
+<tr><td>21</td><td>Sabres (Senators)</td><td>Zach Senyshyn</td></tr>
+<tr><td>22</td><td>Islanders (Blackhawks)</td><td>Jack Roslovic</td></tr>
+<tr><td>23</td><td>Coyotes (Ducks)</td><td>Thomas Chabot</td></tr>
+<tr><td>24</td><td>Panthers</td><td>Jake DeBrusk</td></tr>
+<tr><td>25</td><td>Kings (Hurricanes)</td><td>Brock Boeser</td></tr>
+<tr><td>26</td><td>Capitals (Blues)</td><td>Colin White</td></tr>
+<tr><td>27</td><td>Sabres (Maple Leafs)</td><td>Paul Bittner</td></tr>
+<tr><td>28</td><td>Islanders (Oilers)</td><td>Daniel Sprong</td></tr>
+<tr><td>29</td><td>Ducks (Stars)</td><td>Oliver Kylington</td></tr>
+<tr><td>30</td><td>Sabres (Lightning)</td><td>Mackenzie Blackwood</td></tr>
+<tr><td colspan="3" class="STHSCenter"><b>Round #2</b></td></tr>
+<tr><td>31</td><td>Blue Jackets (Capitals)</td><td>Noah Juulsen</td></tr>
+<tr><td>32</td><td>Blue Jackets (Kings)</td><td>Jacob Larsson</td></tr>
+<tr><td>33</td><td>Coyotes</td><td>Jeremy Roy</td></tr>
+<tr><td>34</td><td>Canadiens</td><td>Thomas Novak</td></tr>
+<tr><td>35</td><td>Maple Leafs (Rangers)</td><td>Anthony Beauvillier</td></tr>
+<tr><td>36</td><td>Jets</td><td>Jansen Harkins</td></tr>
+<tr><td>37</td><td>Canucks</td><td>Travis Dermott</td></tr>
+<tr><td>38</td><td>Blue Jackets (Islanders)</td><td>Gabriel Carlsson</td></tr>
+<tr><td>39</td><td>Senators (Penguins)</td><td>Jeremy Bracco</td></tr>
+<tr><td>40</td><td>Canadiens (Bruins)</td><td>Felix Sandstrom</td></tr>
+<tr><td>41</td><td>Canadiens (Devils)</td><td>Samuel Montembeault</td></tr>
+<tr><td>42</td><td>Panthers (Flames)</td><td>Mitchell Stephens</td></tr>
+<tr><td>43</td><td>Red Wings</td><td>Vince Dunn</td></tr>
+<tr><td>44</td><td>Avalanche</td><td>Brandon Carlo</td></tr>
+<tr><td>45</td><td>Senators (Flyers)</td><td>Filip Chlapik</td></tr>
+<tr><td>46</td><td>Senators (Sabres)</td><td>Rasmus Andersson</td></tr>
+<tr><td>47</td><td>Coyotes (Wild)</td><td>Christian Fischer</td></tr>
+<tr><td>48</td><td>Ducks (Blue Jackets)</td><td>Brendan Guhle</td></tr>
+<tr><td>49</td><td>Capitals (Sharks)</td><td>Nicolas Meloche</td></tr>
+<tr><td>50</td><td>Predators</td><td>Sebastian Aho</td></tr>
+<tr><td>51</td><td>Red Wings (Senators)</td><td>Robin Kovacs</td></tr>
+<tr><td>52</td><td>Coyotes (Blackhawks)</td><td>Jordan Greenway</td></tr>
+<tr><td>53</td><td>Panthers (Ducks)</td><td>Ryan Gropp</td></tr>
+<tr><td>54</td><td>Panthers</td><td>Gabriel Gagne</td></tr>
+<tr><td>55</td><td>Capitals (Hurricanes)</td><td>Alexander Dergachyov</td></tr>
+<tr><td>56</td><td>Senators (Blues)</td><td>Yakov Trenin</td></tr>
+<tr><td>57</td><td>Maple Leafs</td><td>Erik Cernak</td></tr>
+<tr><td>58</td><td>Senators (Oilers)</td><td>Matt Spencer</td></tr>
+<tr><td>59</td><td>Capitals (Stars)</td><td>Roope Hintz</td></tr>
+<tr><td>60</td><td>Senators (Lightning)</td><td>Dennis Yan</td></tr>
+<tr><td colspan="3" class="STHSCenter"><b>Round #3</b></td></tr>
+<tr><td>61</td><td>Capitals</td><td>A.J. Greer</td></tr>
+<tr><td>62</td><td>Sharks (Kings)</td><td>Jakob Forsbacka Karlsson</td></tr>
+<tr><td>63</td><td>Oilers (Coyotes)</td><td>Jeremy Lauzon</td></tr>
+<tr><td>64</td><td>Senators (Canadiens)</td><td>Mitch Vande Sompel</td></tr>
+<tr><td>65</td><td>Red Wings (Rangers)</td><td>Erik Foley</td></tr>
+<tr><td>66</td><td>Jets</td><td>Guillaume Brisebois</td></tr>
+<tr><td>67</td><td>Blue Jackets (Canucks)</td><td>Denis Malgin</td></tr>
+<tr><td>68</td><td>Rangers (Islanders)</td><td>Graham Knott</td></tr>
+<tr><td>69</td><td>Senators (Penguins)</td><td>Kyle Capobianco</td></tr>
+<tr><td>70</td><td>Avalanche (Bruins)</td><td>Jonas Siegenthaler</td></tr>
+<tr><td>71</td><td>Ducks (Devils)</td><td>Julius Nattinen</td></tr>
+<tr><td>72</td><td>Senators (Flames)</td><td>Daniel Vladar</td></tr>
+<tr><td>73</td><td>Islanders (Red Wings)</td><td>Conor Garland</td></tr>
+<tr><td>74</td><td>Maple Leafs (Avalanche)</td><td>Blake Speers</td></tr>
+<tr><td>75</td><td>Senators (Flyers)</td><td>Callum Booth</td></tr>
+<tr><td>76</td><td>Flyers (Sabres)</td><td>Vili Saarijarvi</td></tr>
+<tr><td>77</td><td>Devils (Wild)</td><td>Thomas Schemitsch</td></tr>
+<tr><td>78</td><td>Lightning (Blue Jackets)</td><td>Nikita Korostelev</td></tr>
+<tr><td>79</td><td>Red Wings (Sharks)</td><td>Austin Wagner</td></tr>
+<tr><td>80</td><td>Predators</td><td>Deven Sideroff</td></tr>
+<tr><td>81</td><td>Senators</td><td>Dmytro Timashov</td></tr>
+<tr><td>82</td><td>Jets (Blackhawks)</td><td>Matej Tomek</td></tr>
+<tr><td>83</td><td>Panthers (Ducks)</td><td>Aleksi Saarela</td></tr>
+<tr><td>84</td><td>Lightning (Panthers)</td><td>Glenn Gawdin</td></tr>
+<tr><td>85</td><td>Islanders (Hurricanes)</td><td>Jens Looke</td></tr>
+<tr><td>86</td><td>Blues</td><td>Lukas Vejdemo</td></tr>
+<tr><td>87</td><td>Senators (Maple Leafs)</td><td>Jesper Lindgren</td></tr>
+<tr><td>88</td><td>Red Wings (Oilers)</td><td>Filip Ahl</td></tr>
+<tr><td>89</td><td>Red Wings (Stars)</td><td>Brad Morrison</td></tr>
+<tr><td>90</td><td>Predators (Lightning)</td><td>Jean-Christophe Beaudin</td></tr>
+<tr><td colspan="3" class="STHSCenter"><b>Round #4</b></td></tr>
+<tr><td>91</td><td>Lightning (Capitals)</td><td>Nicolas Roy</td></tr>
+<tr><td>92</td><td>Capitals (Kings)</td><td>Andrei Mironov</td></tr>
+<tr><td>93</td><td>Senators (Coyotes)</td><td>Parker Wotherspoon</td></tr>
+<tr><td>94</td><td>Ducks (Canadiens)</td><td>Kevin Stenlund</td></tr>
+<tr><td>95</td><td>Rangers</td><td>Andrew Nielsen</td></tr>
+<tr><td>96</td><td>Blue Jackets (Jets)</td><td>Dmitri Zhukenov</td></tr>
+<tr><td>97</td><td>Senators (Canucks)</td><td>Alex Carrier</td></tr>
+<tr><td>98</td><td>Islanders</td><td>Daniel Bernhardt</td></tr>
+<tr><td>99</td><td>Predators (Penguins)</td><td>Chris Martenet</td></tr>
+<tr><td>100</td><td>Bruins</td><td>Martins Dzierkals</td></tr>
+<tr><td>101</td><td>Red Wings (Devils)</td><td>Andrew Mangiapane</td></tr>
+<tr><td>102</td><td>Predators (Flames)</td><td>Adam Musil</td></tr>
+<tr><td>103</td><td>Oilers (Red Wings)</td><td>Anthony Cirelli</td></tr>
+<tr><td>104</td><td>Oilers (Avalanche)</td><td>Dennis Gilbert</td></tr>
+<tr><td>105</td><td>Flyers</td><td>Joren van Pottelberghe</td></tr>
+<tr><td>106</td><td>Ducks (Sabres)</td><td>Jesse Gabrielle</td></tr>
+<tr><td>107</td><td>Predators (Wild)</td><td>Luke Opilka</td></tr>
+<tr><td>108</td><td>Islanders (Blue Jackets)</td><td>Ryan Pilon</td></tr>
+<tr><td>109</td><td>Sabres (Sharks)</td><td>Keegan Kolesar</td></tr>
+<tr><td>110</td><td>Red Wings (Predators)</td><td>Anthony Richard</td></tr>
+<tr><td>111</td><td>Islanders (Senators)</td><td>Veeti Vainio</td></tr>
+<tr><td>112</td><td>Bruins (Blackhawks)</td><td>Adin Hill</td></tr>
+<tr><td>113</td><td>Coyotes (Ducks)</td><td>Ethan Bear</td></tr>
+<tr><td>114</td><td>Avalanche (Panthers)</td><td>Sergey Zborovskiy</td></tr>
+<tr><td>115</td><td>Lightning (Hurricanes)</td><td>Radovan Bondra</td></tr>
+<tr><td>116</td><td>Canucks (Blues)</td><td>Mikhail Vorobyov</td></tr>
+<tr><td>117</td><td>Jets (Maple Leafs)</td><td>Ales Stezka</td></tr>
+<tr><td>118</td><td>Red Wings (Oilers)</td><td>Mathieu Joseph</td></tr>
+<tr><td>119</td><td>Bruins (Stars)</td><td>Jonne Tammela</td></tr>
+<tr><td>120</td><td>Lightning</td><td>Chase Pearson</td></tr>
+<tr><td colspan="3" class="STHSCenter"><b>Round #5</b></td></tr>
+<tr><td>121</td><td>Coyotes (Capitals)</td><td>Kirill Kaprizov</td></tr>
+<tr><td>122</td><td>Kings</td><td>Caleb Jones</td></tr>
+<tr><td>123</td><td>Kings (Coyotes)</td><td>Stephen Desrocher</td></tr>
+<tr><td>124</td><td>Devils (Canadiens)</td><td>Brent Gates</td></tr>
+<tr><td>125</td><td>Jets (Rangers)</td><td>Vladislav Gavrikov</td></tr>
+<tr><td>126</td><td>Maple Leafs (Jets)</td><td>Brendan Warren</td></tr>
+<tr><td>127</td><td>Lightning (Canucks)</td><td>Pavel Karnaukhov</td></tr>
+<tr><td>128</td><td>Jets (Islanders)</td><td>Adam Huska</td></tr>
+<tr><td>129</td><td>Sharks (Penguins)</td><td>Mike Robinson</td></tr>
+<tr><td>130</td><td>Bruins</td><td>Colton White</td></tr>
+<tr><td>131</td><td>Sabres (Devils)</td><td>Michael Spacek</td></tr>
+<tr><td>132</td><td>Bruins (Flames)</td><td>Devante Stephens</td></tr>
+<tr><td>133</td><td>Jets (Red Wings)</td><td>David Kase</td></tr>
+<tr><td>134</td><td>Avalanche</td><td>Will Borgen</td></tr>
+<tr><td>135</td><td>Red Wings (Flyers)</td><td>David Cotton</td></tr>
+<tr><td>136</td><td>Ducks (Sabres)</td><td>Troy Terry</td></tr>
+<tr><td>137</td><td>Wild</td><td>Dominik Simon</td></tr>
+<tr><td>138</td><td>Panthers (Blue Jackets)</td><td>Chris Wilkie</td></tr>
+<tr><td>139</td><td>Blue Jackets (Sharks)</td><td>Lukas Jasek</td></tr>
+<tr><td>140</td><td>Ducks (Predators)</td><td>Christian Jaros</td></tr>
+<tr><td>141</td><td>Canucks (Senators)</td><td>Giorgio Estephan</td></tr>
+<tr><td>142</td><td>Sharks (Blackhawks)</td><td>Sam Dove-McFalls</td></tr>
+<tr><td>143</td><td>Sharks (Ducks)</td><td>Adam Helewka</td></tr>
+<tr><td>144</td><td>Panthers</td><td>Ziyat Paygin</td></tr>
+<tr><td>145</td><td>Jets (Hurricanes)</td><td>Simon Bourque</td></tr>
+<tr><td>146</td><td>Oilers (Blues)</td><td>Cooper Marody</td></tr>
+<tr><td>147</td><td>Canucks (Maple Leafs)</td><td>Gustav Bouramman</td></tr>
+<tr><td>148</td><td>Oilers</td><td>Adam Gaudette</td></tr>
+<tr><td>149</td><td>Maple Leafs (Stars)</td><td>Spencer Smallman</td></tr>
+<tr><td>150</td><td>Lightning</td><td>Adam Marsh</td></tr>
+<tr><td colspan="3" class="STHSCenter"><b>Round #6</b></td></tr>
+<tr><td>151</td><td>Rangers (Capitals)</td><td>Luke Stevens</td></tr>
+<tr><td>152</td><td>Kings</td><td>Christian Wolanin</td></tr>
+<tr><td>153</td><td>Coyotes</td><td>John Marino</td></tr>
+<tr><td>154</td><td>Devils (Canadiens)</td><td>Ryan Shea</td></tr>
+<tr><td>155</td><td>Devils (Rangers)</td><td>Niko Mikkola</td></tr>
+<tr><td>156</td><td>Islanders (Jets)</td><td>Markus Ruusu</td></tr>
+<tr><td>157</td><td>Canucks</td><td>Rudolfs Balcers</td></tr>
+<tr><td>158</td><td>Oilers (Islanders)</td><td>Karel Vejmelka</td></tr>
+<tr><td>159</td><td>Stars (Penguins)</td><td>Matt Bradley</td></tr>
+<tr><td>160</td><td>Bruins</td><td>Sam Ruopp</td></tr>
+<tr><td>161</td><td>Maple Leafs (Devils)</td><td>Tate Olson</td></tr>
+<tr><td>162</td><td>Red Wings (Flames)</td><td>Roy Radke</td></tr>
+<tr><td>163</td><td>Coyotes (Red Wings)</td><td>Erik Kallgren</td></tr>
+<tr><td>164</td><td>Islanders (Avalanche)</td><td>Joni Tuulola</td></tr>
+<tr><td>165</td><td>Flyers</td><td>Jeremiah Addison</td></tr>
+<tr><td>166</td><td>Sharks (Sabres)</td><td>Karlis Cukste</td></tr>
+<tr><td>167</td><td>Oilers (Wild)</td><td>Ryan Zuhlsdorf</td></tr>
+<tr><td>168</td><td>Red Wings (Blue Jackets)</td><td>Chaz Reddekopp</td></tr>
+<tr><td>169</td><td>Panthers (Sharks)</td><td>Karch Bachman</td></tr>
+<tr><td>170</td><td>Ducks (Predators)</td><td>Cameron Hughes</td></tr>
+<tr><td>171</td><td>Oilers (Senators)</td><td>Frederik Tiffels</td></tr>
+<tr><td>172</td><td>Hurricanes (Blackhawks)</td><td>Patrick Holway</td></tr>
+<tr><td>173</td><td>Blue Jackets (Ducks)</td><td>Sami Niku</td></tr>
+<tr><td>174</td><td>Panthers</td><td>Sergei Boikov</td></tr>
+<tr><td>175</td><td>Rangers (Hurricanes)</td><td>Garrett Metcalf</td></tr>
+<tr><td>176</td><td>Canucks (Blues)</td><td>Liam Dunda</td></tr>
+<tr><td>177</td><td>Maple Leafs</td><td>Joe Cecconi</td></tr>
+<tr><td>178</td><td>Islanders (Oilers)</td><td>Kris Oldham</td></tr>
+<tr><td>179</td><td>Kings (Stars)</td><td>Mason Appleton</td></tr>
+<tr><td>180</td><td>Lightning</td><td>Nikita Pavlychev</td></tr>
+<tr><td colspan="3" class="STHSCenter"><b>Round #7</b></td></tr>
+<tr><td>181</td><td>Hurricanes (Capitals)</td><td>Ivan Fedotov</td></tr>
+<tr><td>182</td><td>Ducks (Kings)</td><td>Joel Daccord</td></tr>
+<tr><td>183</td><td>Ducks (Coyotes)</td><td>Connor Hobbs</td></tr>
+<tr><td>184</td><td>Hurricanes (Canadiens)</td><td>Gustav Olhaver</td></tr>
+<tr><td>185</td><td>Rangers</td><td>Matt Schmalz</td></tr>
+<tr><td>186</td><td>Jets</td><td>Nick Boka</td></tr>
+<tr><td>187</td><td>Red Wings (Canucks)</td><td>Jack Sadek</td></tr>
+<tr><td>188</td><td>Stars (Islanders)</td><td>Brett Seney</td></tr>
+<tr><td>189</td><td>Bruins (Penguins)</td><td>Carl Neill</td></tr>
+<tr><td>190</td><td>Hurricanes (Bruins)</td><td>Marcus Vela</td></tr>
+<tr><td>191</td><td>Devils</td><td>Jake Massie</td></tr>
+<tr><td>192</td><td>Ducks (Flames)</td><td>Petter Hansson</td></tr>
+<tr><td>193</td><td>Coyotes (Red Wings)</td><td>Tyler Moy</td></tr>
+<tr><td>194</td><td>Bruins (Avalanche)</td><td>Adam Parsells</td></tr>
+<tr><td>195</td><td>Flyers</td><td>Andong Song</td></tr>
+<tr><td>196</td><td>Sharks (Sabres)</td><td>Colby Williams</td></tr>
+<tr><td>197</td><td>Rangers (Wild)</td><td>Bokondji Imama</td></tr>
+<tr><td>198</td><td>Kings (Blue Jackets)</td><td>Evan Smith</td></tr>
+<tr><td>199</td><td>Hurricanes (Sharks)</td><td>Steven Ruggiero</td></tr>
+<tr><td>200</td><td>Sharks (Predators)</td><td>Ivan Chukarov</td></tr>
+<tr><td>201</td><td>Maple Leafs (Senators)</td><td>Steven Lorentz</td></tr>
+<tr><td>202</td><td>Devils (Blackhawks)</td><td>Markus Nutivaara</td></tr>
+<tr><td>203</td><td>Sharks (Ducks)</td><td>Patrick Shea</td></tr>
+<tr><td>204</td><td>Panthers</td><td>John Dahlstrom</td></tr>
+<tr><td>205</td><td>Kings (Hurricanes)</td><td>Jake Kupsky</td></tr>
+<tr><td>206</td><td>Blues</td><td>Matteo Gennaro</td></tr>
+<tr><td>207</td><td>Red Wings (Maple Leafs)</td><td>Miroslav Svoboda</td></tr>
+<tr><td>208</td><td>Bruins (Oilers)</td><td>Matthew Roy</td></tr>
+<tr><td>209</td><td>Stars</td><td>Jack Becker</td></tr>
+<tr><td>210</td><td>Devils (Lightning)</td><td>Riley Bruce</td></tr>
+</tbody></table><br /><h1 class="STHSEntryDraft_AvailableProspect">Availables Prospect</h1>
+Ryan Bednard<br />
+<br /><br /><br /><a href="#" class="scrollup">Scroll</a><div class="footer">Output by the <a href="http://sths.simont.info">SimonT Hockey Simulator (STHS)</a> for Tyler Bell<span class="FooterW3C"> - Original Page <a href="http://validator.w3.org/check?uri=referer">W3C HTML5 Valid</a></span>
+<div style="display:none;visibility:hidden"><a href="http://sths.simont.info">Hockey Simulator</a> - <a href="http://sths.simont.info">Hockey Simulation</a> - <a href="http://sths.simont.info">Hockey Manager</a></div></div>
+</body></html>
